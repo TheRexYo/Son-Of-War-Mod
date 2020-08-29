@@ -743,7 +743,7 @@
 	{
 		"name": "Chameran Skyknight",
 		"unitType": "Fighter",
-		"movement": 5,
+		"movement": 15,
 		"strength": 20,
 		"rangedStrength": 20,
 		"range": 2,
