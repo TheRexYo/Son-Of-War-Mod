@@ -887,7 +887,7 @@
 		"replaces": "Horseman",
 		"requiredTech": "Horseback Riding",
 		"obsoleteTech": "Metallurgy",
-		"promotions": ["Blessing Of The Jungle"],
+		"promotions": ["Blessing Of The Sun"],
 		"uniques": ["Can move after attacking","Penalty vs City 33%","No defensive terrain bonus","Unit will heal every turn, even if it performs an action"],
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
