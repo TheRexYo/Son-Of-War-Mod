@@ -863,7 +863,7 @@
 	{
 		"name": "Terradox (Overgrowth Engine)",
 		"unitType": "Ranged",
-		"uniqueTo": "Ssu'vi",
+		"uniqueTo": "Terazi",
 		"replaces": "Chariot Archer",
 		"movement": 2,
 		"strength": 48,
