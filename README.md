@@ -1,5 +1,5 @@
 # Son Of War Mod
- A Son of War mod for Uniciv that takes a turn towards fantasy.
+ A content mod for Uniciv that takes a turn towards fantasy.
 
 Current Features:
 - Four unique civilizations, each with its own unique units, buildings, and strategy.
