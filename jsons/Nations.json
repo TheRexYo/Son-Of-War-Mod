@@ -135,5 +135,12 @@
 		"uniqueName": "Soul of Jungara"
 		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.","Enemy land units must spend 1 extra movement point when inside your territory (obsolete upon Dynamite)"],
 		"cities": ["Teraz","Andu","Kala'ka'tili","Aztakczii","Lik'tok"]
+	},
+	        
+	//Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+		"innerColor": [182,0,0]
 	}
 ]
