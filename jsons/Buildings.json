@@ -887,27 +887,78 @@
 	{
 		"name": "Spawn Pools Of The Sun",
 		"uniqueTo": "Ssu'vi",
-		"cost": 180,
+		"cost": 360,
 		"happiness": 12,
 		"culture": 6,
 		"science": 6,
 		"food": 6,
 		"maintenance": 6,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
+		"uniques": ["40% of food is carried over after a new citizen is born","All newly-trained [relevant] units in this city receive the [Blessing Of The Sun] promotion"],
 		"isNationalWonder": true,
 		"requiredTech": "Pottery"
 	},
 	{
 		"name": "Spawn Pools Of The Jungle",
 		"uniqueTo": "Terazi",
-		"cost": 180,
+		"cost": 360,
 		"happiness": 6,
 		"culture": 6,
 		"science": 6,
 		"food": 12,
 		"maintenance": 6,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
+		"uniques": ["40% of food is carried over after a new citizen is born","All newly-trained [relevant] units in this city receive the [Blessing Of The Jungle] promotion"],
 		"isNationalWonder": true,
 		"requiredTech": "Pottery"
+	},
+	//City-State Uniques
+	{
+		"name": "Glimmering District",
+		"uniqueTo": "Sangali",
+		"replaces": "Market",
+		"cost": 120,
+		"gold": 0,
+		"happiness": 2,
+		"specialistSlots": {"gold": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 100},
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Thieves' Guilds",
+		"uniqueTo": "Rhal'tu",
+		"replaces": "Bank",
+		"gold": 6,
+		"production": 6,
+		"happiness": -2,
+		"specialistSlots": {"gold": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"requiredBuilding": "Market",
+		"requiredTech": "Banking"
+	},
+	{
+		"name": "Ghandorian Kennel",
+		"uniqueTo": "Ghandor",
+		"replaces": "Stable",
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"resourceBonusStats": {"production": 1},
+		"hurryCostModifier": 25,
+		"uniques": ["+[100]% production when building [mounted units] in this city"],
+		"requiredTech": "Horseback Riding"
+	},
+	{
+		"name": "Altar Of The Homeland",
+		"uniqueTo": "Atoiri",
+		"replaces": "Temple",
+		"cost": 40,
+		"culture": 3,
+		"happiness": 3,
+		"production": -1,
+		"specialistSlots": {"culture": 1},
+		"uniques": ["Can only be built in coastal cities","+10% Growth in all Cities"],
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy"
 	}
 ]
