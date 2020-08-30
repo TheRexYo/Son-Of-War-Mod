@@ -924,7 +924,7 @@
 		"requiredTech": "Currency"
 	},
 	{
-		"name": "Thieves' Guilds",
+		"name": "Thieves' Guild",
 		"uniqueTo": "Rhal'tu",
 		"replaces": "Bank",
 		"gold": 6,
