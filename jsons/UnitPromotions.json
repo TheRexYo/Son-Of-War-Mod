@@ -446,16 +446,16 @@
 		"effect": "-10% combat strength for adjacent enemy units"
 	},
 	{
-		"name": "Blessing Of The Jungle", // only for Terazi unique units
-		"effect": "Double movement rate through Forest and Jungle"
-	},
-	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
 		"effect": "All healing effects doubled"
 	},
 	{
-		"name": "Blessing Of The Sun", // only for Ssu'vi unique units
+		"name": "Blessing Of The Sun", // only for units built in cities with "Spawn Pools of the Sun"
 		"effect": "All healing effects doubled"
+	},
+	{
+		"name": "Blessing Of The Jungle", // only for units built in cities with "Spawn Pools of the Jungle
+		"effect": "Double movement rate through Forest and Jungle"
 	},
 	{
 		"name": "Slinger Withdraw", // only for Slinger and subsequent upgrades

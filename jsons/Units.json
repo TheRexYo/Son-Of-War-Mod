@@ -810,7 +810,6 @@
 		"obsoleteTech": "Metal Casting",
 		"replaces": "Warrior",
 		"upgradesTo": "Swordsman",
-		"promotions": ["Blessing Of The Jungle"],
 		"uniques": ["Can move after attacking","+33% combat bonus in Forest/Jungle","Ignores terrain cost","May withdraw before melee ([100]%)","Bonus vs Ranged 200%","Bonus as Attacker [200]%"],
 		"attackSound": "nonmetalhit"
 	},
@@ -825,7 +824,6 @@
 		"obsoleteTech": "Metal Casting",
 		"replaces": "Warrior",
 		"upgradesTo": "Swordsman",
-		"promotions": ["Blessing Of The Sun"],
 		"uniques": ["Unit will heal every turn, even if it performs an action","Heals 25 damage if it kills an Unit","This unit and all others in adjacent tiles heal 5 additional HP. This unit heals 5 additional HP outside of friendly territory.","+10 HP when healing","This unit and all others in adjacent tiles heal 5 additional HP per turn"],
 		"attackSound": "nonmetalhit"
 	},
@@ -839,7 +837,6 @@
 		"replaces": "Horseman",
 		"requiredTech": "Horseback Riding",
 		"obsoleteTech": "Metallurgy",
-		"promotions": ["Blessing Of The Jungle"],
 		"uniques": ["Can move after attacking","Penalty vs City 66%","Bonus as Attacker [300]%","+33% combat bonus in Forest/Jungle"],
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
@@ -855,7 +852,6 @@
 		"range": 6,
 		"cost": 240,
 		"requiredTech": "The Wheel",
-		"promotions": ["Blessing Of The Sun"],
 		"uniques": ["Bonus vs City 100%","This unit and all others in adjacent tiles heal 5 additional HP per turn"],
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
@@ -873,7 +869,6 @@
 		"range": 1,
 		"cost": 240,
 		"requiredTech": "The Wheel",
-		"promotions": ["Blessing Of The Jungle"],
 		"uniques": ["Bonus vs City 100%","+33% combat bonus in Forest/Jungle","+25% Defence against ranged attacks","-10% combat strength for adjacent enemy units"],
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
@@ -890,7 +885,6 @@
 		"replaces": "Horseman",
 		"requiredTech": "Horseback Riding",
 		"obsoleteTech": "Metallurgy",
-		"promotions": ["Blessing Of The Sun"],
 		"uniques": ["Can move after attacking","Penalty vs City 33%","No defensive terrain bonus","Unit will heal every turn, even if it performs an action"],
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
@@ -944,20 +938,21 @@
 		"attackSound": "horse"
 	},
 	{
-		"name": "Rhalerion",
+		"name": "Reaver",
 		"unitType": "WaterRanged",
-		"uniqueTo": "Rhal'tu",
-		"movement": 4,
+		"uniqueTo": "Yate",
+		"replaces": "Caravel",
+		"movement": 5,
 		"strength": 5,
-		"rangedStrength": 15,
-		"cost": 120,
+		"rangedStrength": 20,
+		"cost": 135,
 		"requiredTech": "Astronomy",
 		"obsoleteTech": "Combustion",
 		"uniques": ["+1 Visibility Range","May withdraw before melee ([50]%)"],
 		"hurryCostModifier": 20
 	},
 	{
-		"name": "Rhalorisk",
+		"name": "Rhalerion",
 		"unitType": "WaterMelee",
 		"uniqueTo": "Rhal'tu",
 		"replaces": "Caravel",

@@ -101,6 +101,7 @@
 		"innerColor": [255, 187, 0],
 		"uniqueName": "The Elder's Prophecy"
 		"uniques": ["Golden Age length increases +50%", "+1 Movement for all units during Golden Age", "+10% Strength for all units during Golden Age"],
+		//"uniques": ["Empire enters golden age", "+20% attack bonus to all Military Units for 30 turns", "Free Social Policy"],
 		"cities": ["Ssu","Taka'zul","Akiltzi","Meccti","Sarak"]
 	},
 	{
@@ -146,8 +147,8 @@
 		"attacked": "The city of thieves bows to no man! Prepare your treasuries for our arrival!",
 		"defeated": "Hypocrite. Even you are naught but a thief. Someone ought to set you straight.",
 		"uniques": ["Melee naval units have a 1/3 chance to capture defeated naval units"]
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,0,0],
+		"outerColor": [28, 0, 0],
+		"innerColor": [128, 0, 0],
 		"cities": ["Rhal'tu"]
 	},
 	{
@@ -159,7 +160,7 @@
 		"defeated": "Congratulations, conquerer. Even the mighty Ghandor has fallen before you.",
 		"uniques": ["-25% land units maintenance"],
 		"outerColor": [255, 255, 128],
-		"innerColor": [255,255,0],
+		"innerColor": [255, 255, 0],
 		"cities": ["Ghandor"]
 	},
 	{
@@ -171,7 +172,7 @@
 		"defeated": "So this is how it feels to die... Perhaps, in another world, we could have been friends.",
 		"uniques": ["Can embark and move over Coasts and Oceans immediately"],
 		"outerColor": [0, 255, 0],
-		"innerColor": [0,0,255],
+		"innerColor": [0, 0, 255],
 		"cities": ["Atoiri"]
 	},
 	{
@@ -183,14 +184,65 @@
 		"defeated": "Alas, our city shines no more. All beauty turns to shame eventually.",
 		"uniques": ["Embarked units can defend themselves"],
 		"outerColor": [255, 0, 0],
-		"innerColor": [255,255,0],
+		"innerColor": [255, 255, 0],
 		"cities": ["Sangali"],
-		
-	},	
+	},
+	//Todo: Add Xagge unique unit(s) / building(s).
+	{
+		"name": "Xagge",
+		"adjective": ["Xagge"],
+		"cityStateType": "Militaristic",
+		"declaringWar": "The world is our domain. I'm afraid it's time to pay your keep.",
+		"attacked": "What a challenge! Indeed, let us fight!",
+		"defeated": "Blood stains the rivers red, and now I am to add my own. Goodbye, cruel world.",
+		"uniques": ["+30% Strength when fighting City-State units and cities"],
+		"outerColor": [255, 0, 0],
+		"innerColor": [0, 255, 0],
+		"cities": ["Xagge"],
+	},
+	//Todo: Add Threfek unique unit(s) / building(s).
+	{
+		"name": "Threfek",
+		"adjective": ["Threfek"],
+		"cityStateType": "Mercantile",
+		"declaringWar": "A man needs two things in life - coins and a home. You are about to be missing both.",
+		"attacked": "Why, this is madness!",
+		"defeated": "So much money... not enough power...",
+		"uniques": ["[+2 Gold] from each Trade Route"],
+		"outerColor": [255, 0, 0],
+		"innerColor": [0, 255, 0],
+		"cities": ["Threfek"],
+	},
+	{
+		"name": "Yate",
+		"adjective": ["Yatian"],
+		"cityStateType": "Maritime",
+		"declaringWar": "The sea calls us to battle. Let us enjoy the fires of war together!",
+		"attacked": "Aye. If a fight's what you want, a fight's what you'll get!",
+		"defeated": "Oi! This cannot be! How were we defeated?",
+		"uniques": ["Units pay only 1 movement point to embark and disembark"],
+		"outerColor": [0, 0, 255],
+		"innerColor": [255, 0, 0],
+		"cities": ["Yate"],
+	},
+	//Todo: Add Tetku unique unit(s) / building(s).
+	{
+		"name": "Tetku",
+		"adjective": ["Tetku"],
+		"cityStateType": "Cultured",
+		"declaringWar": "The gods demand a sacrifice!",
+		"attacked": "The sun glares at you, aggressors!",
+		"defeated": "You'd better hope I misjudged you. The gods certainly won't.",
+		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities"],
+		"outerColor": [255, 255, 0],
+		"innerColor": [56, 128, 56],
+		"cities": ["Tetku"],
+	},
+	
 	// Barbarian
 	{
 		"name": "Barbarians",
-		"outerColor": [0,0,0],
-		"innerColor": [182,0,0]
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 0, 0]
 	}
 ]
