@@ -244,5 +244,11 @@
 		"name": "Barbarians",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 0, 0]
+	},
+	//Spectator
+	{
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+//		"innerColor": [255,255,255]
 	}
 ]
