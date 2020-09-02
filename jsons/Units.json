@@ -1014,7 +1014,7 @@
 		"uniqueTo": "Barbarians",
 		"replaces": "Warrior",
 		"movement": 2,
-		"strength": 8,
+		"strength": 6,
 		"cost": 20,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
