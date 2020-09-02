@@ -38,18 +38,6 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Brute",
-		"unitType": "Melee",
-		"uniqueTo": "Barbarians",
-		"replaces": "Warrior",
-		"movement": 2,
-		"strength": 8,
-		"cost": 20,
-		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Swordsman",
-		"attackSound": "nonmetalhit"
-	},
-	{
 		"name": "Archer",
 		"unitType": "Ranged",
 		"movement": 2,
@@ -92,14 +80,27 @@
 		"uniqueTo": "Barbarians",
 		"movement": 3,
 		"strength": 7,
-		"cost": 40,
+		"cost": 25,
 		"uniques": ["Cannot enter ocean tiles"]
 		"upgradesTo": "Trireme",
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
-		//Barbarian unique naval unit, weaker and slower than Trireme.
+		//Barbarian unique naval unit, weaker and slower than Trireme, but costs less.
 	},
 	*/
+	{
+		"name": "War Elephant",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 9,
+		"cost": 70,
+		"requiredTech": "Animal Husbandry",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus","Bonus vs Melee 33%"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
 	{
 		"name": "Chariot Archer",
 		"unitType": "Ranged",
@@ -963,5 +964,60 @@
 		"obsoleteTech": "Combustion",
 		"uniques": ["May withdraw before melee ([75]%)"],
 		"hurryCostModifier": 20
-	}
+	},
+	{
+		"name": "Siege Behemoth",
+		"unitType": "Mounted",
+		"uniqueTo": "Xagge",
+		"replaces": "War Elephant",
+		"movement": 3,
+		"strength": 24,
+		"cost": 140,
+		"requiredTech": "Animal Husbandry",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus","Bonus vs Melee 66%","Bonus vs City 100%"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Guild Guard",
+		"replaces": "Pikeman",
+		"uniqueTo": "Threfek",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 16,
+		"cost": 45,
+		"requiredTech": "Civil Service",
+		"uniques": ["Bonus vs Mounted 50%", "Can move immediately once bought" ],
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"hurryCostModifier": 5,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Tatli",
+		"unitType": "Scout",
+		"replaces": "Scout",
+		"uniqueTo": "Tetku",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["Ignores terrain cost","Invisible to others","May withdraw before melee ([50]%)","Penalty vs Melee 80%","Penalty vs Mounted 80%","Bonus vs City 500%"],
+		"attackSound": "nonmetalhit"
+	},
+	//Barbarian Uniques
+	{
+		"name": "Brute",
+		"unitType": "Melee",
+		"uniqueTo": "Barbarians",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 8,
+		"cost": 20,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
 ]

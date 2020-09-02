@@ -187,7 +187,6 @@
 		"innerColor": [255, 255, 0],
 		"cities": ["Sangali"],
 	},
-	//Todo: Add Xagge unique unit(s) / building(s).
 	{
 		"name": "Xagge",
 		"adjective": ["Xagge"],
@@ -200,7 +199,6 @@
 		"innerColor": [0, 255, 0],
 		"cities": ["Xagge"],
 	},
-	//Todo: Add Threfek unique unit(s) / building(s).
 	{
 		"name": "Threfek",
 		"adjective": ["Threfek"],
@@ -209,8 +207,8 @@
 		"attacked": "Why, this is madness!",
 		"defeated": "So much money... not enough power...",
 		"uniques": ["[+2 Gold] from each Trade Route"],
-		"outerColor": [255, 0, 0],
-		"innerColor": [0, 255, 0],
+		"outerColor": [255, 255, 255],
+		"innerColor": [0, 0, 0],
 		"cities": ["Threfek"],
 	},
 	{
@@ -225,7 +223,6 @@
 		"innerColor": [255, 0, 0],
 		"cities": ["Yate"],
 	},
-	//Todo: Add Tetku unique unit(s) / building(s).
 	{
 		"name": "Tetku",
 		"adjective": ["Tetku"],
