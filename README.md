@@ -3,7 +3,7 @@
 
 Current Features:
 - Six unique civilizations, each with its own unique units, buildings, and strategy.
-- New units, such as the "Prophet" a buildable unit that can start a golden age when expended.
+- New units, such as the buildable "Prophet" unit that can start a golden age when expended.
 - A fully separate gameplay experience from the standard Uniciv due to a complete override of the default nations.
 
 Planned Features:
