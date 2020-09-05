@@ -908,6 +908,44 @@
 		"hurryCostModifier": 20,
 		"movement": 1
 	},
+	{
+		"name": "Nephii'sekur",
+		"unitType": "Scout",
+		"replaces": "Scout",
+		"uniqueTo": "Neph",
+		"movement": 2,
+		"strength": 5,
+		"cost": 75,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["Ignores terrain cost","+2 Visibility Range","Founds a new city","+20% bonus outside friendly territory"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Nephii'wakur",
+		"unitType": "Melee",
+		"replaces": "Worker",
+		"uniqueTo": "Neph",
+		"movement": 2,
+		"strength": 8,
+		"hurryCostModifier": 20,
+		"uniques": ["Can build improvements on tiles"],
+		"cost": 70
+	},
+	{
+		"name": "Imperial Guard",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"uniqueTo": "Imperia",
+		"replaces": "Warrior",
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"promotions": ["Keepers of the Home","Defenders of the Home"],
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+	},
+	
 	//City-State Uniques
 	{
 		"name": "Shanin",

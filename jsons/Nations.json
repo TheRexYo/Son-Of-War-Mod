@@ -137,6 +137,77 @@
 		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.","Enemy land units must spend 1 extra movement point when inside your territory (obsolete upon Dynamite)"],
 		"cities": ["Teraz","Andu","Kala'ka'tili","Aztakczii","Lik'tok"]
 	},
+	//TODO: Add Imperian unique units and buildings.
+	{
+		"name": "Imperia",
+		"leaderName": "Danu",
+		"adjective": ["imperian"],
+		"startBias": ["Avoid [Tundra]"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "We praise you, almighty Danu, God-Emperor of Imperia! Your empire is as long-lived as you are, having seen its way through the end of the Dragonfall thousands of years ago, forming just after the collapse of the united Neph empire of man. Though the collapse of its united efforts proved to be a setback to the growing race of man, you personally saw to it that no harm came to its survival, eliminating the last of the dragon empires from the earth entirely. You chose your people over your heart, and brought about the end of the very creatures you once loved.",
+		"startIntroPart2": "O' great Danu, will you rise up once more and bring prosperity to mankind? Will you raise up your colloseums and bring joy to your people's hearts? Will you build a civilization that stands the test of time?",
+		
+		"declaringWar": "I am afraid that we cannot coexist any longer. Prepare yourselves for war.",
+		"attacked": "I have seen many an empire fall before me, and you will be no different.",
+		"defeated": "Angir... my master... it seems we'll meet again after all...",
+		"introduction": "Imperia welcomes you, strangers, if you are willing to say the same.",
+		
+		"neutralHello": "Greetings, child. I would tell you a story of the Dragonfall, but do not have it in my heart to bring back such terrible memories.",
+		"neutralLetsHearIt": ["Go on.","Speak, child.","I am listening."],
+		"neutralNo": ["I'm afraid not.","I will not accept this.","This is not a good proposal, young one."],
+		"neutralYes": ["Agreed.","May the light of man guide you.","You are wiser than you seem."],
+
+		"hateHello": "Leave quickly, or else.",
+		"hateLetsHearIt": ["State your intentions.","Continue.","Speak, fool."],
+		"hateNo": ["Do not fool with me.","You are a fool to think I'd accept this.","I'll have you in a colloseum if you try this again."],
+		"hateYes": ["I will accept this, if I must.","I accept the proposal, but I do not accept you."],
+		
+		"afterPeace": "I know when a war has gone on too long. Let peace return.",
+		"tradeRequest": "I believe our empires would benefit from this relationship.",
+
+		"outerColor": [128, 0, 255],
+		"innerColor": [255, 0, 0],
+		"uniqueName": "Heir to Mankind",
+		"uniques": ["+1 Happiness per City","50% of excess happiness added to culture towards policies"],
+		//TODO: Add more cities.
+		"cities": ["Imperia","Antor","Enrade","Gryffor","Asdale","Yelor","Grandeur"]
+	},
+	{
+		"name": "Neph",
+		"leaderName": "Angir",
+		"adjective": ["neph"],
+		"startBias": ["Avoid [Tundra]"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Gods be with you, Angir, King of Man! Your empire was the very first civilization of man, formed many thousands of years ago when man was threatened on all sides by foreign races. It was the first and last time man was united under a single banner, and you were its king. Together, you and your people waged war against the enemy, and brought man into being the sole ruler of our world. However, your death brought about a divide amongst the people, and even with a designated heir, your empire crumbled.",
+		"startIntroPart2": "Mighty Angir, will you raise your spear to the heavens once more and bring unity to mankind? Will you take up arms against the enemy? Will you build a civilization that stands the test of time?",
+		
+		"declaringWar": "Your continued existence threatens my people. Die.",
+		"attacked": "If war is what you want, then war is what you'll get.",
+		"defeated": "Even if you slay me, the spirit of mankind will live on.",
+		"introduction": "As the king of man, I greet you on behalf of my people.",
+		
+		"neutralHello": "Greetings, stranger.",
+		"neutralLetsHearIt": ["Go on.","Continue.","I am listening."],
+		"neutralNo": ["Unacceptable.","This is not an option.","I am not negotiating with a rock, am I?"],
+		"neutralYes": ["Agreed.","May the light of man guide you.","I will allow this to move forward."],
+
+		"hateHello": "There are many reckless fires in this world that I am forced to extinguish. I hope you will not become one of them.",
+		"hateLetsHearIt": ["Speak, and I will answer."],
+		"hateNo": ["The fate of my people is at stake. I will not make such a reckless decision."],
+		"hateYes": ["This will have to do.","Fine, but I will be watching you."],
+		
+		"afterPeace": "It would be unwise to continue this conflict. Perhaps another time.",
+		"tradeRequest": "The efforts of man bear much fruit. Come, let us share!",
+
+		"outerColor": [181, 158, 83],
+		"innerColor": [255, 217, 0],
+		"uniqueName": "Glory of Man",
+		"uniques": ["Gain Culture when you kill a barbarian unit","Notified of new Barbarian encampments","Receive triple Gold from Barbarian encampments and pillaging Cities"],
+		//TODO: Add more cities.
+		"cities": ["Alor","Nerai","Phorl","Dehsk","Fyrin"]
+	},
 	
 	// City-States
 	{

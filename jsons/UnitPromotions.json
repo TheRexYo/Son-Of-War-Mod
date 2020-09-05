@@ -446,6 +446,14 @@
 		"effect": "-10% combat strength for adjacent enemy units"
 	},
 	{
+		"name": "Keepers of the Empire", // only for Homewatcher and subsequent upgrades
+		"effect": "Can build improvements on tiles"
+	},
+	{
+		"name": "Defenders of the Empire", // only for Homewatcher and subsequent upgrades
+		"effect": "+25% Combat Bonus when defending"
+	},
+	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
 		"effect": "All healing effects doubled"
 	},
