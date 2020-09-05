@@ -230,7 +230,8 @@
 		"declaringWar": "The gods demand a sacrifice!",
 		"attacked": "The sun glares at you, aggressors!",
 		"defeated": "You'd better hope I misjudged you. The gods certainly won't.",
-		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities"],
+		//Technically, the second unique is relatively pointless, but it will help if I decide to add a second mod that converts the city states to playable nations.
+		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities","Gains culture from each enemy unit killed"],
 		"outerColor": [255, 255, 0],
 		"innerColor": [56, 128, 56],
 		"cities": ["Tetku"],

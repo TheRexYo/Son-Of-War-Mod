@@ -186,6 +186,14 @@
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
+	{
+		"name": "Prophet",
+		"unitType": "Civilian",
+		"uniques": ["Can start an 8-turn golden age","Cannot be purchased"],
+		"cost": 120,
+		"hurryCostModifier": 20,
+		"movement": 1
+	},
 
 	// Medieval Era
 	{
@@ -890,6 +898,16 @@
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
 	},
+	{
+		"name": "Prophet Of The Sun",
+		"uniqueTo": "Ssu'vi",
+		"replaces": "Prophet",
+		"unitType": "Civilian",
+		"uniques": ["Can start an 8-turn golden age","Can move immediately once bought"],
+		"cost": 120,
+		"hurryCostModifier": 20,
+		"movement": 1
+	},
 	//City-State Uniques
 	{
 		"name": "Shanin",
@@ -989,7 +1007,7 @@
 		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Civil Service",
-		"uniques": ["Bonus vs Mounted 50%", "Can move immediately once bought" ],
+		"uniques": ["Bonus vs Mounted 50%","Can move immediately once bought"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"hurryCostModifier": 5,
