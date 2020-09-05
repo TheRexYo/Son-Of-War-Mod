@@ -1,38 +1,38 @@
-[
-	{
+[{
 		"name": "Aeronia",
 		"leaderName": "Sun Alar",
 		"adjective": ["aeronian"],
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Cultural",
-		
+
 		"startIntroPart1": "Genesis be with you Sun Alar, Chosen of Aeronia! May you soar high in the heavens! Your empire is ancient and prosperous, the first to master the art of flight by riding on the backs of dragons. Your people are pious and possess a rich culture, and a natural mastery over the land. As the champion of Genesis, it is your task to better the world by destroying evil and spreading the cause of good.",
 		"startIntroPart2": "O' Sun Alar, Son of War, will you take to the skies and bring your people to glory? Will you bring justice and life to the world once more? Will you build a civilization that stands the test of time?",
-		
+
 		"declaringWar": "I'll put up with your sins no longer. Your death will make this world a better place!",
 		"attacked": "You have crossed the line of battle, but are you prepared for the consequences? These wrongs will not be forgiven.",
 		"defeated": "As it would seem, my time has come. I may have failed to stop you, but others will rise to the challenge. Watch yourself.",
 		"introduction": "Hail, stranger! May Genesis' light protect all!",
-		
+
 		"neutralHello": "Greetings, comrade. What brings you here?",
-		"neutralLetsHearIt": ["Continue.","What is it, comrade?","Let us speak our minds."],
-		"neutralNo": ["This will not do.","This wasn't meant to be.","Sorry, but no."],
-		"neutralYes": ["You are quite wise, comrade. I accept.","May Genesis shine his light upon you.","We will not forget this, comrade."],
+		"neutralLetsHearIt": ["Continue.", "What is it, comrade?", "Let us speak our minds."],
+		"neutralNo": ["This will not do.", "This wasn't meant to be.", "Sorry, but no."],
+		"neutralYes": ["You are quite wise, comrade. I accept.", "May Genesis shine his light upon you.", "We will not forget this, comrade."],
 
 		"hateHello": "State your purpose, demon!",
-		"hateLetsHearIt": ["State your intentions.","Choose your words wisely.","Even evil has a will of its own. Go on."],
-		"hateNo": ["Is this a joke?","Do you think me a fool?","Take your sins elsewhere."],
-		"hateYes": ["I accept. Now begone.","Perhaps you are wiser than you seem.","Fine. Now leave.","Do not vex my people any longer. I might not be this kind next time."],
-		
+		"hateLetsHearIt": ["State your intentions.", "Choose your words wisely.", "Even evil has a will of its own. Go on."],
+		"hateNo": ["Is this a joke?", "Do you think me a fool?", "Take your sins elsewhere."],
+		"hateYes": ["I accept. Now begone.", "Perhaps you are wiser than you seem.", "Fine. Now leave.", "Do not vex my people any longer. I might not be this kind next time."],
+
 		"afterPeace": "Very well. I yield. May peace return at last!",
 		"tradeRequest": "Greetings, friends. May our bonds grow stronger with this proposal.",
 
 		"outerColor": [255, 217, 0],
 		"innerColor": [171, 255, 54],
 		"uniqueName": "Winds Of Genesis",
-		"uniques": ["+[2] Movement for all [Melee] units","+[2] Movement for all [Mounted] units","+[2] Movement for all [Siege] units","+[2] Movement for all [Armor] units","+[2] Movement for all [Bomber] units","+[2] Movement for all [Fighter] units"],
-		"cities": ["Chamera","Aethil","Tilford","Aerol","Fyrforx","Tael","Kalru","Lanthor","Solaen",
-			"Tetherin","Ethr","Genu","Whynfor","Skysol","Aetherfort","Skaern","Dawnlight","Skyren","Bahtyr"]
+		"uniques": ["+[2] Movement for all [Melee] units", "+[2] Movement for all [Mounted] units", "+[2] Movement for all [Siege] units", "+[2] Movement for all [Armor] units", "+[2] Movement for all [Bomber] units", "+[2] Movement for all [Fighter] units"],
+		"cities": ["Chamera", "Aethil", "Tilford", "Aerol", "Fyrforx", "Tael", "Kalru", "Lanthor", "Solaen",
+			"Tetherin", "Ethr", "Genu", "Whynfor", "Skysol", "Aetherfort", "Skaern", "Dawnlight", "Skyren", "Bahtyr"
+		]
 	},
 	{
 		"name": "Pyria",
@@ -40,34 +40,35 @@
 		"adjective": ["pyrian"],
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Domination",
-		
+
 		"startIntroPart1": "Ragnarak awaits Luna Nym, Leader of Pyria! May your adversaries burn in the fires of oblivion. Your empire is ancient and mighty, the first to master the power of chemistry to build massive weapons of war. Your people are strong-willed and hardy due to the pressures of their desolate home. As the champion of Ragnarak, it is your job to purify the world by cleansing the naive followers of good and preventing the spread of weakness.",
 		"startIntroPart2": "O' Luna Nym, Child of Death, will you rise from the ashes and bring your people to glory? Will you eliminate weakness and naivety from the world once more? Will you build a civilization that stands the test of time?",
-		
+
 		"declaringWar": "Ragnarak has spoken! Let the slaughter commence!",
 		"attacked": "You'll pay for this! Soon, I'll have your head!",
 		"defeated": "Death is a fickle beast. In the end, not even its own child can avoid its grasp. Ironic, isn't it?",
 		"introduction": "Well, well... what do we have here? Another tribute to Ragnarak, perhaps?",
-		
+
 		"neutralHello": "Speak quickly, traveler. I don't have much patience.",
-		"neutralLetsHearIt": ["Continue.","Go on, then.","Hurry up."],
-		"neutralNo": ["I am no fool.","I refuse.","This is not worth my time. Leave. Now."],
-		"neutralYes": ["Very well. I accept.","Ragnarak accepts your offering.","Good. Now leave."],
+		"neutralLetsHearIt": ["Continue.", "Go on, then.", "Hurry up."],
+		"neutralNo": ["I am no fool.", "I refuse.", "This is not worth my time. Leave. Now."],
+		"neutralYes": ["Very well. I accept.", "Ragnarak accepts your offering.", "Good. Now leave."],
 
 		"hateHello": "Greetings, wretch. I'll not waste breath chatting with you.",
-		"hateLetsHearIt": ["State your intentions.","Make it fast.","My patience is running out."],
-		"hateNo": ["Idiot. You're lucky that I won't kill you just for trying this.","I refuse. Don't waste my time again.","Keep your ignorance contained, will you?"],
-		"hateYes": ["I accept your tribute, wretch.","Perhaps you aren't as stupid as you seem.","How kind of you. Unfortunately, I do not intend to be kind in return.","If you cross me again, I may not be as forgiving."],
-		
+		"hateLetsHearIt": ["State your intentions.", "Make it fast.", "My patience is running out."],
+		"hateNo": ["Idiot. You're lucky that I won't kill you just for trying this.", "I refuse. Don't waste my time again.", "Keep your ignorance contained, will you?"],
+		"hateYes": ["I accept your tribute, wretch.", "Perhaps you aren't as stupid as you seem.", "How kind of you. Unfortunately, I do not intend to be kind in return.", "If you cross me again, I may not be as forgiving."],
+
 		"afterPeace": "This conflict has lasted long enough. You will die another time.",
 		"tradeRequest": "I hope you'll accept this proposal. I'd be ashamed if I had to kill you.",
 
 		"outerColor": [255, 0, 242],
 		"innerColor": [255, 70, 46],
 		"uniqueName": "Fires Of Ragnarak",
-		"uniques": ["Melee units pay no movement cost to pillage","New military units start with [15] Experience","+[2] Movement for all [Siege] units"],
-		"cities": ["Ensdael","Nightsend","Abysin","Pyris","Altora","Faenai","Bator","Theris","Ferra",
-			"Magris","Athr","Theta","Horahelm","Tetrani","Moondeep","Lakaeia","Duskshadow","Elerea","Unaia"]
+		"uniques": ["Melee units pay no movement cost to pillage", "New military units start with [15] Experience", "+[2] Movement for all [Siege] units"],
+		"cities": ["Ensdael", "Nightsend", "Abysin", "Pyris", "Altora", "Faenai", "Bator", "Theris", "Ferra",
+			"Magris", "Athr", "Theta", "Horahelm", "Tetrani", "Moondeep", "Lakaeia", "Duskshadow", "Elerea", "Unaia"
+		]
 	},
 	{
 		"name": "Ssu'vi",
@@ -75,34 +76,33 @@
 		"adjective": ["ssu'vian"],
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Cultural",
-		
+
 		"startIntroPart1": "Your people await you, o' great Tak'ir'sar, wise Sak'ret'i of the Ssu'vian empire. The light of the surface calls you once more! Your empire is one of the first to have ever existed. Bright and creative, your people are masters of magic and nature. As the last the last living member of the fabled 'Tak', the first of the Sauroids, it is your job to save your people from extinction at the hands of man. While your brothers and sisters no longer walk this world, their minds still live on through you.",
 		"startIntroPart2": "Tell us, Tak'ir'sar - will you rise from the depths of the underground and bring your people to glory? Will you ensure your place on surface, and let your people feel the warmth of the sun once more? Will you build a civilization that stands the test of time?",
-		
+
 		"declaringWar": "I feared this day would come. As the beasts of the wild fight for survival, so too must we rise against those who would stop us. Prepare yourselves for war.",
 		"attacked": "The sleeping dragon awakens only once disturbed. You've made the wrong decision in attacking us.",
 		"defeated": "I have no regrets. I will die knowing my brothers and sisters can now rest in peace. We made it to the surface, and gave our all to take back our homeland. My people are smiling at death. Can you say the same?",
 		"introduction": "As the sun rises to the hymns of Genesis, so too shall the Sauroids return to the surface. Do not interfere.",
-		
+
 		"neutralHello": "Greetings, young ones. Are you here to seek the wisdom of the elders?",
-		"neutralLetsHearIt": ["Speak through your soul, and we shall listen.","Your words are heard.","Our scales shine in the sun once more. We have no reason to hide any longer. Please, continue."],
-		"neutralNo": ["Even the smallest spark can light a forest ablaze. We cannot accept this.","As mountains stand the test of time, so too shall we refuse to move at the behest of others.","A flood can seep through the smallest of cracks. We cannot lower our guard."],
-		"neutralYes": ["The mightiest storm begins with a raindrop. Let it rain.","We thank you deeply for this. The seeds of our friendship shall one day grow a forest.","You are wise for a child. Where you walk, the earth must smile."],
+		"neutralLetsHearIt": ["Speak through your soul, and we shall listen.", "Your words are heard.", "Our scales shine in the sun once more. We have no reason to hide any longer. Please, continue."],
+		"neutralNo": ["Even the smallest spark can light a forest ablaze. We cannot accept this.", "As mountains stand the test of time, so too shall we refuse to move at the behest of others.", "A flood can seep through the smallest of cracks. We cannot lower our guard."],
+		"neutralYes": ["The mightiest storm begins with a raindrop. Let it rain.", "We thank you deeply for this. The seeds of our friendship shall one day grow a forest.", "You are wise for a child. Where you walk, the earth must smile."],
 
 		"hateHello": "The prophecy states that the Sauroids will walk in the sun once more. I hope you won't interfere.",
-		"hateLetsHearIt": ["Genesis watches us, stranger. Choose your words wisely.","The wind waits for no one, stranger. Don't get left behind.","My scales bristle at your presence. Do not anger me."],
-		"hateNo": ["We are wiser than you think. Do not cross us again.","The earth has spoken. We will not accept this offer.","I have lived for thousands of years. Throughout my life, I have seen many an empire rise and fall. You are nothing special. Do not try to fool us again."],
-		"hateYes": ["Your wisdom is shining, if only for a moment.","I have seen offers far worse than this. You will have your way, for now.","The sun shines upon us, revealing any deceptions. I do not fear your proposal.","Our people may one day be at odds. If this deal will help us avoid that, we accept."],
-		
+		"hateLetsHearIt": ["Genesis watches us, stranger. Choose your words wisely.", "The wind waits for no one, stranger. Don't get left behind.", "My scales bristle at your presence. Do not anger me."],
+		"hateNo": ["We are wiser than you think. Do not cross us again.", "The earth has spoken. We will not accept this offer.", "I have lived for thousands of years. Throughout my life, I have seen many an empire rise and fall. You are nothing special. Do not try to fool us again."],
+		"hateYes": ["Your wisdom is shining, if only for a moment.", "I have seen offers far worse than this. You will have your way, for now.", "The sun shines upon us, revealing any deceptions. I do not fear your proposal.", "Our people may one day be at odds. If this deal will help us avoid that, we accept."],
+
 		"afterPeace": "War's storm has ceased. May the flowers of peace blossom once more!",
 		"tradeRequest": "I have long forseen this deal, though it is not in my power to predict the will of another's soul. Choose your path wisely, and perhaps fate will lead us to prosperity.",
 
 		"outerColor": [255, 255, 0],
 		"innerColor": [255, 187, 0],
-		"uniqueName": "The Elder's Prophecy"
+		"uniqueName": "The Elder's Prophecy",
 		"uniques": ["Golden Age length increases +50%", "+1 Movement for all units during Golden Age", "+10% Strength for all units during Golden Age"],
-		//"uniques": ["Empire enters golden age", "+20% attack bonus to all Military Units for 30 turns", "Free Social Policy"],
-		"cities": ["Ssu","Taka'zul","Akiltzi","Meccti","Sarak"]
+		"cities": ["Ssu", "Taka'zul", "Akiltzi", "Meccti", "Sarak"]
 	},
 	{
 		"name": "Terazi",
@@ -110,68 +110,66 @@
 		"adjective": ["terazian"],
 		"startBias": ["Jungle"],
 		"preferredVictoryType": "Domination",
-		
+
 		"startIntroPart1": "The jungle calls you, Andu'zi'tan, almighty Sak'ret'i of the Terazi empire. You must answer! As a proud sauroid empire, the Terazi are one of the first nations to have ever formed. Proud and powerful, your people are masters of the natural world. Hidden away in the depths of the jungle, they have managed to avoid extinction at the hands of man. Now, they call upon you, greatest of the blessed spawn, to avenge their bretheren.",
 		"startIntroPart2": "O' great and mighty Andu'zi'tan, will you emerge from the wilds of Jungara and begin your path to triumph? Will you rise against the tyranny of man, and save your race from extinction? Will you build a civilization that stands the test of time?",
-		
+
 		"declaringWar": "The jungle has called me. Tonight, you are its prey.",
 		"attacked": "You think yourselves strong, but we shall soon see who is fit to survive.",
 		"defeated": "The jungle calls me. Can you hear it? Soon, I shall return to Genesis.",
 		"introduction": "The jungle greets you, traveler. Are you prepared to receive its words?",
-		
+
 		"neutralHello": "The jungle is listening. What is your purpose here?",
-		"neutralLetsHearIt": ["You may speak.","Your words are heard.","Speak free, stranger."],
-		"neutralNo": ["The leaves whisper a warning to me. I cannot except.","I do not wish to meddle in the affairs of outsiders.","Even the peaceful blotrog would frown at this proposal."],
-		"neutralYes": ["The great river Azahan flows free. So too, shall we.","The jungle rings with acceptance. You will have your way.","I fear not the future. Tonight, let us feast."],
+		"neutralLetsHearIt": ["You may speak.", "Your words are heard.", "Speak free, stranger."],
+		"neutralNo": ["The leaves whisper a warning to me. I cannot except.", "I do not wish to meddle in the affairs of outsiders.", "Even the peaceful blotrog would frown at this proposal."],
+		"neutralYes": ["The great river Azahan flows free. So too, shall we.", "The jungle rings with acceptance. You will have your way.", "I fear not the future. Tonight, let us feast."],
 
 		"hateHello": "The jungle is hungry. Tread with caution.",
-		"hateLetsHearIt": ["Under the veil of the treetops, we shall reveal the slightest deception. Do not try to fool us.","The jungle cares not for words, but we shall listen nonetheless.","I feel the rain coming. Speak quickly."],
-		"hateNo": ["It is in the nature of the jungle to take from those who are weak or foolish, but be warned - we are not.","The jungle watches over us. Do not try this again.","The jungle bows to no one."],
-		"hateYes": ["We have nothing to fear from you. I accept.","This offer has placed your people in a new light. The trees themselves smile upon you.","Your words have reached us, at least this once."],
-		
+		"hateLetsHearIt": ["Under the veil of the treetops, we shall reveal the slightest deception. Do not try to fool us.", "The jungle cares not for words, but we shall listen nonetheless.", "I feel the rain coming. Speak quickly."],
+		"hateNo": ["It is in the nature of the jungle to take from those who are weak or foolish, but be warned - we are not.", "The jungle watches over us. Do not try this again.", "The jungle bows to no one."],
+		"hateYes": ["We have nothing to fear from you. I accept.", "This offer has placed your people in a new light. The trees themselves smile upon you.", "Your words have reached us, at least this once."],
+
 		"afterPeace": "The jungle is fed. We have no reason to harm you, for now.",
 		"tradeRequest": "The jungle speaks. Can you hear it?",
 		"outerColor": [169, 199, 38],
 		"innerColor": [26, 110, 0],
-		"uniqueName": "Soul of Jungara"
-		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.","Enemy land units must spend 1 extra movement point when inside your territory (obsolete upon Dynamite)"],
-		"cities": ["Teraz","Andu","Kala'ka'tili","Aztakczii","Lik'tok"]
+		"uniqueName": "Soul of Jungara",
+		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.", "Enemy land units must spend 1 extra movement point when inside your territory (obsolete upon Dynamite)"],
+		"cities": ["Teraz", "Andu", "Kala'ka'tili", "Aztakczii", "Lik'tok"]
 	},
-	//TODO: Add Imperian unique units and buildings.
 	{
 		"name": "Imperia",
 		"leaderName": "Danu",
 		"adjective": ["imperian"],
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Cultural",
-		
+
 		"startIntroPart1": "We praise you, almighty Danu, God-Emperor of Imperia! Your empire is as long-lived as you are, having seen its way through the end of the Dragonfall thousands of years ago, forming just after the collapse of the united Neph empire of man. Though the collapse of its united efforts proved to be a setback to the growing race of man, you personally saw to it that no harm came to its survival, eliminating the last of the dragon empires from the earth entirely. You chose your people over your heart, and brought about the end of the very creatures you once loved.",
 		"startIntroPart2": "O' great Danu, will you rise up once more and bring prosperity to mankind? Will you raise up your colloseums and bring joy to your people's hearts? Will you build a civilization that stands the test of time?",
-		
+
 		"declaringWar": "I am afraid that we cannot coexist any longer. Prepare yourselves for war.",
 		"attacked": "I have seen many an empire fall before me, and you will be no different.",
 		"defeated": "Angir... my master... it seems we'll meet again after all...",
 		"introduction": "Imperia welcomes you, strangers, if you are willing to say the same.",
-		
+
 		"neutralHello": "Greetings, child. I would tell you a story of the Dragonfall, but do not have it in my heart to bring back such terrible memories.",
-		"neutralLetsHearIt": ["Go on.","Speak, child.","I am listening."],
-		"neutralNo": ["I'm afraid not.","I will not accept this.","This is not a good proposal, young one."],
-		"neutralYes": ["Agreed.","May the light of man guide you.","You are wiser than you seem."],
+		"neutralLetsHearIt": ["Go on.", "Speak, child.", "I am listening."],
+		"neutralNo": ["I'm afraid not.", "I will not accept this.", "This is not a good proposal, young one."],
+		"neutralYes": ["Agreed.", "May the light of man guide you.", "You are wiser than you seem."],
 
 		"hateHello": "Leave quickly, or else.",
-		"hateLetsHearIt": ["State your intentions.","Continue.","Speak, fool."],
-		"hateNo": ["Do not fool with me.","You are a fool to think I'd accept this.","I'll have you in a colloseum if you try this again."],
-		"hateYes": ["I will accept this, if I must.","I accept the proposal, but I do not accept you."],
-		
+		"hateLetsHearIt": ["State your intentions.", "Continue.", "Speak, fool."],
+		"hateNo": ["Do not fool with me.", "You are a fool to think I'd accept this.", "I'll have you in a colloseum if you try this again."],
+		"hateYes": ["I will accept this, if I must.", "I accept the proposal, but I do not accept you."],
+
 		"afterPeace": "I know when a war has gone on too long. Let peace return.",
 		"tradeRequest": "I believe our empires would benefit from this relationship.",
 
 		"outerColor": [128, 0, 255],
 		"innerColor": [255, 0, 0],
 		"uniqueName": "Heir to Mankind",
-		"uniques": ["+1 Happiness per City","50% of excess happiness added to culture towards policies"],
-		//TODO: Add more cities.
-		"cities": ["Imperia","Antor","Enrade","Gryffor","Asdale","Yelor","Grandeur"]
+		"uniques": ["+1 Happiness per City", "50% of excess happiness added to culture towards policies"],
+		"cities": ["Imperia", "Antor", "Enrade", "Gryffor", "Asdale", "Yelor", "Grandeur"]
 	},
 	{
 		"name": "Neph",
@@ -179,37 +177,36 @@
 		"adjective": ["neph"],
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Domination",
-		
+
 		"startIntroPart1": "Gods be with you, Angir, King of Man! Your empire was the very first civilization of man, formed many thousands of years ago when man was threatened on all sides by foreign races. It was the first and last time man was united under a single banner, and you were its king. Together, you and your people waged war against the enemy, and brought man into being the sole ruler of our world. However, your death brought about a divide amongst the people, and even with a designated heir, your empire crumbled.",
 		"startIntroPart2": "Mighty Angir, will you raise your spear to the heavens once more and bring unity to mankind? Will you take up arms against the enemy? Will you build a civilization that stands the test of time?",
-		
+
 		"declaringWar": "Your continued existence threatens my people. Die.",
 		"attacked": "If war is what you want, then war is what you'll get.",
 		"defeated": "Even if you slay me, the spirit of mankind will live on.",
 		"introduction": "As the king of man, I greet you on behalf of my people.",
-		
+
 		"neutralHello": "Greetings, stranger.",
-		"neutralLetsHearIt": ["Go on.","Continue.","I am listening."],
-		"neutralNo": ["Unacceptable.","This is not an option.","I am not negotiating with a rock, am I?"],
-		"neutralYes": ["Agreed.","May the light of man guide you.","I will allow this to move forward."],
+		"neutralLetsHearIt": ["Go on.", "Continue.", "I am listening."],
+		"neutralNo": ["Unacceptable.", "This is not an option.", "I am not negotiating with a rock, am I?"],
+		"neutralYes": ["Agreed.", "May the light of man guide you.", "I will allow this to move forward."],
 
 		"hateHello": "There are many reckless fires in this world that I am forced to extinguish. I hope you will not become one of them.",
 		"hateLetsHearIt": ["Speak, and I will answer."],
 		"hateNo": ["The fate of my people is at stake. I will not make such a reckless decision."],
-		"hateYes": ["This will have to do.","Fine, but I will be watching you."],
-		
+		"hateYes": ["This will have to do.", "Fine, but I will be watching you."],
+
 		"afterPeace": "It would be unwise to continue this conflict. Perhaps another time.",
 		"tradeRequest": "The efforts of man bear much fruit. Come, let us share!",
 
 		"outerColor": [181, 158, 83],
 		"innerColor": [255, 217, 0],
 		"uniqueName": "Glory of Man",
-		"uniques": ["Gain Culture when you kill a barbarian unit","Notified of new Barbarian encampments","Receive triple Gold from Barbarian encampments and pillaging Cities"],
-		//TODO: Add more cities.
-		"cities": ["Alor","Nerai","Phorl","Dehsk","Fyrin"]
+		"uniques": ["Gain Culture when you kill a barbarian unit", "Notified of new Barbarian encampments", "Receive triple Gold from Barbarian encampments and pillaging Cities"],
+		"cities": ["Alor", "Nerai", "Phorl", "Dehsk", "Fyrin"]
 	},
-	
-	// City-States
+
+	//City-States
 	{
 		"name": "Rhal'tu",
 		"adjective": ["Rhal"],
@@ -217,7 +214,7 @@
 		"declaringWar": "The guilds hunger for plunder. It is time I feed them.",
 		"attacked": "The city of thieves bows to no man! Prepare your treasuries for our arrival!",
 		"defeated": "Hypocrite. Even you are naught but a thief. Someone ought to set you straight.",
-		"uniques": ["Melee naval units have a 1/3 chance to capture defeated naval units"]
+		"uniques": ["Melee naval units have a 1/3 chance to capture defeated naval units"],
 		"outerColor": [28, 0, 0],
 		"innerColor": [128, 0, 0],
 		"cities": ["Rhal'tu"]
@@ -256,7 +253,7 @@
 		"uniques": ["Embarked units can defend themselves"],
 		"outerColor": [255, 0, 0],
 		"innerColor": [255, 255, 0],
-		"cities": ["Sangali"],
+		"cities": ["Sangali"]
 	},
 	{
 		"name": "Xagge",
@@ -268,7 +265,7 @@
 		"uniques": ["+30% Strength when fighting City-State units and cities"],
 		"outerColor": [255, 0, 0],
 		"innerColor": [0, 255, 0],
-		"cities": ["Xagge"],
+		"cities": ["Xagge"]
 	},
 	{
 		"name": "Threfek",
@@ -280,7 +277,7 @@
 		"uniques": ["[+2 Gold] from each Trade Route"],
 		"outerColor": [255, 255, 255],
 		"innerColor": [0, 0, 0],
-		"cities": ["Threfek"],
+		"cities": ["Threfek"]
 	},
 	{
 		"name": "Yate",
@@ -292,7 +289,7 @@
 		"uniques": ["Units pay only 1 movement point to embark and disembark"],
 		"outerColor": [0, 0, 255],
 		"innerColor": [255, 0, 0],
-		"cities": ["Yate"],
+		"cities": ["Yate"]
 	},
 	{
 		"name": "Tetku",
@@ -301,23 +298,22 @@
 		"declaringWar": "The gods demand a sacrifice!",
 		"attacked": "The sun glares at you, aggressors!",
 		"defeated": "You'd better hope I misjudged you. The gods certainly won't.",
-		//Technically, the second unique is relatively pointless, but it will help if I decide to add a second mod that converts the city states to playable nations.
-		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities","Gains culture from each enemy unit killed"],
+		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities", "Gains culture from each enemy unit killed"],
 		"outerColor": [255, 255, 0],
 		"innerColor": [56, 128, 56],
-		"cities": ["Tetku"],
+		"cities": ["Tetku"]
 	},
 	
-	// Barbarian
+	//Barbarians
 	{
 		"name": "Barbarians",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 0, 0]
 	},
+	
 	//Spectator
 	{
 		"name": "Spectator",
-		"outerColor": [255,255,255]
-//		"innerColor": [255,255,255]
+		"outerColor": [255, 255, 255]
 	}
 ]
