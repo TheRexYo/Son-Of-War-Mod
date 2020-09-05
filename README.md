@@ -2,13 +2,14 @@
  A content mod for Uniciv that takes a turn towards fantasy.
 
 Current Features:
-- Four unique civilizations, each with its own unique units, buildings, and strategy.
-- 10 Nation-Unique units.
-- 7 Nation-Unique Buildings (two national wonders, five standard buildings).
+- Six unique civilizations, each with its own unique units, buildings, and strategy.
+- New units, such as the "Prophet" a buildable unit that can start a golden age when expended.
 - A fully separate gameplay experience from the standard Uniciv due to a complete override of the default nations.
 
 Planned Features:
-- Many more civilizations (2 are already in the conceptualization phase).
+- Many more civilizations.
 - More buildings.
 - Tech tree overhaul.
 - Magical tech-tree path.
+
+Suggestions are welcome, although the worldbuilding aspects (such as nations and their units) have already been designed after being used for another game.
