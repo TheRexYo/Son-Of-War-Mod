@@ -134,7 +134,7 @@
 		"outerColor": [169, 199, 38],
 		"innerColor": [26, 110, 0],
 		"uniqueName": "Soul of Jungara",
-		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.", "Enemy land units must spend 1 extra movement point when inside your territory (obsolete upon Dynamite)"],
+		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.", "Enemy land units must spend 1 extra movement point when inside your territory (obsolete upon Dynamite)","+15% combat strength for units fighting in friendly territory"],
 		"cities": ["Teraz", "Andu", "Kala'ka'tili", "Aztakczii", "Lik'tok"]
 	},
 	{
