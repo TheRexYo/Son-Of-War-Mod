@@ -846,7 +846,7 @@
 		"replaces": "Horseman",
 		"requiredTech": "Horseback Riding",
 		"obsoleteTech": "Metallurgy",
-		"uniques": ["Can move after attacking","Penalty vs City 66%","Bonus as Attacker [300]%","+33% combat bonus in Forest/Jungle"],
+		"uniques": ["Can move after attacking","Penalty vs City 66%","Bonus as Attacker [300]%","+[33]% combat bonus in [Forest]","+[33]% combat bonus in [Jungle]"],
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
 	},
@@ -878,7 +878,7 @@
 		"range": 1,
 		"cost": 240,
 		"requiredTech": "The Wheel",
-		"uniques": ["Bonus vs City 100%","+33% combat bonus in Forest/Jungle","+25% Defence against ranged attacks","-10% combat strength for adjacent enemy units"],
+		"uniques": ["Bonus vs City 100%","+[33]% combat bonus in [Forest]","+[33]% combat bonus in [Jungle]","+25% Defence against ranged attacks","-10% combat strength for adjacent enemy units"],
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"hurryCostModifier": 20,
@@ -941,9 +941,24 @@
 		"replaces": "Warrior",
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
-		"promotions": ["Keepers of the Home","Defenders of the Home"],
+		"promotions": ["Keepers of the Empire","Defenders of the Empire"],
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Sandwalker",
+		"unitType": "Melee",
+		"uniqueTo": "Jharrape",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 16,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["Bonus vs Mounted 25%","+[50]% combat bonus in [Desert]"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
 	},
 	
 	//City-State Uniques

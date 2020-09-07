@@ -928,6 +928,17 @@
 		"isNationalWonder": true,
 		"requiredTech": "Pottery"
 	},
+	{
+		"name": "Channel Walls",
+		"replaces": "Walls",
+		"uniqueTo": "Jharappe",
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"food": 1,
+		"uniques": ["40% of food is carried over after a new citizen is born"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry"
+	},
 	//City-State Uniques
 	{
 		"name": "Glimmering District",

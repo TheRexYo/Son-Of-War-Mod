@@ -139,7 +139,7 @@
 	},
 	{
 		"name": "Neph",
-		"leaderName": "Angir",
+		"leaderName": "Angir Selai",
 		"adjective": ["neph"],
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Domination",
@@ -172,8 +172,8 @@
 		"cities": ["Alor", "Nerai", "Phorl", "Dehsk", "Fyrin"]
 	},
 	{
-		"name": "Imperius",
-		"leaderName": "Danu",
+		"name": "Imperia",
+		"leaderName": "Danu Impyr",
 		"adjective": ["imperial"],
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Cultural",
@@ -204,6 +204,40 @@
 		"uniqueName": "Heir to Mankind",
 		"uniques": ["+1 happiness for every city connected to capital", "50% of excess happiness added to culture towards policies","Each city founded increases culture cost of policies 33% less than normal"],
 		"cities": ["Imperia", "Antor", "Enrade", "Gryffor", "Asdale", "Yelor", "Grandeur"]
+	},
+	{
+		"name": "Jharappe",
+		"leaderName": "Jhr Ahdrali",
+		"adjective": ["jharappan"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Scientific",
+
+		"startIntroPart1": "Greetings, Jhr Ahdrali, King of the Jharappe people. May you live long! Your people are masters of science, curious and innovative. Your people were among the most advanced of their time, having learned many things from the various Naga tribes living near you. With this knowledge, your cities grew to be massive, your armies great. Unfortunately, your people died out after a major drought that spanned the entirety of your homeland, bringing with it thirst and famine.",
+		"startIntroPart2": "Wise King Jhr, will you take your people to the stars, as you promised long ago? Will you expand your cities and grow into a mighty empire? Will you build a civilization that stands the test of time?",
+
+		"declaringWar": "Your people are not fit for the heavens. You must be cleansed.",
+		"attacked": "It seems you've made a mistake. We are bound for the stars. Can you say the same?",
+		"defeated": "My promise... I'm sorry, everyone...",
+		"introduction": "Greetings, traveler. Do you seek the light of the stars as well? Perhaps we could reach them together.",
+
+		"neutralHello": "The Jharappe people greet you.",
+		"neutralLetsHearIt": ["I hear you.", "Go on.", "I am listening."],
+		"neutralNo": ["Not today, I'm afraid.", "I will not accept this.", "I cannot accept your offer."],
+		"neutralYes": ["Agreed.", "The stars shine bright upon our people.", "You certainly are an interesting person. I accept."],
+
+		"hateHello": "I did not invite you, and yet you are here?",
+		"hateLetsHearIt": ["Whatever you have to say, say it quickly.", "Continue.", "The stars wait for no one."],
+		"hateNo": ["Never.", "No.", "Just leave."],
+		"hateYes": ["You are an intelligent - albeit unwise - person. I accept, for now.", "I will accept."],
+
+		"afterPeace": "This war is costing us precious time. Let there be peace!",
+		"tradeRequest": "The stars must be reached before the dark ones return. Please help us achieve that honor.",
+
+		"outerColor": [27, 158, 40],
+		"innerColor": [255, 153, 0],
+		"uniqueName": "Legacy of the Naga",
+		"uniques": ["[+3 Science] in all cities","[+3 Science] per [3] population in all cities"],
+		"cities": ["Jharappa","Mijanho-deru","Zihan-de","Talanazza"]
 	},
 	
 	//City-States
