@@ -171,7 +171,40 @@
 		"uniques": ["Gain Culture when you kill a barbarian unit", "Notified of new Barbarian encampments", "Receive triple Gold from Barbarian encampments and pillaging Cities"],
 		"cities": ["Alor", "Nerai", "Phorl", "Dehsk", "Fyrin"]
 	},
+	{
+		"name": "Imperius",
+		"leaderName": "Danu",
+		"adjective": ["imperial"],
+		"startBias": ["Avoid [Tundra]"],
+		"preferredVictoryType": "Cultural",
 
+		"startIntroPart1": "We praise you, almighty Danu, God-Emperor of Imperia! Your empire is as long-lived as you are, having seen its way through the end of the Dragonfall thousands of years ago, forming just after the collapse of the united Neph empire of man. Though the collapse of its united efforts proved to be a setback to the growing race of man, you personally saw to it that no harm came to its survival, eliminating the last of the dragon empires from the earth entirely. You chose your people over your heart, and brought about the end of the very creatures you once loved.",
+		"startIntroPart2": "O' great Danu, will you rise up once more and bring prosperity to mankind? Will you raise up your colloseums and bring joy to your people's hearts? Will you build a civilization that stands the test of time?",
+
+		"declaringWar": "I am afraid that we cannot coexist any longer. Prepare yourselves for war.",
+		"attacked": "I have seen many an empire fall before me, and you will be no different.",
+		"defeated": "Angir... my master... it seems we'll meet again after all...",
+		"introduction": "Imperia welcomes you, strangers, if you are willing to say the same.",
+
+		"neutralHello": "Greetings, child. I would tell you a story of the Dragonfall, but do not have it in my heart to bring back such terrible memories.",
+		"neutralLetsHearIt": ["Go on.", "Speak, child.", "I am listening."],
+		"neutralNo": ["I'm afraid not.", "I will not accept this.", "This is not a good proposal, young one."],
+		"neutralYes": ["Agreed.", "May the light of man guide you.", "You are wiser than you seem."],
+
+		"hateHello": "Leave quickly, or else.",
+		"hateLetsHearIt": ["State your intentions.", "Continue.", "Speak, fool."],
+		"hateNo": ["Do not fool with me.", "You are a fool to think I'd accept this.", "I'll have you in a colloseum if you try this again."],
+		"hateYes": ["I will accept this, if I must.", "I accept the proposal, but I do not accept you."],
+
+		"afterPeace": "I know when a war has gone on too long. Let peace return.",
+		"tradeRequest": "I believe our empires would benefit from this relationship.",
+
+		"outerColor": [128, 0, 255],
+		"innerColor": [255, 0, 0],
+		"uniqueName": "Heir to Mankind",
+		"uniques": ["+1 happiness for every city connected to capital", "50% of excess happiness added to culture towards policies","Each city founded increases culture cost of policies 33% less than normal"],
+		"cities": ["Imperia", "Antor", "Enrade", "Gryffor", "Asdale", "Yelor", "Grandeur"]
+	},
 	
 	//City-States
 	{

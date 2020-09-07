@@ -138,7 +138,7 @@
 		"cities": ["Teraz", "Andu", "Kala'ka'tili", "Aztakczii", "Lik'tok"]
 	},
 	{
-		"name": "Imperia",
+		"name": "Imperius",
 		"leaderName": "Danu",
 		"adjective": ["imperian"],
 		"startBias": ["Avoid [Tundra]"],
@@ -168,7 +168,7 @@
 		"outerColor": [128, 0, 255],
 		"innerColor": [255, 0, 0],
 		"uniqueName": "Heir to Mankind",
-		"uniques": ["+1 Happiness per City", "50% of excess happiness added to culture towards policies"],
+		"uniques": ["+1 happiness for every city connected to capital", "50% of excess happiness added to culture towards policies","Each city founded increases culture cost of policies 33% less than normal"],
 		"cities": ["Imperia", "Antor", "Enrade", "Gryffor", "Asdale", "Yelor", "Grandeur"]
 	},
 	{
