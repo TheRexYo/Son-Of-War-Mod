@@ -948,7 +948,7 @@
 	{
 		"name": "Sandwalker",
 		"unitType": "Melee",
-		"uniqueTo": "Jharrape",
+		"uniqueTo": "Jharappe",
 		"replaces": "Spearman",
 		"movement": 2,
 		"strength": 16,
