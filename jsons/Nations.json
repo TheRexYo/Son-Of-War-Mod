@@ -239,6 +239,40 @@
 		"uniques": ["[+3 Science] in all cities","[+3 Science] per [3] population in all cities"],
 		"cities": ["Jharappa","Mijanho-deru","Zihan-de","Talanazza"]
 	},
+	{
+		"name": "Zegrek",
+		"leaderName": "Alandis Osthesi",
+		"adjective": ["zegrek"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": "May the gods bless you, Alandis Osthesi, leader of the Zegrek people. Your people vary in nature, coming from a diverse yet united selection of small, one-city 'nations' that make up your empire. Your empire is the patron of the unaligned, and you have a certain influence over the lesser city states of the world. With sheer willpower, you and your allies will demolish anyone who attempts to break the order.",
+		"startIntroPart2": "Great Alandis, will you bring peace and prosperity to the weak? Will you protect those who cannot easily protect themselves? Will you build a civilization that stands the test of time?",
+
+		"declaringWar": "Letting your nation expand unchecked would ruin the balance of the world. You must be stopped.",
+		"attacked": "It seems you have broken the peace. Do not expect any mercy from us.",
+		"defeated": "It would seem I am defeated. The balance is crumbling. May the gods bring their wrath upon you.",
+		"introduction": "Gods willing, stranger. I hope we can be allies.",
+
+		"neutralHello": "Greetings traveller!",
+		"neutralLetsHearIt": ["Let's hear it.", "Go on.", "Let's hear what you have to say."],
+		"neutralNo": ["No. This is not acceptable.", "This is not a good offer.", "Today, we'll just have to disagree."],
+		"neutralYes": ["Agreed.", "The gods are smiling, traveller.", "You can expect an agreement on this one."],
+
+		"hateHello": "Oh great, it's YOU.",
+		"hateLetsHearIt": ["Speak with caution.", "Continue.", "Hurry up."],
+		"hateNo": ["Never.", "No.", "I cannot accept this."],
+		"hateYes": ["Perhaps we could learn to agree more often.", "I guess."],
+
+		"afterPeace": "I do not wish to war any longer. May peace return!",
+		"tradeRequest": "I think that our people could learn from this.",
+
+		"outerColor": [181, 232, 232],
+		"innerColor": [68, 142, 249],
+		"uniqueName": "Coalition of Cities",
+		"uniques": ["Gifting Gold to a City-State generates 25% more Influence","Resting point for Influence level with all City-States is increased by 20","Influence with City-States degrades 25% slower than normal"],
+		"cities": ["Zegris", "Acroplia", "Sartga"]
+	},
 	
 	//City-States
 	{

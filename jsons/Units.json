@@ -833,7 +833,7 @@
 		"obsoleteTech": "Metal Casting",
 		"replaces": "Warrior",
 		"upgradesTo": "Swordsman",
-		"uniques": ["Unit will heal every turn, even if it performs an action","Heals 25 damage if it kills an Unit","This unit and all others in adjacent tiles heal 5 additional HP. This unit heals 5 additional HP outside of friendly territory.","+10 HP when healing","This unit and all others in adjacent tiles heal 5 additional HP per turn"],
+		"uniques": ["Unit will heal every turn, even if it performs an action","Heals [25] damage if it kills an Unit","This unit and all others in adjacent tiles heal 5 additional HP. This unit heals 5 additional HP outside of friendly territory.","+10 HP when healing","This unit and all others in adjacent tiles heal 5 additional HP per turn"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -959,6 +959,38 @@
 		"uniques": ["Bonus vs Mounted 25%","+[50]% combat bonus in [Desert]"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
+	},
+	{
+		"name": "Phalanx",
+		"unitType": "Melee",
+		"uniqueTo": "Zegrek",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 12,
+		"cost": 50,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"promotions": ["Formation I"],
+		"uniques": ["Bonus vs Mounted 25%","Bonus vs Melee 25%","+25% Combat Bonus when defending"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Zegrek War Elephant",
+		"unitType": "Ranged",
+		"uniqueTo": "Zegrek",
+		"replaces": "War Elephant",
+		"movement": 3,
+		"strength": 9,
+		"rangedStrength": 9,
+		"cost": 70,
+		"requiredTech": "Animal Husbandry",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus","Bonus vs Melee 66%"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
 	},
 	
 	//City-State Uniques
