@@ -2,7 +2,7 @@
  A content mod for Uniciv that takes a turn towards fantasy.
 
 Current Features:
-- Six unique civilizations, each with its own unique units, buildings, and strategy.
+- Five unique civilizations, each with its own unique units, buildings, and strategy.
 - New units, such as the buildable "Prophet" unit that can start a golden age when expended.
 - A fully separate gameplay experience from the standard Uniciv due to a complete override of the default nations.
 
