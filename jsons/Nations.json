@@ -270,7 +270,7 @@
 		"outerColor": [181, 232, 232],
 		"innerColor": [68, 142, 249],
 		"uniqueName": "Coalition of Cities",
-		"uniques": ["Gifting Gold to a City-State generates 25% more Influence","Resting point for Influence level with all City-States is increased by 20","Influence with City-States degrades 25% slower than normal"],
+		"uniques": ["Gifting Gold to a City-State generates 25% more Influence","Resting point for Influence level with all City-States is increased by 20"],
 		"cities": ["Zegris", "Acroplia", "Sartga"]
 	},
 	

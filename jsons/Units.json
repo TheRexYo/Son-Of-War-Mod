@@ -937,7 +937,7 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"uniqueTo": "Imperius",
+		"uniqueTo": "Imperia",
 		"replaces": "Warrior",
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
