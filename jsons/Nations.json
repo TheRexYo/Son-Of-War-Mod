@@ -244,7 +244,7 @@
 		"leaderName": "Alandis Osthesi",
 		"adjective": ["zegrek"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Scientific", //Diplomatic
 
 		"startIntroPart1": "May the gods bless you, Alandis Osthesi, leader of the Zegrek people. Your people vary in nature, coming from a diverse yet united selection of small, one-city 'nations' that make up your empire. Your empire is the patron of the unaligned, and you have a certain influence over the lesser city states of the world. With sheer willpower, you and your allies will demolish anyone who attempts to break the order.",
 		"startIntroPart2": "Great Alandis, will you bring peace and prosperity to the weak? Will you protect those who cannot easily protect themselves? Will you build a civilization that stands the test of time?",
