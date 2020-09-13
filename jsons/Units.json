@@ -190,7 +190,7 @@
 		"name": "Prophet",
 		"unitType": "Civilian",
 		"uniques": ["Can start an 8-turn golden age","Cannot be purchased"],
-		"cost": 120,
+		"cost": 240,
 		"hurryCostModifier": 20,
 		"movement": 1
 	},
@@ -904,7 +904,7 @@
 		"replaces": "Prophet",
 		"unitType": "Civilian",
 		"uniques": ["Can start an 8-turn golden age","Can move immediately once bought"],
-		"cost": 120,
+		"cost": 240,
 		"hurryCostModifier": 20,
 		"movement": 1
 	},

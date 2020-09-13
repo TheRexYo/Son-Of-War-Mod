@@ -273,6 +273,27 @@
 		"uniques": ["Gifting Gold to a City-State generates 25% more Influence","Resting point for Influence level with all City-States is increased by 20"],
 		"cities": ["Zegris", "Acroplia", "Sartga"]
 	},
+	{
+		"name": "Zharia",
+		"leaderName": "Yu Nian",
+		"adjective": ["Zharian"],
+		"preferredVictoryType": "Scientific",
+		
+		"startIntroPart1": "The stars bless you, Empress Yu Nian, most beautiful and proud ruler of Zharia! Oh great Empress, whose shadow causes the flowers to blossom and the rivers to flow! You are the leader of the Zharia, the oldest and the greatest civilization that humanity has ever produced. Zharia's history stretches back into the mists of time, its people achieving many great things long before the other upstart civilizations were even conceived. Blessed by the divine Sul'lahng (Sun Dragons), you learned the arts of war, poetry, and more. From your people come many of the greatest generals, poets, and philosophers.",
+		"startIntroPart2": "You, great Queen, who, with cunning and beauty, rose from the position of lowly concubine to that of Divine Empress - your people call out to you to lead them! Great Zharia is once again beset on all sides by barbarians. Can you defeat all your many foes and return your country to greatness? Will you build a civilization that stands the test of time?",
+		"declaringWar": "You won't ever be able to bother me again.",
+		"attacked": "Fool! I will disembowel you all!",
+		"defeated": "You have proven to be a cunning and competent adversary. I congratulate you on your victory.",
+		"introduction": "Greetings, I am Empress Yu Nian. Zharia desires peace and development. You leave us alone, we'll leave you alone.",
+		"neutralHello": "How are you today?",
+		"hateHello": "Oh. It's you?",
+		"tradeRequest": "My friend, do you think you can accept this request?",
+		"outerColor": [252, 53, 3],
+		"innerColor": [252, 194, 3],
+		"uniqueName": "Crimson Sun's Blessing",
+		"uniques": ["Great General provides double combat bonus", "[Great General] is earned [50]% faster", "Military units gain 50% more Experience from combat"],
+		"cities": ["Dran-Lah'ng", "Shi'dar", "Xian'zin", "Alxi'or"]
+	},
 	
 	//City-States
 	{
