@@ -936,6 +936,32 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry"
 	},
+	{
+		"name": "Altar Of The Homeland",
+		"uniqueTo": "Atoiri",
+		"replaces": "Monument",
+		"cost": 40,
+		"culture": 2,
+		"happiness": 1,
+		"specialistSlots": {"culture": 1},
+		"uniques": ["Cannot be built in your original capital","+[5]% Growth in all Cities"],
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Longhouse",
+		"replaces": "Workshop",
+		"uniqueTo": "Onuqi",
+		"cost": 140,
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"production": 1},
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Forest] tiles in this city"],
+		"requiredTech": "Metal Casting"
+	},
+	
 	//City-State Uniques
 	{
 		"name": "Glimmering District",
@@ -972,19 +998,5 @@
 		"hurryCostModifier": 25,
 		"uniques": ["+[100]% production when building [mounted units] in this city"],
 		"requiredTech": "Horseback Riding"
-	},
-	{
-		"name": "Altar Of The Homeland",
-		"uniqueTo": "Atoiri",
-		"replaces": "Temple",
-		"cost": 40,
-		"culture": 3,
-		"happiness": 3,
-		"production": -1,
-		"specialistSlots": {"culture": 1},
-		"uniques": ["Can only be built in coastal cities","+10% Growth in all Cities"],
-		"maintenance": 0,
-		"hurryCostModifier": 25,
-		"requiredTech": "Philosophy"
 	}
 ]

@@ -1,7 +1,8 @@
-[{
+[
+	{
 		"name": "Aeronia",
 		"leaderName": "Sun Alar",
-		"adjective": ["aeronian"],
+		"adjective": ["Aeronian"],
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Cultural",
 
@@ -37,7 +38,7 @@
 	{
 		"name": "Pyria",
 		"leaderName": "Luna Nym",
-		"adjective": ["pyrian"],
+		"adjective": ["Pyrian"],
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Domination",
 
@@ -73,7 +74,7 @@
 	{
 		"name": "Ssu'vi",
 		"leaderName": "Tak'ir'sar",
-		"adjective": ["ssu'vian"],
+		"adjective": ["Ssu'vian"],
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Cultural",
 
@@ -102,12 +103,14 @@
 		"innerColor": [255, 187, 0],
 		"uniqueName": "The Elder's Prophecy",
 		"uniques": ["Golden Age length increased by [50]%", "+1 Movement for all units during Golden Age", "+10% Strength for all units during Golden Age"],
+		//"uniques": ["Starts the game in a [50] turn golden age","Starts the game with [300] additional gold","Starts the game with [2] free policies available","Starts the game with [1] free techs available"],
+		//"uniques": ["Starts the game in a [50] turn golden age","+[100]% Unit Strength before turn [40]","Starts the game with [300] additional gold","Starts the game with [2] free policies available","Starts the game with [1] free techs available"],
 		"cities": ["Ssu", "Taka'zul", "Akiltzi", "Meccti", "Sarak"]
 	},
 	{
 		"name": "Terazi",
 		"leaderName": "Andu'zi'tan",
-		"adjective": ["terazian"],
+		"adjective": ["Terazian"],
 		"startBias": ["Jungle"],
 		"preferredVictoryType": "Domination",
 
@@ -140,7 +143,7 @@
 	{
 		"name": "Neph",
 		"leaderName": "Angir Selai",
-		"adjective": ["neph"],
+		"adjective": ["Neph"],
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Domination",
 
@@ -167,14 +170,15 @@
 
 		"outerColor": [181, 158, 83],
 		"innerColor": [255, 217, 0],
-		"uniqueName": "Glory of Man",
-		"uniques": ["Gain Culture when you kill a barbarian unit", "Notified of new Barbarian encampments", "Receive triple Gold from Barbarian encampments and pillaging Cities"],
+		"uniqueName": "Ruler of Mankind",
+//		"uniques": ["Gain Culture when you kill a barbarian unit", "Notified of new Barbarian encampments", "Receive triple Gold from Barbarian encampments and pillaging Cities", "+[100]% bonus vs Barbarians"],
+		"uniques": ["Gain Culture when you kill a barbarian unit", "Notified of new Barbarian encampments", "Receive triple Gold from Barbarian encampments and pillaging Cities", "+25% bonus vs Barbarians"],
 		"cities": ["Alor", "Nerai", "Phorl", "Dehsk", "Fyrin"]
 	},
 	{
 		"name": "Imperia",
 		"leaderName": "Danu Impyr",
-		"adjective": ["imperial"],
+		"adjective": ["Imperial"],
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Cultural",
 
@@ -201,14 +205,14 @@
 
 		"outerColor": [128, 0, 255],
 		"innerColor": [255, 0, 0],
-		"uniqueName": "Heir to Mankind",
+		"uniqueName": "Glory of the Empire",
 		"uniques": ["+1 happiness for every city connected to capital", "50% of excess happiness added to culture towards policies","Each city founded increases culture cost of policies 33% less than normal"],
 		"cities": ["Imperia", "Antor", "Enrade", "Gryffor", "Asdale", "Yelor", "Grandeur"]
 	},
 	{
 		"name": "Jharappe",
 		"leaderName": "Jhr Ahdrali",
-		"adjective": ["jharappan"],
+		"adjective": ["Jharappan"],
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Scientific",
 
@@ -242,10 +246,10 @@
 	{
 		"name": "Zegrek",
 		"leaderName": "Alandis Osthesi",
-		"adjective": ["zegrek"],
+		"adjective": ["Zegrek"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Scientific", //Diplomatic
-
+		//"preferredVictoryType": "Diplomatic",
+		
 		"startIntroPart1": "May the gods bless you, Alandis Osthesi, leader of the Zegrek people. Your people vary in nature, coming from a diverse yet united selection of small, one-city 'nations' that make up your empire. Your empire is the patron of the unaligned, and you have a certain influence over the lesser city states of the world. With sheer willpower, you and your allies will demolish anyone who attempts to break the order.",
 		"startIntroPart2": "Great Alandis, will you bring peace and prosperity to the weak? Will you protect those who cannot easily protect themselves? Will you build a civilization that stands the test of time?",
 
@@ -274,6 +278,31 @@
 		"cities": ["Zegris", "Acroplia", "Sartga"]
 	},
 	{
+		"name": "Onuqi",
+		"leaderName": "Tiawathi",
+		"adjective": ["Onuqin"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "Greetings, noble Tiawathi, leader of the mighty Onuqi nations! In ages bygone, your people lived in the eastern forests of Alaria. Then, in times of danger, long ago, they united into one nation, the Haudorsani, which would one day be known as the Onuqi. With no written language, the wise men of your nation created the great law of peace, a model so well-designed that, one day, almost every nation would adopt it. For many years, your people battled great enemies. First came the mighty Hasi, ancient enemies whose mastery of magic once threatened to destroy you until they were defeated by your superior tactics. Then, from the far-off land of Erath, came the invading peoples of Lyra and Bretia. Though outnumbered and facing weapons far more advanced than the ones your warriors wielded, the Onuqi survived and prospered, until they were finally overwhelmed by the mighty armies of the newly-formed Alarian Union.",
+		"startIntroPart2": "Oh noble Tiawathi, listen to the cries of your people! They call out to you to lead them in peace and war, to rebuild the great longhouse and unite the tribes once again. Will you accept this challenge, great leader? Will you build a civilization that will stand the test of time?",
+		"declaringWar": "You are a plague upon Mystara! Prepare for battle!",
+		"attacked": "You evil creature! My braves will slaughter you!",
+		"defeated": "You have defeated us... but our spirits will never be vanquished! We shall return!",
+		"introduction": "Greetings, stranger. I am Tiawathi, speaker for the Iroquois. We seek peace with all, but we do not shrink from war.",
+		"neutralHello": "Good day.",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "Does this trade work for you, my friend?",
+		"outerColor": [54, 72, 72],
+		"innerColor": [246, 205, 137],
+		"uniqueName": "Children of Mystara",
+		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.","[+3 Happiness] from every [Ice]","[+3 Happiness] from every [Marsh]","[+3 Happiness] from every [Oasis]","[+3 Happiness] from every [Flood plains]","[+3 Happiness] from every [Atoll]","[+3 Production] from every [Mountain]","[+2 Culture] from every [Desert]","[+2 Culture] from every [Snow]","[+1 Food, +1 Culture] from every [Tundra]","[+1 Food, +1 Gold] from every [Coast]","[+1 Food, +1 Gold] from every [Ocean]","[+1 Food] from every [Grassland]","[+1 Food, +1 Production] from every [Plains]","[+1 Food, +1 Gold] from every [Lakes]","[+1 Production] from every [Hill]"],
+		"cities": ["Onoondaga","Osininka","Grand River","Akwesasme","Buffalo Creek","Brantford","Montreal","Genesse River",
+			"Canandaigua Lake","Lake Simcoe","Salamanca","Gowanda","Cuba","Akron","Kanesatake","Ganienkeh","Cayuga Castle",
+			"Chondote","Canajoharie","Nedrow","Oneida Lake","Kanonwalohale","Green Bay","Southwold","Mohawk Valley",
+			"Schoharie","Bay of Quinte","Kanawale","Kanatsiokareke","Tyendinaga","Hahta"]
+	},
+	{
 		"name": "Zharia",
 		"leaderName": "Yu Nian",
 		"adjective": ["Zharian"],
@@ -281,18 +310,45 @@
 		
 		"startIntroPart1": "The stars bless you, Empress Yu Nian, most beautiful and proud ruler of Zharia! Oh great Empress, whose shadow causes the flowers to blossom and the rivers to flow! You are the leader of the Zharia, the oldest and the greatest civilization that humanity has ever produced. Zharia's history stretches back into the mists of time, its people achieving many great things long before the other upstart civilizations were even conceived. Blessed by the divine Sul'lahng (Sun Dragons), you learned the arts of war, poetry, and more. From your people come many of the greatest generals, poets, and philosophers.",
 		"startIntroPart2": "You, great Queen, who, with cunning and beauty, rose from the position of lowly concubine to that of Divine Empress - your people call out to you to lead them! Great Zharia is once again beset on all sides by barbarians. Can you defeat all your many foes and return your country to greatness? Will you build a civilization that stands the test of time?",
+		
+		"introduction": "Greetings, I am Empress Yu Nian. Zharia desires peace and development. You leave us alone, we'll leave you alone.",
 		"declaringWar": "You won't ever be able to bother me again.",
 		"attacked": "Fool! I will disembowel you all!",
 		"defeated": "You have proven to be a cunning and competent adversary. I congratulate you on your victory.",
-		"introduction": "Greetings, I am Empress Yu Nian. Zharia desires peace and development. You leave us alone, we'll leave you alone.",
 		"neutralHello": "How are you today?",
-		"hateHello": "Oh. It's you?",
+		"hateHello": "Oh, it's you. What do you want?",
 		"tradeRequest": "My friend, do you think you can accept this request?",
-		"outerColor": [252, 53, 3],
-		"innerColor": [252, 194, 3],
+		
 		"uniqueName": "Crimson Sun's Blessing",
 		"uniques": ["Great General provides double combat bonus", "[Great General] is earned [50]% faster", "Military units gain 50% more Experience from combat"],
-		"cities": ["Dran-Lah'ng", "Shi'dar", "Xian'zin", "Alxi'or"]
+		
+		"cities": ["Dran-Lah'ng", "Shi'dar", "Xian'zin", "Alxi'or"],
+		"outerColor": [252, 53, 3],
+		"innerColor": [252, 194, 3]
+	},
+	{
+		"name": "Atoiri",
+		"leaderName": "Nikau Alu",
+		"adjective": ["Atoiri"],
+		"preferredVictoryType": "Cultural",
+
+		"startIntroPart1": "(Introduction I - incomplete)",
+		"startIntroPart2": "(Introduction II - incomplete)",
+
+		"introduction": "Greetings, I am King Nikau Alu of the Atoiri. The sea calls us, but we never lose our home.",
+		"declaringWar": "Your people will make fine sacrifices.",
+		"attacked": "The thunders of war boom high in the heavens tonight. We will echo their rage.",
+		"defeated": "So this is how it feels to die... Perhaps, in another world, we could have been friends.",
+		"neutralHello": "Aloi (Greetings), fellow king!",
+		"hateHello": "Your taking a dangerous path, my friend.",
+		"tradeRequest": "Come, let our people feast together!",
+		
+		"uniqueName": "Path Of The Homeland",
+		"uniques": ["Can embark and move over Coasts and Oceans immediately","[+3 Culture] in capital","Training of settlers increased +50% in capital"],
+		
+		"cities": ["Atoiri", "Laihe", "Tupai", "Aluhea"],
+		"outerColor": [0, 255, 0],
+		"innerColor": [0, 0, 255]
 	},
 	
 	//City-States
@@ -321,16 +377,17 @@
 		"cities": ["Ghandor"]
 	},
 	{
-		"name": "Atoiri",
-		"adjective": ["Atoiri"],
+		"name": "Hili",
+		"adjective": ["Hili"],
 		"cityStateType": "Cultured",
-		"declaringWar": "Your people will make fine sacrifices.",
-		"attacked": "The thunders of war boom high in the heavens tonight. We will echo their rage.",
-		"defeated": "So this is how it feels to die... Perhaps, in another world, we could have been friends.",
-		"uniques": ["Can embark and move over Coasts and Oceans immediately"],
-		"outerColor": [0, 255, 0],
-		"innerColor": [0, 0, 255],
-		"cities": ["Atoiri"]
+		"declaringWar": "Sacrifices must be made for the barrier!",
+		//"declaringWar": "The barrier between us and the spirit world is frail, and we must ensure it does not weaken any further. For that, there must be sacrifice.",
+		"attacked": "War between our peoples will only serve to strengthen the spirit barrier.",
+		"defeated": "When the spirit world tears into our own, do not be suprised. This was your choice.",
+		"uniques": ["Gains culture from each enemy unit killed"],
+		"outerColor": [0, 255, 105],
+		"innerColor": [255, 95, 0],
+		"cities": ["Hili"]
 	},
 	{
 		"name": "Sangali",
@@ -387,7 +444,7 @@
 		"declaringWar": "The gods demand a sacrifice!",
 		"attacked": "The sun glares at you, aggressors!",
 		"defeated": "You'd better hope I misjudged you. The gods certainly won't.",
-		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities", "Gains culture from each enemy unit killed"],
+		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities", "Gain Culture when you kill a barbarian unit"],
 		"outerColor": [255, 255, 0],
 		"innerColor": [56, 128, 56],
 		"cities": ["Tetku"]

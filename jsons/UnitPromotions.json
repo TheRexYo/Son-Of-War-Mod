@@ -446,11 +446,11 @@
 		"effect": "-10% combat strength for adjacent enemy units"
 	},
 	{
-		"name": "Keepers of the Empire", // only for Homewatcher and subsequent upgrades
+		"name": "Keepers of the Empire", // only for Imperial Guard and subsequent upgrades
 		"effect": "Can build improvements on tiles"
 	},
 	{
-		"name": "Defenders of the Empire", // only for Homewatcher and subsequent upgrades
+		"name": "Defenders of the Empire", // only for Imperial Guard and subsequent upgrades
 		"effect": "+25% Combat Bonus when defending"
 	},
 	{
