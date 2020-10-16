@@ -30,7 +30,7 @@
 		"outerColor": [255, 217, 0],
 		"innerColor": [171, 255, 54],
 		"uniqueName": "Winds Of Genesis",
-		"uniques": ["+[2] Movement for all [Melee] units", "+[2] Movement for all [Mounted] units", "+[2] Movement for all [Siege] units", "+[2] Movement for all [Armor] units", "+[2] Movement for all [Bomber] units", "+[2] Movement for all [Fighter] units"],
+		"uniques": ["+[3] Movement for all [Melee] units", "+[3] Movement for all [Mounted] units", "+[3] Movement for all [Siege] units", "+[3] Movement for all [Armor] units", "+[3] Movement for all [Bomber] units", "+[3] Movement for all [Fighter] units"],
 		"cities": ["Chamera", "Aethil", "Tilford", "Aerol", "Fyrforx", "Tael", "Kalru", "Lanthor", "Solaen",
 			"Tetherin", "Ethr", "Genu", "Whynfor", "Skysol", "Aetherfort", "Skaern", "Dawnlight", "Skyren", "Bahtyr"
 		]
@@ -66,7 +66,7 @@
 		"outerColor": [255, 0, 242],
 		"innerColor": [255, 70, 46],
 		"uniqueName": "Fires Of Ragnarak",
-		"uniques": ["Melee units pay no movement cost to pillage", "New military units start with [15] Experience", "+[2] Movement for all [Siege] units"],
+		"uniques": ["Melee units pay no movement cost to pillage", "New military units start with [30] Experience", "+[25]% Production when constructing [military units]"],
 		"cities": ["Ensdael", "Nightsend", "Abysin", "Pyris", "Altora", "Faenai", "Bator", "Theris", "Ferra",
 			"Magris", "Athr", "Theta", "Horahelm", "Tetrani", "Moondeep", "Lakaeia", "Duskshadow", "Elerea", "Unaia"
 		]
@@ -320,7 +320,7 @@
 		"tradeRequest": "My friend, do you think you can accept this request?",
 		
 		"uniqueName": "Crimson Sun's Blessing",
-		"uniques": ["Great General provides double combat bonus", "[Great General] is earned [50]% faster", "Military units gain 50% more Experience from combat"],
+		"uniques": ["Great General provides double combat bonus", "[Great General] is earned [250]% faster", "Military units gain 50% more Experience from combat"],
 		
 		"cities": ["Dran-Lah'ng", "Shi'dar", "Xian'zin", "Alxi'or"],
 		"outerColor": [252, 53, 3],
@@ -344,7 +344,7 @@
 		"tradeRequest": "Come, let our people feast together!",
 		
 		"uniqueName": "Path Of The Homeland",
-		"uniques": ["Can embark and move over Coasts and Oceans immediately","[+3 Culture] in capital","Training of settlers increased +50% in capital"],
+		"uniques": ["Can embark and move over Coasts and Oceans immediately","[+5 Culture] in capital","+1 happiness for every city connected to capital","Training of settlers increased +50% in capital"],
 		
 		"cities": ["Atoiri", "Laihe", "Tupai", "Aluhea"],
 		"outerColor": [0, 255, 0],
