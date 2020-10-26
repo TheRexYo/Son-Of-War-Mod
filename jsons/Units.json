@@ -558,7 +558,7 @@
 		"rangedStrength": 60,
 		"cost": 325,
 		"requiredTech": "Refrigeration",
-		"uniques": ["Bonus as Attacker [75]%", "Invisible to others", "Can only attack water", "Can attack submarines", "Can enter ice tiles"],
+		"uniques": ["+[75]% Strength when attacking", "Invisible to others", "Can only attack water", "Can attack submarines", "Can enter ice tiles"],
 		"hurryCostModifier": 20
 	},
 	{
@@ -790,7 +790,7 @@
 		"requiredTech": "Horseback Riding",
 		"obsoleteTech": "Metallurgy",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Bonus as Attacker [200]%"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","+[200]% Strength when attacking"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -819,7 +819,7 @@
 		"obsoleteTech": "Metal Casting",
 		"replaces": "Warrior",
 		"upgradesTo": "Swordsman",
-		"uniques": ["Can move after attacking","+33% combat bonus in Forest/Jungle","Ignores terrain cost","May withdraw before melee ([100]%)","Bonus vs Ranged 200%","Bonus as Attacker [200]%"],
+		"uniques": ["Can move after attacking","+33% combat bonus in Forest/Jungle","Ignores terrain cost","May withdraw before melee ([100]%)","Bonus vs Ranged 200%","+[100]% Strength when attacking"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -951,12 +951,12 @@
 		"uniqueTo": "Jharappe",
 		"replaces": "Spearman",
 		"movement": 2,
-		"strength": 16,
-		"cost": 56,
+		"strength": 11,
+		"cost": 55,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["Bonus vs Mounted 25%","+[50]% combat bonus in [Desert]"],
+		"uniques": ["Bonus vs Mounted 25%","+[200]% combat bonus in [Desert]"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},

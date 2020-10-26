@@ -30,7 +30,8 @@
 		"outerColor": [255, 217, 0],
 		"innerColor": [171, 255, 54],
 		"uniqueName": "Winds Of Genesis",
-		"uniques": ["+[3] Movement for all [Melee] units", "+[3] Movement for all [Mounted] units", "+[3] Movement for all [Siege] units", "+[3] Movement for all [Armor] units", "+[3] Movement for all [Bomber] units", "+[3] Movement for all [Fighter] units"],
+		"uniques": ["+[3] Movement for all [Civilian] units", "+[3] Movement for all [Scout] units", "+[3] Movement for all [WaterCivilian] units", "+[3] Movement for all [WaterMelee] units", "+[3] Movement for all [WaterRanged] units", "+[3] Movement for all [Melee] units", "+[3] Movement for all [Mounted] units", "+[3] Movement for all [Ranged] units", "+[3] Movement for all [Siege] units", "+[3] Movement for all [Armor] units", "+[3] Movement for all [Bomber] units", "+[3] Movement for all [Fighter] units"],
+		"uniqueText": "+3 Movement for all units",
 		"cities": ["Chamera", "Aethil", "Tilford", "Aerol", "Fyrforx", "Tael", "Kalru", "Lanthor", "Solaen",
 			"Tetherin", "Ethr", "Genu", "Whynfor", "Skysol", "Aetherfort", "Skaern", "Dawnlight", "Skyren", "Bahtyr"
 		]
@@ -66,7 +67,7 @@
 		"outerColor": [255, 0, 242],
 		"innerColor": [255, 70, 46],
 		"uniqueName": "Fires Of Ragnarak",
-		"uniques": ["Melee units pay no movement cost to pillage", "New military units start with [30] Experience", "+[25]% Production when constructing [military units]"],
+		"uniques": ["Melee units pay no movement cost to pillage", "New [military] units start with [30] Experience", "+[25]% Production when constructing [military units]"],
 		"cities": ["Ensdael", "Nightsend", "Abysin", "Pyris", "Altora", "Faenai", "Bator", "Theris", "Ferra",
 			"Magris", "Athr", "Theta", "Horahelm", "Tetrani", "Moondeep", "Lakaeia", "Duskshadow", "Elerea", "Unaia"
 		]
@@ -172,7 +173,7 @@
 		"innerColor": [255, 217, 0],
 		"uniqueName": "Ruler of Mankind",
 //		"uniques": ["Gain Culture when you kill a barbarian unit", "Notified of new Barbarian encampments", "Receive triple Gold from Barbarian encampments and pillaging Cities", "+[100]% bonus vs Barbarians"],
-		"uniques": ["Gain Culture when you kill a barbarian unit", "Notified of new Barbarian encampments", "Receive triple Gold from Barbarian encampments and pillaging Cities", "+25% bonus vs Barbarians"],
+		"uniques": ["Earn [100]% of [Barbarian] opponent's [Strength] as [Culture] for kills", "Earn [25]% of [Barbarian] opponent's [Cost] as [Gold] for kills", "Notified of new Barbarian encampments", "+25% bonus vs Barbarians"],
 		"cities": ["Alor", "Nerai", "Phorl", "Dehsk", "Fyrin"]
 	},
 	{
@@ -384,7 +385,7 @@
 		//"declaringWar": "The barrier between us and the spirit world is frail, and we must ensure it does not weaken any further. For that, there must be sacrifice.",
 		"attacked": "War between our peoples will only serve to strengthen the spirit barrier.",
 		"defeated": "When the spirit world tears into our own, do not be suprised. This was your choice.",
-		"uniques": ["Gains culture from each enemy unit killed"],
+		"uniques": ["Earn [100]% of [military] opponent's [Strength] as [Culture] for kills"],
 		"outerColor": [0, 255, 105],
 		"innerColor": [255, 95, 0],
 		"cities": ["Hili"]
@@ -444,7 +445,7 @@
 		"declaringWar": "The gods demand a sacrifice!",
 		"attacked": "The sun glares at you, aggressors!",
 		"defeated": "You'd better hope I misjudged you. The gods certainly won't.",
-		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities", "Gain Culture when you kill a barbarian unit"],
+		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities", "Earn [50]% of [military] opponent's [Cost] as [Culture] for kills"],
 		"outerColor": [255, 255, 0],
 		"innerColor": [56, 128, 56],
 		"cities": ["Tetku"]

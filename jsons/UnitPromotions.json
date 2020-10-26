@@ -208,38 +208,38 @@
 	// Submarine
 	{
 		"name": "Wolfpack I",
-		"effect": "Bonus as Attacker [25]%",
+		"effect": "+[25]% Strength when attacking",
 		"unitTypes": ["WaterSubmarine"]
 	},
 	{
 		"name": "Wolfpack II",
 		"prerequisites": ["Wolfpack I"],
-		"effect": "Bonus as Attacker [25]%",
+		"effect": "+[25]% Strength when attacking",
 		"unitTypes": ["WaterSubmarine"]
 	},
 	{
 		"name": "Wolfpack III",
 		"prerequisites": ["Wolfpack II"],
-		"effect": "Bonus as Attacker [25]%",
+		"effect": "+[25]% Strength when attacking",
 		"unitTypes": ["WaterSubmarine"]
 	},
 	
 	// Aircraft Carrier
 	{
 		"name": "Armor Plating I",
-		"effect": "+25% Combat Bonus when defending",
+		"effect": "+[25]% Combat Bonus when defending",
 		"unitTypes": ["WaterAircraftCarrier"]
 	},
 	{
 		"name": "Armor Plating II",
 		"prerequisites": ["Armor Plating I"],
-		"effect": "+25% Combat Bonus when defending",
+		"effect": "+[25]% Combat Bonus when defending",
 		"unitTypes": ["WaterAircraftCarrier"]
 	},
 	{
 		"name": "Armor Plating III",
 		"prerequisites": ["Armor Plating II"],
-		"effect": "+25% Combat Bonus when defending",
+		"effect": "+[25]% Combat Bonus when defending",
 		"unitTypes": ["WaterAircraftCarrier"]
 	},
 	{
@@ -451,7 +451,7 @@
 	},
 	{
 		"name": "Defenders of the Empire", // only for Imperial Guard and subsequent upgrades
-		"effect": "+25% Combat Bonus when defending"
+		"effect": "+[25]% Combat Bonus when defending"
 	},
 	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
