@@ -7,6 +7,7 @@
 		"food": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
+		"building": "Stable"
 	},
 	{
 		"name": "Sheep",
@@ -14,7 +15,8 @@
 		"terrainsCanBeFoundOn": ["Plains","Hill"],
 		"food": 1,
 		"improvement": "Pasture",
-		"improvementStats": {"food": 1}
+		"improvementStats": {"food": 1},
+		"building": "Stable"
 	},
 	{
 		"name": "Deer",
@@ -22,7 +24,8 @@
 		"terrainsCanBeFoundOn": ["Forest","Tundra"],
 		"food": 1,
 		"improvement": "Camp",
-		"improvementStats": {"production": 1}
+		"improvementStats": {"production": 1},
+		"building": "Granary"
 	},
 	{
 		"name": "Bananas",
@@ -30,7 +33,8 @@
 		"terrainsCanBeFoundOn": ["Jungle"],
 		"food": 1,
 		"improvement": "Plantation",
-		"improvementStats": {"food": 2,"production": -1}
+		"improvementStats": {"food": 2,"production": -1},
+		"building": "Granary"
 	},
 	{
 		"name": "Wheat",
@@ -38,7 +42,8 @@
 		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"],
 		"food": 1,
 		"improvement": "Farm",
-		"improvementStats": {"food": 1}
+		"improvementStats": {"food": 1},
+		"building": "Granary"
 	},
 	{
 		"name": "Stone",
@@ -47,6 +52,7 @@
 		"production": 1,
 		"improvement": "Quarry",
 		"improvementStats": {"production": 1},
+		"building": "Stone Works"
 	},
 	{
 		"name": "Fish",
@@ -54,7 +60,8 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"improvement": "Fishing Boats",
-		"improvementStats": {"food": 1}
+		"improvementStats": {"food": 1},
+		"building": "Lighthouse"
 	},
 	/*
 	{
@@ -63,7 +70,8 @@
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
 		"food": 1,
 		"improvement": "Camp",
-		"improvementStats": {"food": 1}
+		"improvementStats": {"food": 1},
+		"building": "Granary"
 	},
 	*/
 	
@@ -75,7 +83,8 @@
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill","Desert"],
 		"production": 1,
 		"improvement": "Pasture",
-		"improvementStats": {"production": 1}
+		"improvementStats": {"production": 1},
+		"building": "Stable"
 	},
 	{
 		"name": "Iron",
@@ -84,7 +93,8 @@
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill"],
 		"production": 1,
 		"improvement": "Mine",
-		"improvementStats": {"production": 1}
+		"improvementStats": {"production": 1},
+		"building": "Forge"
 	},
 	{
 		"name": "Coal",
@@ -157,12 +167,13 @@
 		"improvementStats": {"gold": 1}
 	},
 	{
-		"name": "Gold Ore", // Not called "Gold" in order to not conflict with siege type units for translations
+		"name": "Gold",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Hill"],
 		"gold": 2,
 		"improvement": "Mine",
-		"improvementStats": {"gold": 1}
+		"improvementStats": {"gold": 1},
+		"building": "Mint"
 	},
 	{
 		"name": "Silver",
@@ -170,7 +181,8 @@
 		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill"],
 		"gold": 2,
 		"improvement": "Mine",
-		"improvementStats": {"gold": 1}
+		"improvementStats": {"gold": 1},
+		"building": "Mint"
 	},
 	{
 		"name": "Incense",
@@ -178,7 +190,8 @@
 		"terrainsCanBeFoundOn": ["Plains","Desert"],
 		"gold": 2,
 		"improvement": "Plantation",
-		"improvementStats": {"gold": 1}
+		"improvementStats": {"gold": 1},
+		"building": "Monastery"
 	},
 	{
 		"name": "Ivory",
@@ -210,7 +223,8 @@
 		"terrainsCanBeFoundOn": ["Grassland","Plains"],
 		"gold": 2,
 		"improvement": "Plantation",
-		"improvementStats": {"gold": 1}
+		"improvementStats": {"gold": 1},
+		"building": "Monastery"
 	},
 	{
 		"name": "Sugar",
@@ -227,7 +241,8 @@
 		"gold": 2,
 		"improvement": "Quarry",
 		"improvementStats": {"gold": 1,"production": 1},
-		"unique": "+15% production towards Wonder construction"
+		"unique": "+15% production towards Wonder construction",
+		"building": "Stone Works"
 	},
 	{
 		"name": "Whales",
@@ -245,18 +260,6 @@
 		"gold": 2,
 		"improvement": "Fishing Boats",
 		"improvementStats": {"food": 1}
-	},
-	{
-		"name": "Jewelry",
-		"resourceType": "Luxury",
-		"gold": 2,
-		"unique": "Can only be created by Mercantile City-States"
-	},
-	{
-		"name": "Porcelain",
-		"resourceType": "Luxury",
-		"gold": 2,
-		"unique": "Can only be created by Mercantile City-States"
 	}
 	/*
 	{
@@ -267,6 +270,7 @@
 		"gold": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"food": 1,"gold": 1},
+		"building": "Granary"
 	},
 	{
 		"name": "Copper",
