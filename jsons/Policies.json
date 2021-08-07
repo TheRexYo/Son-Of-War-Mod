@@ -132,7 +132,8 @@
 				"uniques": ["Earn [10]% of killed [Military] unit's [Cost] as [Gold]"]
 			}
 		]
-	},{
+	},
+	{
 		"name": "Piety",
 		"era": "Classical era",
 		"uniques": ["+[15]% Production when constructing [Culture] buildings", "Incompatible with [Rationalism]"],
