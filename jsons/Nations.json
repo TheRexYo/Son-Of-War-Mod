@@ -350,7 +350,72 @@
 		"outerColor": [0, 255, 0],
 		"innerColor": [0, 0, 255]
 	},
-	
+	{
+		"name": "Noraska",
+		"leaderName": "Leone Vggrsol",
+		"adjective": ["Noraskan"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "We admire your strength, great chieftain Leone Vggrsol. The frozen air tears at you like hundreds of daggers stabbing into your back, yet you always persist. The people of Noraska would be much the lesser without your guidance. Your tribe, and your people, are masters of the ocean, travelling to other lands to loot whatever you can find, burning the rest to the ground. As long as your lungs draw breath, the world will know fear.",
+		"startIntroPart2": "O' mighty Leone, will you take up your axe and bring your people power and glory? Will you once again bring the chill of the north to your foes? Will you build a civilization that stands the test of time?",
+
+		"declaringWar": "My blood, how it yearns for battle! Now, we fight!",
+		"attacked": "Ohoho! Bringing the battle to us, eh? Admirable, but foolish.",
+		"defeated": "Finally... this dreadful cold... I can leave it all behind...",
+		"introduction": "Ahaha! A contender! We'll see what you're capable of soon enough.",
+
+		"neutralHello": "Eh? What brings you here?",
+		"neutralLetsHearIt": ["Well, what are you waiting for? Speak!"],
+		"neutralNo": ["There's plenty o' better options out there. I'll pass."],
+		"neutralYes": ["Ah, someone speaks with wisdom! I'll be acceptin' your proposal."],
+
+		"hateHello": "Leave my lands, stranger!",
+		"hateLetsHearIt": ["If ye' going to speak, do it now."],
+		"hateNo": ["A weak proposal, much like its creator."],
+		"hateYes": ["I'll agree on this one, now get off my land."],
+
+		"afterPeace": "Hmm... My thirst for battle is quenched; you are strong indeed. Perhaps we shall fight again sometime.",
+		"tradeRequest": "How about a deal, eh?",
+		"outerColor": [255, 0, 0],
+		"innerColor": [0, 0, 255],
+		"uniqueName": "Fury of the North",
+		"uniques": ["Can only heal by pillaging", "+[2] Movement for all [Melee] units", "+[25]% Production when constructing [Melee] units [in all cities]", "+[3] Sight for all [Embarked] units", "Embarked units can defend themselves", "+1 Movement for all embarked units", "Units pay only 1 movement point to embark and disembark", "Melee units pay no movement cost to pillage"],
+		"cities": ["Norkar", "Fygyr", "Ygglor", "Vungur", "Verdolir"]
+	},
+	{
+		"name": "Kharn'dii",
+		"leaderName": "Arilla Zi'la",
+		"adjective": ["Kharn'diian"],
+		"startBias": ["Avoid [Jungle]", "Avoid [Forest]"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "The most successful barbarian empire ever to exist, the Kharndii were a ruthless force that travelled the world in massive hordes, taking everything in their path.",
+		"startIntroPart2": "Will you build a civilization that stands the test of time?",
+		
+		"declaringWar": "The horde calls!",
+		"attacked": "You're starting to become a problem to me; a mistake you won't live long enough to learn from.",
+		"defeated": "So much power... how could we have lost?",
+		"introduction": "Death is nothing new to us, stranger. Even the Wasteraiders know well enough to leave us be.",
+
+		"neutralHello": "What now?",
+		"neutralLetsHearIt": ["Speak."],
+		"neutralNo": ["I don't have much patience for weaklings."],
+		"neutralYes": ["So be it."],
+
+		"hateHello": "Leave my lands, stranger!",
+		"hateLetsHearIt": ["Speak, before I cut your tongue out!"],
+		"hateNo": ["A waste of my time. Be glad I don't just end your pitiful life on the spot!"],
+		"hateYes": ["I accept. Leave now, before I change my mind."],
+
+		"afterPeace": "We shall cease our raiding, if only for a moment. Fortune favors the bold; don't expect this to last long.",
+		"tradeRequest": "I bring an offer. Accept it, lest your people become an obstacle to my horde.",
+		"outerColor": [255, 0, 0],
+		"innerColor": [0, 0, 255],
+		"uniqueName": "The Endless Horde",
+		"uniques": ["Can only heal by pillaging", "+[100]% Production when constructing [Military] units [in all cities]", "Cities are razed [5] times as fast", "\"Borrows\" city names from other civilizations in the game"],
+		"cities": ["Kharn"]
+	},
 	//City-States
 	{
 		"name": "Rhal'tu",

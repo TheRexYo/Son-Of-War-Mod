@@ -1186,6 +1186,40 @@
 		"attackSound": "nonmetalhit"
 	},
 	*/
+	
+	{
+		"name": "Tidemaster",
+		"unitType": "WaterRanged",
+		"replaces": "Galleass",
+		"uniqueTo": "Noraska",
+		"movement": 1,
+		"strength": 45,
+		"rangedStrength": 45,
+		"range": 3,
+		"cost": 200,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Navigation",
+		"upgradesTo": "Frigate",
+		"uniques": ["+[25]% Strength vs [City]",],
+		"hurryCostModifier": 20,
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Stormscourge",
+		"unitType": "WaterMelee",
+		"replaces": "Caravel",
+		"uniqueTo": "Noraska",
+		"movement": 8,
+		"strength": 20,
+		"cost": 90,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": ["[+1] Visibility Range", "Can move after attacking"],
+		"hurryCostModifier": 20,
+		"attackSound": "arrow"
+	},
+	
 	//City-State Uniques
 	{
 		"name": "Shanin",
