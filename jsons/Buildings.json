@@ -163,7 +163,7 @@
 		"name": "Barracks",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["New [Military] units start with [15] Experience [in this city]"]
+		"uniques": ["New [Military] units start with [15] Experience [in this city]"],
 		"requiredTech": "Bronze Working"
 	},
 	{
@@ -244,7 +244,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"requiredTech": "Mathematics",
-		"uniques": ["Provides a free [Garden] [in this city]"]
+		"uniques": ["Provides a free [Garden] [in this city]"],
 		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.'  - F. Frankfort Moore"
 	},
 	{
@@ -628,7 +628,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
-		"uniques": ["New [Military] units start with [15] Experience [in this city]"]
+		"uniques": ["New [Military] units start with [15] Experience [in this city]"],
 		"requiredTech": "Steel"
 	},
 
@@ -1156,7 +1156,7 @@
 		"production": 4,
 		"food": 4,
 		"science": 4,
-		"percentStatBonus": {"production": -50, "science": -50, "food": -50},
+		"percentStatBonus": {"production": -50, "science": -50, "food": -50}
 	},
 	{
 		"name": "Spawn Pools (Ssuvi)",

@@ -6,7 +6,7 @@
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"food": 1,
 		"improvement": "Pasture",
-		"improvementStats": {"production": 1},
+		"improvementStats": {"production": 1}
 	},
 	{
 		"name": "Sheep",
@@ -46,7 +46,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Desert","Snow"],
 		"production": 1,
 		"improvement": "Quarry",
-		"improvementStats": {"production": 1},
+		"improvementStats": {"production": 1}
 	},
 	{
 		"name": "Fish",
