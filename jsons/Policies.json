@@ -132,8 +132,7 @@
 				"uniques": ["Earn [10]% of killed [Military] unit's [Cost] as [Gold]"]
 			}
 		]
-	},
-	{
+	},{
 		"name": "Piety",
 		"era": "Classical era",
 		"uniques": ["+[15]% Production when constructing [Culture] buildings", "Incompatible with [Rationalism]"],
@@ -261,7 +260,7 @@
 			},
 			{
 				"name": "Mercantilism",
-				"uniques": ["Cost of purchasing items in cities reduced by [25]%", "[+1 Science] from every [Mint]", "[+1 Science] from every [Market]",
+				"uniques": ["[Gold] cost of purchasing items in cities [-25]%", "[+1 Science] from every [Mint]", "[+1 Science] from every [Market]",
 					"[+1 Science] from every [Bank]", "[+1 Science] from every [Stock Exchange]"],
 				"requires": ["Trade Unions"],
 				"row": 2,
@@ -382,7 +381,7 @@
 			},
 			{
 				"name": "Militarism",
-				"uniques": ["Gold cost of purchasing [All] units -[33]%"],
+				"uniques": ["[Gold] cost of purchasing [All] units [-33]%"],
 				"row": 1,
 				"column": 5
 			},
