@@ -10,7 +10,7 @@
 				"row": 5,
 				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
 				"uniques": ["Starting tech"]
-			},
+			}/*,
 			// Special Starting Techs
 			//+[amount]% attack strength to all [unitFilter] units for [amount] turn
 			{
@@ -18,11 +18,8 @@
 				"row": 1,
 				"quote": "... The golden sun's rise shall mark the start, granting us a centuries' strength. The forces of mankind, now in part, will fail to stop our coming. With might and light of fated grace, the Sauroids shall return...",
 				"uniques": ["Incompatible with [Agriculture]", "+[100]% attack strength to all [Military] units for [50] turns",  "[2] Free Social Policies", "[2] Free Technologies", "Empire enters golden age"]
-				/*
-				"prerequisites": ["Unresearchable"],
-				"uniques": ["+[100]% attack strength to all [Military] units for [50] turns",  "[2] Free Social Policies", "[2] Free Technologies", "Empire enters golden age"]
-				*/
 			}
+			*/
 		]
 	},
 	{
