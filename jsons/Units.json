@@ -1200,7 +1200,7 @@
 		"requiredTech": "Compass",
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Frigate",
-		"uniques": ["+[25]% Strength vs [City]",],
+		"uniques": ["+[25]% Strength vs [Water]"],
 		"hurryCostModifier": 20,
 		"attackSound": "arrow"
 	},
