@@ -28,7 +28,7 @@
 		"tradeRequest": "Greetings, friends. May our bonds grow stronger with this proposal.",
 
 		"outerColor": [255, 217, 0],
-		"innerColor": [171, 255, 54],
+		"innerColor": [86, 128, 27],
 		"uniqueName": "Winds Of Genesis",
 		"uniques": ["[+3] Movement"],
 		"cities": ["Chamera", "Aethil", "Tilford", "Aerol", "Fyrforx", "Tael", "Kalru", "Lanthor", "Solaen",
@@ -64,7 +64,7 @@
 		"tradeRequest": "I hope you'll accept this proposal. I'd be ashamed if I had to kill you.",
 
 		"outerColor": [255, 0, 242],
-		"innerColor": [255, 70, 46],
+		"innerColor": [128, 35, 23],
 		"uniqueName": "Fires Of Ragnarak",
 		"uniques": ["Melee units pay no movement cost to pillage", "New [Military] units start with [30] Experience [in all cities]", "+[25]% Production when constructing [military units]"],
 		"cities": ["Ensdael", "Nightsend", "Abysin", "Pyris", "Altora", "Faenai", "Bator", "Theris", "Ferra",
@@ -100,7 +100,7 @@
 		"tradeRequest": "I have long forseen this deal, though it is not in my power to predict the will of another's soul. Choose your path wisely, and perhaps fate will lead us to prosperity.",
 
 		"outerColor": [255, 255, 0],
-		"innerColor": [255, 187, 0],
+		"innerColor": [128, 94, 0],
 		"uniqueName": "The Elder's Prophecy",
 		"uniques": ["Starts with [The Elder's Prophecy]"],
 		//"uniques": ["Golden Age length increased by [50]%", "+1 Movement for all units during Golden Age", "+10% Strength for all units during Golden Age"],

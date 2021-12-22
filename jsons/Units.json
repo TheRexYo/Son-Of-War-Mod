@@ -1189,7 +1189,7 @@
 	
 	{
 		"name": "Tidemaster",
-		"unitType": "WaterRanged",
+		"unitType": "Ranged Water",
 		"replaces": "Galleass",
 		"uniqueTo": "Noraska",
 		"movement": 1,
@@ -1200,13 +1200,13 @@
 		"requiredTech": "Compass",
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Frigate",
-		"uniques": ["+[25]% Strength vs [Water]"],
+		"uniques": ["+[50]% Strength vs [Water]"],
 		"hurryCostModifier": 20,
 		"attackSound": "arrow"
 	},
 	{
 		"name": "Stormscourge",
-		"unitType": "WaterMelee",
+		"unitType": "Melee Water",
 		"replaces": "Caravel",
 		"uniqueTo": "Noraska",
 		"movement": 8,
@@ -1256,7 +1256,7 @@
 	},
 	{
 		"name": "Reaver",
-		"unitType": "WaterRanged",
+		"unitType": "Ranged Water",
 		"uniqueTo": "Yate",
 		"replaces": "Caravel",
 		"movement": 5,
@@ -1270,7 +1270,7 @@
 	},
 	{
 		"name": "Rhalerion",
-		"unitType": "WaterMelee",
+		"unitType": "Melee Water",
 		"uniqueTo": "Rhal'tu",
 		"replaces": "Caravel",
 		"movement": 4,
