@@ -7,7 +7,7 @@
 		"techs": [
 			{
 				"name": "Agriculture",
-				"row": 5,
+				"row": 6,
 				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
 				"uniques": ["Starting tech"]
 			},
@@ -274,7 +274,7 @@
 			{
 				"name": "Astronomy",
 				"row": 2,
-				"uniques": ["Increases embarked movement +1","Enables embarked units to enter ocean tiles"],
+				"uniques": ["[+1] Movement <for [Embarked] units>","Enables embarked units to enter ocean tiles"],
 				"prerequisites": ["Compass","Education"],
 				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
 			},
@@ -287,7 +287,7 @@
 			{
 				"name": "Banking",
 				"row": 6,
-				"prerequisites": ["Chivalry"],
+				"prerequisites": ["Chivalry", "Education"],
 				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
 			},
 			{
@@ -353,7 +353,7 @@
 			{
 				"name": "Archaeology",
 				"row": 2,
-				"prerequisites": ["Navigation"],
+				"prerequisites": ["Navigation","Architecture"],
 				"quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
 			},
 			{
@@ -410,7 +410,7 @@
 			{
 				"name": "Steam Power",
 				"row": 6,
-				"uniques": ["Increases embarked movement +1"],
+				"uniques": ["[+1] Movement <for [Embarked] units>"],
 				"prerequisites": ["Industrialization","Scientific Theory","Rifling"],
 				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
 			},

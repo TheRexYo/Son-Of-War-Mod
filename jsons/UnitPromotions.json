@@ -9,44 +9,44 @@
 	// Ranged+Siege
 	{
 		"name": "Accuracy I",
-		"uniques": ["+[15]% Strength in [Open terrain]"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
 	},
 	{
 		"name": "Accuracy II",
 		"prerequisites": ["Accuracy I"],
-		"uniques": ["+[15]% Strength in [Open terrain]"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
 	},
 	{
 		"name": "Accuracy III",
 		"prerequisites": ["Accuracy II"],
-		"uniques": ["+[15]% Strength in [Open terrain]"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
 	},
 
 	{
 		"name": "Barrage I",
-		"uniques": ["+[15]% Strength in [Rough terrain]"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
 	},
 	{
 		"name": "Barrage II",
 		"prerequisites": ["Barrage I"],
-		"uniques": ["+[15]% Strength in [Rough terrain]"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
 	},
 	{
 		"name": "Barrage III",
 		"prerequisites": ["Barrage II"],
-		"uniques": ["+[15]% Strength in [Rough terrain]"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
 	},
 
 	{
 		"name": "Volley",
 		"prerequisites": ["Accuracy I","Barrage I"],
-		"uniques": ["+[50]% Strength vs [City]"],
+		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["Archery","Ranged Gunpowder","Siege"]
 	},
 	{
@@ -65,61 +65,61 @@
 	// Melee, Mounted+Armor
 	{
 		"name": "Shock I",
-		"uniques": ["+[15]% Strength in [Open terrain]"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"]
 	},
 	{
 		"name": "Shock II",
 		"prerequisites": ["Shock I"],
-		"uniques": ["+[15]% Strength in [Open terrain]"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"]
 	},
 	{
 		"name": "Shock III",
 		"prerequisites": ["Shock II"],
-		"uniques": ["+[15]% Strength in [Open terrain]"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"]
 	},
 
 	{
 		"name": "Drill I",
-		"uniques": ["+[15]% Strength in [Rough terrain]"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"]
 	},
 	{
 		"name": "Drill II",
 		"prerequisites": ["Drill I"],
-		"uniques": ["+[15]% Strength in [Rough terrain]"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"]
 	},
 	{
 		"name": "Drill III",
 		"prerequisites": ["Drill II"],
-		"uniques": ["+[15]% Strength in [Rough terrain]"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"]
 	},
 	{
 		"name": "Charge",
 		"prerequisites": ["Shock II","Drill II"],
-		"uniques": ["+[33]% Strength vs [wounded units]"],
+		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
 		"unitTypes": ["Mounted","Armored"]
 	},
 	{
 		"name": "Besiege", // Not called "Siege" in order to not conflict with siege type units for translations
 		"prerequisites": ["Shock II","Drill II"],
-		"uniques": ["+[50]% Strength vs [City]"],
+		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["Sword","Gunpowder"]
 	},
 	{
 		"name": "Formation I",
 		"prerequisites": ["Shock II","Drill II"], // G&K also has Accuracy II & Barrage II as possible prerequisites for this, but I couldn't find a source for the unittypes
-		"uniques": ["+[33]% Strength vs [Mounted]"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted"]
 	},
 	{
 		"name": "Formation II",
 		"prerequisites": ["Formation I"],
-		"uniques": ["+[33]% Strength vs [Mounted]"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted"]
 	},
 
@@ -132,9 +132,7 @@
 	{
 		"name": "Woodsman",
 		"prerequisites": ["Shock III","Drill III"],
-		"uniques": ["Double movement rate through Forest and Jungle"],
-		// This could be generalized: ["-[50]% movement costs through [Forest] tiles", "-[50]% movement costs through [Jungle] tiles"],
-		// but with how getMovementCostBetweenAdjacentTiles() is optimized, that's difficult to implement.
+		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]"],
 		"unitTypes": ["Sword","Gunpowder"]
 	},
 	{
@@ -146,26 +144,26 @@
 	{
 		"name": "Medic",
 		"prerequisites": ["Shock I", "Drill I", "Scouting II", "Survivalism II"],
-		"uniques": ["[+5] HP when healing", "All adjacent units heal [5] HP when healing"],
+		"uniques": ["All adjacent units heal [+5] HP when healing"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout"]
 	},
 	{
 		"name": "Medic II",
 		"prerequisites": ["Medic"],
-		"uniques": ["[+5] HP when healing", "[+5] HP when healing in [Foreign Land] tiles", "All adjacent units heal [5] HP when healing"],
+		"uniques": ["[+5] HP when healing in [Foreign Land] tiles", "All adjacent units heal [+5] HP when healing"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout"]
 	},
 
 	// Scout
 	{
 		"name": "Scouting I",
-		"uniques": ["[+1] Visibility Range"],
+		"uniques": ["[+1] Sight"],
 		"unitTypes": ["Scout"]
 	},
 	{
 		"name": "Scouting II",
 		"prerequisites": ["Scouting I"],
-		"uniques": ["[+1] Visibility Range"],
+		"uniques": ["[+1] Sight"],
 		"unitTypes": ["Scout"]
 	},
 	{
@@ -176,13 +174,13 @@
 	},
 	{
 		"name": "Survivalism I",
-		"uniques": ["[+5] HP when healing in [Foreign Land] tiles", "+[25]% Strength when defending"],
+		"uniques": ["[+5] HP when healing in [Foreign Land] tiles", "[+25]% Strength <when defending>"],
 		"unitTypes": ["Scout"]
 	},
 	{
 		"name": "Survivalism II",
 		"prerequisites": ["Survivalism I"],
-		"uniques": ["[+5] HP when healing in [Foreign Land] tiles", "+[25]% Strength when defending"],
+		"uniques": ["[+5] HP when healing in [Foreign Land] tiles", "[+25]% Strength <when defending>"],
 		"unitTypes": ["Scout"]
 	},
 	{
@@ -196,94 +194,94 @@
 	// Water melee
 	{
 		"name": "Boarding Party I",
-		"uniques": ["+[15]% Strength vs [water units]"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Melee Water"]
 	},
 	{
 		"name": "Boarding Party II",
 		"prerequisites": ["Boarding Party I"],
-		"uniques": ["+[15]% Strength vs [water units]"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Melee Water"]
 	},
 	{
 		"name": "Boarding Party III",
 		"prerequisites": ["Boarding Party II"],
-		"uniques": ["+[15]% Strength vs [water units]"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Melee Water"]
 	},
 
 	{
 		"name": "Coastal Raider I",
-		"uniques": ["+[20]% Strength vs [City]", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
 		"unitTypes": ["Melee Water"]
 	},
 	{
 		"name": "Coastal Raider II",
 		"prerequisites": ["Coastal Raider I"],
-		"uniques": ["+[20]% Strength vs [City]", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
 		"unitTypes": ["Melee Water"]
 	},
 	{
 		"name": "Coastal Raider III",
 		"prerequisites": ["Coastal Raider II"],
-		"uniques": ["+[20]% Strength vs [City]", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
 		"unitTypes": ["Melee Water"]
 	},
 
 	// Water Ranged
 	{
 		"name": "Targeting I",
-		"uniques": ["+[15]% Strength vs [water units]"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Ranged Water"]
 	},
 	{
 		"name": "Targeting II",
 		"prerequisites": ["Targeting I"],
-		"uniques": ["+[15]% Strength vs [water units]"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Ranged Water"]
 	},
 	{
 		"name": "Targeting III",
 		"prerequisites": ["Targeting II"],
-		"uniques": ["+[15]% Strength vs [water units]"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Ranged Water"]
 	},
 
 	// Submarine
 	{
 		"name": "Wolfpack I",
-		"uniques": ["+[25]% Strength when attacking"],
+		"uniques": ["[+25]% Strength <when attacking>"],
 		"unitTypes": ["Submarine"]
 	},
 	{
 		"name": "Wolfpack II",
 		"prerequisites": ["Wolfpack I"],
-		"uniques": ["+[25]% Strength when attacking"],
+		"uniques": ["[+25]% Strength <when attacking>"],
 		"unitTypes": ["Submarine"]
 	},
 	{
 		"name": "Wolfpack III",
 		"prerequisites": ["Wolfpack II"],
-		"uniques": ["+[25]% Strength when attacking"],
+		"uniques": ["[+25]% Strength <when attacking>"],
 		"unitTypes": ["Submarine"]
 	},
 
 	// Aircraft Carrier
 	{
 		"name": "Armor Plating I",
-		"uniques": ["+[25]% Strength when defending"],
+		"uniques": ["[+25]% Strength <when defending>"],
 		"unitTypes": ["Aircraft Carrier"]
 	},
 	{
 		"name": "Armor Plating II",
 		"prerequisites": ["Armor Plating I"],
-		"uniques": ["+[25]% Strength when defending"],
+		"uniques": ["[+25]% Strength <when defending>"],
 		"unitTypes": ["Aircraft Carrier"]
 	},
 	{
 		"name": "Armor Plating III",
 		"prerequisites": ["Armor Plating II"],
-		"uniques": ["+[25]% Strength when defending"],
+		"uniques": ["[+25]% Strength <when defending>"],
 		"unitTypes": ["Aircraft Carrier"]
 	},
 	{
@@ -315,19 +313,19 @@
 	// Bomber
 	{
 		"name": "Siege I",
-		"uniques": ["+[33]% Strength vs [City]"],
+		"uniques": ["[+33]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"]
 	},
 	{
 		"name": "Siege II",
 		"prerequisites": ["Siege I"],
-		"uniques": ["+[33]% Strength vs [City]"],
+		"uniques": ["[+33]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"]
 	},
 	{
 		"name": "Siege III",
 		"prerequisites": ["Siege II"],
-		"uniques": ["+[34]% Strength vs [City]"],
+		"uniques": ["[+34]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"]
 	},
 	{
@@ -377,20 +375,20 @@
 
 	{
 		"name": "Air Targeting I",
-		"prerequisites": ["Interception I","Dogfighting I", "Siege I","Bombardment I"],
-		"uniques": ["+[33]% Strength vs [water units]"],
+		"prerequisites": ["Interception I","Siege I","Bombardment I"],  // "Dogfighting I"
+		"uniques": ["[+33]% Strength <vs [Water] units>"],
 		"unitTypes": ["Fighter","Bomber"]
 	},
 	{
 		"name": "Air Targeting II",
 		"prerequisites": ["Air Targeting I"],
-		"uniques": ["+[33]% Strength vs [water units]"],
+		"uniques": ["[+33]% Strength <vs [Water] units>"],
 		"unitTypes": ["Fighter","Bomber"]
 	},
 
 	{
 		"name": "Sortie",
-		"prerequisites": ["Interception II", "Dogfighting II"],
+		"prerequisites": ["Interception II"],  // "Dogfighting II"
 		"uniques": ["[1] extra interceptions may be made per turn"],
 		"unitTypes": ["Fighter"]
 	},
@@ -422,25 +420,26 @@
 	},
 	{
 		"name": "Anti-Armor I",
-		"uniques": ["+[25]% vs [Armored]"],
-		"unitTypes:": ["Helicopter"]
+		"uniques": ["[+25]% Strength <vs [Armored] units>"],
+		"unitTypes": ["Helicopter"]
 	},
 	{
 		"name": "Anti-Armor II",
-		"uniques": ["+[25]% vs [Armored]"],
-		"unitTypes:": ["Helicopter"]
+		"prerequisites": ["Anti-Armor I"],
+		"uniques": ["[+25]% Strength <vs [Armored] units>"],
+		"unitTypes": ["Helicopter"]
 	},
 
 	// Mixed
 	{
 		"name": "Cover I",
-		"uniques": ["[+33]% Strength when defending vs [Ranged] units"],
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege"]
 	},
 	{
 		"name": "Cover II",
 		"prerequisites": ["Cover I"],
-		"uniques": ["[+33]% Strength when defending vs [Ranged] units"],
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege"]
 	},
 
@@ -460,7 +459,7 @@
 	{
 		"name": "Sentry",
 		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
-		"uniques": ["[+1] Visibility Range"],
+		"uniques": ["[+1] Sight"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Ranged Water","Armored","Melee Water"]
 	},
 	{
@@ -473,13 +472,13 @@
 
 	{
 		"name": "Ambush I",
-		"uniques": ["+[33]% Strength vs [Armored]"],
+		"uniques": ["[+33]% Strength <vs [Armored] units>"],
 		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber"]
 	},
 	{
 		"name": "Ambush II",
 		"prerequisites": ["Ambush I"],
-		"uniques": ["+[33]% Strength vs [Armored]"],
+		"uniques": ["[+33]% Strength <vs [Armored] units>"],
 		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber"]
 	},
 
@@ -487,55 +486,65 @@
 	// Water ranged and air units
 	{
 		"name": "Bombardment I",
-		"uniques": ["+[33]% Strength vs [land units]"],
+		"uniques": ["[+33]% Strength <vs [Land] units>"],
 		"unitTypes": ["Ranged Water","Fighter","Bomber"]
 	},
 	{
 		"name": "Bombardment II",
 		"prerequisites": ["Bombardment I"],
-		"uniques": ["+[33]% Strength vs [land units]"],
+		"uniques": ["[+33]% Strength <vs [Land] units>"],
 		"unitTypes": ["Ranged Water","Fighter","Bomber"]
 	},
 	{
 		"name": "Bombardment III",
 		"prerequisites": ["Bombardment II"],
-		"uniques": ["+[34]% Strength vs [land units]"],
+		"uniques": ["[+34]% Strength <vs [Land] units>"],
 		"unitTypes": ["Ranged Water","Fighter","Bomber"]
 	},
 
 	// Nation Uniques
 	{
 		"name": "Strength of Xagge",
-		"uniques": ["+[100]% Strength vs [City]"]
+		"uniques": ["[+100]% Strength <vs cities>"]
 	},
 	
 	// Building Uniques
 	{
 		"name": "Morale", // Heroic Epic
-		"uniques": ["+[15]% Combat Strength"]
+		"uniques": ["[+15]% Strength"]
 	},
 	{
 		"name": "Blessing Of The Sun", // only for units built in cities with "Spawn Pools of the Sun"
-		"effect": "All healing effects doubled"
+		"uniques": ["All healing effects doubled"]
 	},
 	{
 		"name": "Blessing Of The Jungle", // only for units built in cities with "Spawn Pools of the Jungle
-		"effect": "Double movement rate through Forest and Jungle"
+		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]"]
 	},
-	
+		
 	// Unit Uniques
 	{
 		"name": "Keepers of the Empire", // only for Imperial Guard and subsequent upgrades
-		"effect": "Can build improvements on tiles"
+		"uniques": ["Can build [Land] improvements on tiles"]
 	},
 	{
 		"name": "Defenders of the Empire", // only for Imperial Guard and subsequent upgrades
-		"effect": "+[25]% Combat Bonus when defending"
+		"uniques": ["[+25]% Strength <when defending>"]
 	},
-	
+
 	// Terrain Uniques
 	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
 		"uniques": ["All healing effects doubled"]
+	},
+
+	// Special Uniques
+	{
+		"name": "Ignore terrain cost",
+		"uniques": ["Ignores terrain cost"]
+	},
+	{
+		"name": "Commandeer",
+		"uniques": ["May capture killed [Water] units"]
 	}
 ]
