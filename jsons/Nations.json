@@ -68,7 +68,7 @@
 		"outerColor": [255, 0, 242],
 		"innerColor": [128, 35, 23],
 		"uniqueName": "Fires Of Ragnarak",
-		"uniques": ["Melee units pay no movement cost to pillage", "New [Military] units start with [30] Experience [in all cities]", "[+25]% Production when constructing [Military] units [in all cities]"],
+		"uniques": ["No movement cost to pillage <for [Melee] units>", "New [Military] units start with [30] Experience [in all cities]", "[+25]% Production when constructing [Military] units [in all cities]"],
 		"cities": ["Ensdael", "Nightsend", "Abysin", "Pyris", "Altora", "Faenai", "Bator", "Theris", "Ferra",
 			"Magris", "Athr", "Theta", "Horahelm", "Tetrani", "Moondeep", "Lakaeia", "Duskshadow", "Elerea", "Unaia"
 		]
@@ -106,7 +106,7 @@
 		"innerColor": [128, 94, 0],
 		"uniqueName": "The Elder's Prophecy",
 		"uniques": ["Starts with [The Elder's Prophecy]", "[+1] Movement <for [All] units> <during a Golden Age>"],
-		//"uniques": ["Golden Age length increased by [50]%", "+1 Movement for all units during Golden Age", "+10% Strength for all units during Golden Age"],
+		//"uniques": ["[+50]% Golden Age length", "+1 Movement for all units during Golden Age", "+10% Strength for all units during Golden Age"],
 		//"uniques": ["Starts the game in a [50] turn golden age","Starts the game with [300] additional gold","Starts the game with [2] free policies available","Starts the game with [1] free techs available"],
 		//"uniques": ["Starts the game in a [50] turn golden age","+[100]% Unit Strength before turn [40]","Starts the game with [300] additional gold","Starts the game with [2] free policies available","Starts the game with [1] free techs available"],
 		"cities": ["Ssu", "Taka'zul", "Akiltzi", "Meccti", "Sarak"]
@@ -329,7 +329,7 @@
 		"tradeRequest": "My friend, do you think you can accept this request?",
 		
 		"uniqueName": "Crimson Sun's Blessing",
-		"uniques": ["Great General provides double combat bonus", "[Great General] is earned [250]% faster", "[Military] units gain [100]% more Experience from combat"],
+		"uniques": ["Great General provides double combat bonus", "[Great General] is earned [250]% faster", "[100]% XP gained from combat <for [Military] units>"],
 		
 		"cities": ["Dran-Lah'ng", "Shi'dar", "Xian'zin", "Alxi'or"],
 		"outerColor": [252, 53, 3],
@@ -392,7 +392,7 @@
 		"outerColor": [255, 0, 0],
 		"innerColor": [0, 0, 255],
 		"uniqueName": "Fury of the North",
-		"uniques": ["Can only heal by pillaging", "[+1] Movement <for [Melee] units>", "[+50]% Production when constructing [Melee] units [in all cities]", "+[3] Sight for all [Embarked] units", "Embarked units can defend themselves", "[+1] Movement <for [Embarked] units>", "Units pay only 1 movement point to disembark", "Melee units pay no movement cost to pillage"],
+		"uniques": ["Can only heal by pillaging", "[+1] Movement <for [Melee] units>", "[+50]% Production when constructing [Melee] units [in all cities]", "[+3] Sight <for [Embarked] units>", "Embarked units can defend themselves", "[+1] Movement <for [Embarked] units>", "Units pay only 1 movement point to disembark", "No movement cost to pillage <for [Melee] units>"],
 		"cities": ["Norkar", "Fygyr", "Ygglor", "Vungur", "Verdolir"]
 	},
 	{
@@ -452,7 +452,7 @@
 		"declaringWar": "My people linger upon pretenses of war. Who am I to disappoint?",
 		"attacked": "This transgression will not be forgotten.",
 		"defeated": "Congratulations, conquerer. Even the mighty Ghandor has fallen before you.",
-		"uniques": ["[-33]% maintenance costs for [Land] units"],
+		"uniques": ["[-33]% maintenance costs <for [Land] units>"],
 		"outerColor": [255, 255, 128],
 		"innerColor": [255, 255, 0],
 		"cities": ["Ghandor"]

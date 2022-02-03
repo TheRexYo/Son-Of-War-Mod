@@ -83,7 +83,7 @@
 		"movement": 4,
 		"cost": 30,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles until Astronomy", "May create improvements on water resources", "Uncapturable"]
+		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources", "Uncapturable"]
 	},
 	{
 		"name": "Trireme",
@@ -963,7 +963,7 @@
 		"obsoleteTech": "Metal Casting",
 		"replaces": "Warrior",
 		"upgradesTo": "Swordsman",
-		"uniques": ["Unit will heal every turn, even if it performs an action","Heals [25] damage if it kills an Unit","[+20] HP when healing","All adjacent units heal [10] HP when healing"],
+		"uniques": ["Unit will heal every turn, even if it performs an action","Heals [25] damage if it kills an unit","[+20] HP when healing","All adjacent units heal [10] HP when healing"],
 		"attackSound": "nonmetalhit"
 	},
 	/*
@@ -1051,7 +1051,7 @@
 		"strength": 5,
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["Ignores terrain cost", "+[1] Visibility Range", "Founds a new city", "[+20]% Strength <when fighting in [Foreign Land] tiles>"],
+		"uniques": ["Ignores terrain cost", "[+1] Sight", "Founds a new city", "[+20]% Strength <when fighting in [Foreign Land] tiles>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1062,7 +1062,7 @@
 		"movement": 2,
 		"strength": 8,
 		"hurryCostModifier": 20,
-		"uniques": ["Can build improvements on tiles"],
+		"uniques": ["Can build [Land] improvements on tiles"],
 		"cost": 70
 	},
 	{
