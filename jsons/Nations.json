@@ -5,8 +5,7 @@
 		"adjective": ["Aeronian"],
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Cultural",
-		"favoredReligion": "Followers of Genesis",
-		
+
 		"startIntroPart1": "Genesis be with you Sun Alar, Chosen of Aeronia! May you soar high in the heavens! Your empire is ancient and prosperous, the first to master the art of flight by riding on the backs of dragons. Your people are pious and possess a rich culture, and a natural mastery over the land. As the champion of Genesis, it is your task to better the world by destroying evil and spreading the cause of good.",
 		"startIntroPart2": "O' Sun Alar, Son of War, will you take to the skies and bring your people to glory? Will you bring justice and life to the world once more? Will you build a civilization that stands the test of time?",
 
@@ -31,7 +30,7 @@
 		"outerColor": [255, 217, 0],
 		"innerColor": [86, 128, 27],
 		"uniqueName": "Winds Of Genesis",
-		"uniques": ["[+3] Movement <for [All] units>", "Militaristic City-States grant units [2] times as fast when you are at war with a common nation"],
+		"uniques": ["[+3] Movement"],
 		"cities": ["Chamera", "Aethil", "Tilford", "Aerol", "Fyrforx", "Tael", "Kalru", "Lanthor", "Solaen",
 			"Tetherin", "Ethr", "Genu", "Whynfor", "Skysol", "Aetherfort", "Skaern", "Dawnlight", "Skyren", "Bahtyr"
 		]
@@ -42,7 +41,6 @@
 		"adjective": ["Pyrian"],
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Domination",
-		"favoredReligion": "Followers of Ragnarak",
 
 		"startIntroPart1": "Ragnarak awaits Luna Nym, Leader of Pyria! May your adversaries burn in the fires of oblivion. Your empire is ancient and mighty, the first to master the power of chemistry to build massive weapons of war. Your people are strong-willed and hardy due to the pressures of their desolate home. As the champion of Ragnarak, it is your job to purify the world by cleansing the naive followers of good and preventing the spread of weakness.",
 		"startIntroPart2": "O' Luna Nym, Child of Death, will you rise from the ashes and bring your people to glory? Will you eliminate weakness and naivety from the world once more? Will you build a civilization that stands the test of time?",
@@ -68,7 +66,7 @@
 		"outerColor": [255, 0, 242],
 		"innerColor": [128, 35, 23],
 		"uniqueName": "Fires Of Ragnarak",
-		"uniques": ["Melee units pay no movement cost to pillage", "New [Military] units start with [30] Experience [in all cities]", "[+25]% Production when constructing [Military] units [in all cities]"],
+		"uniques": ["No movement cost to pillage <for [Melee] units>", "New [Military] units start with [30] Experience [in all cities]", "[+25]% Production when constructing [military units] buildings [in all cities]"],
 		"cities": ["Ensdael", "Nightsend", "Abysin", "Pyris", "Altora", "Faenai", "Bator", "Theris", "Ferra",
 			"Magris", "Athr", "Theta", "Horahelm", "Tetrani", "Moondeep", "Lakaeia", "Duskshadow", "Elerea", "Unaia"
 		]
@@ -79,7 +77,6 @@
 		"adjective": ["Ssu'vian"],
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Cultural",
-		"favoredReligion": "Followers of Genesis",
 
 		"startIntroPart1": "Your people await you, o' great Tak'ir'sar, wise Sak'ret'i of the Ssu'vian empire. The light of the surface calls you once more! Your empire is one of the first to have ever existed. Bright and creative, your people are masters of magic and nature. As the last the last living member of the fabled 'Tak', the first of the Sauroids, it is your job to save your people from extinction at the hands of man. While your brothers and sisters no longer walk this world, their minds still live on through you.",
 		"startIntroPart2": "Tell us, Tak'ir'sar - will you rise from the depths of the underground and bring your people to glory? Will you ensure your place on surface, and let your people feel the warmth of the sun once more? Will you build a civilization that stands the test of time?",
@@ -105,8 +102,8 @@
 		"outerColor": [255, 255, 0],
 		"innerColor": [128, 94, 0],
 		"uniqueName": "The Elder's Prophecy",
-		"uniques": ["Starts with [The Elder's Prophecy]", "[+1] Movement <for [All] units> <during a Golden Age>"],
-		//"uniques": ["Golden Age length increased by [50]%", "+1 Movement for all units during Golden Age", "+10% Strength for all units during Golden Age"],
+		"uniques": ["Starts with [The Elder's Prophecy]"],
+		//"uniques": ["[50]% Golden Age length", "+1 Movement for all units during Golden Age", "+10% Strength for all units during Golden Age"],
 		//"uniques": ["Starts the game in a [50] turn golden age","Starts the game with [300] additional gold","Starts the game with [2] free policies available","Starts the game with [1] free techs available"],
 		//"uniques": ["Starts the game in a [50] turn golden age","+[100]% Unit Strength before turn [40]","Starts the game with [300] additional gold","Starts the game with [2] free policies available","Starts the game with [1] free techs available"],
 		"cities": ["Ssu", "Taka'zul", "Akiltzi", "Meccti", "Sarak"]
@@ -117,7 +114,6 @@
 		"adjective": ["Terazian"],
 		"startBias": ["Jungle"],
 		"preferredVictoryType": "Domination",
-		"favoredReligion": "Followers of Tak",
 
 		"startIntroPart1": "The jungle calls you, Andu'zi'tan, almighty Sak'ret'i of the Terazi empire. You must answer! As a proud sauroid empire, the Terazi are one of the first nations to have ever formed. Proud and powerful, your people are masters of the natural world. Hidden away in the depths of the jungle, they have managed to avoid extinction at the hands of man. Now, they call upon you, greatest of the blessed spawn, to avenge their bretheren.",
 		"startIntroPart2": "O' great and mighty Andu'zi'tan, will you emerge from the wilds of Jungara and begin your path to triumph? Will you rise against the tyranny of man, and save your race from extinction? Will you build a civilization that stands the test of time?",
@@ -142,7 +138,7 @@
 		"outerColor": [169, 199, 38],
 		"innerColor": [26, 110, 0],
 		"uniqueName": "Soul of Jungara",
-		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.", "+[100]% Strength for units fighting in [Jungle]", "+[25]% Strength for units fighting in [Friendly Land]"],
+		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.", "Enemy land units must spend 1 extra movement point when inside your territory (obsolete upon Dynamite)","+[50]% Strength for units fighting in [Friendly Land]"],
 		"cities": ["Teraz", "Andu", "Kala'ka'tili", "Aztakczii", "Lik'tok"]
 	},
 	{
@@ -151,7 +147,6 @@
 		"adjective": ["Neph"],
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Domination",
-		"favoredReligion": "Proto-Eternalism",
 
 		"startIntroPart1": "Gods be with you, Angir, King of Man! Your empire was the very first civilization of man, formed many thousands of years ago when man was threatened on all sides by foreign races. It was the first and last time man was united under a single banner, and you were its king. Together, you and your people waged war against the enemy, and brought man into being the sole ruler of our world. However, your death brought about a divide amongst the people, and even with a designated heir, your empire crumbled.",
 		"startIntroPart2": "Mighty Angir, will you raise your spear to the heavens once more and bring unity to mankind? Will you take up arms against the enemy? Will you build a civilization that stands the test of time?",
@@ -178,7 +173,7 @@
 		"innerColor": [255, 217, 0],
 		"uniqueName": "Ruler of Mankind",
 //		"uniques": ["Gain Culture when you kill a barbarian unit", "Notified of new Barbarian encampments", "Receive triple Gold from Barbarian encampments and pillaging Cities", "+[100]% bonus vs Barbarians"],
-		"uniques": ["Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]", "Earn [100]% of killed [Barbarian] unit's [Strength] as [Faith]", "Earn [100]% of killed [Barbarian] unit's [Cost] as [Gold]", "Earn [100]% of killed [Barbarian] unit's [Cost] as [Science]", "Notified of new Barbarian encampments"],
+		"uniques": ["Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]", "Earn [25]% of killed [Barbarian] unit's [Strength] as [Faith]", "Earn [100]% of killed [Barbarian] unit's [Cost] as [Gold]", "Earn [25]% of killed [Barbarian] unit's [Cost] as [Science]", "Notified of new Barbarian encampments"],
 		"cities": ["Alor", "Nerai", "Phorl", "Dehsk", "Fyrin"]
 	},
 	{
@@ -187,8 +182,7 @@
 		"adjective": ["Imperial"],
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Cultural",
-		"favoredReligion": "Old Eternalism",
-		
+
 		"startIntroPart1": "We praise you, almighty Danu, God-Emperor of Imperia! Your empire is as long-lived as you are, having seen its way through the end of the Dragonfall thousands of years ago, forming just after the collapse of the united Neph empire of man. Though the collapse of its united efforts proved to be a setback to the growing race of man, you personally saw to it that no harm came to its survival, eliminating the last of the dragon empires from the earth entirely. You chose your people over your heart, and brought about the end of the very creatures you once loved.",
 		"startIntroPart2": "O' great Danu, will you rise up once more and bring prosperity to mankind? Will you raise up your colloseums and bring joy to your people's hearts? Will you build a civilization that stands the test of time?",
 
@@ -222,7 +216,6 @@
 		"adjective": ["Jharappan"],
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Scientific",
-		"favoredReligion": "Old Eternalism",
 
 		"startIntroPart1": "Greetings, Jhr Ahdrali, King of the Jharappe people. May you live long! Your people are masters of science, curious and innovative. Your people were among the most advanced of their time, having learned many things from the various Naga tribes living near you. With this knowledge, your cities grew to be massive, your armies great. Unfortunately, your people died out after a major drought that spanned the entirety of your homeland, bringing with it thirst and famine.",
 		"startIntroPart2": "Wise King Jhr, will you take your people to the stars, as you promised long ago? Will you expand your cities and grow into a mighty empire? Will you build a civilization that stands the test of time?",
@@ -248,7 +241,7 @@
 		"outerColor": [27, 158, 40],
 		"innerColor": [255, 153, 0],
 		"uniqueName": "Legacy of the Naga",
-		"uniques": ["[+10 Science] [in all cities] <during the [Ancient era]>", "[+3 Science] [in all cities] <starting from the [Classical era]>", "Starts with [Pottery]", "Starts with [Animal Husbandry]", "Starts with [Archery]", "Starts with [Mining]"],
+		"uniques": ["[+3 Science] [in all cities]","[+3 Science] per [3] population [in all cities]"],
 		"cities": ["Jharappa","Mijanho-deru","Zihan-de","Talanazza"]
 	},
 	{
@@ -256,7 +249,6 @@
 		"leaderName": "Alandis Osthesi",
 		"adjective": ["Zegrek"],
 		"startBias": ["Coast"],
-		"favoredReligion": "Ohmysm",
 		//"preferredVictoryType": "Diplomatic",
 		
 		"startIntroPart1": "May the gods bless you, Alandis Osthesi, leader of the Zegrek people. Your people vary in nature, coming from a diverse yet united selection of small, one-city 'nations' that make up your empire. Your empire is the patron of the unaligned, and you have a certain influence over the lesser city states of the world. With sheer willpower, you and your allies will demolish anyone who attempts to break the order.",
@@ -283,7 +275,7 @@
 		"outerColor": [181, 232, 232],
 		"innerColor": [68, 142, 249],
 		"uniqueName": "Coalition of Cities",
-		"uniques": ["Gifts of Gold to City-States generate [100]% more Influence", "Militaristic City-States grant units [5] times as fast when you are at war with a common nation", "Resting point for Influence with City-States is increased by [30]"],
+		"uniques": ["Gifts of Gold to City-States generate [100]% more Influence","Resting point for Influence with City-States is increased by [30]"],
 		"cities": ["Zegris", "Acroplia", "Sartga"]
 	},
 	/*
@@ -315,8 +307,7 @@
 		"leaderName": "Yu Nian",
 		"adjective": ["Zharian"],
 		"preferredVictoryType": "Scientific",
-		"favoredReligion": "Astralism",
-
+		
 		"startIntroPart1": "The stars bless you, Empress Yu Nian, most beautiful and proud ruler of Zharia! Oh great Empress, whose shadow causes the flowers to blossom and the rivers to flow! You are the leader of the Zharia, the oldest and the greatest civilization that humanity has ever produced. Zharia's history stretches back into the mists of time, its people achieving many great things long before the other upstart civilizations were even conceived. Blessed by the divine Sul'lahng (Sun Dragons), you learned the arts of war, poetry, and more. From your people come many of the greatest generals, poets, and philosophers.",
 		"startIntroPart2": "You, great Queen, who, with cunning and beauty, rose from the position of lowly concubine to that of Divine Empress - your people call out to you to lead them! Great Zharia is once again beset on all sides by barbarians. Can you defeat all your many foes and return your country to greatness? Will you build a civilization that stands the test of time?",
 		
@@ -329,7 +320,7 @@
 		"tradeRequest": "My friend, do you think you can accept this request?",
 		
 		"uniqueName": "Crimson Sun's Blessing",
-		"uniques": ["Great General provides double combat bonus", "[Great General] is earned [250]% faster", "[Military] units gain [100]% more Experience from combat"],
+		"uniques": ["Great General provides double combat bonus", "[Great General] is earned [250]% faster", "[100]% XP gained from combat <for [Military] units>"],
 		
 		"cities": ["Dran-Lah'ng", "Shi'dar", "Xian'zin", "Alxi'or"],
 		"outerColor": [252, 53, 3],
@@ -340,9 +331,7 @@
 		"leaderName": "Nikau Alu",
 		"adjective": ["Atoiri"],
 		"preferredVictoryType": "Cultural",
-		"favoredReligion": "Path of Origins",
-		"startBias": ["Coast"],
-		
+
 		"startIntroPart1": "(Introduction I - incomplete)",
 		"startIntroPart2": "(Introduction II - incomplete)",
 
@@ -355,7 +344,7 @@
 		"tradeRequest": "Come, let our people feast together!",
 		
 		"uniqueName": "Path Of The Homeland",
-		"uniques": ["Can embark and move over Coasts and Oceans immediately","[+5 Culture] [in capital]", "[+3 Happiness] [in all cities connected to capital]", "[+2 Happiness] [in all coastal cities]", "[+300]% Production when constructing [Settler] units [in capital]"],
+		"uniques": ["Enables embarkation for land units <starting from the [Ancient era]>", "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>","[+5 Culture] [in capital]", "[+3 Happiness] [in all cities connected to capital]", "[+2 Happiness] [in all coastal cities]", "[+300]% Production when constructing [Settler] units [in capital]"],
 		
 		"cities": ["Atoiri", "Laihe", "Tupai", "Aluhea"],
 		"outerColor": [0, 255, 0],
@@ -365,9 +354,8 @@
 		"name": "Noraska",
 		"leaderName": "Leone Vggrsol",
 		"adjective": ["Noraskan"],
-		"startBias": ["Tundra", "Snow", "Ice"],
+		"startBias": ["Tundra"],
 		"preferredVictoryType": "Domination",
-		"favoredReligion": "Triadism",
 
 		"startIntroPart1": "We admire your strength, great chieftain Leone Vggrsol. The frozen air tears at you like hundreds of daggers stabbing into your back, yet you always persist. The people of Noraska would be much the lesser without your guidance. Your tribe, and your people, are masters of the ocean, travelling to other lands to loot whatever you can find, burning the rest to the ground. As long as your lungs draw breath, the world will know fear.",
 		"startIntroPart2": "O' mighty Leone, will you take up your axe and bring your people power and glory? Will you once again bring the chill of the north to your foes? Will you build a civilization that stands the test of time?",
@@ -392,7 +380,7 @@
 		"outerColor": [255, 0, 0],
 		"innerColor": [0, 0, 255],
 		"uniqueName": "Fury of the North",
-		"uniques": ["Can only heal by pillaging", "[+1] Movement <for [Melee] units>", "[+50]% Production when constructing [Melee] units [in all cities]", "+[3] Sight for all [Embarked] units", "Embarked units can defend themselves", "[+1] Movement <for [Embarked] units>", "Units pay only 1 movement point to disembark", "Melee units pay no movement cost to pillage"],
+		"uniques": ["Can only heal by pillaging", "[+2] Movement <for [Melee] units>", "[+25]% Production when constructing [Melee] units [in all cities]", "[+3] Sight <for [Embarked] units>", "Defense bonus when embarked <for [All] units>", "[+1] Movement <for [Embarked] units>", "Units pay only 1 movement point to embark and disembark", "No movement cost to pillage <for [Melee] units>"],
 		"cities": ["Norkar", "Fygyr", "Ygglor", "Vungur", "Verdolir"]
 	},
 	{
@@ -401,7 +389,6 @@
 		"adjective": ["Kharn'diian"],
 		"startBias": ["Avoid [Jungle]", "Avoid [Forest]"],
 		"preferredVictoryType": "Domination",
-		"favoredReligion": "Path of Conflict",
 
 		"startIntroPart1": "The most successful barbarian empire ever to exist, the Kharndii were a ruthless force that travelled the world in massive hordes, taking everything in their path.",
 		"startIntroPart2": "Will you build a civilization that stands the test of time?",
@@ -424,22 +411,20 @@
 		"afterPeace": "We shall cease our raiding, if only for a moment. Fortune favors the bold; don't expect this to last long.",
 		"tradeRequest": "I bring an offer. Accept it, lest your people become an obstacle to my horde.",
 		"outerColor": [255, 0, 0],
-		"innerColor": [0, 0, 0],
+		"innerColor": [0, 0, 255],
 		"uniqueName": "The Endless Horde",
-		"uniques": ["Can only heal by pillaging", "[-25]% Production when constructing [All] buildings [in all cities]", "[+100]% Production when constructing [Military] units [in all cities]", "Cities are razed [5] times as fast", "\"Borrows\" city names from other civilizations in the game"],
+		"uniques": ["Can only heal by pillaging", "[+100]% Production when constructing [Military] units [in all cities]", "Cities are razed [5] times as fast", "\"Borrows\" city names from other civilizations in the game"],
 		"cities": ["Kharn"]
 	},
-
 	//City-States
 	{
 		"name": "Rhal'tu",
 		"adjective": ["Rhal"],
-		"startBias": ["Coast"],
 		"cityStateType": "Maritime",
 		"declaringWar": "The guilds hunger for plunder. It is time I feed them.",
 		"attacked": "The city of thieves bows to no man! Prepare your treasuries for our arrival!",
 		"defeated": "Hypocrite. Even you are naught but a thief. Someone ought to set you straight.",
-		"uniques": ["[Military] units gain the [Commandeer] promotion"],
+		"uniques": ["Melee naval units have a 1/3 chance to capture defeated naval units"],
 		"outerColor": [28, 0, 0],
 		"innerColor": [128, 0, 0],
 		"cities": ["Rhal'tu"]
@@ -447,12 +432,11 @@
 	{
 		"name": "Ghandor",
 		"adjective": ["Ghandorian"],
-		"startBias": ["Grassland"],
 		"cityStateType": "Militaristic",
 		"declaringWar": "My people linger upon pretenses of war. Who am I to disappoint?",
 		"attacked": "This transgression will not be forgotten.",
 		"defeated": "Congratulations, conquerer. Even the mighty Ghandor has fallen before you.",
-		"uniques": ["[-33]% maintenance costs for [Land] units"],
+		"uniques": ["-25% land units maintenance"],
 		"outerColor": [255, 255, 128],
 		"innerColor": [255, 255, 0],
 		"cities": ["Ghandor"]
@@ -460,7 +444,6 @@
 	{
 		"name": "Hili",
 		"adjective": ["Hili"],
-		"startBias": ["Plains"],
 		"cityStateType": "Cultured",
 		"declaringWar": "Sacrifices must be made for the barrier!",
 		//"declaringWar": "The barrier between us and the spirit world is frail, and we must ensure it does not weaken any further. For that, there must be sacrifice.",
@@ -474,12 +457,11 @@
 	{
 		"name": "Sangali",
 		"adjective": ["Sangali"],
-		"startBias": ["River"],
 		"cityStateType": "Mercantile",
 		"declaringWar": "You failed to prove yourselves worthy to stand with the shining city. Prepare for war.",
 		"attacked": "I'll make sure you hang for this!",
 		"defeated": "Alas, our city shines no more. All beauty turns to shame eventually.",
-		"uniques": ["Embarked units can defend themselves"],
+		"uniques": ["Defense bonus when embarked <for [All] units>"],
 		"outerColor": [255, 0, 0],
 		"innerColor": [255, 255, 0],
 		"cities": ["Sangali"]
@@ -487,7 +469,6 @@
 	{
 		"name": "Xagge",
 		"adjective": ["Xagge"],
-		"startBias": ["Jungle", "Grassland"],
 		"cityStateType": "Militaristic",
 		"declaringWar": "The world is our domain. I'm afraid it's time to pay your keep.",
 		"attacked": "What a challenge! Indeed, let us fight!",
@@ -500,7 +481,6 @@
 	{
 		"name": "Threfek",
 		"adjective": ["Threfek"],
-		"startBias": ["Desert", "Oasis"],
 		"cityStateType": "Mercantile",
 		"declaringWar": "A man needs two things in life - coins and a home. You are about to be missing both.",
 		"attacked": "Why, this is madness!",
@@ -513,12 +493,11 @@
 	{
 		"name": "Yate",
 		"adjective": ["Yatian"],
-		"startBias": ["Coast","Ocean"],
 		"cityStateType": "Maritime",
 		"declaringWar": "The sea calls us to battle. Let us enjoy the fires of war together!",
 		"attacked": "Aye. If a fight's what you want, a fight's what you'll get!",
 		"defeated": "Oi! This cannot be! How were we defeated?",
-		"uniques": ["Units pay only 1 movement point to disembark"],
+		"uniques": ["Units pay only 1 movement point to embark and disembark"],
 		"outerColor": [0, 0, 255],
 		"innerColor": [255, 0, 0],
 		"cities": ["Yate"]
@@ -527,7 +506,6 @@
 		"name": "Tetku",
 		"adjective": ["Tetku"],
 		"cityStateType": "Cultured",
-		"startBias": ["Jungle","Plains"],
 		"declaringWar": "The gods demand a sacrifice!",
 		"attacked": "The sun glares at you, aggressors!",
 		"defeated": "You'd better hope I misjudged you. The gods certainly won't.",

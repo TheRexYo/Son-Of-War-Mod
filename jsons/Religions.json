@@ -1,25 +1,7 @@
 [
-    // Abiotic Religions
-    /* Religions that worship physical entities and "true gods" such as the Divine Triad (Ragnarak, Genesis, and Primordius). Such religions (at least canonically) require no active worship to function (though worship may or may not still be present). */
-    "Triadism",
-    "Followers of Genesis",
-    "Followers of Ragnarak",
-    "Followers of Primordius",
-    
-    // Biotic Religions
-    /* Religions that worship fabricated deities, and thus require active worship to empower their deities. */
-    "Followers of Tak",
-    "Followers of Gelor",
-    "Followers of Tajor",
-    "Ohmysm",
+    "The Divine Triad",
+    "Aetherism",
     "Ktharism",
-    
-    // Conceptual Religions
-    /* Religions that worship concepts rather than divine entities. */
-    "Proto-Eternalism",
-    "Old Eternalism",
-    "New Eternalism",
-    "Path of Origins",
-    "Path of Conflict",
-    "Astralism"
+    "Gesilor",
+    "Talor"
 ]

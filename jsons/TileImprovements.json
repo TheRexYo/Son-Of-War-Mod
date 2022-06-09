@@ -34,7 +34,7 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
 		"gold": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Trapping",
+		"techRequired": "Guilds",
 		"uniques": ["[+1 Gold] <after discovering [Economics]>"],
 		"shortcutKey": "T"
 	},
@@ -42,9 +42,10 @@
 	// Resource-specific
 	{
 		"name": "Camp",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 7,
 		"techRequired": "Trapping",
-		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Gold] <after discovering [Economics]>"],
+		"uniques": ["Does not need removal of [Forest]","[+1 Gold] <after discovering [Economics]>"],
 		"shortcutKey": "C"
 	},
 	{
@@ -52,11 +53,11 @@
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"turnsToBuild": 9,
 		"techRequired": "Biology",
-		"uniques": ["Cannot be built on [Coast] tiles until [Refrigeration] is discovered"],
 		"shortcutKey": "W"
 	},
 	{
 		"name": "Pasture",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 8,
 		"techRequired": "Animal Husbandry",
 		"uniques": ["[+1 Food] <after discovering [Fertilizer]>"],
@@ -64,6 +65,7 @@
 	},
 	{
 		"name": "Plantation",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 6,
 		"gold": 1,
 		"techRequired": "Calendar",
@@ -72,6 +74,7 @@
 	},
 	{
 		"name": "Quarry",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 8,
 		"techRequired": "Masonry",
 		"uniques": ["[+1 Production] <after discovering [Chemistry]>"],
@@ -98,9 +101,9 @@
 	// Transportation
 	{
 		"name": "Road",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
 		"techRequired": "The Wheel",
-		// "Costs [1] gold per turn when in your territory" does nothing and is only to inform the user
 		"uniques": ["Can be built outside your borders", "Costs [1] gold per turn when in your territory"],
 		"shortcutKey": "R",
         "civilopediaText": [
@@ -111,6 +114,7 @@
 	},
 	{
 		"name": "Railroad",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
 		"techRequired": "Railroads",
 		"uniques": ["Can be built outside your borders", "Costs [2] gold per turn when in your territory"],
@@ -173,33 +177,41 @@
 	// Great Person improvements
 	{
 		"name": "Academy",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 8,
-		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>"]
+		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>", "[+2 Science] <after discovering [Atomic Theory]>"]
 	},
 	{
 		"name": "Landmark",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 6,
 		"uniques": ["Great Improvement"]
 	},
 	{
 		"name": "Manufactory",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 4,
 		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Chemistry]>"]
 	},
 	{
 		"name": "Customs house",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 4,
 		"uniques": ["Great Improvement", "[+1 Gold] <after discovering [Economics]>"]
 	},
 	{
 		"name": "Holy site",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 6,
 		"uniques": ["Great Improvement"]
 	},
 	{
 		"name": "Citadel",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Great Improvement", "Gives a defensive bonus of [100]%", "Adjacent enemy units ending their turn take [30] damage", "Can be built just outside your borders"],
-        "civilopediaText": [{"text":"Constructing it will take over the tiles around it and assign them to your closest city"}]
+        "civilopediaText": [
+			{"text":"Constructing it will take over the tiles around it and assign them to your closest city"}
+		]
 	},
 
 	//Civilization unique improvements
@@ -219,33 +231,65 @@
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"food": 1,
 		"turnsToBuild": 7,
-		"uniques": ["Cannot be built on [Bonus resource] tiles", "[+1 Food] for each adjacent [Mountain]", "[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>", "[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>"],
+		"uniques": ["Cannot be built on [Bonus resource] tiles",
+			"[+1 Food] for each adjacent [Mountain]",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>"],
 		"techRequired": "Construction",
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Polder",
+		"uniqueTo": "The Netherlands",
+		"food": 3,
+		"terrainsCanBeBuiltOn": ["Marsh", "Flood plains"],
+		"turnsToBuild": 7,
+		"uniques": ["[+1 Production, +2 Gold] <after discovering [Economics]>"],
+		"techRequired": "Guilds",
 		"shortcutKey": "F"
 	},
 	*/
 
-	//Special Improvements
 	{ 
-		"name": "Ancient ruins", 
-		"uniques": ["Unpillagable", "Provides a random bonus when entered"]
-	},
-	{ 
-		"name": "City ruins", 
+		"name": "Ancient ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable"],
-        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+        "civilopediaText": [
+			{"text":"Ancient ruins provide a one-time random bonus when explored"},
+			{},
+			{"text":"The possible rewards are:"},
+			{"text":"a stash of gold", "indent":1, "starred":true, "color":"#ffeb7f"},
+			{"text":"survivors (adds population to a city)", "indent":1, "starred":true, "color":"#81c784"},
+			{"text":"discover a lost technology", "indent":1, "starred":true, "color":"#7f7fff"},
+			{"text":"a unit joins you", "indent":1, "starred":true},
+			{"text":"your exploring unit receives training", "indent":1, "starred":true}, // "link":"Tutorial/Experience"
+			{"text":"discover cultural artifacts", "indent":1, "starred":true, "color":"#cf8ff7"},
+			{"text":"find a crudely-drawn map", "indent":1, "starred":true}
+		]
 	},
-	{ 
-		"name": "City center", 
-		"uniques": ["Unpillagable", "Indestructible"],
+	{
+		"name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land","Water"],
+		"uniques": ["Unpillagable"],
+        "civilopediaText": [
+			{"text":"A bleak reminder of the destruction wreaked by War"}
+		]
+	},
+	{
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Land","Water"],
+		"uniques": ["Unpillagable", "Irremovable"],
         "civilopediaText": [
 			{"text":"Marks the center of a city"},
 			{"text":"Appearance changes with the technological era of the owning civilization"}
 		]
 	},
 	{ 
-		"name": "Barbarian encampment", 
+		"name": "Barbarian encampment",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable"],
-        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+        "civilopediaText": [
+			{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}
+		] 
 	}
 ]

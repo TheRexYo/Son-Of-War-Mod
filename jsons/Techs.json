@@ -7,7 +7,7 @@
 		"techs": [
 			{
 				"name": "Agriculture",
-				"row": 6,
+				"row": 5,
 				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
 				"uniques": ["Starting tech"]
 			},
@@ -17,7 +17,7 @@
 				"name": "The Elder's Prophecy",
 				"row": 1,
 				"quote": "... The golden sun's rise shall mark the start, granting us a centuries' strength. The forces of mankind, now in part, will fail to stop our coming. With might and light of fated grace, the Sauroids shall return...",
-				"uniques": ["Incompatible with [Agriculture]", "+[100]% attack strength to all [Military] units for [50] turns",  "[2] Free Social Policies", "[2] Free Technologies", "Empire enters golden age"]
+				"uniques": ["Only available <before discovering [Agriculture]>", "[+100]% Strength <when attacking> <for [Military] units> <for [50] turns>",  "[2] Free Social Policies", "[2] Free Technologies", "Empire enters golden age"]
 			}
 		]
 	},
@@ -274,7 +274,7 @@
 			{
 				"name": "Astronomy",
 				"row": 2,
-				"uniques": ["[+1] Movement <for [Embarked] units>","Enables embarked units to enter ocean tiles"],
+				"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles <starting from the [Ancient era]>"],
 				"prerequisites": ["Compass","Education"],
 				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
 			},
@@ -287,7 +287,7 @@
 			{
 				"name": "Banking",
 				"row": 6,
-				"prerequisites": ["Chivalry", "Education"],
+				"prerequisites": ["Chivalry"],
 				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
 			},
 			{
@@ -353,7 +353,7 @@
 			{
 				"name": "Archaeology",
 				"row": 2,
-				"prerequisites": ["Navigation","Architecture"],
+				"prerequisites": ["Navigation"],
 				"quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
 			},
 			{
