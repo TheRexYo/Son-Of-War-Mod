@@ -331,7 +331,7 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
-		"uniques": ["[1] Sight", "May withdraw before melee ([80]%)"],
+		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
@@ -618,7 +618,7 @@
 		"cost": 400,
 		"requiredTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
-		"uniques": ["[1] Sight <for [Embarked] units>", "Defense bonus when embarked"],
+		"uniques": ["[+1] Sight <for [Embarked] units>", "Defense bonus when embarked"],
 		"attackSound": "shot"
 	},
 	{
@@ -774,7 +774,7 @@
 		"cost": 425,
 		"requiredTech": "Telecommunications",
 		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Can attack submarines", 
-			"[1] Sight", "Can carry [2] [Missile] units"],
+			"[+1] Sight", "Can carry [2] [Missile] units"],
 		"attackSound": "torpedo"
 	},
 	{
@@ -1008,7 +1008,7 @@
 		"replaces": "Horseman",
 		"requiredTech": "Horseback Riding",
 		"obsoleteTech": "Metallurgy",
-		"uniques": ["Can move after attacking","[-66]% Strength <vs cities>", "[-66]% Strength <vs cities>","[+300]% Strength <when attacking>","[+33]% Strength <when fighting in [Forest] tiles>","[+33]% Strength <when fighting in [Jungle] tiles>"],
+		"uniques": ["Can move after attacking","[-66]% Strength <vs cities>","[+300]% Strength <when attacking>","[+33]% Strength <when fighting in [Forest] tiles>","[+33]% Strength <when fighting in [Jungle] tiles>"],
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
 	},
@@ -1079,7 +1079,7 @@
 		"strength": 5,
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["Ignores terrain cost","[1] Sight","Founds a new city","[+20]% Strength <when fighting in [Foreign Land] tiles>"],
+		"uniques": ["Ignores terrain cost","[+1] Sight","Founds a new city","[+20]% Strength <when fighting in [Foreign Land] tiles>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1118,7 +1118,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+25]% Strength <vs [Mounted] units>", "[+25]% Strength <vs cities>","Can move after attacking","+[200]% combat bonus in [Desert]"],
+		"uniques": ["[+25]% Strength <vs [Mounted] units>", "[+25]% Strength <vs cities>","Can move after attacking","[+200]% Strength <in [Desert] tiles>"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -1230,11 +1230,70 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
-		"uniques": ["[3] Sight", "Can move after attacking"],
+		"uniques": ["[+3] Sight", "Can move after attacking"],
 		"hurryCostModifier": 20,
 		"attackSound": "arrow"
 	},
-	
+	{
+		"name": "Steppe Raiders",
+		"unitType": "Mounted",
+		"replaces": "Horseman",
+		"uniqueTo": "Kharn'dii",
+		"movement": 4,
+		"strength": 12,
+		"range": 2,
+		"rangedStrength": 18,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Metallurgy",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[+50]% Strength <vs cities>"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Kharn Horde",
+		"unitType": "Sword",
+		"replaces": "Swordsman",
+		"uniqueTo": "Kharn'dii",
+		"movement": 2,
+		"strength": 14,
+		"cost": 40,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"uniques": ["[+25]% Strength bonus for [Kharn Horde] units within [5] tiles"],
+		"requiredResource": "Iron",
+		"hurryCostModifier": 10,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Slave Worker",
+		"unitType": "Civilian",
+		"replaces": "Worker",
+		"uniqueTo": "Mesyptia",
+		"movement": 1,
+		"uniques": ["Cannot be purchased", "Can build [Land] improvements on tiles","Excess Food converted to Production when under construction","Can speed up the construction of a wonder"],
+		"cost": 70
+	},
+	{
+		"name": "Solar Chariot",
+		"unitType": "Archery",
+		"replaces": "Chariot Archer",
+		"uniqueTo": "Mesyptia",
+		"movement": 4,
+		"strength": 6,
+		"rangedStrength": 15,
+		"cost": 55,
+		"requiredTech": "The Wheel",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "[+100]% Strength <in [Desert] tiles>", "[+4] Movement <in [Desert] tiles>"],
+		"attackSound": "arrow"
+	},
+
 	//City-State Uniques
 	{
 		"name": "Shanin",
@@ -1265,7 +1324,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "[-33]% Strength <vs cities>","All healing effects doubled"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>","All healing effects doubled"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -1280,7 +1339,7 @@
 		"cost": 135,
 		"requiredTech": "Astronomy",
 		"obsoleteTech": "Combustion",
-		"uniques": ["[3] Sight","May withdraw before melee ([50]%)"],
+		"uniques": ["[+3] Sight","May withdraw before melee ([50]%)"],
 		"hurryCostModifier": 20
 	},
 	{
@@ -1308,7 +1367,7 @@
 		"requiredTech": "Animal Husbandry",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus","[+66]% Strength <vs [Sword] units>", "[+66]% Strength <vs cities>","[-33]% Strength <vs [Archery] units>", "[-33]% Strength <vs cities>","[+200]% Strength <vs cities>", "[+200]% Strength <vs cities>"],
+		"uniques": ["No defensive terrain bonus","[+66]% Strength <vs [Sword] units>","[-33]% Strength <vs [Archery] units>", "[+66]% Strength <vs cities>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -1339,6 +1398,22 @@
 		"uniques": ["Ignores terrain cost","Invisible to others","May withdraw before melee ([50]%)","[-80]% Strength <vs [Sword] units>","[-80]% Strength <vs [Mounted] units>","[+500]% Strength <vs cities>"],
 		"attackSound": "nonmetalhit"
 	},
+	{
+		"name": "Arcanian Phalanx",
+		"unitType": "Sword",
+		"uniqueTo": "Arcania",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 15,
+		"cost": 50,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"promotions": ["Formation I","Woodsman"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>","[+33]% Strength <vs [Sword] units>","[+100]% Strength <when defending>"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
 	//Barbarian Uniques
 	{
 		"name": "Brute",
@@ -1353,6 +1428,17 @@
 		"attackSound": "nonmetalhit"
 	},
 
+	// Event Uniques
+	{
+		"name": "Starspawn",
+		"unitType": "Bestial",
+		"movement": 5,
+		"strength": 10,
+		"cost": 0,
+		"uniques": ["Unbuildable", "[+50]% Strength <starting from the [Medieval era]>", "[+100]% Strength <starting from the [Renaissance era]>", "[+200]% Strength <starting from the [Industrial era]>", "[+400]% Strength <starting from the [Modern era]>","[+300]% Strength <starting from the [Atomic era]>","[+600]% Strength <starting from the [Information era]>","[+1200]% Strength <starting from the [Future era]>"],
+		"attackSound": "horse"
+	},
+	
 	/* Spaceship Parts */
 
 	// Must be transported to the Capital for launch.

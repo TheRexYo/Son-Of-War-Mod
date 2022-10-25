@@ -48,6 +48,10 @@
         "movementType": "Water"
     },
     {
+        "name": "Bestial Water",
+        "movementType": "Water"
+    },
+    {
         "name": "Ranged Water",
         "movementType": "Water"
     },

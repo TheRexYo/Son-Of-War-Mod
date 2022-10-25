@@ -26,7 +26,7 @@
 		"era": "Ancient era",
 		"techCost": 35,
 		"buildingCost": 60,
-		"wonderCost": 185,
+		"wonderCost": 270,
 		"techs": [
 			{
 				"name": "Pottery",
@@ -60,7 +60,7 @@
 		"era": "Ancient era",
 		"techCost": 55,
 		"buildingCost": 75,
-		"wonderCost": 185,
+		"wonderCost": 270,
 		"techs": [
 			{
 				"name": "Sailing",
@@ -111,7 +111,7 @@
 		"era": "Classical era",
 		"techCost": 105,
 		"buildingCost": 100,
-		"wonderCost": 250,
+		"wonderCost": 500,
 		"techs": [
 			{
 				"name": "Optics",
@@ -146,7 +146,7 @@
 		"era": "Classical era",
 		"techCost": 175,
 		"buildingCost": 100,
-		"wonderCost": 250,
+		"wonderCost": 500,
 		"techs": [
 			{
 				"name": "Philosophy",
@@ -186,7 +186,7 @@
 		"era": "Medieval era",
 		"techCost": 275,
 		"buildingCost": 120,
-		"wonderCost": 300,
+		"wonderCost": 600,
 		"techs": [
 			{
 				"name": "Theology",
@@ -221,7 +221,7 @@
 		"era": "Medieval era",
 		"techCost": 485,
 		"buildingCost": 160,
-		"wonderCost": 400,
+		"wonderCost": 800,
 		"techs": [
 			{
 				"name": "Compass",
@@ -269,7 +269,7 @@
 		"era": "Renaissance era",
 		"techCost": 780,
 		"buildingCost": 200,
-		"wonderCost": 500,
+		"wonderCost": 1000,
 		"techs": [
 			{
 				"name": "Astronomy",
@@ -309,7 +309,7 @@
 		"era": "Renaissance era",
 		"techCost": 1150,
 		"buildingCost": 250,
-		"wonderCost": 625,
+		"wonderCost": 1250,
 		"techs": [
 			{
 				"name": "Navigation",
@@ -348,7 +348,7 @@
 		"era": "Industrial era",
 		"techCost": 1600,
 		"buildingCost": 300,
-		"wonderCost": 750,
+		"wonderCost": 1500,
 		"techs": [
 			{
 				"name": "Archaeology",
@@ -393,7 +393,7 @@
 		"era": "Industrial era",
 		"techCost": 2350,
 		"buildingCost": 360,
-		"wonderCost": 900, // Note that this column doesn't actually have any wonders. This just continues the wonderCost = 2.5 * buildingCost pattern from the last few columns.
+		"wonderCost": 1800, // Note that this column doesn't actually have any wonders. This just continues the wonderCost = 2.5 * buildingCost pattern from the last few columns.
 		"techs": [
 			{
 				"name": "Biology",
@@ -427,7 +427,7 @@
 		"era": "Modern era",
 		"techCost": 3100,
 		"buildingCost": 500,
-		"wonderCost": 1060,
+		"wonderCost": 2120,
 		"techs": [
 			{
 				"name": "Refrigeration",
@@ -466,7 +466,7 @@
 		"era": "Modern era",
 		"techCost": 4100,
 		"buildingCost": 500,
-		"wonderCost": 1250,
+		"wonderCost": 2500,
 		"techs": [
 			{
 				"name": "Plastics",
@@ -499,7 +499,7 @@
 		"era": "Atomic era",
 		"techCost": 5100,
 		"buildingCost": 500,
-		"wonderCost": 1250,
+		"wonderCost": 2500,
 		"techs": [
 			{
 				"name": "Pharmaceuticals",
@@ -532,7 +532,7 @@
 		"era": "Atomic era",
 		"techCost": 6400,
 		"buildingCost": 500,
-		"wonderCost": 1250,
+		"wonderCost": 2500,
 		"techs": [
 			{
 				"name": "Ecology",
@@ -565,7 +565,7 @@
 		"era": "Information era",
 		"techCost": 7700,
 		"buildingCost": 750,
-		"wonderCost": 1250,
+		"wonderCost": 2500,
 		"techs": [
 			{
 				"name": "Telecommunications",
@@ -612,7 +612,7 @@
 		"era": "Information era",
 		"techCost": 8800,
 		"buildingCost": 750,
-		"wonderCost": 1250,
+		"wonderCost": 2500,
 		"techs": [
 			{
 				"name": "Globalization",
@@ -651,7 +651,7 @@
 		"era": "Future era",
 		"techCost": 9500,
 		"buildingCost": 750,
-		"wonderCost": 1250,
+		"wonderCost": 2500,
 		"techs": [
 			{
 				"name": "Future Tech",
