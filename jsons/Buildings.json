@@ -67,7 +67,7 @@
 			"isWonder": true,
 			"greatPersonPoints": {"Great Engineer": 1},
 			"requiredTech": "Calendar",
-			"uniques": ["[+200]% Strength <before the [Renaissance era]>"],
+			"uniques": ["[+250]% Strength <before the [Medieval era]>"],
 			"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
 		},
 		{
