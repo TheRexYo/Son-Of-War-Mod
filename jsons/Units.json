@@ -1287,7 +1287,6 @@
 		"rangedStrength": 15,
 		"cost": 55,
 		"requiredTech": "The Wheel",
-		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "[+100]% Strength <in [Desert] tiles>", "[+4] Movement <in [Desert] tiles>"],
