@@ -150,7 +150,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs cities>", "[+50]% Strength <vs [Bestial] units>", "[+50]% Strength <vs cities>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Bestial] units>"],
 		"attackSound": "metalhit"
 	},
 	/*
@@ -180,7 +180,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Metallurgy",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "[-33]% Strength <vs cities>" ],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>" ],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -194,8 +194,7 @@
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
-		"uniques": ["[+200]% Strength <vs cities>", "[+200]% Strength <vs cities>", "No defensive terrain bonus",
-			"Must set up to ranged attack", "[-1] Sight"],
+		"uniques": ["[+200]% Strength <vs cities>", "No defensive terrain bonus", "Must set up to ranged attack", "[-1] Sight"],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	},
@@ -250,7 +249,7 @@
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs cities>", "[+50]% Strength <vs [Bestial] units>", "[+50]% Strength <vs cities>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Bestial] units>"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
@@ -279,7 +278,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "[-33]% Strength <vs cities>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>"],
 		"attackSound": "horse"
 	},
 	{
@@ -304,7 +303,7 @@
 		"requiredTech": "Physics",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Cannon",
-		"uniques": ["[+200]% Strength <vs cities>", "[+200]% Strength <vs cities>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight"],
+		"uniques": ["[+200]% Strength <vs cities>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight"],
 		"attackSound": "throw"
 	},
 	{
@@ -380,7 +379,7 @@
 		"cost": 185,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "[-33]% Strength <vs cities>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>"],
 		"promotions": ["Formation I"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
@@ -396,7 +395,7 @@
 		"requiredTech": "Chemistry",
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
-		"uniques": ["[+200]% Strength <vs cities>", "[+200]% Strength <vs cities>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight"],
+		"uniques": ["[+200]% Strength <vs cities>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight"],
 		"attackSound": "cannon"
 	},
 
@@ -436,7 +435,7 @@
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "[-33]% Strength <vs cities>" ],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>" ],
 		"attackSound": "horse"
 	},
 	{
@@ -449,7 +448,7 @@
 		"requiredResource": "Coal",
 		"upgradesTo": "Destroyer",
 		"obsoleteTech": "Combustion",
-		"uniques": ["[+33]% Strength <vs cities>", "[+33]% Strength <vs cities>","Double movement in [Coast]"],
+		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -462,7 +461,7 @@
 		"cost": 320,
 		"requiredTech": "Dynamite",
 		"upgradesTo": "Rocket Artillery",
-		"uniques": ["[+200]% Strength <vs cities>", "[+200]% Strength <vs cities>","No defensive terrain bonus",
+		"uniques": ["[+200]% Strength <vs cities>","No defensive terrain bonus",
 			"Must set up to ranged attack","[-1] Sight","Ranged attacks may be performed over obstacles"],
 		"attackSound": "artillery"
 	},
@@ -505,7 +504,7 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Fighter",
 		"obsoleteTech": "Radar",
-		"uniques": ["[50]% chance to intercept air attacks","[+50]% Strength <vs [Bomber] units>", "[+50]% Strength <vs cities>"],
+		"uniques": ["[50]% chance to intercept air attacks","[+50]% Strength <vs [Bomber] units>", "[+50]% Strength <vs [Helicopter] units>", "[+50]% Strength <vs [Flier] units>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -579,7 +578,7 @@
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Mobile SAM",
 		"obsoleteTech": "Rocketry",
-		"uniques": ["[100]% chance to intercept air attacks","[+150]% Strength <vs [air units] units>", "[+150]% Strength <vs cities>"],
+		"uniques": ["[100]% chance to intercept air attacks","[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>", "[+150]% Strength <vs [Flier] units>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -604,7 +603,7 @@
 		"cost": 375,
 		"requiredTech": "Combustion",
 		"uniques": ["Can attack submarines", "[40]% chance to intercept air attacks",
-			"May withdraw before melee ([80]%)", "[+100]% Strength <vs [submarine units] units>", "[+100]% Strength <vs cities>"],
+			"May withdraw before melee ([80]%)", "[+100]% Strength <vs [Submarine] units>"],
 		"attackSound": "shipguns"
 	},
 	
@@ -633,7 +632,7 @@
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
 		"upgradesTo": "Jet Fighter",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs cities>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>", "[+150]% Strength <vs [Flier] units>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -680,7 +679,7 @@
 		"cost": 300,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Helicopter Gunship",
-		"uniques": ["[+100]% Strength <vs [Armored] units>", "[+100]% Strength <vs cities>"],
+		"uniques": ["[+100]% Strength <vs [Armored] units>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -710,7 +709,7 @@
 		"cost": 425,
 		"requiredTech": "Rocketry",
 		"requiredResource": "Aluminum",
-		"uniques": ["[+200]% Strength <vs cities>", "[+200]% Strength <vs cities>","No defensive terrain bonus",
+		"uniques": ["[+200]% Strength <vs cities>", "No defensive terrain bonus",
 			"[-1] Sight","Ranged attacks may be performed over obstacles"],
 		"attackSound": "artillery"
 	},
@@ -722,7 +721,7 @@
 		"strength": 65,
 		"cost": 425,
 		"requiredTech": "Rocketry",
-		"uniques": ["[100]% chance to intercept air attacks","[+150]% Strength <vs [air units] units>", "[+150]% Strength <vs cities>"],
+		"uniques": ["[100]% chance to intercept air attacks","[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>", "[+150]% Strength <vs [Flier] units>"],
 		"attackSound": "missile"
 	},
 	{
@@ -759,7 +758,7 @@
 		"cost": 425,
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
-		"uniques": ["[+100]% Strength <vs [Armored] units>", "[+100]% Strength <vs cities>", "No defensive terrain bonus", "Can move after attacking", "All tiles cost 1 movement", "Unable to capture cities"],
+		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking", "All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
 
@@ -798,7 +797,7 @@
 		"requiredTech": "Robotics",
 		"uniques": ["[100]% chance to intercept air attacks", "Can attack submarines",
 			"Ranged attacks may be performed over obstacles", "Can carry [3] [Missile] units",
-			"[+100]% Strength <vs [submarine units] units>", "[+100]% Strength <vs cities>"],
+			"[+100]% Strength <vs [Submarine] units>"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -824,7 +823,7 @@
 		"cost": 425,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs cities>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>", "[+150]% Strength <vs [Flier] units>"],
 		"attackSound": "jetgun"
 	},
 	{
@@ -935,7 +934,7 @@
 		"replaces": "Horseman",
 		"requiredTech": "Horseback Riding",
 		"obsoleteTech": "Metallurgy",
-		"uniques": ["Can move after attacking","Ignores terrain cost","[-33]% Strength <vs cities>", "[-33]% Strength <vs cities>","May withdraw before melee ([200]%)"],
+		"uniques": ["Can move after attacking","Ignores terrain cost", "[-33]% Strength <vs cities>","May withdraw before melee ([200]%)"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -967,7 +966,7 @@
 		"upgradesTo": "Artillery",
 		"requiredTech": "Chemistry",
 		"obsoleteTech": "Dynamite",
-		"uniques": ["[+200]% Strength <vs cities>", "[+200]% Strength <vs cities>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight"],
+		"uniques": ["[+200]% Strength <vs cities>", "No defensive terrain bonus","Must set up to ranged attack","[-1] Sight"],
 		"hurryCostModifier": 20
 	},
 	{
@@ -981,7 +980,7 @@
 		"obsoleteTech": "Metal Casting",
 		"replaces": "Warrior",
 		"upgradesTo": "Swordsman",
-		"uniques": ["Can move after attacking","[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>","Ignores terrain cost","May withdraw before melee ([100]%)","[+200]% Strength <vs [Archery] units>", "[+200]% Strength <vs cities>","[+100]% Strength <when attacking>"],
+		"uniques": ["Can move after attacking","[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>","Ignores terrain cost","May withdraw before melee ([100]%)","[+200]% Strength <vs [Archery] units>", "[+100]% Strength <when attacking>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1023,7 +1022,7 @@
 		"range": 6,
 		"cost": 240,
 		"requiredTech": "The Wheel",
-		"uniques": ["[+200]% Strength <vs cities>", "[+200]% Strength <vs cities>","All adjacent units heal [30] HP when healing"],
+		"uniques": ["[+200]% Strength <vs cities>","All adjacent units heal [30] HP when healing"],
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"hurryCostModifier": 20,
@@ -1040,7 +1039,7 @@
 		"range": 1,
 		"cost": 240,
 		"requiredTech": "The Wheel",
-		"uniques": ["[+200]% Strength <vs cities>", "[+200]% Strength <vs cities>","[+33]% Strength <when fighting in [Forest] tiles>","[+33]% Strength <when fighting in [Jungle] tiles>","[25]% Strength <when defending> <vs [Ranged] units>","[-50]% Strength for enemy [Military] units in adjacent [All] tiles"],
+		"uniques": ["[+200]% Strength <vs cities>","[+33]% Strength <when fighting in [Forest] tiles>","[+33]% Strength <when fighting in [Jungle] tiles>","[25]% Strength <when defending> <vs [Ranged] units>","[-50]% Strength for enemy [Military] units in adjacent [All] tiles"],
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"hurryCostModifier": 20,
@@ -1056,7 +1055,7 @@
 		"replaces": "Horseman",
 		"requiredTech": "Horseback Riding",
 		"obsoleteTech": "Metallurgy",
-		"uniques": ["Can move after attacking","[-33]% Strength <vs cities>", "[-33]% Strength <vs cities>","No defensive terrain bonus","Unit will heal every turn, even if it performs an action"],
+		"uniques": ["Can move after attacking","[-33]% Strength <vs cities>","No defensive terrain bonus","Unit will heal every turn, even if it performs an action"],
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
 	},
@@ -1118,7 +1117,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+25]% Strength <vs [Mounted] units>", "[+25]% Strength <vs cities>","Can move after attacking","[+200]% Strength <in [Desert] tiles>"],
+		"uniques": ["[+25]% Strength <vs [Mounted] units>","Can move after attacking","[+200]% Strength <in [Desert] tiles>"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -1134,7 +1133,7 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"promotions": ["Formation I"],
-		"uniques": ["[+33]% Strength <vs [Mounted] units>","[+33]% Strength <vs [Sword] units>", "[+33]% Strength <vs cities>","[+150]% Strength <when defending>"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>","[+33]% Strength <vs [Sword] units>","[+150]% Strength <when defending>"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -1215,7 +1214,7 @@
 		"requiredTech": "Compass",
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Frigate",
-		"uniques": ["[+50]% Strength <vs [Water] units>", "[+50]% Strength <vs cities>"],
+		"uniques": ["[+50]% Strength <vs [Water] units>"],
 		"hurryCostModifier": 20,
 		"attackSound": "arrow"
 	},
@@ -1366,7 +1365,7 @@
 		"requiredTech": "Animal Husbandry",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus","[+66]% Strength <vs [Sword] units>","[-33]% Strength <vs [Archery] units>", "[+66]% Strength <vs cities>"],
+		"uniques": ["No defensive terrain bonus","[+66]% Strength <vs [Sword] units>","[-33]% Strength <vs [Archery] units>", "[+100]% Strength <vs cities>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -1379,7 +1378,7 @@
 		"strength": 22,
 		"cost": 45,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs cities>","Can move immediately once bought"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","Can move immediately once bought"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"hurryCostModifier": 5,
