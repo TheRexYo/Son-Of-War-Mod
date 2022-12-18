@@ -538,7 +538,11 @@
 		"name": "Blessing Of The Jungle", // only for units built in cities with "Spawn Pools of the Jungle"
 		"uniques": ["Double movement in [Jungle]", "[+50]% Strength <in [Jungle] tiles>"]
 	},
-	
+	{
+		"name": "Dawr Tech",
+		"uniques": ["[+50]% Strength"]
+	},
+
 	// Unit Uniques
 	{
 		"name": "Keepers of the Empire", // only for Imperial Guard and subsequent upgrades

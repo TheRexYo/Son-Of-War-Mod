@@ -150,7 +150,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Bestial] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Bestial] units>", "[+50]% Strength <vs [Bestial Ranged] units>"],
 		"attackSound": "metalhit"
 	},
 	/*
@@ -249,7 +249,7 @@
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Bestial] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Bestial] units>", "[+50]% Strength <vs [Bestial Ranged] units>"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
@@ -1013,7 +1013,7 @@
 	},
 	{
 		"name": "Terradox (Solar Cannon)",
-		"unitType": "Bestial",
+		"unitType": "Bestial Ranged",
 		"uniqueTo": "Ssu'vi",
 		"replaces": "Chariot Archer",
 		"movement": 1,
@@ -1030,7 +1030,7 @@
 	},
 	{
 		"name": "Terradox (Overgrowth Engine)",
-		"unitType": "Bestial",
+		"unitType": "Bestial Ranged",
 		"uniqueTo": "Terazi",
 		"replaces": "Chariot Archer",
 		"movement": 1,
@@ -1039,7 +1039,7 @@
 		"range": 1,
 		"cost": 240,
 		"requiredTech": "The Wheel",
-		"uniques": ["[+200]% Strength <vs cities>","[+33]% Strength <when fighting in [Forest] tiles>","[+33]% Strength <when fighting in [Jungle] tiles>","[25]% Strength <when defending> <vs [Ranged] units>","[-50]% Strength for enemy [Military] units in adjacent [All] tiles"],
+		"uniques": ["[+200]% Strength <vs cities>","[+33]% Strength <when fighting in [Forest] tiles>","[+33]% Strength <when fighting in [Jungle] tiles>","[+25]% Strength <when defending> <vs [Ranged] units>","[-50]% Strength for enemy [Military] units in adjacent [All] tiles"],
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"hurryCostModifier": 20,
@@ -1117,7 +1117,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+25]% Strength <vs [Mounted] units>","Can move after attacking","[+200]% Strength <in [Desert] tiles>"],
+		"uniques": ["[+25]% Strength <vs [Mounted] units>","[+75]% Strength <vs [Bestial] units>","[+50]% Strength <vs [Bestial Ranged] units>","Can move after attacking","[+200]% Strength <in [Desert] tiles>"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -1133,13 +1133,13 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"promotions": ["Formation I"],
-		"uniques": ["[+33]% Strength <vs [Mounted] units>","[+33]% Strength <vs [Sword] units>","[+150]% Strength <when defending>"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>","[+33]% Strength <vs [Bestial] units>","[+33]% Strength <vs [Bestial Ranged] units>","[+33]% Strength <vs [Sword] units>","[+150]% Strength <when defending>"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 	{
 		"name": "Zegrek War Elephant",
-		"unitType": "Ranged",
+		"unitType": "Bestial Ranged",
 		"uniqueTo": "Zegrek",
 		"replaces": "War Elephant",
 		"movement": 3,
@@ -1171,7 +1171,7 @@
 		"name": "Cho'ko-zu",
 		"replaces": "Crossbowman",
 		"uniqueTo": "Zharia",
-		"unitType": "Ranged",
+		"unitType": "Archery",
 		"movement": 2,
 		"strength": 9,
 		"rangedStrength": 10,
@@ -1180,7 +1180,7 @@
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
 		"promotions": ["Barrage I"],
-		"uniques": ["[2] additional attacks per turn","[+100]% Strength <vs [Sword] units>", "[+100]% Strength <vs cities>","Must set up to ranged attack"],
+		"uniques": ["[2] additional attacks per turn","[+100]% Strength <vs [Melee] units>", "[+100]% Strength <vs cities>","Must set up to ranged attack"],
 		"hurryCostModifier": 20,
 		"attackSound": "arrow"
 	},
@@ -1291,11 +1291,27 @@
 		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "[+100]% Strength <in [Desert] tiles>", "[+4] Movement <in [Desert] tiles>"],
 		"attackSound": "arrow"
 	},
+	{
+		"name": "Giant Slayers",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Soldür",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 25,
+		"cost": 120,
+		"replacementTextForUniques": "+300% Strength vs Bestial and Armored units. Earn 25% of the damage done to Bestial and Armored units as Culture.",
+		"uniques": ["[+300]% Strength <vs [Bestial] units>","[+300]% Strength <vs [Bestial Ranged] units>","[+300]% Strength <vs [Bestial Water] units>","[+300]% Strength <vs [Armored] units>", "Earn [25]% of the damage done to [Bestial] units as [Culture]", "Earn [25]% of the damage done to [Bestial Ranged] units as [Culture]", "Earn [25]% of the damage done to [Bestial Water] units as [Culture]", "Earn [25]% of the damage done to [Armored] units as [Culture]"],
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"attackSound": "metalhit"
+	},
 
 	//City-State Uniques
 	{
 		"name": "Shanin",
-		"unitType": "Ranged",
+		"unitType": "Archery",
 		"movement": 3,
 		"strength": 13,
 		"rangedStrength": 18,
@@ -1356,7 +1372,7 @@
 	},
 	{
 		"name": "Siege Behemoth",
-		"unitType": "Mounted",
+		"unitType": "Bestial",
 		"uniqueTo": "Xagge",
 		"replaces": "War Elephant",
 		"movement": 3,
@@ -1378,7 +1394,7 @@
 		"strength": 22,
 		"cost": 45,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>","Can move immediately once bought"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+50]% Strength <vs [Bestial] units>","[+50]% Strength <vs [Bestial Ranged] units>","Can move immediately once bought"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"hurryCostModifier": 5,
@@ -1408,7 +1424,7 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"promotions": ["Formation I","Woodsman"],
-		"uniques": ["[+33]% Strength <vs [Mounted] units>","[+33]% Strength <vs [Sword] units>","[+100]% Strength <when defending>"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>","[+33]% Strength <vs [Bestial] units>","[+33]% Strength <vs [Bestial Ranged] units>","[+33]% Strength <vs [Sword] units>","[+100]% Strength <when defending>"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},

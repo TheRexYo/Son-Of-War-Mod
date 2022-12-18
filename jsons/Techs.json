@@ -18,6 +18,12 @@
 				"row": 1,
 				"quote": "... The golden sun's rise shall mark the start, granting us a centuries' strength. The forces of mankind, now in part, will fail to stop our coming. With might and light of fated grace, the Sauroids shall return...",
 				"uniques": ["Only available <before discovering [Agriculture]>", "[+100]% Strength <when attacking> <for [Military] units> <for [50] turns>",  "[2] Free Social Policies", "[2] Free Technologies", "Empire enters golden age"]
+			},
+			{
+				"name": "Dawr Legacy",
+				"row": 2,
+				"quote": "The Dawr were an ancient race, strange and perhaps otherworldly in origin. With their highly advanced technology, the sculpted the Dwarves from ancient man, and put them to work in the mines. Eventually they were overthrown by their minions, who took their creator's technology and stowed it away in vaults of stone.",
+				"uniques": ["Only available <before discovering [Agriculture]>", "Provides a [Dawr Forge] in your first [1] cities for free"]
 			}
 		]
 	},

@@ -203,7 +203,7 @@
 			"culture": 1,
 			"isWonder": true,
 			"requiredTech": "Mathematics",
-			"uniques": ["[+25]% [Food] [in all cities]", "Gain a free [Garden] [in this city]", "[+25] HP when healing", "[+50] HP when healing <for [Bestial] units>"],
+			"uniques": ["[+25]% [Food] [in all cities]", "Gain a free [Garden] [in this city]", "[+25] HP when healing", "[+50] HP when healing <for [Bestial] units>", "[+50] HP when healing <for [Bestial Ranged] units>", "[+50] HP when healing <for [Bestial Water] units>"],
 			"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.'  - F. Frankfort Moore"
 		},
 		{
@@ -992,6 +992,15 @@
 	
 	// Nation Unique
 	{
+		"name": "Dawr Forge",
+		"uniqueTo": "Soldür",
+		"maintenance": 5,
+		"cost": 1000,
+		"hurryCostModifier": 50,
+		"uniques": ["[+5 Science]", "[+5 Production] from every [Mine]","All newly-trained [Military] units [in this city] receive the [Dawr Tech] promotion"],
+		"requiredTech": "Future Tech"
+	},
+	{
 		"name": "Verdant Temple",
 		"replaces": "Temple",
 		"uniqueTo": "Aeronia",
@@ -1019,10 +1028,10 @@
 		"maintenance": 0,
 		"cost": 5,
 		"hurryCostModifier": 25,
-		"production": 4,
-		"food": 4,
-		"science": 4,
-		"percentStatBonus": {"production": -50, "science": -50, "food": -50}
+		"production": 10,
+		"food": 10,
+		"science": 10,
+		"uniques": ["[-50]% [Production] [in this city]","[-50]% [Food] [in this city]","[-50]% [Science] [in this city]"]
 	},
 	{
 		"name": "Spawn Pools (Ssuvi)",
@@ -1057,7 +1066,7 @@
 		"science": 6,
 		"food": 6,
 		"maintenance": 6,
-		"uniques": ["[40]% Food is carried over after population increases [in this city]","All newly-trained [relevant] units in this city receive the [Blessing Of The Sun] promotion"],
+		"uniques": ["[40]% Food is carried over after population increases [in this city]","All newly-trained [Military] units [in this city] receive the [Blessing Of The Sun] promotion"],
 		"isNationalWonder": true,
 		"requiredTech": "Pottery"
 	},
@@ -1070,7 +1079,7 @@
 		"science": 6,
 		"food": 12,
 		"maintenance": 6,
-		"uniques": ["[40]% Food is carried over after population increases [in this city]","All newly-trained [relevant] units in this city receive the [Blessing Of The Jungle] promotion"],
+		"uniques": ["[40]% Food is carried over after population increases [in this city]","All newly-trained [Military] units [in this city] receive the [Blessing Of The Jungle] promotion"],
 		"isNationalWonder": true,
 		"requiredTech": "Pottery"
 	},
@@ -1108,6 +1117,18 @@
 		"replaces": "Water Mill",
 		"uniqueTo": "Noraska",
 		"requiredTech": "The Wheel"
+	},
+	{
+		"name": "Soldüran Forge",
+		"replaces": "Forge",
+		"uniqueTo": "Soldür",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Iron"],
+		"requiredTech": "Metal Casting",
+		// If spaceship parts are changed into units, the spaceship part unique should be changed to
+		// "+[15]% Production when constructing [Spaceship part] units [in this city]"
+		"uniques": ["[+15]% Production when constructing [Spaceship part] buildings [in this city]", "[+15]% Production when constructing [Land] units [in this city]", "[+1 Production] from [Iron] tiles [in this city]", "[+1 Production, +1 Gold] from [Gold] tiles [in this city]"]
 	},
 	/*
 	{
@@ -1158,7 +1179,7 @@
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
 		"resourceBonusStats": {"production": 1},
 		"hurryCostModifier": 25,
-		"uniques": ["+[100]% production when building [mounted units] in this city"],
+		"uniques": ["[+100]% Production when constructing [Mounted] units [in this city]"],
 		"requiredTech": "Horseback Riding"
 	},
 	{
@@ -1168,7 +1189,7 @@
 		"cost": 125,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["[80]% Food is carried over after population increases [in this city]","[+1 Production] from [Forest] tiles in this city"],
+		"uniques": ["[80]% Food is carried over after population increases [in this city]","[+1 Production] from [Forest] tiles [in this city]"],
 		"requiredTech": "Engineering"
 	},
 ]

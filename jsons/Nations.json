@@ -453,6 +453,31 @@
 		"outerColor": [252, 53, 3],
 		"innerColor": [252, 194, 3]
 	},
+	{
+		"name": "Soldür",
+		"leaderName": "Rolan",
+		"adjective": ["Soldüran"],
+		"preferredVictoryType": "Cultural",
+		"startBias": ["Mountain"],
+
+		"startIntroPart1": "The mines echo empty, King Rolan of Soldür - a stain upon the Dwarven name. You must make it right! The humans have forced you back into the caverns your people once called home, but you are no strangers to oppression. Bide your time, grow stronger, and retake that which was taken from you!",
+		"startIntroPart2": "It has been many ages since your people overthrew their Dawr overseers, and now they look to you for guidance. Can you bring your people back to their former glory? Will you build a civilization that stands the test of time?",
+		
+		"introduction": "Hail, stranger! What brings ye' here, to Soldür, home of all Dwarves?",
+		"declaringWar": "I'm fancying a scrap, and unfortunately, that means you'll have to do!",
+		"attacked": "Aight then. We have no intention of backing down to you!",
+		"defeated": "Aye. You've won this war. We die as heroes, but you? You live as a murderer.",
+		"neutralHello": "Welcome, stranger. What business do you have in Soldür?",
+		"hateHello": "Oi! Who said you could come here?",
+		"tradeRequest": "I bring a proposal. Think on it, eh?",
+		
+		"uniqueName": "Dawr Legacy",
+		"uniques": ["[+50]% Strength for cities", "[-1] Movement <for [Sword] units>", "[+5]% [Culture] from every [Mine]", "[+5 Gold, +5 Culture] from every [Mountain]", "Starts with [Dawr Legacy]"],
+
+		"cities": ["Soldürm", "Durkin", "Karkas", "Sturmloch"],
+		"outerColor": [34, 179, 111],
+		"innerColor": [150, 105, 36]
+	},
 	//City-States
 	{
 		"name": "Rhal'tu",
