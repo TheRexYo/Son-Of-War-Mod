@@ -1128,7 +1128,7 @@
 		"requiredTech": "Metal Casting",
 		// If spaceship parts are changed into units, the spaceship part unique should be changed to
 		// "+[15]% Production when constructing [Spaceship part] units [in this city]"
-		"uniques": ["[+15]% Production when constructing [Spaceship part] buildings [in this city]", "[+15]% Production when constructing [Land] units [in this city]", "[+1 Production] from [Iron] tiles [in this city]", "[+1 Production, +1 Gold] from [Gold] tiles [in this city]"]
+		"uniques": ["[+15]% Production when constructing [Spaceship part] buildings [in this city]", "[+15]% Production when constructing [Land] units [in this city]", "[+1 Production] from [Iron] tiles [in this city]", "[+1 Production, +1 Gold] from [Gold Ore] tiles [in this city]"]
 	},
 	/*
 	{
@@ -1191,5 +1191,5 @@
 		"maintenance": 1,
 		"uniques": ["[80]% Food is carried over after population increases [in this city]","[+1 Production] from [Forest] tiles [in this city]"],
 		"requiredTech": "Engineering"
-	},
+	}
 ]
