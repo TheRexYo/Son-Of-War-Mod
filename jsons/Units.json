@@ -32,7 +32,7 @@
 	{
 		"name": "Herald",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age","Cannot be purchased"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>","Cannot be purchased"],
 		"cost": 240,
 		"hurryCostModifier": 20,
 		"movement": 1
@@ -856,7 +856,7 @@
 	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable"],
 		"movement": 2
 	},
 	{
@@ -886,7 +886,7 @@
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]", "Great Person - [War]", "Unbuildable"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]", "Great Person - [War]", "Unbuildable"],
 		"movement": 2
 	},
 
@@ -1064,7 +1064,7 @@
 		"uniqueTo": "Ssu'vi",
 		"replaces": "Herald",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age","Can move immediately once bought"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>","Can move immediately once bought"],
 		"cost": 240,
 		"hurryCostModifier": 20,
 		"movement": 1
@@ -1173,16 +1173,27 @@
 		"uniqueTo": "Zharia",
 		"unitType": "Archery",
 		"movement": 2,
-		"strength": 9,
+		"strength": 7,
 		"rangedStrength": 10,
 		"cost": 120,
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
 		"promotions": ["Barrage I"],
-		"uniques": ["[2] additional attacks per turn","[+100]% Strength <vs [Melee] units>", "[+100]% Strength <vs cities>","Must set up to ranged attack"],
+		"uniques": ["[2] additional attacks per turn","[+100]% Strength <vs [Melee] units>", "[+100]% Strength <vs cities>"],
 		"hurryCostModifier": 20,
 		"attackSound": "arrow"
+	},
+	{
+		"name": "Crimsonblooded Dragon",
+		"unitType": "Flier",
+		"uniqueTo": "Zharia",
+		"replaces": "Great General",
+		"uniques": [
+            "[+20]% Strength bonus for [Military] units within [5] tiles", "Great Person - [War]", "Empire enters a [8]-turn Golden Age <by consuming this unit>", "Unbuildable"
+		],
+		"strength": 40,
+		"movement": 2
 	},
 	/*
 	{
@@ -1266,6 +1277,19 @@
 		"requiredResource": "Iron",
 		"hurryCostModifier": 10,
 		"attackSound": "metalhit"
+	},
+	{
+		"name": "Great Kharn",
+		"unitType": "Civilian",
+		"uniqueTo": "Kharn'dii",
+		"replaces": "Great General",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+			"All adjacent units heal [+15] HP when healing", "[+15] HP when healing",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+            "Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 5
 	},
 	{
 		"name": "Slave Worker",

@@ -447,7 +447,7 @@
 		"tradeRequest": "My friend, do you think you can accept this request?",
 		
 		"uniqueName": "Crimson Sun's Blessing",
-		"uniques": ["Great General provides double combat bonus", "[Great General] is earned [250]% faster", "[100]% XP gained from combat <for [Military] units>"],
+		"uniques": ["Great General provides double combat bonus", "[Great General] is earned [+100]% faster", "[Crimsonblooded Dragon] is earned [+100]% faster", "[+100]% XP gained from combat <for [Military] units>"],
 		
 		"cities": ["Dran-Lah'ng", "Shi'dar", "Xian'zin", "Alxi'or"],
 		"outerColor": [252, 53, 3],

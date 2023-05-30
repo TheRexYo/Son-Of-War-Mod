@@ -46,7 +46,7 @@
 	{
 		"name": "Volley",
 		"prerequisites": ["Accuracy I","Barrage I"],
-		"uniques": ["[+50]% Strength <vs [City] units>", "[+50]% Strength <vs cities>"],
+		"uniques": ["[+50]% Strength <vs [City] units>"],
 		"unitTypes": ["Archery","Ranged Gunpowder","Siege"]
 	},
 	{
@@ -101,25 +101,25 @@
 	{
 		"name": "Charge",
 		"prerequisites": ["Shock II","Drill II"],
-		"uniques": ["[+33]% Strength <vs [wounded units] units>", "[+33]% Strength <vs cities>"],
+		"uniques": ["[+33]% Strength <vs [wounded units] units>"],
 		"unitTypes": ["Mounted","Armored"]
 	},
 	{
 		"name": "Besiege", // Not called "Siege" in order to not conflict with siege type units for translations
 		"prerequisites": ["Shock II","Drill II"],
-		"uniques": ["[+50]% Strength <vs [City] units>", "[+50]% Strength <vs cities>"],
+		"uniques": ["[+50]% Strength <vs [City] units>"],
 		"unitTypes": ["Sword","Gunpowder"]
 	},
 	{
 		"name": "Formation I",
 		"prerequisites": ["Shock II","Drill II"], // G&K also has Accuracy II & Barrage II as possible prerequisites for this, but I couldn't find a source for the unittypes
-		"uniques": ["[+33]% Strength <vs [Mounted] units>", "[+33]% Strength <vs cities>"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted"]
 	},
 	{
 		"name": "Formation II",
 		"prerequisites": ["Formation I"],
-		"uniques": ["[+33]% Strength <vs [Mounted] units>", "[+33]% Strength <vs cities>"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted"]
 	},
 
@@ -233,19 +233,19 @@
 	// Water Ranged
 	{
 		"name": "Targeting I",
-		"uniques": ["[+15]% Strength <vs [water units] units>", "[+15]% Strength <vs cities>"],
+		"uniques": ["[+15]% Strength <vs [water units] units>"],
 		"unitTypes": ["Ranged Water"]
 	},
 	{
 		"name": "Targeting II",
 		"prerequisites": ["Targeting I"],
-		"uniques": ["[+15]% Strength <vs [water units] units>", "[+15]% Strength <vs cities>"],
+		"uniques": ["[+15]% Strength <vs [water units] units>"],
 		"unitTypes": ["Ranged Water"]
 	},
 	{
 		"name": "Targeting III",
 		"prerequisites": ["Targeting II"],
-		"uniques": ["[+15]% Strength <vs [water units] units>", "[+15]% Strength <vs cities>"],
+		"uniques": ["[+15]% Strength <vs [water units] units>"],
 		"unitTypes": ["Ranged Water"]
 	},
 
@@ -315,19 +315,19 @@
 	// Bomber
 	{
 		"name": "Siege I",
-		"uniques": ["[+33]% Strength <vs [City] units>", "[+33]% Strength <vs cities>"],
+		"uniques": ["[+33]% Strength <vs [City] units>"],
 		"unitTypes": ["Bomber"]
 	},
 	{
 		"name": "Siege II",
 		"prerequisites": ["Siege I"],
-		"uniques": ["[+33]% Strength <vs [City] units>", "[+33]% Strength <vs cities>"],
+		"uniques": ["[+33]% Strength <vs [City] units>"],
 		"unitTypes": ["Bomber"]
 	},
 	{
 		"name": "Siege III",
 		"prerequisites": ["Siege II"],
-		"uniques": ["[+34]% Strength <vs [City] units>", "[+34]% Strength <vs cities>"],
+		"uniques": ["[+34]% Strength <vs [City] units>"],
 		"unitTypes": ["Bomber"]
 	},
 	{
@@ -394,13 +394,13 @@
 	{
 		"name": "Air Targeting I",
 		"prerequisites": ["Interception I","Dogfighting I", "Siege I","Bombardment I"],
-		"uniques": ["[+33]% Strength <vs [water units] units>", "[+33]% Strength <vs cities>"],
+		"uniques": ["[+33]% Strength <vs [water units] units>"],
 		"unitTypes": ["Fighter","Bomber"]
 	},
 	{
 		"name": "Air Targeting II",
 		"prerequisites": ["Air Targeting I"],
-		"uniques": ["[+33]% Strength <vs [water units] units>", "[+33]% Strength <vs cities>"],
+		"uniques": ["[+33]% Strength <vs [water units] units>"],
 		"unitTypes": ["Fighter","Bomber"]
 	},
 
@@ -489,13 +489,13 @@
 
 	{
 		"name": "Ambush I",
-		"uniques": ["[+33]% Strength <vs [Armored] units>", "[+33]% Strength <vs cities>"],
+		"uniques": ["[+33]% Strength <vs [Armored] units>"],
 		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber"]
 	},
 	{
 		"name": "Ambush II",
 		"prerequisites": ["Ambush I"],
-		"uniques": ["[+33]% Strength <vs [Armored] units>", "[+33]% Strength <vs cities>"],
+		"uniques": ["[+33]% Strength <vs [Armored] units>"],
 		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber"]
 	},
 
@@ -503,13 +503,13 @@
 	// Water ranged and air units
 	{
 		"name": "Bombardment I",
-		"uniques": ["[+33]% Strength <vs [land units] units>", "[+33]% Strength <vs cities>"],
+		"uniques": ["[+33]% Strength <vs [land units] units>"],
 		"unitTypes": ["Ranged Water","Fighter","Bomber"]
 	},
 	{
 		"name": "Bombardment II",
 		"prerequisites": ["Bombardment I"],
-		"uniques": ["[+33]% Strength <vs [land units] units>", "[+33]% Strength <vs cities>"],
+		"uniques": ["[+33]% Strength <vs [land units] units>"],
 		"unitTypes": ["Ranged Water","Fighter","Bomber"]
 	},
 	{
