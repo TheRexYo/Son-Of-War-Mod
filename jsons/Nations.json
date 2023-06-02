@@ -478,6 +478,31 @@
 		"outerColor": [34, 179, 111],
 		"innerColor": [150, 105, 36]
 	},
+	{
+		"name": "Gnoki",
+		"leaderName": "Helfin Lightfoot",
+		"adjective": ["Gnokian"],
+		"preferredVictoryType": "Cultural",
+		"startBias": ["Hill"],
+
+		"startIntroPart1": "The mines echo empty, King Rolan of Soldür - a stain upon the Dwarven name. You must make it right! The humans have forced you back into the caverns your people once called home, but you are no strangers to oppression. Bide your time, grow stronger, and retake that which was taken from you!",
+		"startIntroPart2": "Will you build a civilization that stands the test of time?",
+		
+		"introduction": "I welcome ya to Gnoki, our quaint little empire. I hope we can be friends, but don't underestimate a gnome's grit should it come down to it!",
+		"declaringWar": "You've cost this land it's joy for far too long.",
+		"attacked": "It's time to fight, eh? Sad, but don't expect us to fall easily!",
+		"defeated": "So much ale, not enough time...",
+		"neutralHello": "Ah, you again? What brings you here to Gnoki?",
+		"hateHello": "You're a bit of a party pooper, but I'll listen to you anyway.",
+		"tradeRequest": "I've got a proposal for ya. Let me know if it sounds good, okay?",
+		
+		"uniqueName": "Highland's Bounty",
+		"uniques": ["[-1] Movement <for [Sword] units>", "[+10]% [Food] from every [Farm]", "[+5 Science, +5 Culture] from every [Hill]", "[Great Artist] is earned [+100]% faster"],
+
+		"cities": ["Gnokshire", "Highill", "Sandbark", "Armloch"],
+		"outerColor": [67, 0, 92],
+		"innerColor": [111, 252, 3]
+	},
 	//City-States
 	{
 		"name": "Rhal'tu",

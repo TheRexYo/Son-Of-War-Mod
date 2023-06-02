@@ -1190,9 +1190,9 @@
 		"uniqueTo": "Zharia",
 		"replaces": "Great General",
 		"uniques": [
-            "[+20]% Strength bonus for [Military] units within [5] tiles", "Great Person - [War]", "Empire enters a [8]-turn Golden Age <by consuming this unit>", "Unbuildable"
+            "[+25]% Strength bonus for [Military] units within [5] tiles", "Great Person - [War]", "Empire enters a [8]-turn Golden Age <by consuming this unit>", "Unbuildable", "[+50]% Strength <starting from the [Medieval era]>", "[+50]% Strength <starting from the [Renaissance era]>", "[+50]% Strength <starting from the [Industrial era]>", "[+50]% Strength <starting from the [Modern era]>","[+50]% Strength <starting from the [Atomic era]>","[+50]% Strength <starting from the [Information era]>","[+50]% Strength <starting from the [Future era]>"
 		],
-		"strength": 40,
+		"strength": 20,
 		"movement": 2
 	},
 	/*
@@ -1317,8 +1317,6 @@
 	},
 	{
 		"name": "Giant Slayers",
-		"replaces": "Longswordsman",
-		"uniqueTo": "Soldür",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 25,
@@ -1330,6 +1328,29 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
+	},
+	{
+		"name": "Alchemy Engine",
+		"replaces": "Lancer",
+		"uniqueTo": "Gnoki",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 30,
+		"cost": 185,
+		"requiredTech": "Chemistry",
+		"upgradesTo": "Landship",
+		"obsoleteTech": "Combustion",
+		"promotions": ["Blitz"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-1] Sight","Destroys tile improvements when attacking"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Great Bard",
+		"uniqueTo": "Gnoki",
+		"replaces": "Great Artist",
+		"unitType": "Civilian",
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Gain [500] [Culture] <by consuming this unit>"],
+		"movement": 2
 	},
 
 	//City-State Uniques

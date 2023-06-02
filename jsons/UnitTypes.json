@@ -96,7 +96,7 @@
     {
         "name": "Flier",
         "movementType": "Land",
-        "uniques": ["Can pass through impassable tiles"]
+        "uniques": ["Can pass through impassable tiles","Ignores terrain cost"]
     },
     
     // Deprecated unit types required for mods without a UnitTypes.json file to work
