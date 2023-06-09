@@ -856,25 +856,25 @@
 	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable"],
 		"movement": 2
 	},
 	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
-		"uniques": ["Can hurry technology research", "Can construct [Academy]", "Great Person - [Science]", "Unbuildable"],
+		"uniques": ["Can hurry technology research", "Can instantly construct a [Academy] improvement <by consuming this unit>", "Great Person - [Science]", "Unbuildable"],
 		"movement": 2
 	},
 	{
 		"name": "Great Merchant",
 		"unitType": "Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence", "Can construct [Customs house]", "Great Person - [Gold]", "Unbuildable"],
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence", "Can instantly construct a [Customs house] improvement <by consuming this unit>", "Great Person - [Gold]", "Unbuildable"],
 		"movement": 2
 	},
 	{
 		"name": "Great Engineer",
 		"unitType": "Civilian",
-		"uniques": ["Can speed up construction of a wonder", "Can construct [Manufactory]", "Great Person - [Production]", "Unbuildable"],
+		"uniques": ["Can speed up construction of a wonder", "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Great Person - [Production]", "Unbuildable"],
 		"movement": 2
 	},
 	{
@@ -886,7 +886,7 @@
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]", "Great Person - [War]", "Unbuildable"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "Unbuildable"],
 		"movement": 2
 	},
 
@@ -909,7 +909,7 @@
 	{
 		"name": "Chameran Skyknight",
 		"unitType": "Flier",
-		"movement": 15,
+		"movement": 7,
 		"strength": 20,
 		"rangedStrength": 20,
 		"range": 1,
@@ -918,7 +918,7 @@
 		"replaces": "Knight",
 		"upgradesTo": "Cavalry",
 		"requiredTech": "Chivalry",
-		"obsoleteTech": "Flight",
+		"obsoleteTech": "Military Science",
 		"interceptRange": 2,
 		"uniques": ["Can move after attacking","[25]% chance to intercept air attacks"],
 		"hurryCostModifier": 20,
@@ -934,7 +934,7 @@
 		"replaces": "Horseman",
 		"requiredTech": "Horseback Riding",
 		"obsoleteTech": "Metallurgy",
-		"uniques": ["Can move after attacking","Ignores terrain cost", "[-33]% Strength <vs cities>","May withdraw before melee ([200]%)"],
+		"uniques": ["Can move after attacking","[-33]% Strength <vs cities>","May withdraw before melee ([50]%)"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -997,6 +997,7 @@
 		"uniques": ["Unit will heal every turn, even if it performs an action","Heals [25] damage if it kills a unit","[+20] HP when healing","All adjacent units heal [10] HP when healing"],
 		"attackSound": "nonmetalhit"
 	},
+	/*
 	{
 		"name": "Bloodtalon Rider",
 		"unitType": "Mounted",
@@ -1011,6 +1012,7 @@
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
 	},
+	*/
 	{
 		"name": "Terradox (Solar Cannon)",
 		"unitType": "Bestial Ranged",
@@ -1045,6 +1047,7 @@
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
+	/*
 	{
 		"name": "Sunclaw Rider",
 		"unitType": "Mounted",
@@ -1059,6 +1062,7 @@
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
 	},
+	*/
 	{
 		"name": "Herald Of The Sun",
 		"uniqueTo": "Ssu'vi",
@@ -1218,8 +1222,8 @@
 		"replaces": "Galleass",
 		"uniqueTo": "Noraska",
 		"movement": 1,
-		"strength": 45,
-		"rangedStrength": 45,
+		"strength": 30,
+		"rangedStrength": 50,
 		"range": 3,
 		"cost": 200,
 		"requiredTech": "Compass",

@@ -524,7 +524,11 @@
 		"name": "Strength of Xagge",
 		"uniques": ["[+100]% Strength <vs cities>"]
 	},
-	
+	{
+		"name": "Raiding Boats",
+		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast", "May attack when embarked"]
+	},
+
 	// Building Uniques
 	{
 		"name": "Morale", // Heroic Epic

@@ -17,13 +17,13 @@
 				"name": "The Elder's Prophecy",
 				"row": 1,
 				"quote": "... The golden sun's rise shall mark the start, granting us a centuries' strength. The forces of mankind, now in part, will fail to stop our coming. With might and light of fated grace, the Sauroids shall return...",
-				"uniques": ["Only available <before discovering [Agriculture]>", "[+100]% Strength <when attacking> <for [Military] units> <for [50] turns>",  "[2] Free Social Policies", "[2] Free Technologies", "Empire enters golden age"]
+				"uniques": ["Only available <for [Ssu'vi]>", "[+100]% Strength <when attacking> <for [Military] units> <for [50] turns>",  "[2] Free Social Policies", "[2] Free Technologies", "Empire enters golden age"]
 			},
 			{
 				"name": "Dawr Legacy",
 				"row": 2,
 				"quote": "The Dawr were an ancient race, strange and perhaps otherworldly in origin. With their highly advanced technology, the sculpted the Dwarves from ancient man, and put them to work in the mines. Eventually they were overthrown by their minions, who took their creator's technology and stowed it away in vaults of stone.",
-				"uniques": ["Only available <before discovering [Agriculture]>", "Provides a [Dawr Forge] in your first [1] cities for free"]
+				"uniques": ["Only available <for [Soldür]>", "Provides a [Dawr Forge] in your first [1] cities for free"]
 			}
 		]
 	},
@@ -211,7 +211,7 @@
 				"name": "Guilds",
 				"row": 7,
 				"prerequisites": ["Currency"],
-				"uniques": ["Enables conversion of city production to gold"],
+				"uniques": ["Enables conversion of city production to [Gold]"],
 				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
 			},
 			{
@@ -240,7 +240,7 @@
 				"name": "Education",
 				"row": 3,
 				"prerequisites": ["Theology","Civil Service"],
-				"uniques": ["Enables conversion of city production to science","Enables Research agreements"],
+				"uniques": ["Enables conversion of city production to [Science]","Enables Research agreements"],
 				"quote": "'Education is the best provision for old age.' - Aristotle"
 			},
 			{

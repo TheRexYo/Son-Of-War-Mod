@@ -119,7 +119,7 @@
 		"declaringWar": "You are a plague upon Mystara! Prepare for battle!",
 		"attacked": "You evil creature! My braves will slaughter you!",
 		"defeated": "You have defeated us... but our spirits will never be vanquished! We shall return!",
-		"introduction": "Greetings, stranger. I am Tiawathi, speaker for the Iroquois. We seek peace with all, but we do not shrink from war.",
+		"introduction": "Greetings, stranger. I am Tiawathi, speaker for the Onuqi. We seek peace with all, but we do not shrink from war.",
 		"neutralHello": "Good day.",
 		"hateHello": "Oh, it's you.",
 		"tradeRequest": "Does this trade work for you, my friend?",
@@ -426,7 +426,7 @@
 		"outerColor": [255, 0, 0],
 		"innerColor": [0, 0, 255],
 		"uniqueName": "Fury of the North",
-		"uniques": ["Can only heal by pillaging", "[+2] Movement <for [Melee] units>", "[+25]% Production when constructing [Melee] units [in all cities]", "[+3] Sight <for [Embarked] units>", "Defense bonus when embarked <for [All] units>", "[+1] Movement <for [Embarked] units>", "[1] Movement point cost to embark", "[1] Movement point cost to disembark", "No movement cost to pillage <for [Melee] units>"],
+		"uniques": ["Can only heal by pillaging", "[+2] Movement <for [Melee] units>", "When defeating a [Water] unit, earn [25] Gold and recruit it", "All newly-trained [Sword] units [in all cities] receive the [Raiding Boats] promotion", "[+3] Sight <for [Embarked] units>", "Defense bonus when embarked <for [All] units>", "[+1] Movement <for [Embarked] units>", "[1] Movement point cost to embark", "[1] Movement point cost to disembark", "No movement cost to pillage <for [Melee] units>"],
 		"cities": ["Norkar", "Fygyr", "Ygglor", "Vungur", "Verdolir"]
 	},
 	{
@@ -523,7 +523,7 @@
 		"declaringWar": "My people linger upon pretenses of war. Who am I to disappoint?",
 		"attacked": "This transgression will not be forgotten.",
 		"defeated": "Congratulations, conquerer. Even the mighty Ghandor has fallen before you.",
-		"uniques": ["-25% land units maintenance"],
+		"uniques": ["[-50]% maintenance costs <for [Land] units>"],
 		"outerColor": [255, 255, 128],
 		"innerColor": [255, 255, 0],
 		"cities": ["Ghandor"]
