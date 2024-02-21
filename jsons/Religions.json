@@ -1,7 +1,14 @@
 [
-    "The Divine Triad",
-    "Aetherism",
-    "Ktharism",
-    "Gesilor",
-    "Talor"
+    "The Divine Triad", // Worship of the three dragon gods that embody the physical world. This religion is especially common, as the gods they worship are physical beings rather than manifestations of a religion.
+    "Aetherism", // The Aetherian Pantheon, Aeronia and Pyria's ancestral religion.
+    "Ultimism", // The sole monotheistic pantheon ever founded, worshipping a god known as Deus-Ultima. Originally founded by Imperia after its polytheistic pantheon was slain by the Divine Triad.
+    "Gesilor", // Worship of the god Gesilor and embracing one's inner light.
+    "Talor", // Worship of the god Talor and unleashing one's inner darkness.
+    "Solarism", // Worship of the sun.
+    "Tolarianism", // Worship of the Zegrek/Rhonan pantheon, particularly their ruling storm goddess Tolaria.
+    "Gnokism", // Worship of the Gnoki pantheon.
+    "Dawism", //Worship of the Dwarven Pantheon.
+    "Gaeanimism", // Worship of nature and life as being divine. Has formed independently across multiple nations, but is most prevalent in the Onuqi.
+    "Saurianism", // Worship of the ancestral Sauroid gods. Very rare, even among Sauroid nations, as they were taught very early in their people's history to worship the Divine Triad.
+    "Nepharism" // Worship of the Neph ancestor gods, common in many ancient human civilizations.
 ]

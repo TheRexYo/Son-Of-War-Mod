@@ -3,7 +3,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Flier","Bestial","Bestial Ranged","Bestial Water"]
 	},
 
 	// Ranged+Siege
@@ -66,43 +66,43 @@
 	{
 		"name": "Shock I",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Flier"]
 	},
 	{
 		"name": "Shock II",
 		"prerequisites": ["Shock I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Flier"]
 	},
 	{
 		"name": "Shock III",
 		"prerequisites": ["Shock II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Flier"]
 	},
 
 	{
 		"name": "Drill I",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Flier"]
 	},
 	{
 		"name": "Drill II",
 		"prerequisites": ["Drill I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Flier"]
 	},
 	{
 		"name": "Drill III",
 		"prerequisites": ["Drill II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Flier"]
 	},
 	{
 		"name": "Charge",
 		"prerequisites": ["Shock II","Drill II"],
 		"uniques": ["[+33]% Strength <vs [wounded units] units>"],
-		"unitTypes": ["Mounted","Armored"]
+		"unitTypes": ["Mounted","Armored","Flier"]
 	},
 	{
 		"name": "Besiege", // Not called "Siege" in order to not conflict with siege type units for translations
@@ -114,20 +114,20 @@
 		"name": "Formation I",
 		"prerequisites": ["Shock II","Drill II"], // G&K also has Accuracy II & Barrage II as possible prerequisites for this, but I couldn't find a source for the unittypes
 		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Flier"]
 	},
 	{
 		"name": "Formation II",
 		"prerequisites": ["Formation I"],
 		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Flier"]
 	},
 
 	{
 		"name": "Blitz",
 		"prerequisites": ["Shock III","Drill III"],
 		"uniques": ["[1] additional attacks per turn"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Flier"]
 	},
 	{
 		"name": "Woodsman",
@@ -147,14 +147,108 @@
 		"name": "Medic",
 		"prerequisites": ["Shock I", "Drill I", "Scouting II", "Survivalism II"],
 		"uniques": ["[+5] HP when healing", "All adjacent units heal [5] HP when healing"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Flier"]
 	},
 	{
 		"name": "Medic II",
 		"prerequisites": ["Medic"],
 		"uniques": ["[+5] HP when healing", "[5] HP when healing <in [Foreign Land] tiles>", "All adjacent units heal [5] HP when healing"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Flier"]
 	},
+
+	// Bestial
+	{
+		"name": "Aggression I",
+		"uniques": ["[+15]% Strength <when attacking>"],
+		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+	},
+	{
+		"name": "Aggression II",
+		"prerequisites": ["Aggression I"],
+		"uniques": ["[+15]% Strength <when attacking>"],
+		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+	},
+	{
+		"name": "Aggression III",
+		"prerequisites": ["Aggression II"],
+		"uniques": ["[+15]% Strength <when attacking>"],
+		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+	},
+	{
+		"name": "Toughness I",
+		"uniques": ["[+15]% Strength <when defending>"],
+		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+	},
+	{
+		"name": "Toughness II",
+		"prerequisites": ["Toughness I"],
+		"uniques": ["[+15]% Strength <when defending>"],
+		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+	},
+	{
+		"name": "Toughness III",
+		"prerequisites": ["Toughness II"],
+		"uniques": ["[+15]% Strength <when defending>"],
+		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+	},
+	{
+		"name": "Terror",
+		"prerequisites": ["Aggression II","Toughness II"],
+		"uniques": ["[+33]% Strength <vs [wounded units] units>"],
+		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+	},
+	{
+		"name": "Destructive",
+		"prerequisites": ["Aggression II","Toughness II"],
+		"uniques": ["Ignores terrain cost","Destroys tile improvements when attacking"],
+		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+	},
+	{
+		"name": "Ferocity I",
+		"prerequisites": ["Aggression II","Toughness II"],
+		"uniques": ["[+50]% Strength <when below [50] HP>"],
+		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+	},
+	{
+		"name": "Ferocity II",
+		"prerequisites": ["Ferocity I"],
+		"uniques": ["[+50]% Strength <when below [25] HP>","Damage is ignored when determining unit Strength"],
+		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+	},
+
+	{
+		"name": "Rampage",
+		"prerequisites": ["Aggression III","Toughness III"],
+		"uniques": ["[1] additional attacks per turn"],
+		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+	},
+	{
+		"name": "Ambusher",
+		"prerequisites": ["Aggression III","Toughness III"],
+		"uniques": ["Invisible to non-adjacent units"],
+		// This could be generalized: ["-[50]% movement costs through [Forest] tiles", "-[50]% movement costs through [Jungle] tiles"],
+		// but with how getMovementCostBetweenAdjacentTiles() is optimized, that's difficult to implement.
+		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+	},
+	{
+		"name": "Overrun",
+		"prerequisites": ["Aggression I","Toughness I"],
+		"uniques": ["Ignores Zone of Control", "Can move after attacking"],
+		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+	},
+	{
+		"name": "Tenacity I",
+		"prerequisites": ["Aggression I","Toughness I"],
+		"uniques": ["[+5] HP when healing", "Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+	},
+	{
+		"name": "Tenacity II",
+		"prerequisites": ["Tenacity I"],
+		"uniques": ["[+5] HP when healing", "May heal outside of friendly territory"],
+		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+	},
+
 
 	// Scout
 	{
@@ -424,18 +518,19 @@
 		"unitTypes": ["Fighter", "Bomber", "Helicopter"]
 	},
 
-	// Helicopter
+	// Helicopter, Flier
 	{
 		"name": "Mobility I",
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Helicopter"]
+		"unitTypes": ["Helicopter","Flier"]
 	},
 	{
 		"name": "Mobility II",
 		"prerequisites": ["Mobility I"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Helicopter"]
+		"unitTypes": ["Helicopter","Flier"]
 	},
+	// Helicopter
 	{
 		"name": "Anti-Armor I",
 		"uniques": ["+[25]% vs [Armored]"],
@@ -547,7 +642,7 @@
 		"uniques": ["[+50]% Strength"]
 	},
 
-	// Unit Uniques
+	// Specific Unit Uniques
 	{
 		"name": "Keepers of the Empire", // only for Imperial Guard and subsequent upgrades
 		"uniques": ["Can build [Land] improvements on tiles"]
@@ -556,8 +651,112 @@
 		"name": "Defenders of the Empire", // only for Imperial Guard and subsequent upgrades
 		"uniques": ["[+50]% Strength <when defending> <vs [All] units>"]
 	},
-	
-	// Terrain Uniques
+	{
+		"name": "Spread Ammo", // only for Bowgunner and subsequent upgrades
+		"uniques": ["[+50]% Strength","[-1] Range"]
+	},
+	{
+		"name": "Hunter's Training", // only for Flat Hunter and subsequent upgrades
+		"uniques": ["[+1] Movement <when [Mounted]>","[+33]% Strength <when attacking> <vs [Bestial] units>","[+33]% Strength <when attacking> <vs [Bestial Ranged] units>"]
+	},
+	{
+		"name": "Krush Mounts", // only for Krush Rider and subsequent upgrades
+		"uniques": ["[+50]% Strength <when [Mounted]>","[-1] Movement <when [Mounted]>"]
+	},
+	{
+		"name": "Hussar Charge", // only for Grand Hussar and subsequent upgrades.
+		"uniques": ["[+50]% to Flank Attack bonuses"]
+	},
+
+	// Unspecific Unit Uniques
+	{
+		"name": "Bestial Charge", // For various bestial unique units.
+		"uniques": ["[+50]% to Flank Attack bonuses <vs [Melee] units>","[-50]% to Flank Attack bonuses <vs [Ranged] units>"]
+	},
+
+	// Elemental Uniques
+	{
+		"name": "Blessing of Water",
+		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast","May travel on Water tiles without embarking"]
+	},
+	{
+		"name": "Blessing of Grasslands",
+		"uniques": ["[+1] Movement"]
+	},
+	{
+		"name": "Blessing of Plains",
+		"uniques": ["[+50]% XP gained from combat","Damage is ignored when determining unit Strength"]
+	},
+	{
+		"name": "Blessing of Tundras",
+		"uniques": ["[-25]% Strength for enemy [Melee] units in adjacent [All] tiles"]
+	},
+	{
+		"name": "Blessing of Deserts",
+		"uniques": ["[+25]% Strength bonus for [Melee] units within [1] tiles"]
+	},
+	{
+		"name": "Blessing of Lakes",
+		"uniques": ["[1] additional attacks per turn"]
+	},
+	{
+		"name": "Blessing of Mountains",
+		"uniques": ["May Paradrop up to [10] tiles from inside friendly territory"]
+	},
+	{
+		"name": "Blessing of Snow",
+		"uniques": ["[-50]% Strength for enemy [Ranged] units in adjacent [All] tiles","Can enter ice tiles"]
+	},
+	{
+		"name": "Blessing of Hills",
+		"uniques": ["Ignores terrain cost","Can pass through impassable tiles"]
+	},
+	{
+		"name": "Blessing of Forests",
+		"uniques": ["Invisible to non-adjacent units"]
+	},
+	{
+		"name": "Blessing of Jungles",
+		"uniques": ["[+50]% Strength"]
+	},
+	{
+		"name": "Blessing of Marshes",
+		"uniques": ["All adjacent units heal [+25] HP when healing"]
+	},
+	{
+		"name": "Blessing of Ruin",
+		"uniques": ["[+100]% Strength <vs cities>"]
+	},
+	{
+		"name": "Blessing of Oasis",
+		"uniques": ["Can see invisible [Land] units"]
+	},
+	{
+		"name": "Blessing of Flood Plains",
+		"uniques": ["Can move after attacking"]
+	},
+	{
+		"name": "Blessing of Ice",
+		"uniques": ["Earn [100]% of the damage done to [All] units as [Culture]"]
+	},
+	{
+		"name": "Blessing of Atolls",
+		"uniques": ["Ignores Zone of Control"]
+	},
+
+	// Terrain / Event Uniques
+	{
+		"name": "Divine Courier", // For scout units built in cities following a religion with the "Messenger of the Gods" pantheon.
+		"uniques": ["[+5] Sight","[+5] Movement"]
+	},
+	{
+		"name": "Divine Protection", // For scout units built in cities following a religion with the "Messenger of the Gods" pantheon.
+		"uniques": ["[+100]% Strength <when [Wounded]> <when defending>"]
+	},
+	{
+		"name": "Divine Undeath", // For scout units built in cities following a religion with the "Messenger of the Gods" pantheon.
+		"uniques": ["Damage is ignored when determining unit Strength","Can only heal by pillaging"]
+	},
 	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
 		"uniques": ["All healing effects doubled"]

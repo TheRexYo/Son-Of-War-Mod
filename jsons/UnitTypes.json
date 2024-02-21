@@ -98,6 +98,10 @@
         "movementType": "Land",
         "uniques": ["Can pass through impassable tiles","Ignores terrain cost"]
     },
+    {
+        "name": "Hero",
+        "movementType": "Land"
+    },
     
     // Deprecated unit types required for mods without a UnitTypes.json file to work
     

@@ -1,78 +1,6 @@
 
 [
     {
-        "name": "Ancestor Worship",
-        "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Shrine]"]
-    },
-    {
-        "name": "Dance of the Aurora",
-        "type": "Pantheon",
-        "uniques": ["[+1 Faith] from [Tundra] tiles without [Forest] [in this city]"]
-    },
-    {
-        "name": "Desert Folklore",
-        "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Desert]"]
-    },
-    {
-        "name": "Faith Healers",
-        "type": "Pantheon",
-        "uniques": ["[All] Units adjacent to this city heal [+30] HP per turn when healing"]
-        // This should be worded better
-    },
-    {
-        "name": "Fertility Rites",
-        "type": "Pantheon",
-        "uniques": ["[+10]% growth [in this city]"]
-        // Preferably I would not have a cityFilter here, but doing so requires no additional implementation
-    },
-    {
-        "name": "God of Craftsman",
-        "type": "Pantheon",
-        "uniques": ["[+1 Production] <in cities with at least [3] [Population]>"]
-    },
-    {
-        "name": "God of the Open Sky",
-        "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Pasture]"]
-    },
-    {
-        "name": "God of the Sea",
-        "type": "Pantheon",
-        "uniques": ["[+1 Production] from every [Fishing Boats]"]
-    },
-    {
-        "name": "God of War",
-        "type": "Pantheon",
-        "uniques": ["Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
-    },
-    {
-        "name": "Goddess of Festivals",
-        "type": "Pantheon",
-        "uniques": ["[+1 Culture, +1 Faith] from every [Wine]", "[+1 Culture, +1 Faith] from every [Incense]"]
-    },
-    {
-        "name": "Goddess of Love",
-        "type": "Pantheon",
-        "uniques": ["[+1 Happiness] <in cities with at least [6] [Population]>"]
-    },
-    {
-        "name": "Goddess of Protection",
-        "type": "Pantheon",
-        "uniques": ["[+30]% Strength for cities <when attacking>"]
-    },
-    {
-        "name": "Goddess of the Hunt",
-        "type": "Pantheon",
-        "uniques": ["[+1 Food] from every [Camp]"]
-    },
-    {
-        "name": "Messenger of the Gods",
-        "type": "Pantheon",
-        "uniques": ["[+2 Science] from each Trade Route"]
-    },
-    {
         "name": "Monument to the Gods",
         "type": "Pantheon",
         "uniques": ["[+15]% Production when constructing [All] wonders [in cities following this religion]"]
@@ -85,25 +13,113 @@
         // Alternatively, we could approximate this with "[+15]% Production when constructing [All] wonders [in all cities] <during the [Ancient era]>"
     },
     {
-        "name": "One with Nature",
+        "name": "Ancestor Worship",
         "type": "Pantheon",
-        "uniques": ["[+4 Faith] from every [Natural Wonder]"]
+        "uniques": ["[+1 Culture] from every [Shrine]","[+100]% Unhappiness from [Followers of this Religion] [in cities following this religion]"]
     },
     {
-        "name": "Oral Tradition",
+        "name": "Natural Divinity",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Plantation]"]
+        "uniques": ["[+4 Faith] from every [Natural Wonder]","[+33]% Strength <for [Mounted] units>","[+66]% Strength <for [Bestial] units>","[+66]% Strength <for [Bestial Ranged] units>"]
     },
+    {
+        "name": "God of Winter",
+        "type": "Pantheon",
+        "uniques": ["[+3 Food, +1 Faith] from [Tundra] tiles without [Forest] [in this city]","[+5 Faith] from [Ice] tiles [in cities following this religion]"]
+    },
+    {
+        "name": "God of the Sands",
+        "type": "Pantheon",
+        "uniques": ["[+3 Food, +1 Faith] from [Desert] tiles without [Flood plains] [in this city]","[+5 Faith] from [Oasis] tiles [in cities following this religion]"]
+    },
+    {
+        "name": "God of Life",
+        "type": "Pantheon",
+        "uniques": ["[All] Units adjacent to this city heal [+30] HP per turn when healing","[+1 Faith] per [2] population [in cities following this religion]"]
+        // This should be worded better
+            // Should it? It seems fine to me.
+    },
+    {
+        "name": "Goddess of Death",
+        "type": "Pantheon",
+        "uniques": ["All newly-trained [Military] units [in cities following this religion] receive the [Divine Undeath] promotion","Earn [100]% of [All] unit's [Cost] as [Faith] when killed within 4 tiles of a city following this religion"]
+    },
+    {
+        "name": "Goddess of Fertility",
+        "type": "Pantheon",
+        "uniques": ["[+10]% growth [in this city]","[+1 Food] per [1] population [in cities following this religion]"]
+        // Preferably I would not have a cityFilter here, but doing so requires no additional implementation
+            // So you say...
+    },
+    {
+        "name": "God of Craftsmanship",
+        "type": "Pantheon",
+        "uniques": ["[+1 Production] <in cities with at least [3] [Population]>","[Gold] cost of purchasing items in cities [-25]%"]
+    },
+    {
+        "name": "God of the Open Sky",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Pasture]","[+3] Range <for [Air] units>","[+2] Movement <for [Flier] units>","[+2] Movement <for [Helicopter] units>"]
+    },
+    {
+        "name": "God of the Sea",
+        "type": "Pantheon",
+        "uniques": ["[+1 Production] from every [Fishing Boats]","[+2] Movement <for [Water] units>"]
+    },
+    {
+        "name": "God of War",
+        "type": "Pantheon",
+        "uniques": ["Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion","May buy [Military] units with [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Goddess of Festivals",
+        "type": "Pantheon",
+        "uniques": ["[+5 Happiness] <when not at war>","[+1 Culture, +1 Faith] from every [Wine]", "[+1 Culture, +1 Faith] from every [Incense]"]
+    },
+    {
+        "name": "Goddess of Love",
+        "type": "Pantheon",
+        "uniques": ["[+1 Happiness] <in cities with at least [6] [Population]>","[+1 Happiness] per [2] population [in cities following this religion]"]
+    },
+    {
+        "name": "Goddess of Protection",
+        "type": "Pantheon",
+        "uniques": ["[+30]% Strength for cities <when attacking>","[+100]% City Strength from defensive buildings <in cities with a [Faith]>","All newly-trained [All] units [in cities following this religion] receive the [Divine Protection] promotion"]
+    },
+    {
+        "name": "Goddess of the Hunt",
+        "type": "Pantheon",
+        "uniques": ["[+2] Range <for [Ranged] units>","[+1 Food] from every [Camp]"]
+    },
+    {
+        "name": "Messenger of the Gods",
+        "type": "Pantheon",
+        "uniques": ["[+2 Science, +2 Faith] from each Trade Route","All newly-trained [Scout] units [in cities following this religion] receive the [Divine Courier] promotion"]
+        /* 
+            Ideally this would be:
+                "uniques": ["[+2 Science, +2 Faith] from each Trade Route","[+5] Sight <for [Scout] units>","[+5] Movement <for [Scout] units>"]
+            But Yair- I mean, "Unciv" doesn't allow that so...
+        */
+    },
+    {
+        "name": "God of Lore",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Library]","[+1 Science] per [2] population [in cities following this religion]"]
+    },
+    // TODO: Decide whether or not this should qualify as a Pantheon belief.
     {
         "name": "Religious Idols",
         "type": "Pantheon",
         "uniques": ["[+1 Culture, +1 Faith] from every [Gold Ore]", "[+1 Culture, +1 Faith] from every [Silver]"]
     },
+    // TODO: Decide whether or not this should qualify as a Pantheon belief.
     {
         "name": "Religious Settlements",
         "type": "Pantheon",
         "uniques": ["[-15]% Culture cost of natural border growth [in cities following this religion]"]
     },
+    /*
+    // Temporarily removed as these do not fit with the Son of War world's concept of divinity (that being that divine beings "manifest" if enough conscious entities believe in them, turning them into real entities). Mainly because as far as I can tell no entities are involved, only places.
     {
         "name": "Sacred Path",
         "type": "Pantheon",
@@ -114,11 +130,14 @@
         "type": "Pantheon",
         "uniques": ["[+1 Happiness] in cities on [River] tiles"]
     },
+    */
+    // TODO: Decide whether or not this should qualify as a Pantheon belief.
     {
         "name": "Stone Circles",
         "type": "Pantheon",
         "uniques": ["[+2 Faith] from every [Quarry]"]
     },
+
 ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
     {
         "name": "Asceticism",
@@ -221,7 +240,7 @@
         "name": "Interfaith Dialogue",
         "type": "Founder",
         "uniques": ["When spreading religion to a city, gain [10] times the amount of followers of other religions as [Science]"]
-    }
+    },
     {
         "name": "Papal Primacy",
         "type": "Founder",
