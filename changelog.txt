@@ -106,9 +106,62 @@ Major Fixes
 - Fixed an error with Soldüran Forge's uniques that prevented the mod from loading. (This was done as a hotfix that came after the previous commit). | "Fixed an error with Soldüran Forge's uniques that prevented the mod from loading."
 - Updated the syntax of various "Golden Age Generation" units so that they function properly again. | Commits: "Zharia rework & Golden Age unit syntax fix"
 - Giant Slayer is now properly unique to Soldür. | Commits: "Update v0.3"
+
 Minor Fixes
 - Updated Units.json to fix an issue with the auto-update uniques function of Unciv, removing Strength vs cities from multiple units that weren't supposed to have it. Units should no longer randomly have anti-city bonuses. | Commit: "Fixed an annoying auto-update"
 - Unit Promotions no longer provide extra bonuses against cities - these were an unintended side-effect of the auto-update feature Unciv has built-in. This was intended to be fixed in the commit "Fixed an annoying auto-update" but I hadn't realized this was an issue for promotions too at that the time. | Commits: "Zharia rework & Golden Age unit syntax fix"
 - Updated multiple uniques to their modern format. | Commits: "Soldür Update"
 
 _____
+*v0.4*
+Additions
+- Centurian Empire: A diplomacy focused civilization that uses a combination of enhanced gold gifts and military force to either ally with or subjugate city-states to claim their unique units. | Commit: "Pre-Patch for v0.4"
+- Emissar: A mounted unit that replaces Lancers for the Centurian empire. Stronger than normal Lancers, with Formation I and II (as opposed to just I) and their unique promotion "Emissar's Sway", which allows the bearer to convert defeated units and buff adjacent allied units. | Commit: "Pre-Patch for v0.4"
+- Warrior Monk: A "sword" unit that replaces Pikemen for the city-state of Hili. Twice as fast and reduces the strength of adjacent enemy Ranged units by a huge margin. Also far stronger on defense at the cost of a weaker offense. | Commit: "Pre-Patch for v0.4"
+- Stone Sentinel: An event unit, generated via The Stone Sentinels upon its construction. Great for defending one's capital, as it gets up to +400% strength the closer it gets to the capital. They cannot heal normally (only via pillaging), but deal full damage regardless of health. Can see all invisible units. | Commit: "Pre-Patch for v0.4"
+- Cultural Sanctuary: A Centurian unique building, replacing the standard Courthouse. Provides bonuses related to city-states. | Commit: "Pre-Patch for v0.4"
+- Alignment District: A Centurian unique building. Requires Civil Service technology. Generates high amounts of gold and a small amount of culture by default. Stacking them adjacent to each other will decrease gold generation, but increase culture generation and provide extra happiness. When pillaged during wartime, provides an additional 100 gold. Don't let your enemies near em'! | Commit: "Pre-Patch for v0.4"
+- Embassy of Alignment: A Centurian unique building, replacing the standard Theatre. Requires an owned Alignment District within 3 tiles, but generates a huge amount of happiness (and a more reasonable amount of culture) from allied city states, and lets you buy units with Culture in the city it is built in. | Commit: "Pre-Patch for v0.4"
+
+Major Changes
+- Aeronia buffed by increasing the duration of the free golden age gained from declaring friendship from 10 turns to 30. | Commit: "Pre-Patch for v0.4"
+- Jharappe reworked (should be an overall buff), no longer generates +3 science per city. Instead, starts with every Column 1 tech. Also gets +1 Food from Deserts and -1 Food from Plains. In combination these changes should make Jharappe play tall better as opposed to playing both wide and tall, and make their desert start easier. | Commits: ""
+- Atoiri reworked, no longer gets +5 Culture in capital. Instead, gets +25% production towards buildings that already exist in capital. (Roman unique in vanilla Civ5-G&K) | Commit: "Pre-Patch for v0.4"
+- Zegrek reworked (should be an overall buff), instead of getting extra influence with city states via gold gifts, gets +120 XP for military units gifted by city states and gets gifted them 5x as fast. | Commit: "Pre-Patch for v0.4"
+- Rhone reworked (should be a slight nerf, but fits better with the premise), only has 50% Strength bonus for cities, but gets science from allied city states and has -25% influence degredation for city-states.
+- Onuqi reworked (more like a nerf, but they needed it), gets less bonuses from standard tiles, but also gets extra units from Militaristic city-states.
+- Massive City-State rework - all city-states now have their own city-state type, allowing them to give unique effects. Notably, this means city-states now provide their Unique Unit to allies every now and then. | Commit: "Pre-Patch for v0.4"
+- Terazi now get +1 Happiness from Jungles. As they should. | Commit: "Pre-Patch for v0.4"
+- Mesyptia now gets +1 Science before discovering Iron-Working. This should encourage them to focus on building and development technology over military technology, as well as give them a small power boost. | Commit: "Pre-Patch for v0.4"
+- All major civilizations now have a unique Personality. At least in theory, assuming Unciv has fully implemented it. | Commit: "Pre-Patch for v0.4"
+- Imperia now generates 1 Happiness per city before discovering Theology, both for thematic (the God-Emperor is not truly a god and when the people realize that they will take him less seriously) and gameplay reasons. | Commit: "Pre-Patch for v0.4"
+
+Minor Changes
+- Capital city of Imperia renamed from 'Imperia' to 'Grandur'. Removed city name "Grandeur" for this reason. | Commit: "Pre-Patch for v0.4"
+- Added city-name 'Ethensia' to Imperia to replace the old 'Grandeur' name. | Commit: "Pre-Patch for v0.4"
+- Removed references to Bretia from the Onuqi introduction. "It's just Kasia?" "Always has been." | Commit: "Pre-Patch for v0.4"
+- Added some city names to the Onuqi, likely more to come soon. | Commit: "Pre-Patch for v0.4"
+- Added city-name 'Kaldu-Tlatl" to the Ssu'vi. Fun Fact: Tlatl is the Sauroid word for "Home" or "City" (depending on which Sauroid subculture you ask). | Commit: "Pre-Patch for v0.4"
+- Added city-names 'Azhan-Tlatl" and "Susu-Tlatl" to the Terazi. | Commit: "Pre-Patch for v0.4"
+- Finished the start introduction text for multiple nations, namely Rhone. | Commit: "Pre-Patch for v0.4"
+- Altered Rhone's war declaration text as I feel it doesn't fit well with Alaris' personality. | Commit: "Pre-Patch for v0.4"
+- Altered Noraska's peace text to reflect his Curse of Frozen Fury. When his blood isn't heated from battle, he is constantly freezing. 'Tis his entire character. | Commit: "Pre-Patch for v0.4"
+- City-State of Yate's unique has been altered. Costs 0 to embark/disembark as opposed to 1. Don't question the physics. | Commit: "Pre-Patch for v0.4"
+- Tech "Future Tech" now triggers a victory if (A) the researching nation is the only one that has it, (B) they aren't at war, and (C) they are in a Golden Age. | Commit: "Pre-Patch for v0.4"
+- Zephyrodon Riders nerfed. Cost increased from 90 to 110. | Commit: "Pre-Patch for v0.4"
+- Shanin (unique unit of the Sengali city-state) now has +100% strength vs Water units when attacking. | Commit: "Pre-Patch for v0.4"
+- Guild Guard (unique unit of the Threfek city-state) now costs more (45 -> 60) but generates gold when damaging civilian units (equal to 500% of the damage dealt). This may be altered to convert damage done to military units later, as Civilian units might just get captured instead. | Commit: "Pre-Patch for v0.4"
+- Tatli (unique unit of the Tetku city-state) now costs more (25 -> 35) but deals even more damage to cities (500% -> 1000%). | Commit: "Pre-Patch for v0.4"
+- Re-Ordered the milestones for the Religious Victory, and updated the victory screen text for it. | Commit: "Pre-Patch for v0.4"
+- Ascension Monolith triggers a victory during the future era if the builder has a religion founded. Now generates +500% faith. | Commit: "Pre-Patch for v0.4"
+- Spirit Barrier (unique building of the Hili city-state) generates faith from killing units now, in addition to the usual culture. | Commit: "Pre-Patch for v0.4"
+
+Major Fixes
+- Moved certain policy and belief effects from their respective files to GlobalUniques.json to allow them to actually function (as they don't normally work with policies and beliefs). | Commit: "Pre-Patch for v0.4"
+- Updated "Terrains.json" to fix some issues. | Commit: "Pre-Patch for v0.4"
+- Great Generals and Heroes are now generated through combat as is primarily intended. | Commit: "Pre-Patch for v0.4"
+
+Minor Fixes
+- Added more contrast to the nation colors. As much as I enjoy bright and energetic colors, they weren't contrasting enough. | Commit: "Pre-Patch for v0.4"
+- Fixed uniques for some files (Ruins, Policies, Promotions). | Commit: "Pre-Patch for v0.4"
+- Improvements now have proper pillage values. | Commit: "Pre-Patch for v0.4"

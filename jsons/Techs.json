@@ -663,7 +663,7 @@
 				"name": "Future Tech",
 				"row": 5,
 				"prerequisites": ["Globalization","Particle Physics", "Nuclear Fusion", "Nanotechnology", "Stealth"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
+				"uniques": ["Who knows what the future holds?", "Can be continually researched", "Triggers victory <during a Golden Age> <when not at war> <if no other Civilization has researched this>"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			}
 		]

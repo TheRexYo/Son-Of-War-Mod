@@ -2,8 +2,9 @@
 	// Multiple-Era Nations
 	{
 		"name": "Aeronia",
-		"leaderName": "Sun Alar",
 		"adjective": ["Aeronian"],
+		"leaderName": "Sun Alar",
+		"personality": "Warborn",
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Cultural",
 
@@ -33,15 +34,16 @@
 
 		"favoredReligion": "The Divine Triad",
 		"uniqueName": "Winds Of Genesis",
-		"uniques": ["[+2] Movement","Empire enters a [10]-turn Golden Age <upon declaring friendship>","Free [Great Hero] appears <upon declaring friendship>"],
+		"uniques": ["[+2] Movement","Empire enters a [30]-turn Golden Age <upon declaring friendship>","Free [Great Hero] appears <upon declaring friendship>"],
 		"cities": ["Chamera", "Aethil", "Tilford", "Aerol", "Fyrforx", "Tael", "Kalru", "Lanthor", "Solaen",
 			"Tetherin", "Ethr", "Genu", "Whynfor", "Skysol", "Aetherfort", "Skaern", "Dawnlight", "Skyren", "Bahtyr"
 		]
 	},
 	{
 		"name": "Pyria",
-		"leaderName": "Luna Nym",
 		"adjective": ["Pyrian"],
+		"leaderName": "Luna Nym",
+		"personality": "Deathchild",
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Domination",
 
@@ -79,8 +81,9 @@
 	},
 	{
 		"name": "Imperia",
+		"adjective": ["Imperian"],
 		"leaderName": "Danu Impyr",
-		"adjective": ["Imperial"],
+		"personality": "God-Emperor",
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Cultural",
 
@@ -105,22 +108,23 @@
 		"afterPeace": "I know when a war has gone on too long. Let peace return.",
 		"tradeRequest": "I believe our empires would benefit from this relationship.",
 
-		"outerColor": [128, 0, 255],
-		"innerColor": [255, 0, 0],
+		"outerColor": [172, 89, 255],
+		"innerColor": [119, 0, 0],
 
 		"favoredReligion": "Ultimism",
 		"uniqueName": "Glory of the Empire",
-		"uniques": ["[+100]% [Happiness] [in all cities connected to capital]", "[50]% of excess happiness converted to [Culture]","Each city founded increases culture cost of policies [100]% less than normal"],
-		"cities": ["Imperia", "Antor", "Enrade", "Gryffor", "Asdale", "Yelor", "Grandeur"]
+		"uniques": ["[+1 Happiness] [in all cities] <before discovering [Theology]>", "[+100]% [Happiness] [in all cities connected to capital]", "[100]% of excess happiness converted to [Culture]","Each city founded increases culture cost of policies [100]% less than normal"],
+		"cities": ["Grandur", "Antor", "Enrade", "Gryffor", "Asdale", "Yelor", "Ethensia"]
 	},
 	{
 		"name": "Onuqi",
-		"leaderName": "Tiawathi",
 		"adjective": ["Onuqin"],
+		"leaderName": "Tiawathi",
+		"personality": "Harmonious Warchief",
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Cultural",
 		
-		"startIntroPart1": "Greetings, noble Tiawathi, leader of the mighty Onuqi nations! In ages bygone, your people lived in the eastern forests of Alaria. Then, in times of danger, long ago, they united into one nation, the Haudorsani, which would one day be known as the Onuqi. With no written language, the wise men of your nation created the great law of peace, a model so well-designed that, one day, almost every nation would adopt it. For many years, your people battled great enemies. First came the mighty Hasi, ancient enemies whose mastery of magic once threatened to destroy you until they were defeated by your superior tactics. Then, from the far-off land of Mystaren, came the invading peoples of Lyra and Bretia. Though outnumbered and facing weapons far more advanced than the ones your warriors wielded, the Onuqi survived and prospered, forcing their invaders off of their land.",
+		"startIntroPart1": "Greetings, noble Tiawathi, leader of the mighty Onuqi nations! In ages bygone, your people lived in the eastern forests of Alaria. Then, in times of danger, long ago, they united into one nation, the Haudorsani, which would one day be known as the Onuqi. With no written language, the wise men of your nation created the great law of peace, a model so well-designed that, one day, almost every nation would adopt it. For many years, your people battled great enemies. First came the mighty Hasi, ancient enemies whose mastery of magic once threatened to destroy you until they were defeated by your superior tactics. Then, from the far-off land of Mystaren, came the invading peoples of Lyran and Kasia. Though outnumbered and facing weapons far more advanced than the ones your warriors wielded, the Onuqi survived and prospered, forcing their invaders off of their land.",
 		"startIntroPart2": "Oh noble Tiawathi, listen to the cries of your people! They call out to you to lead them in peace and war, to restore the land and unite the tribes once again. Will you accept this challenge, great leader? Will you build a civilization that will stand the test of time?",
 		"declaringWar": "You are a plague upon Mystara! Prepare for battle!",
 		"attacked": "You evil creature! My braves will slaughter you!",
@@ -134,13 +138,14 @@
 		
 		"favoredReligion": "Gaeanimism",
 		"uniqueName": "Children of Mystara",
-		"uniques": ["[+3 Happiness] from every [Ice]","[+3 Happiness] from every [Marsh]","[+3 Happiness] from every [Oasis]","[+3 Happiness] from every [Flood plains]","[+3 Happiness] from every [Atoll]","[+3 Production] from every [Mountain]","[+2 Culture] from every [Desert]","[+2 Culture] from every [Snow]","[+1 Food, +1 Culture] from every [Tundra]","[+1 Food, +1 Gold] from every [Coast]","[+1 Food, +1 Gold] from every [Ocean]","[+1 Food] from every [Grassland]","[+1 Food, +1 Production] from every [Plains]","[+1 Food, +1 Gold] from every [Lakes]","[+1 Production] from every [Hill]"],
-		"cities": ["Onuqua"]
+		"uniques": ["Militaristic City-States grant units [2] times as fast when you are at war with a common nation","[+3 Happiness] from every [Ice]","[+3 Happiness] from every [Marsh]","[+3 Happiness] from every [Oasis]","[+3 Happiness] from every [Flood plains]","[+3 Happiness] from every [Atoll]","[+3 Production] from every [Mountain]","[+2 Culture] from every [Desert]","[+2 Food] from every [Snow]","[+1 Culture] from every [Tundra]","[+1 Gold] from every [Coast]","[+1 Gold, -1 Production] from every [Ocean]","[+1 Food, -1 Production] from every [Grassland]","[+1 Food, +1 Production, -2 Gold] from every [Plains]","[+2 Culture, -2 Gold] from every [Lakes]","[+1 Culture, -1 Food] from every [Hill]","[+1 Culture, -1 Production] from every [Forest]","[+1 Culture, -1 Food] from every [Jungle]"],
+		"cities": ["Onundaru", "Oteinada", "Nava", "Rocciti", "Anoqua"]
 	},
 	{
 		"name": "Ssu'vi",
-		"leaderName": "Tak'ir'sar",
 		"adjective": ["Ssu'vian"],
+		"leaderName": "Tak'ir'sar",
+		"personality": "Ancient Prophet",
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Cultural",
 
@@ -174,14 +179,15 @@
 		//"uniques": ["[50]% Golden Age length", "+1 Movement for all units during Golden Age", "+10% Strength for all units during Golden Age"],
 		//"uniques": ["Starts the game in a [50] turn golden age","Starts the game with [300] additional gold","Starts the game with [2] free policies available","Starts the game with [1] free techs available"],
 		//"uniques": ["Starts the game in a [50] turn golden age","+[100]% Unit Strength before turn [40]","Starts the game with [300] additional gold","Starts the game with [2] free policies available","Starts the game with [1] free techs available"],
-		"cities": ["Ssu", "Taka'zul", "Akiltzi", "Meccti", "Sarak"]
+		"cities": ["Ssu", "Taka'zul", "Akiltzi", "Meccti", "Sarak", "Kaldu-Tlatal"]
 	},
 	{
 		"name": "Terazi",
-		"leaderName": "Andu'zi'tan",
 		"adjective": ["Terazian"],
+		"leaderName": "Andu'zi'tan",
+		"personality": "Jungle Emperor",
 		"startBias": ["Jungle"],
-		"preferredVictoryType": "Domination",
+		//"preferredVictoryType": "Domination",
 
 		"startIntroPart1": "The jungle calls you, Andu'zi'tan, almighty Sak'ret'i of the Terazi empire. You must answer! As a proud sauroid empire, the Terazi are one of the first nations to have ever formed. Proud and powerful, your people are masters of the natural world. Hidden away in the depths of the jungle, they have managed to avoid extinction at the hands of man. Now, they call upon you, greatest of the blessed spawn, to avenge their bretheren.",
 		"startIntroPart2": "O' great and mighty Andu'zi'tan, will you emerge from the wilds of Jungara and begin your path to triumph? Will you rise against the tyranny of man, and save your race from extinction? Will you build a civilization that stands the test of time?",
@@ -208,15 +214,16 @@
 
 		"favoredReligion": "Saurianism",
 		"uniqueName": "Soul of Jungara",
-		"uniques": ["Enemy [Land] units must spend [3] extra movement points when inside your territory", "[+50]% Strength <when fighting in [Friendly Land] tiles>"],
-		"cities": ["Teraz", "Andu", "Kala'ka'tili", "Aztakczii", "Lik'tok"]
+		"uniques": ["Enemy [Land] units must spend [3] extra movement points when inside your territory", "[+50]% Strength <when fighting in [Friendly Land] tiles>","[+1 Happiness] from every [Jungle]"],
+		"cities": ["Teraz", "Andu", "Kala'ka'tili", "Aztakczii", "Lik'tok", "Azhan-Tlatal", "Susu-Tlatal"]
 	},
 	
 	// Ancient-Era Nations
 	{
 		"name": "Neph",
-		"leaderName": "Angir Selai",
 		"adjective": ["Neph"],
+		"leaderName": "Angir Selai",
+		"personality": "Generalist Leader",
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Domination",
 
@@ -241,8 +248,8 @@
 		"afterPeace": "It would be unwise to continue this conflict. Perhaps another time.",
 		"tradeRequest": "The efforts of man bear much fruit. Come, let us share!",
 
-		"outerColor": [181, 158, 83],
-		"innerColor": [255, 217, 0],
+		"outerColor": [144, 126, 66],
+		"innerColor": [255, 224, 51],
 		
 		"favoredReligion": "Nepharism",
 		"uniqueName": "Ruler of Mankind",
@@ -252,8 +259,9 @@
 	},
 	{
 		"name": "Jharappe",
-		"leaderName": "Jhr Ahdrali",
 		"adjective": ["Jharappan"],
+		"leaderName": "Jhr Ahdrali",
+		"personality": "Generalist Leader",
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Scientific",
 
@@ -278,18 +286,19 @@
 		"afterPeace": "This war is costing us precious time. Let there be peace!",
 		"tradeRequest": "The stars must be reached before the dark ones return. Please help us achieve that honor.",
 
-		"outerColor": [27, 158, 40],
-		"innerColor": [255, 153, 0],
+		"outerColor": [19, 112, 28],
+		"innerColor": [255, 158, 12],
 
 		"favoredReligion": "The Divine Triad",
 		"uniqueName": "Legacy of the Naga",
-		"uniques": ["[+3 Science] [in all cities]","[+3 Science] per [3] population [in all cities]"],
+		"uniques": ["Starts with [Pottery]","Starts with [Animal Husbandry]","Starts with [Archery]","Starts with [Mining]","[+1 Food] from every [Desert]","[-1 Food] from every [Plains]","[+3 Science] per [3] population [in all cities]"],
 		"cities": ["Jharappa","Mijanho-deru","Zihan-de","Talanazza"]
 	},
 	{
 		"name": "Atoiri",
+		"adjective": ["Atoirian"],
 		"leaderName": "Nikau Alu",
-		"adjective": ["Atoiri"],
+		"personality": "Generalist Leader",
 		"preferredVictoryType": "Cultural",
 
 		"startIntroPart1": "(Introduction I - incomplete)",
@@ -305,7 +314,7 @@
 		
 		"favoredReligion": "Nepharism",
 		"uniqueName": "Path Of The Homeland",
-		"uniques": ["Enables embarkation for land units <starting from the [Ancient era]>", "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>","[+5 Culture] [in capital]", "[+3 Happiness] [in all cities connected to capital]", "[+2 Happiness] [in all coastal cities]", "[+300]% Production when constructing [Settler] units [in capital]"],
+		"uniques": ["[+25]% Production towards any buildings that already exist in the Capital","Enables embarkation for land units <starting from the [Ancient era]>", "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>", "[+3 Happiness] [in all cities connected to capital]", "[+2 Happiness] [in all coastal cities]", "[+300]% Production when constructing [Settler] units [in capital]"],
 		
 		"cities": ["Atoiri", "Laihe", "Tupai", "Aluhea"],
 		"outerColor": [0, 255, 0],
@@ -315,8 +324,9 @@
 	// Classical-Era Nations
 	{
 		"name": "Kharn'dii",
-		"leaderName": "Arilla Zi'la",
 		"adjective": ["Kharn'diian"],
+		"leaderName": "Arilla Zi'la",
+		"personality": "Generalist Leader",
 		"startBias": ["Avoid [Jungle]", "Avoid [Forest]"],
 		"preferredVictoryType": "Domination",
 
@@ -340,8 +350,8 @@
 
 		"afterPeace": "We shall cease our raiding, if only for a moment. Fortune favors the bold; don't expect this to last long.",
 		"tradeRequest": "I bring an offer. Accept it, lest your people become an obstacle to my horde.",
-		"outerColor": [255, 0, 0],
-		"innerColor": [0, 0, 255],
+		"outerColor": [255, 51, 51],
+		"innerColor": [0, 0, 205],
 
 		"favoredReligion": "The Divine Triad",
 		"uniqueName": "The Endless Horde",
@@ -350,8 +360,9 @@
 	},
 	{
 		"name": "Mesyptia",
-		"leaderName": "Mesypti Thamyr",
 		"adjective": ["Mesyptian"],
+		"leaderName": "Mesypti Thamyr",
+		"personality": "Generalist Leader",
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Cultural",
 
@@ -375,18 +386,19 @@
 
 		"afterPeace": "The sands blow with rage. It is time this war ended.",
 		"tradeRequest": "Perhaps we could come to an agreement?",
-		"outerColor": [255, 255, 0],
-		"innerColor": [255, 0, 255],
+		"outerColor": [255, 255, 12],
+		"innerColor": [242, 0, 242],
 	
 		"favoredReligion": "Solarism",
 		"uniqueName": "The Great Architects",
-		"uniques": ["[+50]% Production when constructing [All] wonders [in all cities]"],
-		"cities": ["Mesyptia", "Tekhmen", "Zhendar", "Phykhamet", "Rhas"]
+		"uniques": ["[+50]% Production when constructing [All] wonders [in all cities]","[+2 Science] [in all cities] <before discovering [Iron Working]>"],
+		"cities": ["Mesyptia", "Tekhmen", "Zhendabis", "Phykhamet", "Rhas"]
 	},
 	{
 		"name": "Zegrek",
-		"leaderName": "Alandis Osthesi",
 		"adjective": ["Zegrek"],
+		"leaderName": "Alandis Osthesi",
+		"personality": "Generalist Leader",
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
 		
@@ -411,25 +423,26 @@
 		"afterPeace": "I do not wish to war any longer. May peace return!",
 		"tradeRequest": "I think that our people could learn from this.",
 
-		"outerColor": [181, 232, 232],
-		"innerColor": [68, 142, 249],
+		"outerColor": [188, 234, 234],
+		"innerColor": [61, 127, 224],
 		
 		"favoredReligion": "Tolarianism",
 		"uniqueName": "Coalition of Cities",
-		"uniques": ["City-State territory always counts as friendly territory", "Gifts of Gold to City-States generate [100]% more Influence","Resting point for Influence with City-States is increased by [30]"],
+		"uniques": ["Militaristic City-States grant units [5] times as fast when you are at war with a common nation","Military Units gifted from City-States start with [+120] XP","City-State territory always counts as friendly territory","Resting point for Influence with City-States is increased by [30]"],
 		"cities": ["Zegris", "Acroplia", "Sartga"]
 	},
 	{
 		"name": "Rhone",
-		"leaderName": "Alaris Rhonor",
 		"adjective": ["Rhonan"],
+		"leaderName": "Alaris Rhonor",
+		"personality": "Generalist Leader",
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Scientific",
 		
-		"startIntroPart1": "",
+		"startIntroPart1": "Glory calls, Alaris Rhonor, Grand Imperator of Rhone, defender of the meek and slayer of the mighty. There are many injustices in this world, but the stunning",
 		"startIntroPart2": "Will you build a civilization that stands the test of time?",
 
-		"declaringWar": "Until there is nothing left but ashes, let power decide who is right and who is wrong.",
+		"declaringWar": "Until there is nothing left but ashes, we fill fight to end your tyranny.",
 		"attacked": "We will not fall to a warmonger like yourself!",
 		"defeated": "We are all equals in the end - death does not pick favorites. Until we meet again in the world beyond, I will keep my fists warm for you.",
 		"introduction": "Welcome to Rhone, stranger! There is little to say, and little time to say it, but I do hope you have a nice stay.",
@@ -447,20 +460,21 @@
 		"afterPeace": "A pleasant outcome for a horrible event.",
 		"tradeRequest": "I've got much to offer, but first - deal or no deal?",
 
-		"outerColor": [255, 42, 0],
-		"innerColor": [32, 6, 41],
+		"outerColor": [242, 42, 0],
+		"innerColor": [242, 227, 12],
 
 		"favoredReligion": "Tolarianism",
 		"uniqueName": "The Great Bastion",
-		"uniques": ["[+100]% Strength decreasing with distance from the capital <when fighting units from a Civilization with more Cities than you>","[+100]% Strength for cities","[+5] population in a random city <upon entering a Golden Age> <when not at war>"],
+		"uniques": ["Allied City-States provide [Science] equal to [50]% of what they produce for themselves","[-25]% City-State Influence degradation","[+100]% Strength decreasing with distance from the capital <when fighting units from a Civilization with more Cities than you>","[+50]% Strength for cities","[+5] population in a random city <upon entering a Golden Age> <when not at war>"],
 		"cities": ["Rhone", "Zilska", "Arrhemi", "Tendylon", "Arkis"]
 	},
 
 	// Medieval-Era Nations
 	{
 		"name": "Noraska",
-		"leaderName": "Leone Vggrsol",
 		"adjective": ["Noraskan"],
+		"leaderName": "Leone Vggrsol",
+		"personality": "Generalist Leader",
 		"startBias": ["Tundra"],
 		"preferredVictoryType": "Domination",
 
@@ -482,10 +496,10 @@
 		"hateNo": ["A weak proposal, much like its creator."],
 		"hateYes": ["I'll agree on this one, now get off my land."],
 
-		"afterPeace": "Hmm... My thirst for battle is quenched; you are strong indeed. Perhaps we shall fight again sometime.",
+		"afterPeace": "Hmm... My thirst for battle is quenched; you are strong indeed. This dreadful cold fills my body and heart once more... Perhaps we shall fight again sometime.",
 		"tradeRequest": "How about a deal, eh?",
-		"outerColor": [255, 0, 0],
-		"innerColor": [0, 0, 255],
+		"outerColor": [255, 51, 51],
+		"innerColor": [0, 0, 204],
 
 		"favoredReligion": "The Divine Triad",
 		"uniqueName": "Fury of the North",
@@ -494,8 +508,9 @@
 	},
 	{
 		"name": "Zharia",
-		"leaderName": "Yu Nian",
 		"adjective": ["Zharian"],
+		"leaderName": "Yu Nian",
+		"personality": "Generalist Leader",
 		"preferredVictoryType": "Scientific",
 		
 		"startIntroPart1": "The stars bless you, Empress Yu Nian, most beautiful and proud ruler of Zharia! Oh great Empress, whose shadow causes the flowers to blossom and the rivers to flow! You are the leader of the Zharia, the oldest and the greatest civilization that humanity has ever produced. Zharia's history stretches back into the mists of time, its people achieving many great things long before the other upstart civilizations were even conceived. Blessed by the divine Sul'lahng (Sun Dragons), you learned the arts of war, poetry, and more. From your people come many of the greatest generals, poets, and philosophers.",
@@ -514,13 +529,14 @@
 		
 		"favoredReligion": "The Divine Triad",
 		"cities": ["Dran-Lah'ng", "Shi'dar", "Xian'zin", "Alxi'or"],
-		"outerColor": [252, 53, 3],
+		"outerColor": [214, 45, 2],
 		"innerColor": [252, 194, 3]
 	},
 	{
 		"name": "Soldür",
-		"leaderName": "Rolan",
 		"adjective": ["Soldüran"],
+		"leaderName": "Rolan",
+		"personality": "Generalist Leader",
 		"preferredVictoryType": "Cultural",
 		"startBias": ["Mountain"],
 
@@ -540,13 +556,14 @@
 		
 		"favoredReligion": "Dawism",
 		"cities": ["Soldürm", "Durkin", "Karkas", "Sturmloch"],
-		"outerColor": [34, 179, 111],
-		"innerColor": [150, 105, 36]
+		"outerColor": [78, 194, 139],
+		"innerColor": [120, 84, 28]
 	},
 	{
 		"name": "Gnoki",
-		"leaderName": "Helfin Lightfoot",
 		"adjective": ["Gnokian"],
+		"leaderName": "Helfin Lightfoot",
+		"personality": "Generalist Leader",
 		"preferredVictoryType": "Cultural",
 		"startBias": ["Hill"],
 
@@ -571,8 +588,9 @@
 	},
 	{
 		"name": "Kasia",
-		"leaderName": "Durian the Brave",
 		"adjective": ["Kasian"],
+		"leaderName": "Durian the Brave",
+		"personality": "Generalist Leader",
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Religious",
 
@@ -601,8 +619,9 @@
 	// Renaissance-Era Nations
 	{
 		"name": "Eskein",
-		"leaderName": "Krak I",
 		"adjective": ["Eskein"],
+		"leaderName": "Krak Sebertń",
+		"personality": "Generalist Leader",
 		"startBias": ["Avoid [Mountain]","Avoid [Hill]"],
 		"preferredVictoryType": "Diplomatic",
 
@@ -626,12 +645,40 @@
 		"uniques": ["Upon capturing a city, receive [10] times its [Food] production as [Culture] immediately","Can spend Gold to annex or puppet a City-State that has been your ally for [3] turns."],
 		"cities": ["Wazzaw", "Krakark", "Bulwarr", "Bastń"]
 	},
+	{
+		"name": "Centuria", // A nation formed from the remains of Imperia and multiple Free Peoples Coalition factions, united under the leadership of Rhone.
+		"adjective": ["Centurian"],
+		"leaderName": "Palentine Rhonor",
+		"personality": "Generalist Leader",
+		"startBias": ["Avoid [Tundra]","Avoid [Jungle]"],
+		"preferredVictoryType": "Diplomatic",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "Will you build a civilization that stands the test of time?",
+
+        "declaringWar": "It is time you were brought into the fold.",
+		"attacked": "What you are doing is foolish - to go against Centuria is to go against fate itself!",
+		"defeated": "Grandfather... was I wrong to fight like this?",
+		"introduction": "Greetings, stranger. Centuria welcomes you with open arms!",
+
+		"neutralHello": "Your culture is fascinating. Perhaps you would be interested in joining Centuria?",
+		"hateHello": "You are a threat to civilization. Speak quickly, before I cut out your tongue.",
+		"tradeRequest": "The Alignment of our peoples could pave way to a better future. Think on it, perhaps?",
+
+        "outerColor": [255, 191, 0],
+        "innerColor": [0, 0, 0],
+
+		"favoredReligion": "Ultimism",
+		"uniqueName": "Promise of Alignment"
+		"uniques": ["[50]% of excess happiness converted to [Gold]","City-State Influence recovers at twice the normal rate","When defeating a [City-State] unit, earn [100] Gold and recruit it","Gifts of Gold to City-States generate [100]% more Influence","Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns."],
+		"cities": ["Palentinia", "Neo-Rhone", "Neo-Imperia", "Antino", "Fort Gryff"]
+	},
 
 	//City-States
 	{
 		"name": "Rhal'tu",
 		"adjective": ["Rhal"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Rhal'tu", // Maritime
 		"startBias": ["Coast"],
 		"declaringWar": "The guilds hunger for plunder. It is time I feed them.",
 		"attacked": "The city of thieves bows to no man! Prepare your treasuries for our arrival!",
@@ -645,7 +692,7 @@
 		"name": "Ghandor",
 		"adjective": ["Ghandorian"],
 		"startBias": ["Plains"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Ghandor", // Militaristic
 		"declaringWar": "My people linger upon pretenses of war. Who am I to disappoint?",
 		"attacked": "This transgression will not be forgotten.",
 		"defeated": "Congratulations, conquerer. Even the mighty Ghandor has fallen before you.",
@@ -658,7 +705,7 @@
 		"name": "Hili",
 		"adjective": ["Hilian"],
 		"startBias": ["Mountain"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Hili", // Cultured (NOT Religious)
 		"declaringWar": "Sacrifices must be made for the barrier!",
 		//"declaringWar": "The barrier between us and the spirit world is frail, and we must ensure it does not weaken any further. For that, there must be sacrifice.",
 		"attacked": "War between our peoples will only serve to strengthen the spirit barrier.",
@@ -672,7 +719,7 @@
 		"name": "Sangali",
 		"adjective": ["Sangalian"],
 		"startBias": ["River"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Sangali", // Sangali
 		"declaringWar": "You failed to prove yourselves worthy to stand with the shining city. Prepare for war.",
 		"attacked": "I'll make sure you hang for this!",
 		"defeated": "Alas, our city shines no more. All beauty turns to shame eventually.",
@@ -685,11 +732,11 @@
 		"name": "Xagge",
 		"adjective": ["Xagge"],
 		"startBias": ["Jungle"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Xagge", //Militaristic
 		"declaringWar": "The world is our domain. I'm afraid it's time to pay your keep.",
 		"attacked": "What a challenge! Indeed, let us fight!",
 		"defeated": "Blood stains the rivers red, and now I am to add my own. Goodbye, cruel world.",
-		"uniques": ["[Military] units gain the [Strength of Xagge] promotion","All newly-trained [Military] units [in all cities] receive the [Strength of Xagge] promotion"],
+		"uniques": ["[Melee] units gain the [Strength of Xagge] promotion","All newly-trained [Melee] units [in all cities] receive the [Strength of Xagge] promotion"],
 		"outerColor": [255, 0, 0],
 		"innerColor": [0, 255, 0],
 		"cities": ["Xagge"]
@@ -698,7 +745,7 @@
 		"name": "Threfek",
 		"adjective": ["Threfekian"],
 		"startBias": ["Coast"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Threfek", // Mercantile
 		"declaringWar": "A man needs two things in life - coins and a home. You are about to be missing both.",
 		"attacked": "Why, this is madness!",
 		"defeated": "So much money... not enough power...",
@@ -710,12 +757,12 @@
 	{
 		"name": "Yate",
 		"adjective": ["Yatian"],
-		"startBias": ["Coast"],
-		"cityStateType": "Maritime",
+		"startBias": ["Yate"],
+		"cityStateType": "Yate", // Maritime
 		"declaringWar": "The sea calls us to battle. Let us enjoy the fires of war together!",
 		"attacked": "Aye. If a fight's what you want, a fight's what you'll get!",
 		"defeated": "Oi! This cannot be! How were we defeated?",
-		"uniques": ["[1] Movement point cost to embark", "[1] Movement point cost to disembark"],
+		"uniques": ["[0] Movement point cost to embark", "[0] Movement point cost to disembark"],
 		"outerColor": [0, 0, 255],
 		"innerColor": [255, 0, 0],
 		"cities": ["Yate"]
@@ -724,7 +771,7 @@
 		"name": "Tetku",
 		"adjective": ["Tetkuian"],
 		"startBias": ["Hill"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Tetku", // Religious
 		"declaringWar": "The gods demand a sacrifice!",
 		"attacked": "The sun glares at you, aggressors!",
 		"defeated": "You'd better hope I misjudged you. The gods certainly won't.",
@@ -737,7 +784,7 @@
 		"name": "Arcania",
 		"adjective": ["Arcanian"],
 		"startBias": ["Forest"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Arcania", // Cultured
 		"declaringWar": "Nature itself is ours to command. You don't stand a chance!",
 		"attacked": "Arcania will not bow to a warmonger like you!",
 		"defeated": "Are we naught but dust before you? Why then, did you attack?",
@@ -750,7 +797,7 @@
 		"name": "Orruk-Tar",
 		"adjective": ["Orruk"],
 		"startBias": ["Plains"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Orruk-Tar", // Militaristic
 		"declaringWar": "WAR!",
 		"attacked": "BLOOD! SKULLS! DEATH!",
 		"defeated": "SO... MUCH... BLOOD...",
@@ -763,7 +810,7 @@
 		"name": "Velis",
 		"adjective": ["Velian"],
 		"startBias": ["Mountain"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Velis", // Militaristic
 		"declaringWar": "The skies shall be free once more!",
 		"attacked": "You gamble with the wrath of a dragon. Prepare to be burned.",
 		"defeated": "So... Cold...",

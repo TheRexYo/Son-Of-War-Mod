@@ -37,7 +37,6 @@
 		"hurryCostModifier": 20,
 		"movement": 1
 	},
-
 	{
 		"name": "Warrior",
 		"unitType": "Sword",
@@ -914,13 +913,13 @@
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "Unbuildable"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "Can be earned through combat", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "Unbuildable"],
 		"movement": 2
 	},
 	{
 		"name": "Great Hero",
 		"unitType": "Hero",
-		"uniques": ["Great Person - [Combat]", "Unbuildable", "[+100]% Strength <starting from the [Medieval era]>", "[+100]% Strength <starting from the [Renaissance era]>", "[+100]% Strength <starting from the [Industrial era]>", "[+100]% Strength <starting from the [Modern era]>","[+100]% Strength <starting from the [Atomic era]>","[+100]% Strength <starting from the [Information era]>","[+100]% Strength <starting from the [Future era]>"],
+		"uniques": ["Great Person - [Combat]", "Unbuildable", "[+100]% Strength <starting from the [Medieval era]>", "Can be earned through combat", "[+100]% Strength <starting from the [Renaissance era]>", "[+100]% Strength <starting from the [Industrial era]>", "[+100]% Strength <starting from the [Modern era]>","[+100]% Strength <starting from the [Atomic era]>","[+100]% Strength <starting from the [Information era]>","[+100]% Strength <starting from the [Future era]>"],
 		"strength": 20,
 		"movement": 3
 	},
@@ -964,7 +963,7 @@
 		"unitType": "Mounted",
 		"movement": 8,
 		"strength": 18,
-		"cost": 90,
+		"cost": 110,
 		"uniqueTo": "Aeronia",
 		"replaces": "Horseman",
 		"requiredTech": "Horseback Riding",
@@ -1156,10 +1155,10 @@
 		"cost": 230,
 		"replaces": "Lancer",
 		"requiredTech": "Metallurgy",
-		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[+33]% Strength <vs [Mounted] units>"],
 		"promotions": ["Formation I","Bestial Charge"],
-		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
 	},
 	{
@@ -1262,7 +1261,7 @@
 		"uniqueTo": "Zharia",
 		"replaces": "Great General",
 		"uniques": [
-			"[+25]% Strength bonus for [Military] units within [5] tiles", "Great Person - [War]", "Empire enters a [8]-turn Golden Age <by consuming this unit>", "Unbuildable", "[+50]% Strength <starting from the [Medieval era]>", "[+50]% Strength <starting from the [Renaissance era]>", "[+50]% Strength <starting from the [Industrial era]>", "[+50]% Strength <starting from the [Modern era]>","[+50]% Strength <starting from the [Atomic era]>","[+50]% Strength <starting from the [Information era]>","[+50]% Strength <starting from the [Future era]>"
+			"Can be earned through combat", "[+25]% Strength bonus for [Military] units within [5] tiles", "Great Person - [War]", "Empire enters a [8]-turn Golden Age <by consuming this unit>", "Unbuildable", "[+50]% Strength <starting from the [Medieval era]>", "[+50]% Strength <starting from the [Renaissance era]>", "[+50]% Strength <starting from the [Industrial era]>", "[+50]% Strength <starting from the [Modern era]>","[+50]% Strength <starting from the [Atomic era]>","[+50]% Strength <starting from the [Information era]>","[+50]% Strength <starting from the [Future era]>"
 		],
 		"strength": 20,
 		"movement": 2,
@@ -1405,6 +1404,7 @@
 		"replaces": "Great General",
 		"uniques": [
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"Can be earned through combat", 
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"All adjacent units heal [+15] HP when healing", "[+15] HP when healing",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
@@ -1585,7 +1585,22 @@
 		"uniques": ["No defensive terrain bonus","[+50]% Strength <vs [Sword] units>","[-50]% Strength for enemy [Wounded] units in adjacent [All] tiles","[+50]% Strength bonus for [Wounded] units within [1] tiles"],
 		"attackSound": "metalhit" // Jabberfangs attack by causing their victims to fight amongst each other via mind-breaking magic, before swooping in for the kill. The sound reflects this infighting.
 	},
-
+	{
+		"name": "Emissar",
+		"unitType": "Mounted",
+		"replaces": "Lancer",
+		"uniqueTo": "Centuria",
+		"movement": 4,
+		"strength": 32,
+		"cost": 185,
+		"requiredTech": "Metallurgy",
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"promotions": ["Formation I", "Formation II", "Emissar's Sway"],
+		"attackSound": "horse"
+	},
 	//City-State Uniques
 	{
 		"name": "Shanin",
@@ -1599,7 +1614,7 @@
 		"replaces": "Crossbowman",
 		"obsoleteTech": "Industrialization",
 		"promotions": ["Amphibious"],
-		"uniques": ["Can move after attacking"],
+		"uniques": ["Can move after attacking","[+100]% Strength <vs [Water] units> <when attacking>"],
 		"uniqueTo": "Sangali",
 		"hurryCostModifier": 20,
 		"attackSound": "arrow"
@@ -1642,6 +1657,7 @@
 		"movement": 5,
 		"strength": 5,
 		"rangedStrength": 20,
+		"range": 5,
 		"cost": 135,
 		"requiredTech": "Astronomy",
 		"obsoleteTech": "Combustion",
@@ -1685,9 +1701,9 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 22,
-		"cost": 45,
+		"cost": 60,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+50]% Strength <vs [Bestial] units>","[+50]% Strength <vs [Bestial Ranged] units>","Can move immediately once bought"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+50]% Strength <vs [Bestial] units>","[+50]% Strength <vs [Bestial Ranged] units>","Can move immediately once bought","Earn [500]% of the damage done to [Civilian] units as [Gold]"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"hurryCostModifier": 5,
@@ -1700,9 +1716,9 @@
 		"uniqueTo": "Tetku",
 		"movement": 2,
 		"strength": 5,
-		"cost": 25,
+		"cost": 35,
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["Ignores terrain cost","Invisible to others","May withdraw before melee ([50]%)","[-80]% Strength <vs [Sword] units>","[-80]% Strength <vs [Mounted] units>","[+500]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Ignores terrain cost","Invisible to others","May withdraw before melee ([50]%)","[-80]% Strength <vs [Sword] units>","[-80]% Strength <vs [Mounted] units>","[+1000]% Strength <vs cities> <when attacking>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1744,6 +1760,21 @@
 		"requiredTech": "Animal Husbandry",
 		"uniques": ["Cannot be purchased","Limited to [3] per Civilization","[-33]% Strength for enemy [Melee] units in adjacent [All] tiles"],
 		"attackSound": "horse"
+	},
+	{
+		"name": "Warrior Monk",
+		"unitType": "Sword",
+		"uniqueTo": "Hili",
+		"replaces": "Pikeman",
+		"movement": 4,
+		"strength": 16,
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Bestial] units>", "[+50]% Strength <vs [Bestial Ranged] units>","[+100]% Strength <when defending>","[-50]% Strength <when attacking>","[-80]% Strength for enemy [Ranged] units in adjacent [All] tiles"],
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"attackSound": "metalhit"
+		//Pikeman should upgrade not only to Musketman but also to Lancer
 	},
 
 	//Barbarian Uniques
@@ -1796,6 +1827,15 @@
 		"cost": 0,
 		"uniques": ["Unbuildable","No defensive terrain penalty","May heal outside of friendly territory","Unit will heal every turn, even if it performs an action"],
 		"attackSound": "horse"
+	},
+	{
+		"name": "Stone Sentinel",
+		"unitType": "Sword",
+		"movement": 1,
+		"strength": 10,
+		"cost": 0,
+		"uniques": ["Unbuildable","Can see invisible [All] units","Can only heal by pillaging","Damage is ignored when determining unit Strength","[+400]% Strength decreasing with distance from the capital"],
+		"attackSound": "nonmetalhit"
 	},
 
 	/* Spaceship Parts */

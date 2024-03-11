@@ -20,7 +20,7 @@
     {
         "name": "Natural Divinity",
         "type": "Pantheon",
-        "uniques": ["[+4 Faith] from every [Natural Wonder]","[+33]% Strength <for [Mounted] units>","[+66]% Strength <for [Bestial] units>","[+66]% Strength <for [Bestial Ranged] units>"]
+        "uniques": ["[+4 Faith] from every [Natural Wonder]"]
     },
     {
         "name": "God of Winter",
@@ -54,17 +54,17 @@
     {
         "name": "God of Craftsmanship",
         "type": "Pantheon",
-        "uniques": ["[+1 Production] <in cities with at least [3] [Population]>","[Gold] cost of purchasing items in cities [-25]%"]
+        "uniques": ["[Gold] cost of purchasing items in cities [-25]%"]
     },
     {
         "name": "God of the Open Sky",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Pasture]","[+3] Range <for [Air] units>","[+2] Movement <for [Flier] units>","[+2] Movement <for [Helicopter] units>"]
+        "uniques": ["[+1 Culture] from every [Pasture]"]
     },
     {
         "name": "God of the Sea",
         "type": "Pantheon",
-        "uniques": ["[+1 Production] from every [Fishing Boats]","[+2] Movement <for [Water] units>"]
+        "uniques": ["[+1 Production] from every [Fishing Boats]"]
     },
     {
         "name": "God of War",
@@ -72,34 +72,29 @@
         "uniques": ["Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion","May buy [Military] units with [Faith] [in cities following this religion]"]
     },
     {
-        "name": "Goddess of Festivals",
+        "name": "God of Festivals",
         "type": "Pantheon",
-        "uniques": ["[+5 Happiness] <when not at war>","[+1 Culture, +1 Faith] from every [Wine]", "[+1 Culture, +1 Faith] from every [Incense]"]
+        "uniques": ["[+1 Culture, +1 Faith] from every [Wine]", "[+1 Culture, +1 Faith] from every [Incense]"]
     },
     {
         "name": "Goddess of Love",
         "type": "Pantheon",
-        "uniques": ["[+1 Happiness] <in cities with at least [6] [Population]>","[+1 Happiness] per [2] population [in cities following this religion]"]
+        "uniques": ["[+1 Happiness] per [2] population [in cities following this religion]"]
     },
     {
         "name": "Goddess of Protection",
         "type": "Pantheon",
-        "uniques": ["[+30]% Strength for cities <when attacking>","[+100]% City Strength from defensive buildings <in cities with a [Faith]>","All newly-trained [All] units [in cities following this religion] receive the [Divine Protection] promotion"]
+        "uniques": ["[+30]% Strength for cities","All newly-trained [All] units [in cities following this religion] receive the [Divine Protection] promotion"]
     },
     {
         "name": "Goddess of the Hunt",
         "type": "Pantheon",
-        "uniques": ["[+2] Range <for [Ranged] units>","[+1 Food] from every [Camp]"]
+        "uniques": ["[+1 Food] from every [Camp]"]
     },
     {
         "name": "Messenger of the Gods",
         "type": "Pantheon",
         "uniques": ["[+2 Science, +2 Faith] from each Trade Route","All newly-trained [Scout] units [in cities following this religion] receive the [Divine Courier] promotion"]
-        /* 
-            Ideally this would be:
-                "uniques": ["[+2 Science, +2 Faith] from each Trade Route","[+5] Sight <for [Scout] units>","[+5] Movement <for [Scout] units>"]
-            But Yair- I mean, "Unciv" doesn't allow that so...
-        */
     },
     {
         "name": "God of Lore",
@@ -167,7 +162,7 @@
     {
         "name": "Guruship",
         "type": "Follower",
-        "uniques": ["[+2 Production] <in cities with at least [1] [Specialists]>"]
+        "uniques": []
     },
     {
         "name": "Holy Warriors",

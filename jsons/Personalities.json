@@ -1,0 +1,240 @@
+[
+    {
+		// Used By: Any without another personality type.
+        "name": "Generalist Leader", 
+		"preferredVictoryType": "Time",
+		"production": 5.0,
+		"food": 5.0,
+		"gold": 5.0,
+		"science": 5.0,
+		"culture": 5.0,
+		"happiness": 5.0,
+		"faith": 5.0,
+		"military": 5.0,
+		"warMongering": 5.0,
+		"civilopediaText": [
+			{ "text": "A leader of no particular renown or personality - at least for now..." },
+			{
+				"text": "Points of Interest",
+				"header": 1,
+				"starred": true,
+				"color": "#ffff00"
+			},
+			{
+				"text": "- Focuses on all stats equally.",
+				"color": "#0000ff"
+			}
+		],
+    },
+    {
+		// Used By: Aeronia
+        "name": "Warborn", 
+		"preferredVictoryType": "Culture",
+		"production": 7.5,
+		"food": 5.5,
+		"gold": 4.5,
+		"science": 3.0,
+		"culture": 7.0,
+		"happiness": 8.0,
+		"faith": 5.0,
+		"military": 10.0,
+		"warMongering": 0.0,
+		"civilopediaText": [
+			{ "text": "Championed the \"Son of War\" by his people and his god, Sun Alar is a leader who believes that war is inevitable, but despises fighting for the sake of fighting. He would rather endorse cultural and infrastructural development than expansion or rapid scientific advancement, but would not hesitate to fight if threatened - as befits a Champion of Genesis." },
+			{
+				"text": "Points of Interest",
+				"header": 1,
+				"starred": true,
+				"color": "#ffff00"
+			},
+			{
+				"text": "- Focuses on Culture.",
+				"color": "#0000ff"
+			},
+			{
+				"text": "- Does not declare wars normally.",
+				"color": "#0000ff"
+			},
+			{
+				"text": "- Keeps a massive military.",
+				"color": "#ff0000"
+			}
+		],
+    },
+    {
+		// Used By: Pyria
+        "name": "Deathchild", 
+		"preferredVictoryType": "Domination",
+		"production": 7.5,
+		"food": 4.5,
+		"gold": 5.5,
+		"science": 7.0,
+		"culture": 3.0,
+		"happiness": 2.0,
+		"faith": 5.0,
+		"military": 10.0,
+		"warMongering": 10.0,
+		"civilopediaText": [
+			{ "text": "Championed the \"Child of Death\" by her people and her god, Luna Nym believes that all the world belongs to her god, her people, and herself. Born into a culture built upon the ideal of gaining power over all else, she fields large armies and disregards almost everything in the name of conquest - as befits a Champion of Genesis." },
+			{
+				"text": "Points of Interest",
+				"header": 1,
+				"starred": true,
+				"color": "#ffff00"
+			},
+			{
+				"text": "- Focuses on Science.",
+				"color": "#0000ff"
+			},
+			{
+				"text": "- Declares wars without exception.",
+				"color": "#ff0000"
+			},
+			{
+				"text": "- Keeps a massive military.",
+				"color": "#ff0000"
+			}
+		],
+    },
+    {
+		// Used By: Imperia
+        "name": "God-Emperor", 
+		"preferredVictoryType": "Cultural",
+		"production": 5.0,
+		"food": 5.0,
+		"gold": 8.0,
+		"science": 2.0,
+		"culture": 8.0,
+		"happiness": 10.0,
+		"faith": 3.0,
+		"military": 7.0,
+		"warMongering": 7.5,
+		"civilopediaText": [
+			{ "text": "Idolized by his people as a God, Danu - the immortal Emperor of Imperia - is a legendary leader that seeks to bring humanity to ever-greater prosperity. Once motivated by a love for humanity instilled in him by his mentor Angir (who himself was the ruler of the Neph Empire before it fell), he has since been corrupted by power, and is now motivated mostly by the praise he gets from his people. His arrogance has grown great over the years, and so has his thirst for conquest and expansion." },
+			{
+				"text": "Points of Interest",
+				"header": 1,
+				"starred": true,
+				"color": "#ffff00"
+			},
+			{
+				"text": "- Focuses on Happiness, Culture, and Gold. Disregards Science.",
+				"color": "#0000ff"
+			},
+			{
+				"text": "- Declares wars often.",
+				"color": "#ff0000"
+			},
+			{
+				"text": "- Keeps a strong military.",
+				"color": "#ff0000"
+			}
+		],
+    },
+    {
+		// Used By: Onuqi
+        "name": "Harmonious Warchief", 
+		"preferredVictoryType": "Cultural",
+		"production": 5.0,
+		"food": 5.0,
+		"gold": 5.0,
+		"science": 4.5,
+		"culture": 5.5,
+		"happiness": 5.0,
+		"faith": 5.0,
+		"military": 7.5,
+		"warMongering": 2.5,
+		"civilopediaText": [
+			{ "text": "A level-headed leader and a kind soul, Tiawathi seeks to unite " },
+			{
+				"text": "Points of Interest",
+				"header": 1,
+				"starred": true,
+				"color": "#ffff00"
+			},
+			{
+				"text": "- Focuses on stats Culture over Science, but only slightly.",
+				"color": "#0000ff"
+			},
+			{
+				"text": "- Rarely declares war.",
+				"color": "#ff0000"
+			},
+			{
+				"text": "- Keeps a strong military.",
+				"color": "#ff0000"
+			}
+		],
+    },
+    {
+		// Used By: Ssu'vi.
+        "name": "Ancient Prophet", 
+		"preferredVictoryType": "Culture",
+		"production": 5.0,
+		"food": 5.0,
+		"gold": 7.0,
+		"science": 5.0,
+		"culture": 8.0,
+		"happiness": 7.0,
+		"faith": 5.0,
+		"military": 7.5,
+		"warMongering": 5.0,
+		"civilopediaText": [
+			{ "text": "Born soon after the Sauroids first awakened from their long slumber, Tak'ir'sar the Elder is perhaps the oldest living Sauroid and quite possibly the oldest ascendant (mortal that became immortal through cultivation of Soulpower) still breathing. He has seen many empires rise and fall, and witnessed the destruction of his people's empire at the hands of the Neph. He has grown beligerent and spiteful in his age, seeking to reclaim his people's homeland from the humans that stole it. In spite of this, he and his people declare war far less often than their ideals might suggest, preferring to play a long waiting game and let their enemies come to them." },
+			{
+				"text": "Points of Interest",
+				"header": 1,
+				"starred": true,
+				"color": "#ffff00"
+			},
+			{
+				"text": "- Focuses on Happiness, Culture, and Gold.",
+				"color": "#0000ff"
+			},
+			{
+				"text": "- Keeps a strong military.",
+				"color": "#ff0000"
+			}
+		],
+    },
+    {
+		// Used By: Terazi.
+        "name": "Jungle Emperor", 
+		"preferredVictoryType": "Domination",
+		"production": 5.0,
+		"food": 5.0,
+		"gold": 5.0,
+		"science": 5.0,
+		"culture": 7.0,
+		"happiness": 5.0,
+		"faith": 5.0,
+		"military": 8.0,
+		"warMongering": 8.5,
+		"civilopediaText": [
+			{ 
+				"text": "Andu'zi'tan is known by his people (translated from their language) as the \"Voice of Jungara\" due to his uncanny ability to seemingly communicate with the jungle itself. This trait provides him with great power and the ability to detect and identify trespassers the moment they tread upon his peoples land, a trait he uses to great extent in keeping perceived outsiders away from his cities."
+			},
+			{ 
+				"text": "The Terazi as a culture despise anything that isn't a Sauroid. They begrudgingly heed the will of Genesis to respect all life, never going as far as to fully exterminate a species where applicable, but will still raid and ransack colonial settlements until they either allow themselves to be subjugated or return to their homeland defeated. The Terazi are generally disliked by other Sauroids, even those that share their disdain for outsiders, due to how warlike they are."
+			},
+			{
+				"text": "Points of Interest",
+				"header": 1,
+				"starred": true,
+				"color": "#ffff00"
+			},
+			{
+				"text": "- Focuses on Culture.",
+				"color": "#0000ff"
+			},
+			{
+				"text": "- Keeps a strong military.",
+				"color": "#ff0000"
+			},
+			{
+				"text": "- Very frequently declares war.",
+				"color": "#ff0000"
+			}
+		],
+    }
+]
