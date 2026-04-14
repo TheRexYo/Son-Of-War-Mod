@@ -270,7 +270,7 @@
         ]
 	},
 	{
-		"name": "Flood plains",
+		"name": "Flood Plains",
 		"type": "TerrainFeature",
 		"food": 2,
 		"movementCost": 1,
