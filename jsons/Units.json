@@ -1153,6 +1153,7 @@
 		"movement": 3,
 		"strength": 45,
 		"cost": 230,
+		"uniqueTo": "Imperia",
 		"replaces": "Lancer",
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Military Science",
