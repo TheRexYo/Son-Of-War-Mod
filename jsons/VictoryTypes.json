@@ -37,7 +37,7 @@
         "name": "Religious",
         "hiddenInVictoryScreen": false,
         "victoryScreenHeader": "Become the world religion and\nbuild the Ascension Monument!",
-        "milestones": ["Become the world religion", "Build [Ascension Nexus]"],
+        "milestones": ["Become the world religion", "Build [Ascension Monolith]"],
         "victoryString": "Despite all odds, you have ascended your religion into control of reality itself, casting down the nonbelievers and making a new truth. The magic of faith has altered this world forever.",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
