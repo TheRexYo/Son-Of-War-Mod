@@ -10,6 +10,8 @@
 		"culture": 5.0,
 		"happiness": 5.0,
 		"faith": 5.0,
+  "aggressive": 5.0,
+  "declareWar": 5.0,
 		"military": 5.0,
 		"warMongering": 5.0,
 		"civilopediaText": [
@@ -38,6 +40,8 @@
 		"happiness": 8.0,
 		"faith": 5.0,
 		"military": 10.0,
+  "aggressive": 0.0,
+  "declareWar": 0.0,
 		"warMongering": 0.0,
 		"civilopediaText": [
 			{ "text": "Championed the \"Son of War\" by his people and his god, Sun Alar is a leader who believes that war is inevitable, but despises fighting for the sake of fighting. He would rather endorse cultural and infrastructural development than expansion or rapid scientific advancement, but would not hesitate to fight if threatened - as befits a Champion of Genesis." },
@@ -72,6 +76,8 @@
 		"culture": 3.0,
 		"happiness": 2.0,
 		"faith": 5.0,
+  "aggressive": 10.0,
+  "declareWar": 10.0,
 		"military": 10.0,
 		"warMongering": 10.0,
 		"civilopediaText": [
@@ -107,6 +113,8 @@
 		"culture": 8.0,
 		"happiness": 10.0,
 		"faith": 3.0,
+  "aggressive": 7.5,
+  "declareWar": 7.5,
 		"military": 7.0,
 		"warMongering": 7.5,
 		"civilopediaText": [
@@ -143,6 +151,8 @@
 		"happiness": 5.0,
 		"faith": 5.0,
 		"military": 7.5,
+  "aggressive": 2.5,
+  "declareWar": 2.5,
 		"warMongering": 2.5,
 		"civilopediaText": [
 			{ "text": "A level-headed leader and a kind soul, Tiawathi seeks to unite " },
@@ -178,6 +188,8 @@
 		"happiness": 7.0,
 		"faith": 5.0,
 		"military": 7.5,
+  "aggressive": 7.5,
+  "declareWar": 5.0,
 		"warMongering": 5.0,
 		"civilopediaText": [
 			{ "text": "Born soon after the Sauroids first awakened from their long slumber, Tak'ir'sar the Elder is perhaps the oldest living Sauroid and quite possibly the oldest ascendant (mortal that became immortal through cultivation of Soulpower) still breathing. He has seen many empires rise and fall, and witnessed the destruction of his people's empire at the hands of the Neph. He has grown beligerent and spiteful in his age, seeking to reclaim his people's homeland from the humans that stole it. In spite of this, he and his people declare war far less often than their ideals might suggest, preferring to play a long waiting game and let their enemies come to them." },
@@ -208,6 +220,8 @@
 		"culture": 7.0,
 		"happiness": 5.0,
 		"faith": 5.0,
+  "aggressive": 10.0,
+  "declareWar": 8.5,
 		"military": 8.0,
 		"warMongering": 8.5,
 		"civilopediaText": [
