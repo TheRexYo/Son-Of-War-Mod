@@ -346,7 +346,7 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
-		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)"],
+		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
@@ -627,7 +627,7 @@
 		"cost": 375,
 		"requiredTech": "Combustion",
 		"uniques": ["Can attack submarines", "[40]% chance to intercept air attacks",
-			"May withdraw before melee ([80]%)", "[+100]% Strength <vs [Submarine] units>"],
+			"Withdraws before melee combat <with [80]% chance>", "[+100]% Strength <vs [Submarine] units>"],
 		"attackSound": "shipguns"
 	},
 	
@@ -640,7 +640,7 @@
 		"cost": 400,
 		"requiredTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
-		"uniques": ["[+1] Sight <for [Embarked] units>", "Defense bonus when embarked"],
+		"uniques": ["[+1] Sight <for [Embarked] units>", "[+100]% Strength <when defending> <when [Embarked]>"],
 		"attackSound": "shot"
 	},
 	{
@@ -679,7 +679,7 @@
 		"strength": 65,
 		"cost": 375,
 		"requiredTech": "Radar",
-		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory"],
+		"uniques": ["May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>"],
 		"attackSound": "shot"
 		// upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
 	},
@@ -907,7 +907,7 @@
 	{
 		"name": "Great Prophet",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>","Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>","Removes other religions when spreading religion","May found a religion <by consuming this unit> <if it hasn't used other actions yet>","May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>","May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]","Unbuildable", "Religious Unit", "Hidden when religion is disabled","Takes your religion over the one in their birth city", "Cannot be purchased"],
+		"uniques": ["Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>","Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>","Removes other religions when spreading religion","May found a religion <by consuming this unit> <if it hasn't used other actions yet>","May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>","May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]","Unbuildable", "Religious Unit", "Only available <when religion is enabled>","Takes your religion over the one in their birth city", "Cannot be purchased"],
 		"movement": 2
 	},
 	{
@@ -928,14 +928,14 @@
 	{
 		"name": "Missionary",
 		"unitType": "Civilian",
-		"uniques": ["Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>","May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there","Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]","[-1] Sight", "Unbuildable", "Religious Unit", "Hidden when religion is disabled"],
+		"uniques": ["Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>","May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there","Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]","[-1] Sight", "Unbuildable", "Religious Unit", "Only available <when religion is enabled>"],
 		"movement": 4,
 		"religiousStrength": 1000
 	},
 	{
 		"name": "Inquisitor",
 		"unitType": "Civilian",
-		"uniques": ["Prevents spreading of religion to the city it is next to","Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>","Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]","[+1] Sight", "Hidden when religion is disabled", "Unbuildable", "Religious Unit"],
+		"uniques": ["Prevents spreading of religion to the city it is next to","Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>","Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]","[+1] Sight", "Only available <when religion is enabled>", "Unbuildable", "Religious Unit"],
 		"movement": 3
 	},
 	
@@ -969,7 +969,7 @@
 		"requiredTech": "Horseback Riding",
 		"obsoleteTech": "Metallurgy",
 		"promotions": ["Bestial Charge"],
-		"uniques": ["Can move after attacking","[-33]% Strength <vs cities> <when attacking>","May withdraw before melee ([50]%)"],
+		"uniques": ["Can move after attacking","[-33]% Strength <vs cities> <when attacking>","Withdraws before melee combat <with [50]% chance>"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -1015,7 +1015,7 @@
 		"obsoleteTech": "Metal Casting",
 		"replaces": "Warrior",
 		"upgradesTo": "Swordsman",
-		"uniques": ["Can move after attacking","[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>","Ignores terrain cost","May withdraw before melee ([100]%)","[+200]% Strength <vs [Archery] units>", "[+100]% Strength <when attacking>"],
+		"uniques": ["Can move after attacking","[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>","Ignores terrain cost","Withdraws before melee combat <with [100]% chance>","[+200]% Strength <vs [Archery] units>", "[+100]% Strength <when attacking>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1534,7 +1534,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Metallurgy",
 		"promotions": ["Hunter's Training"],
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "May withdraw before melee ([50]%)"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Withdraws before melee combat <with [50]% chance>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -1644,7 +1644,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","All healing effects doubled","Unit will heal every turn, even if it performs an action","Heal this unit by [100] HP <for [5] movement> <once>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","All healing effects doubled","Unit will heal every turn, even if it performs an action","[This Unit] heals [100] HP <for [5] movement> <once>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -1660,7 +1660,7 @@
 		"cost": 135,
 		"requiredTech": "Astronomy",
 		"obsoleteTech": "Combustion",
-		"uniques": ["[+3] Sight","May withdraw before melee ([50]%)"],
+		"uniques": ["[+3] Sight","Withdraws before melee combat <with [50]% chance>"],
 		"hurryCostModifier": 20
 	},
 	{
@@ -1674,7 +1674,7 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
-		"uniques": ["May withdraw before melee ([75]%)", "May capture killed [Water] units"],
+		"uniques": ["Withdraws before melee combat <with [75]% chance>", "May capture killed [Water] units"],
 		"hurryCostModifier": 20
 	},
 	{
@@ -1717,7 +1717,7 @@
 		"strength": 5,
 		"cost": 35,
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["Ignores terrain cost","Invisible to others","May withdraw before melee ([50]%)","[-80]% Strength <vs [Sword] units>","[-80]% Strength <vs [Mounted] units>","[+1000]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Ignores terrain cost","Invisible to others","Withdraws before melee combat <with [50]% chance>","[-80]% Strength <vs [Sword] units>","[-80]% Strength <vs [Mounted] units>","[+1000]% Strength <vs cities> <when attacking>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1833,7 +1833,7 @@
 		"movement": 1,
 		"strength": 10,
 		"cost": 0,
-		"uniques": ["Unbuildable", "Cannot be purchased", "Can see invisible [All] units","Can only heal by pillaging","Damage is ignored when determining unit Strength","[+400]% Strength decreasing with distance from the capital"],
+		"uniques": ["Unbuildable", "Cannot be purchased", "Can see invisible [All] units","Can only heal by pillaging","No damage penalty for wounded units","[+400]% Strength decreasing with distance from the capital"],
 		"attackSound": "nonmetalhit"
 	},
 

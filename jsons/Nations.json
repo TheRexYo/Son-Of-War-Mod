@@ -80,7 +80,7 @@
 		"favoredReligion": "The Divine Triad",
 		"uniqueName": "Fires Of Ragnarak",
 		// Keep in mind while balancing, Pyria also has access to the Hellfire Thrower which is by far the best unit in the era it can be produced, despite its high cost.
-		"uniques": ["No movement cost to pillage <for [Melee] units>", "New [Military] units start with [30] Experience [in all cities]", "[+25]% Production when constructing [Military] units [in all cities]"],
+		"uniques": ["No movement cost to pillage <for [Melee] units>", "New [Military] units start with [30] XP [in all cities]", "[+25]% Production when constructing [Military] units [in all cities]"],
 		"cities": ["Ensdael", "Nightsend", "Abysin", "Pyris", "Altora", "Faenai", "Bator", "Theris", "Ferra",
 			"Magris", "Athr", "Theta", "Horahelm", "Tetrani", "Moondeep", "Lakaeia", "Duskshadow", "Elerea", "Unaia"
 		]
@@ -561,7 +561,7 @@
 
 		"favoredReligion": "The Divine Triad",
 		"uniqueName": "Fury of the North",
-		"uniques": ["Can only heal by pillaging", "[+1] Movement <for [Melee] units>", "When defeating a [Water] unit, earn [25] Gold and recruit it", "All newly-trained [Sword] units [in all cities] receive the [Raiding Boats] promotion", "[+3] Sight <for [Embarked] units>", "Defense bonus when embarked <for [All] units>", "[+1] Movement <for [Embarked] units>", "[1] Movement point cost to embark", "[1] Movement point cost to disembark", "No movement cost to pillage <for [Melee] units>"],
+		"uniques": ["Can only heal by pillaging", "[+1] Movement <for [Melee] units>", "When defeating a [Water] unit, earn [25] Gold and recruit it", "All newly-trained [Sword] units [in all cities] receive the [Raiding Boats] promotion", "[+3] Sight <for [Embarked] units>", "[+100]% Strength <when defending> <when [Embarked]> <for [All] units>", "[+1] Movement <for [Embarked] units>", "[1] Movement point cost to embark", "[1] Movement point cost to disembark", "No movement cost to pillage <for [Melee] units>"],
 		"cities": ["Norkar", "Fygyr", "Ygglor", "Vungur", "Verdolir"]
 	},
 	{
@@ -699,7 +699,7 @@
 
 		"favoredReligion": "Ultimism",
 		"uniqueName": "Heroic Feasts",
-		"uniques": ["Upon capturing a city, receive [10] times its [Food] production as [Culture] immediately","Can spend Gold to annex or puppet a City-State that has been your ally for [3] turns."],
+		"uniques": ["Upon capturing a city, receive [10] times its [Food] production as [Culture] immediately","Can spend Gold to annex or puppet a City-State that has been your Ally for [3] turns"],
 		"cities": ["Wazzaw", "Krakark", "Bulwarr", "Bastń"]
 	},
 	{
@@ -727,7 +727,7 @@
 
 		"favoredReligion": "Ultimism",
 		"uniqueName": "Promise of Alignment"
-		"uniques": ["[50]% of excess happiness converted to [Gold]","City-State Influence recovers at twice the normal rate","When defeating a [City-State] unit, earn [100] Gold and recruit it","Gifts of Gold to City-States generate [100]% more Influence","Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns."],
+		"uniques": ["[50]% of excess happiness converted to [Gold]","City-State Influence recovers at twice the normal rate","When defeating a [City-State] unit, earn [100] Gold and recruit it","Gifts of Gold to City-States generate [100]% more Influence","Can spend Gold to annex or puppet a City-State that has been your Ally for [5] turns"],
 		"cities": ["Palentinia", "Neo-Rhone", "Neo-Imperia", "Antino", "Gryffort"]
 	},
 
@@ -767,7 +767,7 @@
 		//"declaringWar": "The barrier between us and the spirit world is frail, and we must ensure it does not weaken any further. For that, there must be sacrifice.",
 		"attacked": "War between our peoples will only serve to strengthen the spirit barrier.",
 		"defeated": "When the spirit world tears into our own, do not be suprised. This was your choice.",
-		"uniques": ["Damage is ignored when determining unit Strength"],
+		"uniques": ["No damage penalty for wounded units"],
 		"outerColor": [51, 255, 135],
 		"innerColor": [207, 79, 3],
 		"cities": ["Hili"]
@@ -780,7 +780,7 @@
 		"declaringWar": "You failed to prove yourselves worthy to stand with the shining city. Prepare for war.",
 		"attacked": "I'll make sure you hang for this!",
 		"defeated": "Alas, our city shines no more. All beauty turns to shame eventually.",
-		"uniques": ["Defense bonus when embarked <for [Military] units>"],
+		"uniques": ["[+100]% Strength <when defending> <when [Embarked]> <for [Military] units>"],
 		"outerColor": [255, 0, 0],
 		"innerColor": [255, 255, 0],
 		"cities": ["Sangali"]
@@ -860,7 +860,7 @@
 		"defeated": "SO... MUCH... BLOOD...",
 		"outerColor": [255, 170, 0],
 		"innerColor": [94, 30, 0],
-		"uniques": ["New [Melee] units start with [120] Experience [in all cities]"],
+		"uniques": ["New [Melee] units start with [120] XP [in all cities]"],
 		"cities": ["Orruk-Tar"]
 	},
 	{

@@ -38,7 +38,7 @@
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
-		"uniques": ["Hidden when religion is disabled"]
+		"uniques": ["Only available <when religion is enabled>"]
 	},
 	{
 		"name": "The Fanged Spire",
@@ -134,7 +134,7 @@
 		"specialistSlots": {"Hero": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["New [Military] units start with [15] Experience [in this city]"],
+		"uniques": ["New [Military] units start with [15] XP [in this city]"],
 		"requiredTech": "Bronze Working"
 	},
 	{
@@ -194,7 +194,7 @@
 		"name": "Courthouse",
 		"maintenance": 4,
 		"hurryCostModifier": 50,
-		"uniques": ["Remove extra unhappiness from annexed cities","Can only be built [in annexed cities]"],
+		"uniques": ["Removes extra unhappiness from annexed cities","Can only be built <in [in annexed cities] cities>"],
 		"requiredTech": "Mathematics"
 	},
 	{
@@ -213,7 +213,7 @@
 		"maintenance": 1,
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["New [Military] units start with [5] Experience [in this city]"],
+		"uniques": ["New [Military] units start with [5] XP [in this city]"],
 		"requiredTech": "Construction"
 	},
 	{
@@ -233,7 +233,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
-		"uniques": ["Hidden when religion is disabled"]
+		"uniques": ["Only available <when religion is enabled>"]
 	},
 	{
 		"name": "National College",
@@ -485,7 +485,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
-		"uniques": ["New [Military] units start with [15] Experience [in this city]"],
+		"uniques": ["New [Military] units start with [15] XP [in this city]"],
 		"requiredTech": "Steel"
 	},
 
@@ -687,7 +687,7 @@
 		"hurryCostModifier": 0,
 		"maintenance": 1,
 		"requiredBuilding": "Armory",
-		"uniques": ["New [Military] units start with [15] Experience [in this city]"],
+		"uniques": ["New [Military] units start with [15] XP [in this city]"],
 		"requiredTech": "Military Science"
 	},
 	{
@@ -695,7 +695,7 @@
 		"culture": 3,
 		"greatPersonPoints": {"Great Scientist": 2},
 		"isWonder": true,
-		"uniques": ["Free [Great General] appears", "New [Military] units start with [15] Experience [in this city]"],
+		"uniques": ["Free [Great General] appears", "New [Military] units start with [15] XP [in this city]"],
 		"requiredTech": "Military Science",
 		"quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.'  - Horace"
 	},
@@ -929,7 +929,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"requiredTech": "Globalization",
-		"uniques": ["Triggers voting for the Diplomatic Victory", "Hidden when [Diplomatic] Victory is disabled", "Triggers a global alert upon completion"],
+		"uniques": ["Triggers voting for the Diplomatic Victory", "Only available <when [Diplomatic] Victory is enabled>", "Triggers a global alert upon completion"],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
 	},
 	{
@@ -951,15 +951,15 @@
 		"name": "Utopia Project",
 		"cost": 1500,
 		"isNationalWonder": true,
-		"uniques": ["Hidden until [5] social policy branches have been completed", "Triggers a global alert upon build start",
-			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled"]
+		"uniques": ["Unavailable <when number of [Completed Policy branches] is less than [5]>", "Triggers a global alert upon build start",
+			"Triggers a Cultural Victory upon completion", "Only available <when [Cultural] Victory is enabled>"]
 	},
 	
 	{
 		"name": "Ascension Monolith",
 		"cost": 1500,
 		"isNationalWonder": true,
-		"uniques": ["Triggers victory <after founding a religion> <starting from the [Future era]>", "[+500]% [Faith] [in all cities]","Nullifies [Faith] [in all cities] <starting from the [Industrial era]>","Destroyed when the city is captured","Triggers a global alert upon build start", "Hidden when religion is disabled", "Hidden when [Religious] Victory is disabled"]
+		"uniques": ["Triggers victory <after founding a religion> <starting from the [Future era]>", "[+500]% [Faith] [in all cities]","Nullifies [Faith] [in all cities] <starting from the [Industrial era]>","Destroyed when the city is captured","Triggers a global alert upon build start", "Only available <when religion is enabled>", "Only available <when [Religious] Victory is enabled>"]
 	},
 	
 	// Religious buildings
@@ -971,14 +971,14 @@
 		"culture": 3,
 		"happiness": 1,
 		"specialistSlots": {"Artist": 1},
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Monastery",
 		"cost": 0,
 		"culture": 2,
 		"faith": 2,
-		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]", "Hidden when religion is disabled", 
+		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]", "Only available <when religion is enabled>", 
 			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]","Unbuildable"]
 	},
 	{
@@ -987,7 +987,7 @@
 		"culture": 2,
 		"faith": 3,
 		"happiness": 1,
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Pagoda",
@@ -995,7 +995,7 @@
 		"culture": 2,
 		"faith": 2,
 		"happiness": 2,
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	
 	// Nation Unique
@@ -1172,7 +1172,7 @@
 		"maintenance": 1,
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["New [Melee] units start with [15] Experience [in this city]","Earn [20]% of killed [Military] unit's [Strength] as [Culture]"],
+		"uniques": ["New [Melee] units start with [15] XP [in this city]","Earn [20]% of killed [Military] unit's [Strength] as [Culture]"],
 		"requiredTech": "Construction"
 	},
 	{
@@ -1185,7 +1185,7 @@
 		"requiredTech": "Metal Casting",
 		// If spaceship parts are changed into units, the spaceship part unique should be changed to
 		// "+[15]% Production when constructing [Spaceship part] units [in this city]"
-		"uniques": ["Unsellable","Gain [100] [Culture] <(modified by game speed)>","Gain [100] [Science] <upon discovering [Chemistry]> <(modified by game speed)>","[+5 Gold] from [Iron] tiles [in this city] <after discovering [Chemistry]>","[+15]% Production when constructing [Spaceship part] buildings [in this city]","[+15]% Production when constructing [Land] units [in this city]","[+1 Production] from [Iron] tiles [in this city]"]
+		"uniques": ["Unsellable","Gain [100] [Culture] <(modified by game speed)>","Gain [100] [Science] <upon discovering [Chemistry] technology> <(modified by game speed)>","[+5 Gold] from [Iron] tiles [in this city] <after discovering [Chemistry]>","[+15]% Production when constructing [Spaceship part] buildings [in this city]","[+15]% Production when constructing [Land] units [in this city]","[+1 Production] from [Iron] tiles [in this city]"]
 	},
 	{
 		"name": "Druidic Circle",
@@ -1214,7 +1214,7 @@
 		"replaces": "Courthouse",
 		"maintenance": 4,
 		"hurryCostModifier": 50,
-		"uniques": ["Remove extra unhappiness from annexed cities", "Can only be built [in annexed cities]", "Resting point for Influence with City-States is increased by [10]", "[+25]% resources gifted by City-States"],
+		"uniques": ["Removes extra unhappiness from annexed cities", "Can only be built <in [in annexed cities] cities>", "Resting point for Influence with City-States is increased by [10]", "[+25]% resources gifted by City-States"],
 		"requiredTech": "Mathematics"
 	},
 	{
@@ -1236,7 +1236,7 @@
 		"science": 2,
 		"culture": 2,
 		"hurryCostModifier": 50,
-		"uniques": ["Remove extra unhappiness from annexed cities", "Can only be built [in annexed cities]"],
+		"uniques": ["Removes extra unhappiness from annexed cities", "Can only be built <in [in annexed cities] cities>"],
 		"requiredTech": "Mathematics"
 	},
 	
@@ -1295,7 +1295,7 @@
 		"maintenance": 1,
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Never destroyed when the city is captured","New [Military] units start with [20] Experience [in this city]","All newly-trained [Military] units [in this city] receive the [Strength of Xagge] promotion"],
+		"uniques": ["Never destroyed when the city is captured","New [Military] units start with [20] XP [in this city]","All newly-trained [Military] units [in this city] receive the [Strength of Xagge] promotion"],
 		"requiredTech": "Construction"
 	},
 	{
@@ -1313,7 +1313,7 @@
 		"replaces": "Barracks",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["Never destroyed when the city is captured","New [Military] units start with [15] Experience [in this city]","May buy [Melee] units for [50] [Gold] [in this city] at an increasing price ([25])"],
+		"uniques": ["Never destroyed when the city is captured","New [Military] units start with [15] XP [in this city]","May buy [Melee] units for [50] [Gold] [in this city] at an increasing price ([25])"],
 		"requiredTech": "Bronze Working"
 	},
 	{
@@ -1323,7 +1323,7 @@
 		"culture": 2,
 		"cost": 40,
 		"hurryCostModifier": 160,
-		"uniques": ["Never destroyed when the city is captured","Upon capturing a city, receive [10] times its [Gold] production as [Culture] immediately","Doubles Gold given to enemy if city is captured","[+20]% [Gold]"],
+		"uniques": ["Never destroyed when the city is captured","Upon capturing a city, receive [10] times its [Gold] production as [Culture] immediately","[+100]% Gold given to enemy if city is captured <in this city>","[+20]% [Gold]"],
 		"maintenance": 1
 	},
 	{
@@ -1350,7 +1350,7 @@
 		"uniqueTo": "Velis",
 		"replaces": "Barracks",
 		"cityStrength": 40,
-		"uniques": ["Never destroyed when the city is captured","Free [Sky Dragon] appears <upon declaring war with a major Civilization>","Must have an owned [Mountain] within [3] tiles"],
+		"uniques": ["Never destroyed when the city is captured","Free [Sky Dragon] appears <upon declaring war on [Major] Civilizations>","Must have an owned [Mountain] within [3] tiles"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry"
 	}

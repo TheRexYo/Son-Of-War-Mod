@@ -2,7 +2,7 @@
 
 	{
 		"name": "Heal Instantly",
-		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Flier","Bestial","Bestial Ranged","Bestial Water"]
 	},
 
@@ -212,7 +212,7 @@
 	{
 		"name": "Ferocity II",
 		"prerequisites": ["Ferocity I"],
-		"uniques": ["[+50]% Strength <when below [25] HP>","Damage is ignored when determining unit Strength"],
+		"uniques": ["[+50]% Strength <when below [25] HP>","No damage penalty for wounded units"],
 		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
 	},
 
@@ -282,7 +282,7 @@
 	{
 		"name": "Survivalism III",
 		"prerequisites": ["Survivalism II"],
-		"uniques": ["Unit will heal every turn, even if it performs an action", "May withdraw before melee ([75]%)"], // This number is not based on any source
+		"uniques": ["Unit will heal every turn, even if it performs an action", "Withdraws before melee combat <with [75]% chance>"], // This number is not based on any source
 		"unitTypes": ["Scout"]
 	},
 
@@ -689,7 +689,7 @@
 	},
 	{
 		"name": "Blessing of Plains",
-		"uniques": ["[+50]% XP gained from combat","Damage is ignored when determining unit Strength"]
+		"uniques": ["[+50]% XP gained from combat","No damage penalty for wounded units"]
 	},
 	{
 		"name": "Blessing of Tundras",
@@ -705,7 +705,7 @@
 	},
 	{
 		"name": "Blessing of Mountains",
-		"uniques": ["May Paradrop up to [10] tiles from inside friendly territory"]
+		"uniques": ["May Paradrop to [Land] tiles up to [10] tiles away <in [{Friendly} {Land}] tiles>"]
 	},
 	{
 		"name": "Blessing of Snow",
@@ -759,7 +759,7 @@
 	},
 	{
 		"name": "Divine Undeath", // For scout units built in cities following a religion with the "Messenger of the Gods" pantheon.
-		"uniques": ["Damage is ignored when determining unit Strength","Can only heal by pillaging"]
+		"uniques": ["No damage penalty for wounded units","Can only heal by pillaging"]
 	},
 	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth

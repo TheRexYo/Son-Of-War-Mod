@@ -36,7 +36,7 @@
         ],
         "allyBonusUniques": [
 			"Free [Warrior Monk] appears <upon turn end> <every [5] turns> <after discovering [Bronze Working]>",
-			"Damage is ignored when determining unit Strength",
+			"No damage penalty for wounded units",
             "[+6 Culture] <before the [Medieval era]>",
             "[+12 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
             "[+26 Culture] <starting from the [Industrial era]>"
@@ -53,7 +53,7 @@
 			"Free [Shanin] appears <upon turn end> <every [12] turns> <after discovering [Machinery]>",
             "[+2 Happiness] <before the [Medieval era]>",
             "[+3 Happiness] <starting from the [Medieval era]>",
-			"Defense bonus when embarked <for [Military] units>",
+			"[+100]% Strength <when defending> <when [Embarked]> <for [Military] units>",
             "Provides a unique luxury"
         ],
         "color": [255, 216, 0]
@@ -138,12 +138,12 @@
         "name": "Orruk-Tar",
         "friendBonusUniques": [
 			"Provides military units every ≈[20] turns",
-			"New [Melee] units start with [60] Experience [in capital]"
+			"New [Melee] units start with [60] XP [in capital]"
 		],
         "allyBonusUniques": [
 			"Free [Orruk Brute] appears <upon turn end> <every [2] turns> <after discovering [Agriculture]>",
 			"Provides military units every ≈[10] turns",
-			"New [Melee] units start with [120] Experience [in all cities]"
+			"New [Melee] units start with [120] XP [in all cities]"
 		],
         "color": [255, 170, 0]
     },
