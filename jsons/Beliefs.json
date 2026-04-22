@@ -30,7 +30,7 @@
     {
         "name": "God of the Sands",
         "type": "Pantheon",
-        "uniques": ["[+3 Food, +1 Faith] from [Desert] tiles without [Flood plains] [in this city]","[+5 Faith] from [Oasis] tiles [in cities following this religion]"]
+        "uniques": ["[+3 Food, +1 Faith] from [Desert] tiles without [Flood Plains] [in this city]","[+5 Faith] from [Oasis] tiles [in cities following this religion]"]
     },
     {
         "name": "God of Life",
@@ -309,6 +309,6 @@
     {
         "name": "Reliquary",
         "type": "Enhancer",
-        "uniques": ["Gain [+50] Faith] <upon expending a [Great Person] unit> <(modified by game speed)>"]
+        "uniques": ["Gain [+50] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>"]
     }
 ]

@@ -125,7 +125,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>", "Gain [10] [Faith, Science, Culture] <upon expending a [Great Person] unit> <(modified by game speed)>", "[+2 Gold] from [Marble] tiles [in this city]", "[+2 Gold] from [Stone] tiles [in this city]"],
+		"uniques": ["Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>", "Gain [10] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>", "Gain [10] [Science] <upon expending a [Great Person] unit> <(modified by game speed)>", "Gain [10] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)>", "[+2 Gold] from [Marble] tiles [in this city]", "[+2 Gold] from [Stone] tiles [in this city]"],
 		"requiredTech": "Masonry",
 		"quote": "'It is said that the vault once contained the personalities and memories of over a thousand historical figures, each entry containing valuable information that could change our world's future. As time passes, these memories fade, but the vault stands eternal.' - Excerpt from Ancient Lands: A Guide to Arcane Archaeology"
 	},
@@ -292,7 +292,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-		"uniques": ["Must be next to [Desert]", "May buy [All] units with [Food] [in this city]", "[+5 Food, +5 Production, +5 Gold] from [Desert] tiles without [Flood plains] [in this city]", "Gain a free [Amphitheater] [in this city]", "[+6 Culture] <after discovering [Archaeology]>"],
+		"uniques": ["Must be next to [Desert]", "May buy [All] units with [Food] [in this city]", "[+5 Food, +5 Production, +5 Gold] from [Desert] tiles without [Flood Plains] [in this city]", "Gain a free [Amphitheater] [in this city]", "[+6 Culture] <after discovering [Archaeology]>"],
 		"requiredTech": "Currency",
 		"quote": "'Humanity is at its core, adaptable. In places we call barren and dead, they hang onto life with a vigor unlike anything else. Knowing this, it is clear we were doomed from the start.' - Avriel, Great Sage of the Tanar'sol 'Sun Elves'"
 	},

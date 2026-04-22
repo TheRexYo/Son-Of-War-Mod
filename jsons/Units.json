@@ -626,7 +626,7 @@
 		"interceptRange": 2,
 		"cost": 375,
 		"requiredTech": "Combustion",
-		"uniques": ["Can attack submarines", "[40]% chance to intercept air attacks",
+		"uniques": ["Can see invisible [Submarine] units", "[40]% chance to intercept air attacks",
 			"Withdraws before melee combat <with [80]% chance>", "[+100]% Strength <vs [Submarine] units>"],
 		"attackSound": "shipguns"
 	},
@@ -797,7 +797,7 @@
 		"rangedStrength": 85,
 		"cost": 425,
 		"requiredTech": "Telecommunications",
-		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Can attack submarines", 
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Can see invisible [Submarine] units", 
 			"[+1] Sight", "Can carry [2] [Missile] units"],
 		"attackSound": "torpedo"
 	},
@@ -821,7 +821,7 @@
 		"interceptRange": 2,
 		"cost": 425,
 		"requiredTech": "Robotics",
-		"uniques": ["[100]% chance to intercept air attacks", "Can attack submarines",
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
 			"Ranged attacks may be performed over obstacles", "Can carry [3] [Missile] units",
 			"[+100]% Strength <vs [Submarine] units>"],
 		"attackSound": "shipguns"
@@ -901,7 +901,7 @@
 	{
 		"name": "Great Engineer",
 		"unitType": "Civilian",
-		"uniques": ["Can speed up construction of a wonder", "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Great Person - [Production]", "Unbuildable", "Cannot be purchased"],
+		"uniques": ["Can speed up the construction of a wonder", "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Great Person - [Production]", "Unbuildable", "Cannot be purchased"],
 		"movement": 2
 	},
 	{

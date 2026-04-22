@@ -533,12 +533,12 @@
 	// Helicopter
 	{
 		"name": "Anti-Armor I",
-		"uniques": ["+[25]% <vs [Armored] units>"],
+		"uniques": ["+[25]% Strength <vs [Armored] units>"],
 		"unitTypes:": ["Helicopter"]
 	},
 	{
 		"name": "Anti-Armor II",
-		"uniques": ["+[25]% <vs [Armored] units>"],
+		"uniques": ["+[25]% Strength <vs [Armored] units>"],
 		"unitTypes:": ["Helicopter"]
 	},
 
