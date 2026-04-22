@@ -154,7 +154,7 @@
 			"[+25]% City Strength from defensive buildings"
 		],
         "allyBonusUniques": [
-			"Free [Velian War Dragon] appears <upon turn end> <every [40] turns> <after discovering [Animal Husbandry]>",
+			"Free [Velian War Dragon] appears <upon turn end> <every [20] turns> <after discovering [Animal Husbandry]>",
 			"Provides military units every ≈[10] turns",
 			"[+100]% City Strength from defensive buildings"
 		],

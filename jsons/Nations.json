@@ -24,19 +24,22 @@
 		"hateHello": "State your purpose, demon!",
 		"hateLetsHearIt": ["State your intentions.", "Choose your words wisely.", "Even evil has a will of its own. Go on."],
 		"hateNo": ["Is this a joke?", "Do you think me a fool?", "Take your crimes elsewhere."],
-		"hateYes": ["I accept. Now begone.", "Perhaps you are wiser than you seem.", "Fine. Now leave.", "Do not vex my people any longer. I might not be this kind next time."],
+		"hateYes": ["I accept. Now begone.", "Perhaps you are wiser than you seem.", "Fine. Now leave.", "Very well, but do not vex my people any longer. I might not be this kind next time."],
 
 		"afterPeace": "Very well. I yield. May peace return at last!",
 		"tradeRequest": "Greetings, friends. May our bonds grow stronger with this proposal.",
-
+		"declaringFriendship": "By the light of Genesis, let us be comrades forevermore!",
+		"neutralRejectingDemand": "Ha! Good one.",
+		"hateRejectingDemand": "Please do not test my patience.",
+		
 		"outerColor": [255, 217, 0],
 		"innerColor": [86, 128, 27],
 
 		"favoredReligion": "The Divine Triad",
 		"uniqueName": "Winds Of Genesis",
-		"uniques": ["[+2] Movement","Empire enters a [30]-turn Golden Age <upon declaring friendship>","Free [Great Hero] appears <upon declaring friendship>"],
-		"cities": ["Chamera", "Aethil", "Tilford", "Aerol", "Fyrforx", "Tael", "Kalru", "Lanthor", "Solaen",
-			"Tetherin", "Ethr", "Genu", "Whynfor", "Skysol", "Aetherfort", "Skaern", "Dawnlight", "Skyren", "Bahtyr"
+		"uniques": ["[+1] Movement","[+2] Movement <for [Flier] units>","Empire enters a [30]-turn Golden Age <upon declaring friendship>","Free [Great Hero] appears <upon declaring friendship>"],
+		"cities": ["Chamera", "Aerol", "Fyirford", "Tael", "Kalrun", "Lanthor", "Solaen", "Aethil", "Tilford",
+			"Tethrin", "Ethr", "Genu", "Whynfor", "Skynsol", "Aeirford", "Skaern", "Ersolux", "Skyren", "Bahtyr"
 		]
 	},
 	{
@@ -67,7 +70,10 @@
 
 		"afterPeace": "This conflict has lasted long enough. You will die another time.",
 		"tradeRequest": "I hope you'll accept this proposal. I'd be ashamed if I had to kill you.",
-
+		"declaringFriendship": "Together, we shall bathe this world in blood.",
+		"neutralRejectingDemand": "Do not waste my time.",
+		"hateRejectingDemand": "You are a fool to test my patience!",
+		
 		"outerColor": [255, 0, 242],
 		"innerColor": [128, 35, 23],
 
@@ -107,14 +113,17 @@
 
 		"afterPeace": "I know when a war has gone on too long. Let peace return.",
 		"tradeRequest": "I believe our empires would benefit from this relationship.",
-
+		"declaringFriendship": "We have so much to talk about, child.",
+		"neutralRejectingDemand": "If I were younger, this insult would carry consequences for you.",
+		"hateRejectingDemand": "You are lucky I don't cut out your tongue!",
+		
 		"outerColor": [172, 89, 255],
 		"innerColor": [119, 0, 0],
 
 		"favoredReligion": "Ultimism",
 		"uniqueName": "Glory of the Empire",
 		"uniques": ["[+1 Happiness] [in all cities] <before discovering [Theology]>", "[+100]% [Happiness] [in all cities connected to capital]", "[100]% of excess happiness converted to [Culture]","Each city founded increases culture cost of policies [100]% less than normal"],
-		"cities": ["Grandur", "Antor", "Enrade", "Gryffor", "Asdale", "Yelor", "Ethensia"]
+		"cities": ["Grandur", "Antor", "Enrade", "Gryffor", "Asdale", "Yelor", "Ethensia", "Manus Vul"]
 	},
 	{
 		"name": "Onuqi",
@@ -169,7 +178,10 @@
 
 		"afterPeace": "War's storm has ceased. May the flowers of peace blossom once more!",
 		"tradeRequest": "I have long forseen this deal, though it is not in my power to predict the will of another's soul. Choose your path wisely, and perhaps fate will lead us to prosperity.",
-
+		"declaringFriendship": "May our people remain kindred for a thousand cycles.",
+		"neutralRejectingDemand": "This is not in the prophecy.",
+		"hateRejectingDemand": "I shall not sacrifice my people's future, least of all to you!",
+		
 		"outerColor": [255, 255, 0],
 		"innerColor": [128, 94, 0],
 
@@ -203,18 +215,22 @@
 		"neutralYes": ["The great river Azahan flows free. So too, shall we.", "The jungle rings with acceptance. You will have your way.", "I fear not the future. Tonight, let us feast."],
 
 		"hateHello": "The jungle is hungry. Tread with caution.",
-		"hateLetsHearIt": ["Under the veil of the treetops, we shall reveal the slightest deception. Do not try to fool us.", "The jungle cares not for words, but we shall listen nonetheless.", "I feel the rain coming. Speak quickly."],
-		"hateNo": ["It is in the nature of the jungle to take from those who are weak or foolish, but be warned - we are not.", "The jungle watches over us. Do not try this again.", "The jungle bows to no one."],
-		"hateYes": ["We have nothing to fear from you. I accept.", "This offer has placed your people in a new light. The trees themselves smile upon you.", "Your words have reached us, at least this once."],
+		"hateLetsHearIt": ["Beneath the mighty canopy, no light can reach us. For your sake, speak only the truth.", "The jungle cares not for your words, but I shall listen nonetheless.", "I feel the rain coming. Speak quickly."],
+		"hateNo": ["It is in the nature of the jungle to take from those who are weak or foolish, but be warned - we are not.", "The vines want your blood, and I can barely hold them back. Do not try this again.", "The jungle bows to no one."],
+		"hateYes": ["We have nothing to fear from you. I accept.", "The jungle will stay hungry, for now.", "Your words have reached us, at least this once."],
 
 		"afterPeace": "The jungle is fed. We have no reason to harm you, for now.",
 		"tradeRequest": "The jungle speaks. Can you hear it?",
+		"declaringFriendship": "Kindred, may you prosper forevermore.",
+		"neutralRejectingDemand": "We know nothing of fear.",
+		"hateRejectingDemand": "You are prey. Nothing more, nothing less.",
+		
 		"outerColor": [169, 199, 38],
 		"innerColor": [26, 110, 0],
 
 		"favoredReligion": "Saurianism",
 		"uniqueName": "Soul of Jungara",
-		"uniques": ["Enemy [Land] units must spend [3] extra movement points when inside your territory", "[+50]% Strength <when fighting in [Friendly Land] tiles>","[+1 Happiness] from every [Jungle]"],
+		"uniques": ["Enemy [Land] units must spend [3] extra movement points when inside your territory", "[+50]% Strength <when fighting in [Friendly Land] tiles>","[+1 Happiness, +1 Production] from every [Jungle]"],
 		"cities": ["Teraz", "Andu", "Kala'ka'tili", "Aztakczii", "Lik'tok", "Azhan-Tlatal", "Susu-Tlatal"]
 	},
 	
@@ -247,33 +263,36 @@
 
 		"afterPeace": "It would be unwise to continue this conflict. Perhaps another time.",
 		"tradeRequest": "The efforts of man bear much fruit. Come, let us share!",
-
+		"declaringFriendship": "For the good of mankind, I pronounce you kin.",
+		"neutralRejectingDemand": "That would be a waste of precious time.",
+		"hateRejectingDemand": "Leave now, villain. I am watching you.",
+		
 		"outerColor": [144, 126, 66],
 		"innerColor": [255, 224, 51],
 		
 		"favoredReligion": "Nepharism",
-		"uniqueName": "Ruler of Mankind",
+		"uniqueName": "Rise of Man",
 //		"uniques": ["Gain Culture when you kill a barbarian unit", "Notified of new Barbarian encampments", "Receive triple Gold from Barbarian encampments and pillaging Cities", "+[100]% bonus vs Barbarians"],
 		"uniques": ["Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]", "Earn [25]% of killed [Barbarian] unit's [Strength] as [Faith]", "Earn [100]% of killed [Barbarian] unit's [Cost] as [Gold]", "Earn [25]% of killed [Barbarian] unit's [Cost] as [Science]", "Notified of new Barbarian encampments"],
 		"cities": ["Alor", "Nerai", "Phorl", "Dehsk", "Fyrin"]
 	},
 	{
-		"name": "Jharappe",
-		"adjective": ["Jharappan"],
+		"name": "Arai",
+		"adjective": ["Arai"],
 		"leaderName": "Jhr Ahdrali",
 		"personality": "Generalist Leader",
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Scientific",
 
-		"startIntroPart1": "Greetings, Jhr Ahdrali, King of the Jharappe people. May you live long! Your people are masters of science, curious and innovative. Your people were among the most advanced of their time, having learned many things from the various Naga tribes living near you. With this knowledge, your cities grew to be massive, your armies great. Unfortunately, your people died out after a major drought that spanned the entirety of your homeland, bringing with it thirst and famine.",
+		"startIntroPart1": "Greetings, Jhr Ahdrali, King of the Arai people. May you live long! Your people are masters of science, curious and innovative. Your people were among the most advanced of their time, having learned many things from the various Naga tribes living near you. With this knowledge, your cities grew to be massive, your armies great. Unfortunately, your people died out after a major drought that spanned the entirety of your homeland, bringing with it thirst and famine.",
 		"startIntroPart2": "Wise King Jhr, will you take your people to the stars, as you promised long ago? Will you expand your cities and grow into a mighty empire? Will you build a civilization that stands the test of time?",
 
-		"declaringWar": "Your people are not fit for the heavens. You must be cleansed.",
-		"attacked": "It seems you've made a mistake. We are bound for the stars. Can you say the same?",
+		"declaringWar": "The Nagai taught us that all life is sacred. You must be the exception.",
+		"attacked": "In the name of Genesis and the Nagai, we will defend our land and protect the core!",
 		"defeated": "My promise... I'm sorry, everyone...",
 		"introduction": "Greetings, traveler. Do you seek the light of the stars as well? Perhaps we could reach them together.",
 
-		"neutralHello": "The Jharappe people greet you.",
+		"neutralHello": "The Arai greet you.",
 		"neutralLetsHearIt": ["I hear you.", "Go on.", "I am listening."],
 		"neutralNo": ["Not today, I'm afraid.", "I will not accept this.", "I cannot accept your offer."],
 		"neutralYes": ["Agreed.", "The stars shine bright upon our people.", "You certainly are an interesting person. I accept."],
@@ -281,18 +300,21 @@
 		"hateHello": "I did not invite you, and yet you are here?",
 		"hateLetsHearIt": ["Whatever you have to say, say it quickly.", "Continue.", "The stars wait for no one."],
 		"hateNo": ["Never.", "No.", "Just leave."],
-		"hateYes": ["You are an intelligent - albeit unwise - person. I accept, for now.", "I will accept."],
+		"hateYes": ["You are an intelligent - albeit unwise - person. I accept, for now.", "... I will accept."],
 
 		"afterPeace": "This war is costing us precious time. Let there be peace!",
-		"tradeRequest": "The stars must be reached before the dark ones return. Please help us achieve that honor.",
-
+		"tradeRequest": "After our duty has been completed, my people hope to reach the heavens. Help us now, and perhaps we can travel them together.",
+		"declaringFriendship": "I trust you more than anyone else, friend.",
+		"neutralRejectingDemand": "The Nagai would not approve of this, so neither can I.",
+		"hateRejectingDemand": "The stars wait for no one, I'm afraid.",
+		
 		"outerColor": [19, 112, 28],
 		"innerColor": [255, 158, 12],
 
 		"favoredReligion": "The Divine Triad",
 		"uniqueName": "Legacy of the Naga",
-		"uniques": ["Starts with [Pottery]","Starts with [Animal Husbandry]","Starts with [Archery]","Starts with [Mining]","[+1 Food] from every [Desert]","[-1 Food] from every [Plains]","[+3 Science] per [3] population [in all cities]"],
-		"cities": ["Jharappa","Mijanho-deru","Zihan-de","Talanazza"]
+		"uniques": ["Starts with [Pottery]","Starts with [Animal Husbandry]","Starts with [Archery]","Starts with [Mining]","[+1 Food] from every [Desert]","[-1 Food] from every [Plains]","[+3 Science] per [3] population [in all cities] <before turn number [50]>"],
+		"cities": ["Arai","Mijanho-deru","Zihan-de","Talanazza"]
 	},
 	{
 		"name": "Atoiri",
@@ -301,10 +323,10 @@
 		"personality": "Generalist Leader",
 		"preferredVictoryType": "Cultural",
 
-		"startIntroPart1": "(Introduction I - incomplete)",
-		"startIntroPart2": "(Introduction II - incomplete)",
+		"startIntroPart1": "Aloi, King Nikau of the Atoiri. It is time to begin a great voyage, to see the sights of the world and claim new horizons as your own - for that is the way of your people. Despite their wanderlust, your kindred place great importance upon their ancestors; the path to your homeland will play a key part of your culture. Still, the seas beckon - will your people find paradise beyond the waves?",
+		"startIntroPart2": "Beloved King Nikau, will you answer the call of the waves, and bring your people to greatness? Will you inspire them to draw courage from their past? Will you build a civilization that stands the test of time?",
 
-		"introduction": "Greetings, I am King Nikau Alu of the Atoiri. The sea calls us, but we never lose our home.",
+		"introduction": "Aloi (Greetings)! I am King Nikau Alu of the Atoiri. The sea calls us, but we never lose our home.",
 		"declaringWar": "Your people will make fine sacrifices.",
 		"attacked": "The thunders of war boom high in the heavens tonight. We will echo their rage.",
 		"defeated": "So this is how it feels to die... Perhaps, in another world, we could have been friends.",
@@ -312,15 +334,47 @@
 		"hateHello": "Your taking a dangerous path, my friend.",
 		"tradeRequest": "Come, let our people feast together!",
 		
+		"declaringFriendship": "I trust you more than anyone else, friend.",
+		"neutralRejectingDemand": "The Nagai would not approve of this, so neither can I.",
+		"hateRejectingDemand": "The stars wait for no one, I'm afraid.",
+		
 		"favoredReligion": "Nepharism",
 		"uniqueName": "Path Of The Homeland",
-		"uniques": ["[+25]% Production towards any buildings that already exist in the Capital","Enables embarkation for land units <starting from the [Ancient era]>", "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>", "[+3 Happiness] [in all cities connected to capital]", "[+2 Happiness] [in all coastal cities]", "[+300]% Production when constructing [Settler] units [in capital]"],
+		"uniques": ["[+25]% Production towards any buildings that already exist in the Capital","Enables embarkation for land units", "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>", "[+3 Happiness] [in all cities connected to capital]", "[+2 Happiness] [in all coastal cities]", "[+300]% Production when constructing [Settler] units [in capital]"],
 		
 		"cities": ["Atoiri", "Laihe", "Tupai", "Aluhea"],
 		"outerColor": [0, 255, 0],
 		"innerColor": [0, 0, 255]
 	},
+	/*
+	{
+		"name": "Baphyla",
+		"adjective": ["Baphylan"],
+		"leaderName": "",
+		"personality": "Generalist Leader",
+		"preferredVictoryType": "Religious",
 
+		"startIntroPart1": "(Introduction I - incomplete)",
+		"startIntroPart2": "(Introduction II - incomplete)",
+
+		"introduction": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		
+		"favoredReligion": "Zuherism",
+		"uniqueName": "",
+		"uniques": ["[+2 Science] from all [Faith] buildings","[3] Free Technologies <upon founding a Pantheon>","[3] Free Technologies <upon founding a Religion>","[2] Free Technologies <upon enhancing a Religion>"],
+		
+		"cities": ["Atoiri", "Laihe", "Tupai", "Aluhea"],
+		"outerColor": [0, 255, 0],
+		"innerColor": [0, 0, 255]
+	},
+	*/
+	
 	// Classical-Era Nations
 	{
 		"name": "Kharn'dii",
@@ -350,12 +404,16 @@
 
 		"afterPeace": "We shall cease our raiding, if only for a moment. Fortune favors the bold; don't expect this to last long.",
 		"tradeRequest": "I bring an offer. Accept it, lest your people become an obstacle to my horde.",
-		"outerColor": [255, 51, 51],
-		"innerColor": [0, 0, 205],
+		"declaringFriendship": "Let our peoples grow great together.",
+		"neutralRejectingDemand": "The Nagai would not approve of this, so neither can I.",
+		"hateRejectingDemand": "The stars wait for no one, I'm afraid.",	
+		
+		"outerColor": [255, 0, 0],
+		"innerColor": [40, 40, 40],
 
 		"favoredReligion": "The Divine Triad",
 		"uniqueName": "The Endless Horde",
-		"uniques": ["Can only heal by pillaging", "[-50]% Strength for cities", "[+100]% Production when constructing [Military] units [in all cities]", "Cities are razed [5] times as fast", "\"Borrows\" city names from other civilizations in the game"],
+		"uniques": ["Can only heal by pillaging", "[-50]% Strength for cities", "[+8 Science, +8 Culture] <in [Puppeted] cities>", "[+50]% Production when constructing [Military] units [in all non-occupied cities]", "Cities are razed [5] times as fast", "\"Borrows\" city names from other civilizations in the game", "[2] free [Kharn Horde] units appear <upon conquering a city>", "[+1] population [in annexed cities] <upon conquering a city>", "[+100 Gold, +100 Culture, +100 Science] [in cities being razed]", "[+1] Unit Supply per [1] population [in annexed cities]"],
 		"cities": ["Kharn"]
 	},
 	{
@@ -465,20 +523,20 @@
 
 		"favoredReligion": "Tolarianism",
 		"uniqueName": "The Great Bastion",
-		"uniques": ["Allied City-States provide [Science] equal to [50]% of what they produce for themselves","[-25]% City-State Influence degradation","[+100]% Strength decreasing with distance from the capital <when fighting units from a Civilization with more Cities than you>","[+50]% Strength for cities","[+5] population in a random city <upon entering a Golden Age> <when not at war>"],
+		"uniques": ["Allied City-States provide [Science] equal to [50]% of what they produce for themselves","[-25]% City-State Influence degradation","[+50]% Strength decreasing with distance from the capital <when fighting units from a Civilization with more Cities than you>","[+50]% Strength for cities","[+5] population in a random city <upon entering a Golden Age> <when not at war>"],
 		"cities": ["Rhone", "Zilska", "Arrhemi", "Tendylon", "Arkis"]
 	},
 
 	// Medieval-Era Nations
 	{
-		"name": "Noraska",
-		"adjective": ["Noraskan"],
+		"name": "Aroska",
+		"adjective": ["Aroskan"],
 		"leaderName": "Leone Vggrsol",
 		"personality": "Generalist Leader",
 		"startBias": ["Tundra"],
 		"preferredVictoryType": "Domination",
 
-		"startIntroPart1": "We admire your strength, great chieftain Leone Vggrsol. The frozen air tears at you like hundreds of daggers stabbing into your back, yet you always persist. The people of Noraska would be much the lesser without your guidance. Your tribe, and your people, are masters of the ocean, travelling to other lands to loot whatever you can find, burning the rest to the ground. As long as your lungs draw breath, the world will know fear.",
+		"startIntroPart1": "We admire your strength, great chieftain Leone Vggrsol. The frozen air tears at you like hundreds of daggers stabbing into your back, yet you always persist. The people of Aroska would be much the lesser without your guidance. Your tribe, and your people, are masters of the ocean, travelling to other lands to loot whatever you can find, burning the rest to the ground. As long as your lungs draw breath, the world will know fear.",
 		"startIntroPart2": "O' mighty Leone, will you take up your axe and bring your people power and glory? Will you once again bring the chill of the north to your foes? Will you build a civilization that stands the test of time?",
 
 		"declaringWar": "My blood, how it yearns for battle! Now, we fight!",
@@ -503,7 +561,7 @@
 
 		"favoredReligion": "The Divine Triad",
 		"uniqueName": "Fury of the North",
-		"uniques": ["Can only heal by pillaging", "[+2] Movement <for [Melee] units>", "When defeating a [Water] unit, earn [25] Gold and recruit it", "All newly-trained [Sword] units [in all cities] receive the [Raiding Boats] promotion", "[+3] Sight <for [Embarked] units>", "Defense bonus when embarked <for [All] units>", "[+1] Movement <for [Embarked] units>", "[1] Movement point cost to embark", "[1] Movement point cost to disembark", "No movement cost to pillage <for [Melee] units>"],
+		"uniques": ["Can only heal by pillaging", "[+1] Movement <for [Melee] units>", "When defeating a [Water] unit, earn [25] Gold and recruit it", "All newly-trained [Sword] units [in all cities] receive the [Raiding Boats] promotion", "[+3] Sight <for [Embarked] units>", "Defense bonus when embarked <for [All] units>", "[+1] Movement <for [Embarked] units>", "[1] Movement point cost to embark", "[1] Movement point cost to disembark", "No movement cost to pillage <for [Melee] units>"],
 		"cities": ["Norkar", "Fygyr", "Ygglor", "Vungur", "Verdolir"]
 	},
 	{
@@ -600,7 +658,7 @@
         "declaringWar": "Prepare to die, heretic!",
 		"attacked": "Alright then. To war!",
 		"defeated": "I fear nothing. But in the end, I wonder if I should have feared after all.",
-		"introduction": "Well met, traveller! I am King Durian the Brave of Kasia. Everything bearing the blood of dragons must die, and it is by my hand that it shall be done.",
+		"introduction": "Well met, traveller! I am King Durian the Brave of Kasia. It is the will of my people that everything bearing the blood of dragons must die, and it is by my hand that it shall be done. Be you an enemy of the dragons or their monstrous gods? If so, we should get along just fine.",
 
 		"neutralHello": "To what do I owe the pleasure of speaking with you?",
 		"hateHello": "Are you certain what you have to say is worth it?",
@@ -614,7 +672,6 @@
 		"uniques": ["Upon capturing a city, receive [5] times its [Production] production as [Faith] immediately","Earn [100]% of killed [Flier] unit's [Strength] as [Faith]","Earn [100]% of killed [Bestial] unit's [Strength] as [Faith]"],
 		"cities": ["Lyndor", "Kasia's Rest", "Borchester", "Yorc", "Snowland"]
 	},
-
 
 	// Renaissance-Era Nations
 	{
@@ -671,7 +728,7 @@
 		"favoredReligion": "Ultimism",
 		"uniqueName": "Promise of Alignment"
 		"uniques": ["[50]% of excess happiness converted to [Gold]","City-State Influence recovers at twice the normal rate","When defeating a [City-State] unit, earn [100] Gold and recruit it","Gifts of Gold to City-States generate [100]% more Influence","Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns."],
-		"cities": ["Palentinia", "Neo-Rhone", "Neo-Imperia", "Antino", "Fort Gryff"]
+		"cities": ["Palentinia", "Neo-Rhone", "Neo-Imperia", "Antino", "Gryffort"]
 	},
 
 	//City-States
@@ -684,8 +741,8 @@
 		"attacked": "The city of thieves bows to no man! Prepare your treasuries for our arrival!",
 		"defeated": "Hypocrite. Even you are naught but a thief. Someone ought to set you straight.",
 		"uniques": ["When defeating a [Water] unit, earn [100] Gold and recruit it"],
-		"outerColor": [28, 0, 0],
-		"innerColor": [128, 0, 0],
+		"outerColor": [25, 4, 4],
+		"innerColor": [159, 63, 63],
 		"cities": ["Rhal'tu"]
 	},
 	{
@@ -697,22 +754,22 @@
 		"attacked": "This transgression will not be forgotten.",
 		"defeated": "Congratulations, conquerer. Even the mighty Ghandor has fallen before you.",
 		"uniques": ["[-50]% maintenance costs <for [Land] units>"],
-		"outerColor": [255, 255, 128],
-		"innerColor": [255, 255, 0],
+		"outerColor": [255, 255, 185],
+		"innerColor": [147, 147, 7],
 		"cities": ["Ghandor"]
 	},
 	{
 		"name": "Hili",
 		"adjective": ["Hilian"],
 		"startBias": ["Mountain"],
-		"cityStateType": "Hili", // Cultured (NOT Religious)
+		"cityStateType": "Hili",
 		"declaringWar": "Sacrifices must be made for the barrier!",
 		//"declaringWar": "The barrier between us and the spirit world is frail, and we must ensure it does not weaken any further. For that, there must be sacrifice.",
 		"attacked": "War between our peoples will only serve to strengthen the spirit barrier.",
 		"defeated": "When the spirit world tears into our own, do not be suprised. This was your choice.",
 		"uniques": ["Damage is ignored when determining unit Strength"],
-		"outerColor": [0, 255, 105],
-		"innerColor": [255, 95, 0],
+		"outerColor": [51, 255, 135],
+		"innerColor": [207, 79, 3],
 		"cities": ["Hili"]
 	},
 	{
@@ -737,8 +794,8 @@
 		"attacked": "What a challenge! Indeed, let us fight!",
 		"defeated": "Blood stains the rivers red, and now I am to add my own. Goodbye, cruel world.",
 		"uniques": ["[Melee] units gain the [Strength of Xagge] promotion","All newly-trained [Melee] units [in all cities] receive the [Strength of Xagge] promotion"],
-		"outerColor": [255, 0, 0],
-		"innerColor": [0, 255, 0],
+		"outerColor": [243, 0, 0],
+		"innerColor": [12, 255, 12],
 		"cities": ["Xagge"]
 	},
 	{
@@ -763,8 +820,8 @@
 		"attacked": "Aye. If a fight's what you want, a fight's what you'll get!",
 		"defeated": "Oi! This cannot be! How were we defeated?",
 		"uniques": ["[0] Movement point cost to embark", "[0] Movement point cost to disembark"],
-		"outerColor": [0, 0, 255],
-		"innerColor": [255, 0, 0],
+		"outerColor": [3, 3, 207],
+		"innerColor": [255, 51, 51],
 		"cities": ["Yate"]
 	},
 	{
@@ -788,9 +845,9 @@
 		"declaringWar": "Nature itself is ours to command. You don't stand a chance!",
 		"attacked": "Arcania will not bow to a warmonger like you!",
 		"defeated": "Are we naught but dust before you? Why then, did you attack?",
-		"outerColor": [105, 245, 66],
-		"innerColor": [66, 114, 245],
-		"uniques": ["[+50]% growth [in all cities]"],
+		"outerColor": [112, 245, 75],
+		"innerColor": [63, 109, 233],
+		"uniques": ["[+50]% growth [in all cities]","Enemy [Land] units must spend [2] extra movement points when inside your territory"],
 		"cities": ["Arcania", "Mantaria", "Tehgaia","Orchenos","Tethyn","Kapheae"]
 	},
 	{

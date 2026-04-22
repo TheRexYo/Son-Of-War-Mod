@@ -47,7 +47,7 @@
 		"greatPersonPoints": {"Great Engineer": 1},
 		"uniques": ["[+25]% [Food] [in all cities]", "[+50]% Production when constructing [Ranged] units [in all cities]"],
 		"requiredTech": "Archery",
-		"quote": "'The spire reached high into the heavens, a remnant from the bygone era of Dragons - and a testament to humanity's victory.'"
+		"quote": "'The spire reached high into the heavens, a remnant from the bygone era of Dragons - and a testament to mortal tenacity.' - Excerpt from Ancient Lands: A Guide to Arcane Archaeology"
 	},
 	// Column 2
 	{
@@ -69,7 +69,7 @@
 		"greatPersonPoints": {"Great Engineer": 1, "Great Hero": 10},
 		"requiredTech": "Calendar",
 		"uniques": ["[+250]% Strength <before the [Medieval era]>"],
-		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
+		"quote": "'Black spires stretched high into the sky, siphoning mana from the Skyworld above. Mana that gave their creators power beyond our wildest dreams.'"
 	},
 	{
 		"name": "Library",
@@ -86,7 +86,7 @@
 		"isWonder": true,
 		"requiredTech": "Writing",
 		"uniques": ["Free Technology", "Gain a free [Library] [in this city]", "[+25]% [Science] from Trade Routes"],
-		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
+		"quote": "'The world is ancient beyond belief, and many of its inhabitants have existed long before humanity took its first baby steps. If one would simply listen, the wisdom of aeons is ripe for the taking.' - Alexia the Eternal"
 	},
 	{
 		"name": "Circus",
@@ -106,7 +106,6 @@
 	},
 	{
 		"name": "Walls",
-		"specialistSlots": {"Hero": 1},
 		"cityStrength": 5,
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
@@ -119,17 +118,16 @@
 		"isWonder": true,
 		"uniques": ["[-25]% construction time for [All] improvements", "[+25]% [Production]", "[2] free [Worker] units appear"],
 		"requiredTech": "Masonry",
-		"quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.'  - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
+		"quote": "'When humanity had finally humbled its many foes, it sought to immortalize its victory with vast monuments. The greatest among these were the Nephaliths, great sandstone pyramids strewn across the sands of the continent Dagah.' - Excerpt from Ancient Lands: A Guide to Arcane Archaeology"
 	},
 	{
 		"name": "The Vault of Memories",
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": [ "[+100 Gold, +10 Science, +10 Culture, +10 Faith] whenever a Great Person is expended",
-			"[+2 Gold] from [Marble] tiles [in this city]", "[+2 Gold] from [Stone] tiles [in this city]"],
+		"uniques": ["Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>", "Gain [10] [Faith, Science, Culture] <upon expending a [Great Person] unit> <(modified by game speed)>", "[+2 Gold] from [Marble] tiles [in this city]", "[+2 Gold] from [Stone] tiles [in this city]"],
 		"requiredTech": "Masonry",
-		"quote": "'It is said that the vault contains the personalities and memories of over a thousand historical figures, each entry containing valuable information that could change our world's future.'"
+		"quote": "'It is said that the vault once contained the personalities and memories of over a thousand historical figures, each entry containing valuable information that could change our world's future. As time passes, these memories fade, but the vault stands eternal.' - Excerpt from Ancient Lands: A Guide to Arcane Archaeology"
 	},
 	{
 		"name": "Barracks",
@@ -144,8 +142,9 @@
 		"culture": 1,
 		"isWonder": true,
 		"uniques": ["[+50]% Strength <for [All] units> <vs cities> <when attacking>"],
+		"greatPersonPoints": {"Great General": 1},
 		"requiredTech": "Bronze Working",
-		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
+		"quote": "'A statue that channels the cataclysmic wrath of Ragnarak, the primordial God of Destruction. Those who bask in its presence come out stronger, but with a rage that can only be quenched with violence. The world shall know fear.'"
 		// "Requires [Honor]" in BNW
 	},
 
@@ -169,7 +168,7 @@
 		"isWonder": true,
 		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>", "[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]", "Free [Starspawn] appears"],
 		"requiredTech": "Optics",
-		"quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
+		"quote": "'Built to reach out to gods among the stars, yet something different has answered its call...'"
 	},
 	{
 		"name": "Stable",
@@ -206,7 +205,7 @@
 		"isWonder": true,
 		"requiredTech": "Mathematics",
 		"uniques": ["[+25]% [Food] [in all cities]", "Gain a free [Garden] [in this city]", "[+25] HP when healing", "[+50] HP when healing <for [Bestial] units>", "[+50] HP when healing <for [Bestial Ranged] units>", "[+50] HP when healing <for [Bestial Water] units>"],
-		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.'  - F. Frankfort Moore"
+		"quote": "'In ancient times, a lost god of nature granted a magical fruit to elvenkind, capable of healing all wounds. From that fruit came an orchard, and from that orchard a vast garden.' - Excerpt from 'The Legend of Biona'"
 	},
 	{
 		"name": "Arena", // Colosseum in Vanilla.
@@ -224,13 +223,12 @@
 		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": ["[10] free [Stone Sentinel] units appear"],
 		"requiredTech": "Construction",
-		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.'  - Sun Tzu"
+		"quote": "'With forces wrought from coldest stone, our invaders shall break upon our blades.'"
 	},
 	// Column 4
 	{
 		"name": "Temple",
 		"faith": 2,
-		"specialistSlots": {"Hero": 1},
 		"requiredBuilding": "Shrine",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -254,7 +252,7 @@
 		"isWonder": true,
 		"uniques": ["Free Social Policy", "Reveals the entire map", "[+5] Sight"],
 		"requiredTech": "Philosophy",
-		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing'  - Socrates"
+		"quote": "'Scrying magic at a colossal scale, implanted in an orb of clearest crystal. No place shall be hidden from our sight.'"
 	},
 	{
 		"name": "Amphitheater",
@@ -289,18 +287,15 @@
 		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]"],
 		"requiredTech": "Currency"
 	},
-	//Todo: Fantasify Petra.
-	/*
-	{ // Flood plains are not supposed to be affected by this wonder. Add stats to all desert tiles and then add negative stats to flood plains to undo the effect on them for now
-		"name": "Petra",
+	{
+		"name": "The City of Sandstone",
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-		"uniques": ["Must be next to [Desert]", "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]", "Gain a free [Amphitheater] [in this city]", "[+6 Culture] <after discovering [Archaeology]>"],
+		"uniques": ["Must be next to [Desert]", "May buy [All] units with [Food] [in this city]", "[+5 Food, +5 Production, +5 Gold] from [Desert] tiles without [Flood plains] [in this city]", "Gain a free [Amphitheater] [in this city]", "[+6 Culture] <after discovering [Archaeology]>"],
 		"requiredTech": "Currency",
-		"quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...'  - Indiana Jones"
+		"quote": "'Humanity is at its core, adaptable. In places we call barren and dead, they hang onto life with a vigor unlike anything else. Knowing this, it is clear we were doomed from the start.' - Avriel, Great Sage of the Tanar'sol 'Sun Elves'"
 	},
-	*/
 	{
 		"name": "Aqueduct",
 		"maintenance": 1,
@@ -315,7 +310,7 @@
 		"isWonder": true,
 		"uniques": ["[+250]% Strength for cities", "[+25]% growth [in this city]", "Gain a free [Walls] [in all cities]"],
 		"requiredTech": "Engineering",
-		"quote": "'The art of war teaches us to rely not on the likelihood of the enemy's not attacking, but rather on the fact that we have made our position unassailable.'  - Sun Tzu"
+		"quote": "'It is a defense that digs into the core of the world itself, built from a material that expands with mana. It shall stretch onwards, through every land and every city, until our whole realm is safe.'"
 	},
 	{
 		"name": "Heroic Epic",
@@ -832,7 +827,7 @@
 		"isWonder": true,
 		"culture": 3,
 		"greatPersonPoints": {"Great Engineer": 2},
-		"uniques": ["Gold cost of upgrading military units reduced by 33%"],
+		"uniques": ["[-33]% Gold cost of upgrading"],
 		"requiredTech": "Combined Arms",
 		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.'  - Dwight D. Eisenhower"
 	},
@@ -1025,7 +1020,7 @@
 		"happiness": 1,
 		"culture": 1,
 		"requiredBuilding": "Monument",
-		"uniques": ["[+2 Happiness, +2 Culture] from every [Verdant Pylon]"],
+		"uniques": ["[+2 Happiness, +2 Culture] from every [Verdant Pylon]", "[+2 Faith] <when religion is enabled>", "[+1 Faith] from every [Verdant Pylon] <when religion is enabled>"],
 		"requiredTech": "Philosophy"
 	},
 	{
@@ -1102,7 +1097,7 @@
 	{
 		"name": "Channel Walls",
 		"replaces": "Walls",
-		"uniqueTo": "Jharappe",
+		"uniqueTo": "Arai",
 		"cityStrength": 5,
 		"cityHealth": 50,
 		"food": 1,
@@ -1118,7 +1113,7 @@
 		"culture": 2,
 		"happiness": 1,
 		"specialistSlots": {"Artist": 1},
-		"uniques": ["Cannot be built in your original capital","[+5]% growth [in all cities]","[-25]% Culture cost of natural border growth [in this city]","[-10]% Culture cost of natural border growth [in capital]"],
+		"uniques": ["Can only be built <in cities without a [Palace]>","[+5]% growth [in all cities]","[-25]% Culture cost of natural border growth [in this city]","[-10]% Culture cost of natural border growth [in capital]"],
 		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy"
@@ -1126,12 +1121,12 @@
 	{
 		"name": "Frostburner",
 		"replaces": "Water Mill",
-		"uniqueTo": "Noraska",
+		"uniqueTo": "Aroska",
 		"maintenance": 2,
 		"food": 2,
 		"production": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] from [Tundra] tiles [in this city]", "[+5 Production] from [Ice] tiles [in this city]"],
+		"uniques": ["Must be on [Tundra]", "[+1 Production] from [Tundra] tiles [in this city]", "[+3 Production, +1 Food] from [Ice] tiles [in this city]"],
 		"requiredTech": "The Wheel"
 	},
 	{
@@ -1190,7 +1185,7 @@
 		"requiredTech": "Metal Casting",
 		// If spaceship parts are changed into units, the spaceship part unique should be changed to
 		// "+[15]% Production when constructing [Spaceship part] units [in this city]"
-		"uniques": ["Unsellable","Gain [100] [Culture]","Gain [100] [Science] <upon discovering [Chemistry]>","[+5 Gold] from [Iron] tiles [in this city] <after discovering [Chemistry]>","[+15]% Production when constructing [Spaceship part] buildings [in this city]","[+15]% Production when constructing [Land] units [in this city]","[+1 Production] from [Iron] tiles [in this city]"]
+		"uniques": ["Unsellable","Gain [100] [Culture] <(modified by game speed)>","Gain [100] [Science] <upon discovering [Chemistry]> <(modified by game speed)>","[+5 Gold] from [Iron] tiles [in this city] <after discovering [Chemistry]>","[+15]% Production when constructing [Spaceship part] buildings [in this city]","[+15]% Production when constructing [Land] units [in this city]","[+1 Production] from [Iron] tiles [in this city]"]
 	},
 	{
 		"name": "Druidic Circle",
@@ -1232,6 +1227,17 @@
 		"requiredBuilding": "Arena",
 		"uniques": ["May buy [Military] units with [Culture] [in this city]","Allied City-States provide [Happiness] equal to [100]% of what they produce for themselves","Allied City-States provide [Culture] equal to [25]% of what they produce for themselves","Must have an owned [Alignment District] within [3] tiles"],
 		"requiredTech": "Printing Press"
+	},
+	{
+		"name": "Khan's Tent",
+		"uniqueTo": "Centuria",
+		"replaces": "Courthouse",
+		"maintenance": 0,
+		"science": 2,
+		"culture": 2,
+		"hurryCostModifier": 50,
+		"uniques": ["Remove extra unhappiness from annexed cities", "Can only be built [in annexed cities]"],
+		"requiredTech": "Mathematics"
 	},
 	
 	//"Must have an owned [Farm] within [3] tiles"

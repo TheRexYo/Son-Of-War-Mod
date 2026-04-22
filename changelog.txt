@@ -117,7 +117,7 @@ _____
 Additions
 - Centurian Empire: A diplomacy focused civilization that uses a combination of enhanced gold gifts and military force to either ally with or subjugate city-states to claim their unique units. | Commit: "Pre-Patch for v0.4"
 - Emissar: A mounted unit that replaces Lancers for the Centurian empire. Stronger than normal Lancers, with Formation I and II (as opposed to just I) and their unique promotion "Emissar's Sway", which allows the bearer to convert defeated units and buff adjacent allied units. | Commit: "Pre-Patch for v0.4"
-- Warrior Monk: A "sword" unit that replaces Pikemen for the city-state of Hili. Twice as fast and reduces the strength of adjacent enemy Ranged units by a huge margin. Also far stronger on defense at the cost of a weaker offense. | Commit: "Pre-Patch for v0.4"
+- Warrior Monk: A "sword" unit that replaces Pikemen for the city-state of Hili. Twice as fast and reduces the strength of adjacent enemy Ranged units by a huge margin. Also stronger on defense at the cost of a weaker offense. | Commit: "Pre-Patch for v0.4"
 - Stone Sentinel: An event unit, generated via The Stone Sentinels upon its construction. Great for defending one's capital, as it gets up to +400% strength the closer it gets to the capital. They cannot heal normally (only via pillaging), but deal full damage regardless of health. Can see all invisible units. | Commit: "Pre-Patch for v0.4"
 - Cultural Sanctuary: A Centurian unique building, replacing the standard Courthouse. Provides bonuses related to city-states. | Commit: "Pre-Patch for v0.4"
 - Alignment District: A Centurian unique building. Requires Civil Service technology. Generates high amounts of gold and a small amount of culture by default. Stacking them adjacent to each other will decrease gold generation, but increase culture generation and provide extra happiness. When pillaged during wartime, provides an additional 100 gold. Don't let your enemies near em'! | Commit: "Pre-Patch for v0.4"
@@ -125,16 +125,27 @@ Additions
 
 Major Changes
 - Aeronia buffed by increasing the duration of the free golden age gained from declaring friendship from 10 turns to 30. | Commit: "Pre-Patch for v0.4"
-- Jharappe reworked (should be an overall buff), no longer generates +3 science per city. Instead, starts with every Column 1 tech. Also gets +1 Food from Deserts and -1 Food from Plains. In combination these changes should make Jharappe play tall better as opposed to playing both wide and tall, and make their desert start easier. | Commits: ""
+- Jharappe reworked (should be an overall buff), no longer generates +3 science per city. Instead, starts with every Column 1 tech. Also gets +1 Food from Deserts and -1 Food from Plains. In combination these changes should make Jharappe play tall better as opposed to playing both wide and tall, and make their desert start easier. | Commits: "Pre-Patch for v0.4"
 - Atoiri reworked, no longer gets +5 Culture in capital. Instead, gets +25% production towards buildings that already exist in capital. (Roman unique in vanilla Civ5-G&K) | Commit: "Pre-Patch for v0.4"
 - Zegrek reworked (should be an overall buff), instead of getting extra influence with city states via gold gifts, gets +120 XP for military units gifted by city states and gets gifted them 5x as fast. | Commit: "Pre-Patch for v0.4"
 - Rhone reworked (should be a slight nerf, but fits better with the premise), only has 50% Strength bonus for cities, but gets science from allied city states and has -25% influence degredation for city-states.
-- Onuqi reworked (more like a nerf, but they needed it), gets less bonuses from standard tiles, but also gets extra units from Militaristic city-states.
+- Onuqi reworked (more like a nerf, but they needed it), gets less bonuses from standard tiles, but also gets extra units from Militaristic city-states. | Commit: "Pre-Patch for v0.4"
 - Massive City-State rework - all city-states now have their own city-state type, allowing them to give unique effects. Notably, this means city-states now provide their Unique Unit to allies every now and then. | Commit: "Pre-Patch for v0.4"
 - Terazi now get +1 Happiness from Jungles. As they should. | Commit: "Pre-Patch for v0.4"
 - Mesyptia now gets +1 Science before discovering Iron-Working. This should encourage them to focus on building and development technology over military technology, as well as give them a small power boost. | Commit: "Pre-Patch for v0.4"
 - All major civilizations now have a unique Personality. At least in theory, assuming Unciv has fully implemented it. | Commit: "Pre-Patch for v0.4"
 - Imperia now generates 1 Happiness per city before discovering Theology, both for thematic (the God-Emperor is not truly a god and when the people realize that they will take him less seriously) and gameplay reasons. | Commit: "Pre-Patch for v0.4"
+- Ascension Monolith triggers a victory during the future era if the builder has a religion founded. Now generates +500% faith. | Commit: "Pre-Patch for v0.4"
+- Aeronia reworked (mostly a nerf). Movement Speed bonus reduced to +1. However, Flier units now get +3 total movement. | Commit: "Final Work for v0.4"
+- Noraska nerfed. Movement Speed bonus for Melee Units reduced (2 -> 1). | Commit: "Final Work for v0.4"
+- Great Person Points changes (mostly affects Hero specialist generation). | Commit: "Final Work for v0.4"
+- Frostburner building nerfed, now provides less Production from Ice tiles. Grants a small amount of Food from Ice tiles as compensation. Also requires a City to be built on Tundra tiles now. | Commit: "Final Work for v0.4"
+- Starspawn unit reworked. Scales better in late-game, less well in mid-game. Now is able to heal even after taking actions. | Commit: "Final Work for v0.4"
+- Great Hero unit nerfed (Strength 20 -> 10). Now gets a smaller Strength boost during the Classical era. | Commit: "Final Work for v0.4"
+- Crimsonblooded Dragon unit buffed. Strength increased (20 -> 30), now gets +100% from each era rather than +50% (same scaling as a Great Hero). | Commit: "Final Work for v0.4"
+- Rhone nerfed. Strength bonus while fighting enemies with more cities reduced (+100% -> +50%). | Commit: "Final Work for v0.4"
+- Nation "Terazi" buffed again. Now gains +1 Production from Jungles (in addition to the Happiness bonus). | Commit: "Final Work for v0.4"
+- Kharn'dii reworked (mostly buffed). Gains massive bonuses from conquering and/or razing cities. Military production bonuses halved (down to +50%) and are only applied to non-occupied cities, however. | Commit: "Final Work for v0.4"
 
 Minor Changes
 - Capital city of Imperia renamed from 'Imperia' to 'Grandur'. Removed city name "Grandeur" for this reason. | Commit: "Pre-Patch for v0.4"
@@ -153,15 +164,39 @@ Minor Changes
 - Guild Guard (unique unit of the Threfek city-state) now costs more (45 -> 60) but generates gold when damaging civilian units (equal to 500% of the damage dealt). This may be altered to convert damage done to military units later, as Civilian units might just get captured instead. | Commit: "Pre-Patch for v0.4"
 - Tatli (unique unit of the Tetku city-state) now costs more (25 -> 35) but deals even more damage to cities (500% -> 1000%). | Commit: "Pre-Patch for v0.4"
 - Re-Ordered the milestones for the Religious Victory, and updated the victory screen text for it. | Commit: "Pre-Patch for v0.4"
-- Ascension Monolith triggers a victory during the future era if the builder has a religion founded. Now generates +500% faith. | Commit: "Pre-Patch for v0.4"
 - Spirit Barrier (unique building of the Hili city-state) generates faith from killing units now, in addition to the usual culture. | Commit: "Pre-Patch for v0.4"
+- Velian War Dragon reworked (Strength 40 -> 80, Cost 400 -> 800). | Commit: "Final Work for v0.4"
+- Sky Dragon reworked (Strength 40 -> 80, Cost 400 -> 800). | Commit: "Final Work for v0.4"
+- City Names have had their orders changed for some nations (Aeronia) to better reflect lore (which isn't currently specified in the mod). | Commit: "Final Work for v0.4"
+- City Name List additions (Imperia). | Commit: "Final Work for v0.4"
+- More dialogue for all nations. | Commit: "Final Work for v0.4"
+- Bombardment promotions (I & II specifically) buffed. Now provide strength vs cities at all levels. | Commit: "Final Work for v0.4"
+- Submarine unit renamed to "Torpedo Submarine" to preemptively avoid overlap with the Submarine unit type. | Commit: "Final Work for v0.4"
+- Nation unique for Neph renamed to be more flavorful. Both names are technically lore accurate. | Commit: "Final Work for v0.4"
+- Jharappe nation renamed to Arai to reflect their loreful name. They are still obviously inspired by Harappa, a city from the IRL "Indus Valley Civilization". | Commit: "Final Work for v0.4"
+- Start Intro text added for the Atoiri. | Commit: "Final Work for v0.4"
+- Enemies of Arcania now move slower in their territory, as befits a nation in control of nature. | Commit: "Final Work for v0.4"
+- Quote updates to make wonders more fantasy-like (and lore accurate). | Commit: "Final Work for v0.4"
 
 Major Fixes
 - Moved certain policy and belief effects from their respective files to GlobalUniques.json to allow them to actually function (as they don't normally work with policies and beliefs). | Commit: "Pre-Patch for v0.4"
 - Updated "Terrains.json" to fix some issues. | Commit: "Pre-Patch for v0.4"
 - Great Generals and Heroes are now generated through combat as is primarily intended. | Commit: "Pre-Patch for v0.4"
+- Promotions with bonuses vs cities, land units, and water units now fixed. | Commit: "Final Work for v0.4"
+- Anti-Armor promotions now working as intended. | Commit: "Final Work for v0.4"
+- Forest tiles now generate production when cut down, as intended. | Commit: "Final Work for v0.4"
+- Most non-buildable units can no longer be purchased. This prevents unintended cheese. | Commit: "Final Work for v0.4"
 
 Minor Fixes
 - Added more contrast to the nation colors. As much as I enjoy bright and energetic colors, they weren't contrasting enough. | Commit: "Pre-Patch for v0.4"
 - Fixed uniques for some files (Ruins, Policies, Promotions). | Commit: "Pre-Patch for v0.4"
 - Improvements now have proper pillage values. | Commit: "Pre-Patch for v0.4"
+- Added more contrast to some City States. I am sad to see them go, but the warning messages are a pain in the ass. | Commit: "Final Work for v0.4"
+- Pentagon building now works as intended. Still not in-world, but that will come later. | Commit: "Final Work for v0.4"
+- Altar of the Homeland building now working as intended. | Commit: "Final Work for v0.4"
+- Blessing of Oasis promotion now actually granted when an Elemental Brave ends turn on an Oasis. | Commit: "Final Work for v0.4"
+- Reliquary belief updated to modern syntax. | Commit: "Final Work for v0.4"
+
+Non-Gameplay
+- Changed the formating for the Personalities.json file. | Commit: "Final Work for v0.4"
+- GreatPeopleNames.json file renamed to "UnitNameGroups.json", the modern file name for it. It also has the updated format from vanilla G&K. It still does nothing. | Commit: "Final Work for v0.4"

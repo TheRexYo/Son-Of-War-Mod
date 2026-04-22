@@ -46,7 +46,7 @@
 	{
 		"name": "Volley",
 		"prerequisites": ["Accuracy I","Barrage I"],
-		"uniques": ["[+50]% Strength <vs [City] units>"],
+		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["Archery","Ranged Gunpowder","Siege"]
 	},
 	{
@@ -101,13 +101,13 @@
 	{
 		"name": "Charge",
 		"prerequisites": ["Shock II","Drill II"],
-		"uniques": ["[+33]% Strength <vs [wounded units] units>"],
+		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
 		"unitTypes": ["Mounted","Armored","Flier"]
 	},
 	{
 		"name": "Besiege", // Not called "Siege" in order to not conflict with siege type units for translations
 		"prerequisites": ["Shock II","Drill II"],
-		"uniques": ["[+50]% Strength <vs [City] units>"],
+		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["Sword","Gunpowder"]
 	},
 	{
@@ -194,7 +194,7 @@
 	{
 		"name": "Terror",
 		"prerequisites": ["Aggression II","Toughness II"],
-		"uniques": ["[+33]% Strength <vs [wounded units] units>"],
+		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
 		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
 	},
 	{
@@ -290,59 +290,59 @@
 	// Water melee
 	{
 		"name": "Boarding Party I",
-		"uniques": ["[+15]% Strength <vs [water units] units>", "[+15]% Strength <vs cities>"],
+		"uniques": ["[+15]% Strength <vs [Water] units>", "[+15]% Strength <vs [Embarked] units>"],
 		"unitTypes": ["Melee Water"]
 	},
 	{
 		"name": "Boarding Party II",
 		"prerequisites": ["Boarding Party I"],
-		"uniques": ["[+15]% Strength <vs [water units] units>", "[+15]% Strength <vs cities>"],
+		"uniques": ["[+15]% Strength <vs [Water] units>", "[+15]% Strength <vs [Embarked] units>"],
 		"unitTypes": ["Melee Water"]
 	},
 	{
 		"name": "Boarding Party III",
 		"prerequisites": ["Boarding Party II"],
-		"uniques": ["[+15]% Strength <vs [water units] units>", "[+15]% Strength <vs cities>"],
+		"uniques": ["[+15]% Strength <vs [Water] units>", "[+15]% Strength <vs [Embarked] units>"],
 		"unitTypes": ["Melee Water"]
 	},
 
 	{
 		"name": "Coastal Raider I",
-		"uniques": ["[+20]% Strength <vs [City] units>", "[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
 		"unitTypes": ["Melee Water"]
 	},
 	{
 		"name": "Coastal Raider II",
 		"prerequisites": ["Coastal Raider I"],
-		"uniques": ["[+20]% Strength <vs [City] units>", "[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
 		"unitTypes": ["Melee Water"]
 	},
 	{
 		"name": "Coastal Raider III",
 		"prerequisites": ["Coastal Raider II"],
-		"uniques": ["[+20]% Strength <vs [City] units>", "[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
 		"unitTypes": ["Melee Water"]
 	},
 
 	// Water Ranged
 	{
 		"name": "Targeting I",
-		"uniques": ["[+15]% Strength <vs [water units] units>"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Ranged Water"]
 	},
 	{
 		"name": "Targeting II",
 		"prerequisites": ["Targeting I"],
-		"uniques": ["[+15]% Strength <vs [water units] units>"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Ranged Water"]
 	},
 	{
 		"name": "Targeting III",
 		"prerequisites": ["Targeting II"],
-		"uniques": ["[+15]% Strength <vs [water units] units>"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Ranged Water"]
 	},
-
+	
 	// Submarine
 	{
 		"name": "Wolfpack I",
@@ -409,19 +409,19 @@
 	// Bomber
 	{
 		"name": "Siege I",
-		"uniques": ["[+33]% Strength <vs [City] units>"],
+		"uniques": ["[+33]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"]
 	},
 	{
 		"name": "Siege II",
 		"prerequisites": ["Siege I"],
-		"uniques": ["[+33]% Strength <vs [City] units>"],
+		"uniques": ["[+33]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"]
 	},
 	{
 		"name": "Siege III",
 		"prerequisites": ["Siege II"],
-		"uniques": ["[+34]% Strength <vs [City] units>"],
+		"uniques": ["[+34]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"]
 	},
 	{
@@ -488,13 +488,13 @@
 	{
 		"name": "Air Targeting I",
 		"prerequisites": ["Interception I","Dogfighting I", "Siege I","Bombardment I"],
-		"uniques": ["[+33]% Strength <vs [water units] units>"],
+		"uniques": ["[+33]% Strength <vs [Water] units>"],
 		"unitTypes": ["Fighter","Bomber"]
 	},
 	{
 		"name": "Air Targeting II",
 		"prerequisites": ["Air Targeting I"],
-		"uniques": ["[+33]% Strength <vs [water units] units>"],
+		"uniques": ["[+33]% Strength <vs [Water] units>"],
 		"unitTypes": ["Fighter","Bomber"]
 	},
 
@@ -533,12 +533,12 @@
 	// Helicopter
 	{
 		"name": "Anti-Armor I",
-		"uniques": ["+[25]% vs [Armored] units"],
+		"uniques": ["+[25]% <vs [Armored] units>"],
 		"unitTypes:": ["Helicopter"]
 	},
 	{
 		"name": "Anti-Armor II",
-		"uniques": ["+[25]% vs [Armored] units"],
+		"uniques": ["+[25]% <vs [Armored] units>"],
 		"unitTypes:": ["Helicopter"]
 	},
 
@@ -598,19 +598,19 @@
 	// Water ranged and air units
 	{
 		"name": "Bombardment I",
-		"uniques": ["[+33]% Strength <vs [land units] units>"],
+		"uniques": ["[+33]% Strength <vs [Land] units>", "[+33]% Strength <vs cities>"],
 		"unitTypes": ["Ranged Water","Fighter","Bomber"]
 	},
 	{
 		"name": "Bombardment II",
 		"prerequisites": ["Bombardment I"],
-		"uniques": ["[+33]% Strength <vs [land units] units>"],
+		"uniques": ["[+33]% Strength <vs [Land] units>", "[+33]% Strength <vs cities>"],
 		"unitTypes": ["Ranged Water","Fighter","Bomber"]
 	},
 	{
 		"name": "Bombardment III",
 		"prerequisites": ["Bombardment II"],
-		"uniques": ["[+34]% Strength <vs [land units] units>", "[+34]% Strength <vs cities>"],
+		"uniques": ["[+34]% Strength <vs [Land] units>", "[+34]% Strength <vs cities>"],
 		"unitTypes": ["Ranged Water","Fighter","Bomber"]
 	},
 
