@@ -11,13 +11,11 @@
 				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
 				"uniques": ["Starting tech"]
 			},
-			// Special Starting Techs
-			//+[amount]% attack strength to all [unitFilter] units for [amount] turn
 			{
 				"name": "The Elder's Prophecy",
 				"row": 1,
 				"quote": "... The golden sun's rise shall mark the start, granting us a centuries' strength. The forces of mankind, now in part, will fail to stop our coming. With might and light of fated grace, the Sauroids shall return...",
-				"uniques": ["Only available <for [Ssu'vi] Civilizations>", "[+100]% Strength <when attacking> <for [Military] units> <for [50] turns>", "[2] Free Social Policies", "[2] Free Technologies", "Empire enters golden age"]
+				"uniques": ["Only available <for [Ssu'vi] Civilizations>", "[+100]% Strength <when attacking> <for [Military] units> <for [50] turns>", "[2] Free Social Policies", "[2] Free Technologies", "Empire enters a [50]-turn Golden Age"]
 			},
 			{
 				"name": "Dawr Legacy",
@@ -663,7 +661,7 @@
 				"name": "Future Tech",
 				"row": 5,
 				"prerequisites": ["Globalization","Particle Physics", "Nuclear Fusion", "Nanotechnology", "Stealth"],
-				"uniques": ["Can be continually researched", "[+1] population [in all cities]", "Triggers victory <during a Golden Age> <when not at war> <if no other Civilization has researched this>"],
+				"uniques": ["Can be continually researched", "Triggers the following global alert: [Someone has researched Future Tech. If they are at peace and in a golden age, they will win the game.] <when [Time] Victory is enabled>", "[+1] population [in all cities]", "Triggers victory <during a Golden Age> <when not at war> <if no other Civilization has researched this> <when [Time] Victory is enabled>"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			}
 		]

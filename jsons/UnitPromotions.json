@@ -652,10 +652,6 @@
 		"uniques": ["[+50]% Strength <when defending> <vs [All] units>"]
 	},
 	{
-		"name": "Spread Ammo", // only for Bowgunner and subsequent upgrades
-		"uniques": ["[+50]% Strength","[-1] Range"]
-	},
-	{
 		"name": "Hunter's Training", // only for Flat Hunter and subsequent upgrades
 		"uniques": ["[+1] Movement <when [Mounted]>","[+33]% Strength <when attacking> <vs [Bestial] units>","[+33]% Strength <when attacking> <vs [Bestial Ranged] units>"]
 	},
@@ -671,17 +667,37 @@
 		"name": "Emissar's Sway",
 		"uniques": ["May capture killed [Military] units","[+25]% Strength bonus for [Military] units within [1] tiles"]
 	},
-
+	{
+		"name": "Oceanic Warriors",
+		"uniques": ["[+100]% Strength <within [3] tiles of a [Aorai]>","May attack when embarked"]
+	},
+	{
+		"name": "Adaptive Strategy",
+		"uniques": ["[-100]% Gold cost of upgrading","[This Unit] gains [100] XP <upon conquering a city>"]
+	},
+	
 	// Unspecific Unit Uniques
 	{
 		"name": "Bestial Charge", // For various bestial unique units.
 		"uniques": ["[+50]% to Flank Attack bonuses <vs [Melee] units>","[-50]% to Flank Attack bonuses <vs [Ranged] units>"]
 	},
-
+	{
+		"name": "Divine Blood",
+		"uniques": ["[+100]% Strength <when above [50] HP>"]
+	},
+	{
+		"name": "Leadership",
+		"uniques": ["[Great General] is earned [+50]% faster","[+10]% Strength bonus for [All] units within [1] tiles"]
+	},
+	{
+		"name": "Spread Ammo",
+		"uniques": ["[+50]% Strength","[-1] Range"]
+	},
+	
 	// Elemental Uniques
 	{
 		"name": "Blessing of Water",
-		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast","May travel on Water tiles without embarking"]
+		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast","May travel on Water tiles without embarking <after discovering [Astronomy]>","May attack when embarked"]
 	},
 	{
 		"name": "Blessing of Grasslands",
@@ -759,7 +775,7 @@
 	},
 	{
 		"name": "Divine Undeath", // For scout units built in cities following a religion with the "Messenger of the Gods" pantheon.
-		"uniques": ["No damage penalty for wounded units","Can only heal by pillaging"]
+		"uniques": ["Heals [+60] damage if it kills a unit","[-10] HP when healing","No damage penalty for wounded units"]
 	},
 	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth

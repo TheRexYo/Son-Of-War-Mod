@@ -14,15 +14,22 @@
 		"[+1] Range <for [Ranged] units> <after adopting [Goddess of the Hunt]>",
 		"[+66]% Strength <vs [{Bestial} {Bestial Ranged}] units> <after adopting [Goddess of the Hunt]>",
 		"[+2 Production] <in cities with at least [1] [Specialists]> <after adopting [Guruship]>",
+		"Enables Defensive Pacts <after adopting [Primordius Worship]>",
+		"[+1000]% Yield from pillaging tiles <after adopting [Ragnarak Worship]>",
+		
+		// Mod uniques
+		"[-25]% Production when constructing [World] wonders [in all cities] <if [World Wonder] is constructed>",
+		"[-50]% Production when constructing [World] wonders [in all cities with a world wonder] <when not in a Golden Age>",
 		
 		// Vanilla Uniques
+        "Requires establishing embassies to conduct advanced diplomacy",
         "[-75]% growth [in all cities] <when between [-10] and [-1] [Happiness]>",
         "Nullifies Growth [in all cities] <when below [-10] [Happiness]>",
         "[-50]% [Production] [in all cities] <when below [-10] [Happiness]>",
         "[-33]% Strength <for [All] units> <when below [-10] [Happiness]>",
         "Cannot build [Settler] units <when below [-10] [Happiness]>",
         "Rebel units may spawn <when below [-20] [Happiness]>",
-        "[-1] Sight <for [Embarked] units>"
+        "[-1] Sight <for [Embarked] units>",
 		
 		// Vanilla Notes
         // TODO: Implement the uniques below

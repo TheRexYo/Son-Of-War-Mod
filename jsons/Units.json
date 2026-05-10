@@ -97,13 +97,13 @@
 		"uniqueTo": "Barbarians",
 		"replaces": "War Elephant",
 		"movement": 3,
-		"strength": 9,
-		"cost": 90,
+		"strength": 15,
+		"cost": 150,
 		"requiredTech": "Animal Husbandry",
 		"requiredResource": "Ivory",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "[+100]% Strength <vs [Sword] units>", "[+500]% Strength <vs cities> <when attacking>"],
+		"uniques": ["No defensive terrain bonus", "[+33]% Strength <vs [Sword] units>", "[+33]% Strength <vs [Sword] units> <when attacking>", "[-66]% Strength <vs [Ranged] units> <when defending>", "[+500]% Strength <vs cities> <when attacking>"],
 		"attackSound": "arrow"
 		// Barbarian unique War Elephant.
 	},
@@ -783,7 +783,7 @@
 		"cost": 425,
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
-		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking", "All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
+		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking", "Unable to capture cities", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
 
@@ -901,7 +901,7 @@
 	{
 		"name": "Great Engineer",
 		"unitType": "Civilian",
-		"uniques": ["Can speed up the construction of a wonder", "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Great Person - [Production]", "Unbuildable", "Cannot be purchased"],
+		"uniques": ["Can speed up construction of a building", "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Great Person - [Production]", "Unbuildable", "Cannot be purchased"],
 		"movement": 2
 	},
 	{
@@ -1008,28 +1008,28 @@
 		"name": "Atz'al",
 		"unitType": "Sword",
 		"movement": 3,
-		"strength": 8,
+		"strength": 12,
 		"cost": 40,
 		"hurryCostModifier": 20,
 		"uniqueTo": "Terazi",
 		"obsoleteTech": "Metal Casting",
 		"replaces": "Warrior",
 		"upgradesTo": "Swordsman",
-		"uniques": ["Can move after attacking","[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>","Ignores terrain cost","Withdraws before melee combat <with [100]% chance>","[+200]% Strength <vs [Archery] units>", "[+100]% Strength <when attacking>"],
+		"uniques": ["Can move after attacking","[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>","Ignores terrain cost","Withdraws before melee combat <with [100]% chance> <when fighting in [{Forest} {Jungle}] tiles>","[+200]% Strength <vs [Archery] units>", "[+100]% Strength <when attacking>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Salu'rak",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 8,
+		"strength": 12,
 		"cost": 40,
 		"hurryCostModifier": 20,
 		"uniqueTo": "Ssu'vi",
 		"obsoleteTech": "Metal Casting",
 		"replaces": "Warrior",
 		"upgradesTo": "Swordsman",
-		"uniques": ["Unit will heal every turn, even if it performs an action","Heals [25] damage if it kills a unit","[+20] HP when healing","All adjacent units heal [10] HP when healing"],
+		"uniques": ["Unit will heal every turn, even if it performs an action","Heals [25] damage if it kills a unit","[+25] HP when healing","All adjacent units heal [25] HP when healing"],
 		"attackSound": "nonmetalhit"
 	},
 	/*
@@ -1054,7 +1054,7 @@
 		"unitType": "Bestial Ranged",
 		"uniqueTo": "Ssu'vi",
 		"replaces": "Chariot Archer",
-		"movement": 1,
+		"movement": 3,
 		"strength": 24,
 		"rangedStrength": 48,
 		"range": 6,
@@ -1071,9 +1071,9 @@
 		"unitType": "Bestial Ranged",
 		"uniqueTo": "Terazi",
 		"replaces": "Chariot Archer",
-		"movement": 1,
-		"strength": 48,
-		"rangedStrength": 24,
+		"movement": 3,
+		"strength": 24,
+		"rangedStrength": 36,
 		"range": 1,
 		"cost": 240,
 		"requiredTech": "The Wheel",
@@ -1119,7 +1119,7 @@
 		"strength": 5,
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["Ignores terrain cost","[+1] Sight","Founds a new city","[+20]% Strength <when fighting in [Foreign Land] tiles>"],
+		"uniques": ["Ignores terrain cost","[+1] Sight","Founds a new city <by consuming this unit>","[+100]% Strength <when fighting in [Foreign Land] tiles>", "May upgrade to [Archer] through ruins-like effects"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1130,8 +1130,17 @@
 		"movement": 2,
 		"strength": 8,
 		"hurryCostModifier": 20,
-		"uniques": ["Can build [Land] improvements on tiles"],
-		"cost": 70
+		"uniques": ["Can build [Land] improvements on tiles","[+100]% Strength <when fighting in [Friendly Land] tiles>"],
+		"cost": 50
+	},
+	{
+		"name": "Perpetual",
+		"unitType": "Hero",
+		"replaces": "Great Hero",
+		"uniqueTo": "Neph",
+		"uniques": ["Great Person - [Combat]", "Unbuildable", "Heals [50] damage if it kills a unit", "[+50]% Strength <starting from the [Classical era]>", "[+100]% Strength <starting from the [Medieval era]>", "Can be earned through combat", "[+100]% Strength <starting from the [Renaissance era]>", "[+100]% Strength <starting from the [Industrial era]>", "[+100]% Strength <starting from the [Modern era]>","[+100]% Strength <starting from the [Atomic era]>","[+100]% Strength <starting from the [Information era]>","[+100]% Strength <starting from the [Future era]>", "Cannot be purchased"],
+		"strength": 10,
+		"movement": 4
 	},
 	{
 		"name": "Imperial Guard",
@@ -1235,7 +1244,8 @@
 		"replaces": "Warrior",
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
-		"uniques": ["[+3] Sight","Founds a new city"],
+		"promotions": ["Oceanic Warriors"],
+		"uniques": ["[+3] Sight","Founds a new city <once> <costs [+50 Gold] stats>"],
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
 	},
@@ -1387,10 +1397,11 @@
 		"uniqueTo": "Kharn'dii",
 		"movement": 2,
 		"strength": 14,
-		"cost": 60,
+		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
+		"promotions": ["Adaptive Strategy","Leadership"],
 		"uniques": ["[+25]% Strength bonus for [Kharn Horde] units within [5] tiles"],
 		"requiredResource": "Iron",
 		"hurryCostModifier": 10,
@@ -1443,12 +1454,27 @@
 		"strength": 25,
 		"cost": 120,
 		"replacementTextForUniques": "+300% Strength vs Bestial and Armored units. Earn 25% of the damage done to Bestial and Armored units as Culture.",
-		"uniques": ["[+300]% Strength <vs [Bestial] units>","[+300]% Strength <vs [Bestial Ranged] units>","[+300]% Strength <vs [Bestial Water] units>","[+300]% Strength <vs [Armored] units>", "Earn [25]% of the damage done to [Bestial] units as [Culture]", "Earn [25]% of the damage done to [Bestial Ranged] units as [Culture]", "Earn [25]% of the damage done to [Bestial Water] units as [Culture]", "Earn [25]% of the damage done to [Armored] units as [Culture]"],
+		"uniques": ["[+300]% Strength <vs [{Bestial} {Bestial Ranged} {Bestial Water} {Armored}] units>","Earn [25]% of the damage done to [Bestial] units as [Culture]", "Earn [25]% of the damage done to [Bestial Ranged] units as [Culture]", "Earn [25]% of the damage done to [Bestial Water] units as [Culture]", "Earn [25]% of the damage done to [Armored] units as [Culture]"],
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
+	},
+	{
+		"name": "Ironblaster",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "Soldür",
+		"movement": 2,
+		"strength": 32,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"promotions": ["Blitz"],
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>","Consumes [1] [Iron]"],
+		"attackSound": "missile"
 	},
 	{
 		"name": "Alchemy Engine",
@@ -1462,7 +1488,7 @@
 		"upgradesTo": "Landship",
 		"obsoleteTech": "Combustion",
 		"promotions": ["Blitz"],
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-1] Sight","Destroys tile improvements when attacking"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-1] Sight","Destroys tile improvements when attacking", "[+33]% Strength <when defending>"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -1490,6 +1516,7 @@
 		"promotions": ["Extended Range"],
 		"attackSound": "arrow"
 	},
+	// This unit will be a lot more powerful once the tech tree revamp (and thus Bestial/Flier unit expansion) is released.
 	{
 		"name": "Dragonslayer Paladin",
 		"uniqueTo": "Kasia",
@@ -1502,7 +1529,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+300]% Strength <vs [Bestial] units>","[+300]% Strength <vs [Bestial Ranged] units>","[+300]% Strength <vs [Bestial Water] units>","[+300]% Strength <vs [Flier] units>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+300]% Strength <vs [{Bestial} {Bestial Ranged} {Bestial Water} {Flier}] units>"],
 		"attackSound": "horse"
 	},
 	{
@@ -1600,6 +1627,31 @@
 		"promotions": ["Formation I", "Formation II", "Emissar's Sway"],
 		"attackSound": "horse"
 	},
+	{
+		"name": "Immortal",
+		"unitType": "Hero",
+		"replaces": "Great Hero",
+		"uniqueTo": "Züher",
+		"uniques": ["Great Person - [Combat]", "Unbuildable", "[This Unit] heals [100] HP <for all movement> <requires [1] movement>", "[+50]% Strength <starting from the [Classical era]>", "[+100]% Strength <starting from the [Medieval era]>", "Can be earned through combat", "[+100]% Strength <starting from the [Renaissance era]>", "[+100]% Strength <starting from the [Industrial era]>", "[+100]% Strength <starting from the [Modern era]>","[+100]% Strength <starting from the [Atomic era]>","[+100]% Strength <starting from the [Information era]>","[+100]% Strength <starting from the [Future era]>", "Cannot be purchased"],
+		"strength": 20,
+		"movement": 3
+	},
+	{
+		"name": "God-Blooded",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 8,
+		"cost": 40,
+		"uniqueTo": "Züher",
+		"replaces": "Warrior",
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"promotions": ["Divine Blood"],
+		"uniques": ["May upgrade to [Immortal] through ruins-like effects", "Can transform to [Immortal] <for all movement> <costs [+200 Culture] stats>", "Can transform to [Immortal] <for all movement> <costs [+100 Faith] stats>"],
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+	},
+	
 	//City-State Uniques
 	{
 		"name": "Shanin",
@@ -1717,7 +1769,7 @@
 		"strength": 5,
 		"cost": 35,
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["Ignores terrain cost","Invisible to others","Withdraws before melee combat <with [50]% chance>","[-80]% Strength <vs [Sword] units>","[-80]% Strength <vs [Mounted] units>","[+1000]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Ignores terrain cost","Invisible to others","Withdraws before melee combat <with [50]% chance>","[-80]% Strength <vs [Sword] units>","[-80]% Strength <vs [Mounted] units>","[+1000]% Strength <vs cities> <when attacking>", "May upgrade to [Archer] through ruins-like effects"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1742,7 +1794,7 @@
 		"uniqueTo": "Orruk-Tar",
 		"replaces": "Warrior",
 		"movement": 2,
-		"strength": 12,
+		"strength": 15,
 		"cost": 20,
 		"obsoleteTech": "Metal Casting",
 		"uniques": ["[+25]% Strength <vs cities>"],
@@ -1833,7 +1885,7 @@
 		"movement": 1,
 		"strength": 10,
 		"cost": 0,
-		"uniques": ["Unbuildable", "Cannot be purchased", "Can see invisible [All] units","Can only heal by pillaging","No damage penalty for wounded units","[+400]% Strength decreasing with distance from the capital"],
+		"uniques": ["Unbuildable", "Cannot be purchased", "Can see invisible [All] units","Can only heal by pillaging","No damage penalty for wounded units","[+400]% Strength decreasing with distance from the capital <when fighting in [Friendly Land] tiles>"],
 		"attackSound": "nonmetalhit"
 	},
 

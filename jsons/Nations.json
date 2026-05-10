@@ -80,7 +80,7 @@
 		"favoredReligion": "The Divine Triad",
 		"uniqueName": "Fires Of Ragnarak",
 		// Keep in mind while balancing, Pyria also has access to the Hellfire Thrower which is by far the best unit in the era it can be produced, despite its high cost.
-		"uniques": ["No movement cost to pillage <for [Melee] units>", "New [Military] units start with [30] XP [in all cities]", "[+25]% Production when constructing [Military] units [in all cities]"],
+		"uniques": ["No movement cost to pillage <for [Melee] units>", "New [Military] units start with [30] XP [in all cities]", "[+25]% Production when constructing [Military] units [in all cities]", "Gain [50]-[250] [Science] <upon declaring war on [Major] Civilizations> <(modified by game speed)>"],
 		"cities": ["Ensdael", "Nightsend", "Abysin", "Pyris", "Altora", "Faenai", "Bator", "Theris", "Ferra",
 			"Magris", "Athr", "Theta", "Horahelm", "Tetrani", "Moondeep", "Lakaeia", "Duskshadow", "Elerea", "Unaia"
 		]
@@ -122,7 +122,7 @@
 
 		"favoredReligion": "Ultimism",
 		"uniqueName": "Glory of the Empire",
-		"uniques": ["[+1 Happiness] [in all cities] <before discovering [Theology]>", "[+100]% [Happiness] [in all cities connected to capital]", "[100]% of excess happiness converted to [Culture]","Each city founded increases culture cost of policies [100]% less than normal"],
+		"uniques": ["[+1 Happiness, +1 Faith] [in all cities] <before discovering [Theology]>", "[+100]% [Happiness] [in all cities connected to capital]", "[100]% of excess happiness converted to [Culture]","Each city founded increases culture cost of policies [100]% less than normal"],
 		"cities": ["Grandur", "Antor", "Enrade", "Gryffor", "Asdale", "Yelor", "Ethensia", "Manus Vul"]
 	},
 	{
@@ -147,7 +147,8 @@
 		
 		"favoredReligion": "Gaeanimism",
 		"uniqueName": "Children of Mystara",
-		"uniques": ["Militaristic City-States grant units [2] times as fast when you are at war with a common nation","[+3 Happiness] from every [Ice]","[+3 Happiness] from every [Marsh]","[+3 Happiness] from every [Oasis]","[+3 Happiness] from every [Flood Plains]","[+3 Happiness] from every [Atoll]","[+3 Production] from every [Mountain]","[+2 Culture] from every [Desert]","[+2 Food] from every [Snow]","[+1 Culture] from every [Tundra]","[+1 Gold] from every [Coast]","[+1 Gold, -1 Production] from every [Ocean]","[+1 Food, -1 Production] from every [Grassland]","[+1 Food, +1 Production, -2 Gold] from every [Plains]","[+2 Culture, -2 Gold] from every [Lakes]","[+1 Culture, -1 Food] from every [Hill]","[+1 Culture, -1 Production] from every [Forest]","[+1 Culture, -1 Food] from every [Jungle]"],
+		"uniques": ["Militaristic City-States grant units [2] times as fast when you are at war with a common nation","[+3 Happiness] from every [Ice] <when not at war> <in cities with at least [5] [Population]>","[+3 Happiness] from every [Marsh] <when not at war> <in cities with at least [5] [Population]>","[+3 Happiness] from every [Oasis] <when not at war> <in cities with at least [5] [Population]>","[+3 Happiness] from every [Flood Plains] <when not at war> <in cities with at least [5] [Population]>","[+3 Happiness] from every [Atoll] <when not at war> <in cities with at least [5] [Population]>","[+2 Production] from every [Mountain] <when not at war> <in cities with at least [5] [Population]>","[+1 Culture] from every [Desert] <when not at war> <in cities with at least [5] [Population]>","[+1 Food, +1 Production] from every [Snow] <when not at war> <in cities with at least [5] [Population]>","[+1 Culture] from every [Tundra] <when not at war> <in cities with at least [5] [Population]>","[+1 Gold] from every [Coast] <when not at war> <in cities with at least [5] [Population]>","[+1 Gold] from every [Ocean] <when not at war> <in cities with at least [5] [Population]>","[+1 Culture, -1 Food] from every [Grassland] <when not at war> <in cities with at least [5] [Population]>","[+1 Production, -1 Food] from every [Plains] <when not at war> <in cities with at least [5] [Population]>","[+2 Science] from every [Lakes] <when not at war> <in cities with at least [5] [Population]>","[+1 Happiness] from every [Hill] <when not at war> <in cities with at least [5] [Population]>","[+1 Happiness] from every [Forest] <when not at war> <in cities with at least [5] [Population]>","[+1 Happiness] from every [Jungle] <when not at war> <in cities with at least [5] [Population]>"],
+		"uniqueText": "While not at war, all terrain types provide various bonuses to cities with at least 5 population. Militaristic City-States grant units 2 times as fast when you are at war with a common nation.",
 		"cities": ["Onundaru", "Oteinada", "Nava", "Rocciti", "Anoqua"]
 	},
 	{
@@ -187,7 +188,7 @@
 
 		"favoredReligion": "The Divine Triad",
 		"uniqueName": "The Elder's Prophecy",
-		"uniques": ["Starts with [The Elder's Prophecy]","[+50]% Golden Age length","[+1] Movement <during a Golden Age>"],
+		"uniques": ["Starts with [The Elder's Prophecy]","[+50]% Golden Age length","[+1] Movement <during a Golden Age>","Earn [10]% of killed [All] unit's [Cost] as [Culture] <during a Golden Age>"],
 		//"uniques": ["[50]% Golden Age length", "+1 Movement for all units during Golden Age", "+10% Strength for all units during Golden Age"],
 		//"uniques": ["Starts the game in a [50] turn golden age","Starts the game with [300] additional gold","Starts the game with [2] free policies available","Starts the game with [1] free techs available"],
 		//"uniques": ["Starts the game in a [50] turn golden age","+[100]% Unit Strength before turn [40]","Starts the game with [300] additional gold","Starts the game with [2] free policies available","Starts the game with [1] free techs available"],
@@ -273,7 +274,7 @@
 		"favoredReligion": "Nepharism",
 		"uniqueName": "Rise of Man",
 //		"uniques": ["Gain Culture when you kill a barbarian unit", "Notified of new Barbarian encampments", "Receive triple Gold from Barbarian encampments and pillaging Cities", "+[100]% bonus vs Barbarians"],
-		"uniques": ["Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]", "Earn [25]% of killed [Barbarian] unit's [Strength] as [Faith]", "Earn [100]% of killed [Barbarian] unit's [Cost] as [Gold]", "Earn [25]% of killed [Barbarian] unit's [Cost] as [Science]", "Notified of new Barbarian encampments"],
+		"uniques": ["Receive [+200]% Gold from Barbarian encampments and pillaging Cities", "Earn [50]% of killed [Barbarian] unit's [Strength] as [Culture]", "Earn [50]% of killed [Barbarian] unit's [Strength] as [Faith]", "Earn [25]% of killed [Barbarian] unit's [Cost] as [Gold]", "Earn [25]% of killed [Barbarian] unit's [Cost] as [Science]", "Notified of new Barbarian encampments"],
 		"cities": ["Alor", "Nerai", "Phorl", "Dehsk", "Fyrin"]
 	},
 	{
@@ -304,7 +305,7 @@
 
 		"afterPeace": "This war is costing us precious time. Let there be peace!",
 		"tradeRequest": "After our duty has been completed, my people hope to reach the heavens. Help us now, and perhaps we can travel them together.",
-		"declaringFriendship": "I trust you more than anyone else, friend.",
+		"declaringFriendship": "We shall search the stars together.",
 		"neutralRejectingDemand": "The Nagai would not approve of this, so neither can I.",
 		"hateRejectingDemand": "The stars wait for no one, I'm afraid.",
 		
@@ -313,7 +314,7 @@
 
 		"favoredReligion": "The Divine Triad",
 		"uniqueName": "Legacy of the Naga",
-		"uniques": ["Starts with [Pottery]","Starts with [Animal Husbandry]","Starts with [Archery]","Starts with [Mining]","[+1 Food] from every [Desert]","[-1 Food] from every [Plains]","[+3 Science] per [3] population [in all cities] <before turn number [50]>"],
+		"uniques": ["Starts with [Pottery]","Starts with [Animal Husbandry]","Starts with [Archery]","Starts with [Mining]","[+1 Food] from every [Desert]","[-1 Food] from every [Plains]","[+3 Science] per [3] population [in all cities] <before turn number [50]>","[+1 Science] per [3] population [in all cities] <after turn number [50]>"],
 		"cities": ["Arai","Mijanho-deru","Zihan-de","Talanazza"]
 	},
 	{
@@ -322,7 +323,8 @@
 		"leaderName": "Nikau Alu",
 		"personality": "Generalist Leader",
 		"preferredVictoryType": "Cultural",
-
+		"startBias": ["Coast"],
+		
 		"startIntroPart1": "Aloi, King Nikau of the Atoiri. It is time to begin a great voyage, to see the sights of the world and claim new horizons as your own - for that is the way of your people. Despite their wanderlust, your kindred place great importance upon their ancestors; the path to your homeland will play a key part of your culture. Still, the seas beckon - will your people find paradise beyond the waves?",
 		"startIntroPart2": "Beloved King Nikau, will you answer the call of the waves, and bring your people to greatness? Will you inspire them to draw courage from their past? Will you build a civilization that stands the test of time?",
 
@@ -331,12 +333,12 @@
 		"attacked": "The thunders of war boom high in the heavens tonight. We will echo their rage.",
 		"defeated": "So this is how it feels to die... Perhaps, in another world, we could have been friends.",
 		"neutralHello": "Aloi (Greetings), fellow king!",
-		"hateHello": "Your taking a dangerous path, my friend.",
+		"hateHello": "You're taking a dangerous path, my friend.",
 		"tradeRequest": "Come, let our people feast together!",
 		
-		"declaringFriendship": "I trust you more than anyone else, friend.",
-		"neutralRejectingDemand": "The Nagai would not approve of this, so neither can I.",
-		"hateRejectingDemand": "The stars wait for no one, I'm afraid.",
+		"declaringFriendship": "I trust you more than anyone else, dear friend.",
+		"neutralRejectingDemand": "That doesn't seem like a good trade, my friend.",
+		"hateRejectingDemand": "Never!",
 		
 		"favoredReligion": "Nepharism",
 		"uniqueName": "Path Of The Homeland",
@@ -346,16 +348,48 @@
 		"outerColor": [0, 255, 0],
 		"innerColor": [0, 0, 255]
 	},
+
+	{
+		"name": "Züher",
+		"adjective": ["Züherian"],
+		"leaderName": "Gigamarr Suncaller",
+		"personality": "Generalist Leader",
+		"preferredVictoryType": "Cultural",
+		"startBias": ["Flood Plains"],
+		
+		"startIntroPart1": "We bow to you, Eternal King Gigamarr Suncaller. In days long gone, you reigned a thousand years over the squabbling city-states of Züher. In a time when humanity was naught but an afterthought in the minds of the reigning species, you made a bastion against the wrath of Dwarves, Elves, Orcs, and Sauroids alike. Most humans are frail, but you have created a realm of immortals - humans that have achieved power enough to break past their own mortality, becoming gods amongst men.",
+		"startIntroPart2": "The time comes again, Eternal King Gigamarr Suncaller. Will you reign eternal over the lands of Züher? Will you build a civilization that stands the test of time?",
+
+		"introduction": "Ah ha ha! Look upon my godly form and weep - I am Gigamarr Suncaller, the eternal king of Züher!",
+		"declaringWar": "It is time you learned your place, mortal!",
+		"attacked": "You challenge ME? Ah ha ha!",
+		"defeated": "I was supposed to reign eternal...",
+		"neutralHello": "Ah ha ha! Speak your mind, mortal.",
+		"hateHello": "My patience wears thin.",
+		"tradeRequest": "You have something I want, and I am not above negotiation. A trade, then?",
+		
+		"declaringFriendship": "I would be honored if you saw me as a brother to you.",
+		"neutralRejectingDemand": "Ah ha ha! What a good joke!",
+		"hateRejectingDemand": "This does not befit a good, so it does not befit me.",
+		
+		"favoredReligion": "Züherism",
+		"uniqueName": "The Immortals' Rule",
+		"uniques": ["[+300]% Strength <for [Hero] units> <when fighting in [Friendly Land] tiles>", "Enables conversion of city production to [Culture]", "[+100]% Strength for cities", "[-50]% Culture cost of natural border growth [in all cities]", "[+10 Happiness]", "[+400]% unhappiness from the number of cities", "[-100]% Unhappiness from [Population] [in all cities]", "[+50]% growth [in all cities]"],
+		
+		"cities": ["Zür", "Kurü", "Zippur", "Adap", "Lagaz", "Larsuk", "Xabala", "Aridu", "Akazak", "Dar", "Isin"],
+		"outerColor": [240, 140, 0],
+		"innerColor": [64, 64, 64]
+	},
 	/*
 	{
 		"name": "Baphyla",
 		"adjective": ["Baphylan"],
-		"leaderName": "",
+		"leaderName": "Damarabi",
 		"personality": "Generalist Leader",
 		"preferredVictoryType": "Religious",
 
-		"startIntroPart1": "(Introduction I - incomplete)",
-		"startIntroPart2": "(Introduction II - incomplete)",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
 
 		"introduction": "",
 		"declaringWar": "",
@@ -365,13 +399,13 @@
 		"hateHello": "",
 		"tradeRequest": "",
 		
-		"favoredReligion": "Zuherism",
-		"uniqueName": "",
+		"favoredReligion": "Züherism",
+		"uniqueName": "Call of the Universe",
 		"uniques": ["[+2 Science] from all [Faith] buildings","[3] Free Technologies <upon founding a Pantheon>","[3] Free Technologies <upon founding a Religion>","[2] Free Technologies <upon enhancing a Religion>"],
 		
-		"cities": ["Atoiri", "Laihe", "Tupai", "Aluhea"],
-		"outerColor": [0, 255, 0],
-		"innerColor": [0, 0, 255]
+		"cities": ["Baphylan", "Kazur", "Hubaba", "Akkur"],
+		"outerColor": [80, 80, 80],
+		"innerColor": [0, 127, 224]
 	},
 	*/
 	
@@ -413,7 +447,7 @@
 
 		"favoredReligion": "The Divine Triad",
 		"uniqueName": "The Endless Horde",
-		"uniques": ["Can only heal by pillaging", "[-50]% Strength for cities", "[+8 Science, +8 Culture] <in [Puppeted] cities>", "[+50]% Production when constructing [Military] units [in all non-occupied cities]", "Cities are razed [5] times as fast", "\"Borrows\" city names from other civilizations in the game", "[2] free [Kharn Horde] units appear <upon conquering a city>", "[+1] population [in annexed cities] <upon conquering a city>", "[+100 Gold, +100 Culture, +100 Science] [in cities being razed]", "[+1] Unit Supply per [1] population [in annexed cities]"],
+		"uniques": ["Can only heal by pillaging", "[-50]% Strength for cities", "[+100]% [Science] [in puppeted cities]", "[+100]% [Culture] [in puppeted cities]", "[+50]% Production when constructing [Military] units [in all non-occupied cities]", "Cities are razed [5] times as fast", "\"Borrows\" city names from other civilizations in the game", "[3] free [Kharn Horde] units appear <upon conquering a city>", "[+1] population [in annexed cities] <upon conquering a city>", "[+100 Gold, +100 Culture, +100 Science] [in cities being razed]", "[+1] Unit Supply per [1] population [in annexed cities]"],
 		"cities": ["Kharn"]
 	},
 	{
@@ -486,8 +520,8 @@
 		
 		"favoredReligion": "Tolarianism",
 		"uniqueName": "Coalition of Cities",
-		"uniques": ["Militaristic City-States grant units [5] times as fast when you are at war with a common nation","Military Units gifted from City-States start with [+120] XP","City-State territory always counts as friendly territory","Resting point for Influence with City-States is increased by [30]"],
-		"cities": ["Zegris", "Acroplia", "Sartga"]
+		"uniques": ["May buy items in puppet cities","Militaristic City-States grant units [5] times as fast when you are at war with a common nation","Military Units gifted from City-States start with [+120] XP","City-State territory always counts as friendly territory","Resting point for Influence with City-States is increased by [30]"],
+		"cities": ["Zegris", "Acroplia", "Sartga", "Altherius"]
 	},
 	{
 		"name": "Rhone",
@@ -518,7 +552,7 @@
 		"afterPeace": "A pleasant outcome for a horrible event.",
 		"tradeRequest": "I've got much to offer, but first - deal or no deal?",
 
-		"outerColor": [242, 42, 0],
+		"outerColor": [128, 0, 100],
 		"innerColor": [242, 227, 12],
 
 		"favoredReligion": "Tolarianism",
@@ -610,10 +644,10 @@
 		"tradeRequest": "I bring a proposal. Think on it, eh?",
 		
 		"uniqueName": "Dawr Legacy",
-		"uniques": ["[+50]% Strength for cities", "[-1] Movement <for [Sword] units>", "[+5]% [Culture] from every [Mine]", "[+5 Gold, +5 Culture] from every [Mountain]", "Starts with [Dawr Legacy]"],
+		"uniques": ["[+50]% Strength for cities", "[+33]% Strength <for [{Gunpowder} {Ranged Gunpowder} {Siege}] units>", "[-1] Movement <for [{Sword} {Gunpowder} {Ranged Gunpowder} {Archery}] units>", "[+1 Culture] from every [Mine]", "[+5 Gold, +5 Culture] from every [Mountain]", "Starts with [Dawr Legacy]"],
 		
 		"favoredReligion": "Dawism",
-		"cities": ["Soldürm", "Durkin", "Karkas", "Sturmloch"],
+		"cities": ["Soldürm", "Durkin", "Karkas", "Sturmloch", "Armloch"],
 		"outerColor": [78, 194, 139],
 		"innerColor": [120, 84, 28]
 	},
@@ -637,10 +671,10 @@
 		"tradeRequest": "I've got a proposal for ya. Let me know if it sounds good, okay?",
 		
 		"uniqueName": "Highland's Bounty",
-		"uniques": ["[-1] Movement <for [Sword] units>", "[+10]% [Food] from every [Farm]", "[+5 Science, +5 Culture] from every [Hill]", "[Great Artist] is earned [+100]% faster"],
+		"uniques": ["[-1] Movement <for [{Sword} {Gunpowder} {Ranged Gunpowder} {Archery}] units>", "[+1] Range <for [{Ranged Gunpowder} {Archery} {Siege}] units>", "[+1 Food] from every [Farm]", "[+1 Science, +1 Culture] from every [Hill]", "[Great Artist] is earned [+100]% faster"],
 	
 		"favoredReligion": "Gnokism",
-		"cities": ["Gnokshire", "Highill", "Sandbark", "Armloch"],
+		"cities": ["Gnokshire", "Highill", "Sandbark", "Dreichwallow"],
 		"outerColor": [67, 0, 92],
 		"innerColor": [111, 252, 3]
 	},
@@ -669,7 +703,7 @@
 
 		"favoredReligion": "Ultimism",
 		"uniqueName": "Draconic Crusades",
-		"uniques": ["Upon capturing a city, receive [5] times its [Production] production as [Faith] immediately","Earn [100]% of killed [Flier] unit's [Strength] as [Faith]","Earn [100]% of killed [Bestial] unit's [Strength] as [Faith]"],
+		"uniques": ["Upon capturing a city, receive [5] times its [Production] production as [Faith] immediately","Earn [25]% of killed [Flier] unit's [Strength] as [Faith]","Earn [25]% of killed [Bestial] unit's [Strength] as [Faith]"],
 		"cities": ["Lyndor", "Kasia's Rest", "Borchester", "Yorc", "Snowland"]
 	},
 

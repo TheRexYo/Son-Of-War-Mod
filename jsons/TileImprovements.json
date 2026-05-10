@@ -240,20 +240,30 @@
 		"culture": 1,
 		"gold": 5,
 		"turnsToBuild": 10,
-		"uniques": ["[+1 Culture, +1 Happiness, -1 Gold] for each adjacent [Alignment District]","Pillaging this improvement yields [+100 Gold] <when at war>", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["[+1 Culture, +1 Happiness, -1 Gold] for each adjacent [Alignment District]","Pillaging this improvement yields [+100 Gold] <when at war>", "Pillaging this improvement yields approximately [+10 Gold]","Will not be replaced by automated units"],
 		"techRequired": "Civil Service",
 		"shortcutKey": "M"
 	},
-	/*
 	{
-		"name": "Moai",
-		"uniqueTo": "Polynesia",
+		"name": "Floral Blood-Grounds",
+		"uniqueTo": "Terazi",
+		"terrainsCanBeBuiltOn": ["Jungle","Forest"],
+		"turnsToBuild": 10,
+		"uniques": ["Does not need removal of [Jungle]","Does not need removal of [Forest]","Adjacent enemy units ending their turn take [50] damage","Gives a defensive bonus of [100]%","Unpillagable","Will not be replaced by automated units"],
+		"techRequired": "Civil Service",
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Aorai",
+		"uniqueTo": "Atoiri",
+		"terrainsCanBeBuiltOn": ["Land","Water"],
 		"culture": 1,
 		"turnsToBuild": 4,
-		"uniques": ["Can only be built on [Coastal] tiles", "[+1 Culture] for each adjacent [Moai]", "[+1 Gold] <after discovering [Flight]>"],
+		"uniques": ["Can be built outside your borders","[+1 Culture] for each adjacent [Aorai]","Turn this tile into a [Ocean] tile <upon being declared war on by [Major] Civilizations>","Turn this tile into a [Desert] tile <upon declaring war on [Major] Civilizations>"],
 		"techRequired": "Construction",
 		"shortcutKey": "M"
 	},
+	/*
 	{
 		"name": "Terrace farm",
 		"uniqueTo": "Inca",

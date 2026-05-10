@@ -27,9 +27,7 @@
 		"food": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
-			"[+1 Food] from [Bananas] tiles [in this city]",
-			"[+1 Food] from [Wheat] tiles [in this city]"],
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]","[+1 Food] from [Bananas] tiles [in this city]","[+1 Food] from [Wheat] tiles [in this city]"],
 		"requiredTech": "Pottery"
 	},
 	{
@@ -116,7 +114,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["[-25]% construction time for [All] improvements", "[+25]% [Production]", "[2] free [Worker] units appear"],
+		"uniques": ["[-25]% construction time for [All] improvements", "[+50]% [Production] <during a Golden Age>", "[2] free [Worker] units appear"],
 		"requiredTech": "Masonry",
 		"quote": "'When humanity had finally humbled its many foes, it sought to immortalize its victory with vast monuments. The greatest among these were the Nephaliths, great sandstone pyramids strewn across the sands of the continent Dagah.' - Excerpt from Ancient Lands: A Guide to Arcane Archaeology"
 	},
@@ -187,7 +185,7 @@
 		"happiness": 5,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Only available <if [Colosseum] is constructed in all [Non-occupied] cities>", "Cost increases by [30] per owned city"],
+		"uniques": ["Only available <if [Arena] is constructed in all [Non-occupied] cities>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Horseback Riding"
 	},
 	{
@@ -292,7 +290,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-		"uniques": ["Must be next to [Desert]", "May buy [All] units with [Food] [in this city]", "[+5 Food, +5 Production, +5 Gold] from [Desert] tiles without [Flood Plains] [in this city]", "Gain a free [Amphitheater] [in this city]", "[+6 Culture] <after discovering [Archaeology]>"],
+		"uniques": ["Must be next to [Desert]", "May buy [All] units with [Food] [in this city]", "[+5 Food, +5 Production, +5 Gold] from [Desert] tiles without [Farm] [in this city]", "Gain a free [Amphitheater] [in this city]", "[+6 Culture] <after discovering [Archaeology]>"],
 		"requiredTech": "Currency",
 		"quote": "'Humanity is at its core, adaptable. In places we call barren and dead, they hang onto life with a vigor unlike anything else. Knowing this, it is clear we were doomed from the start.' - Avriel, Great Sage of the Tanar'sol 'Sun Elves'"
 	},
@@ -327,11 +325,12 @@
 		"cost": 185,
 		"culture": 1,
 		"gold": 5,
+		"cityStrength": 50,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]", "May buy [Military] units with [Culture] for [3] times their normal Production cost"],
 		"requiredTech": "Iron Working",
-		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
+		"quote": "'A great colossus once stood over the city of Acroplia, guarding it from those who sought its end. It was a symbol of strength, one that inspired thousands to lay down their lives in defense of that land.'"
 	},
 
 	// Medieval Era
@@ -345,23 +344,23 @@
 		"requiredTech": "Theology"
 	},
 	{
-		"name": "Hagia Sophia",
+		"name": "The Halls of Ascension",
 		"culture": 1,
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
-		"uniques": ["[+25]% Great Person generation [in all cities]", "Free Great Person"],
+		"uniques": ["[+100]% Great Person generation [in all cities]", "Free Great Person", "When declaring friendship, both parties gain a [500]% boost to great person generation"],
 		"requiredTech": "Theology",
-		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty'  - Procopius, De Aedificis"
+		"quote": "'There is a spark that exists in the souls of all sentient beings. A spark that - once lit - can turn even the most useless of fools into a champion of the people.' - On the nature of the Immortals"
 	},
 	{
-		"name": "Chichen Itza",
+		"name": "The Gaean Pyramid",
 		"culture": 1,
 		"happiness": 4,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["[+50]% Golden Age length"],
+		"uniques": ["[+50]% Golden Age length","Enables conversion of city production to [Science] <during a Golden Age>","[+1 Food] per every [1] [Happiness]","[+100]% [Production] [in this city] <during a Golden Age>","Must have an owned [Jungle] within [2] tiles"],
 		"requiredTech": "Civil Service",
-		"quote": "'The katun is established at Chichen Itza. The settlement of the Itza shall take place there. The quetzal shall come, the green bird shall come. Ah Kantenal shall come. It is the word of God. The Itza shall come.'  - The Books of Chilam Balam"
+		"quote": "'The pinnacle of the Tlakahrii Empire's magical engineering - a great floating pyramid built upon the equator, which absorbs the rays of the sun and converts them into Creation energy. This energy can then be harnessed as useable mana. Though left in great disrepair, a project has been proposed to restore it to its former glory.' - Excerpt from Ancient Lands: A Guide to Arcane Archaeology"
 	},
 	{
 		"name": "National Treasury",
@@ -373,14 +372,15 @@
 		"requiredTech": "Guilds"
 	},
 	{
-		"name": "Machu Picchu",
+		"name": "Citadel of the Lost Mountain",
 		"gold": 5,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"culture": 1,
+		"cityHealth": 100,
 		"isWonder": true,
-		"uniques": ["[+25]% [Gold] from Trade Routes","Must have an owned [Mountain] within [2] tiles"],
+		"uniques": ["[+25]% [Gold] from Trade Routes", "Population loss from nuclear attacks [-100]% [in this city]", "[-100]% Food consumption by [Population] [in this city]", "[+1 Gold] per [1] population [in this city]", "Must have an owned [Mountain] within [2] tiles"],
 		"requiredTech": "Guilds",
-		"quote": "'Few romances can ever surpass that of the granite citadel on top of the beetling precipices of Machu Picchu, the crown of Inca Land.'  - Hiram Bingham"
+		"quote": "'Legends speak of an ancient sauroid city built atop a mountain in Jungara. It is said that this city houses millions, and has enough food to feed the entire world - should it wish to.' - Tales of Distant Lands"
 	},
 	{
 		"name": "Workshop",
@@ -424,7 +424,7 @@
 		"requiredTech": "Education"
 	},
 	{
-		"name": "Oxford University",
+		"name": "Great University",
 		"cost": 125,
 		"science": 3,
 		"culture": 1,
@@ -433,13 +433,13 @@
 		"requiredTech": "Education"
 	},
 	{
-		"name": "Angkor Wat",
+		"name": "The Temple of a Thousand Gods",
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["[-25]% Culture cost of natural border growth [in all cities]","[-25]% Gold cost of acquiring tiles [in all cities]"],
+		"uniques": ["[+1 Science, +1 Faith, +1 Culture] from [All] tiles [in this city]", "[-25]% Culture cost of natural border growth [in all cities]","[-25]% Gold cost of acquiring tiles [in all cities]"],
 		"requiredTech": "Education",
-		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.'  - Antonio da Magdalena"
+		"quote": "'The devout of the faith travel the world, gathering the teachings and arts of every culture and religion they come across. They are catalogued here, preserved for eternity for all to see and learn.'"
 	},
 	{
 		"name": "Castle",
@@ -451,15 +451,14 @@
 		// 4 cityStrength in vanilla, no ExtraCityHitPoints in vanilla
 	},
 	{
-		"name": "Alhambra",
+		"name": "The Sunless Keep",
 		"culture": 1,
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
 		"percentStatBonus": {"culture": 20},
-		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Drill I] promotion",
-			"Gain a free [Castle] [in this city]"],
+		"uniques": ["[-100]% enemy spy effectiveness [in this city]","[-50]% enemy spy effectiveness [in all cities]","All newly-trained [relevant] units [in this city] receive the [Drill I] promotion","Gain a free [Castle] [in this city]"],
 		"requiredTech": "Chivalry",
-		"quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.'  - Joseph Addison"
+		"quote": "'The castle is as black as the darkest nights. It is said to be built of underworld stone, and imbibed with the blood of dragons. None dare enter that place, for none could return from within.'"
 	},
 	{
 		"name": "Ironworks",
@@ -472,13 +471,14 @@
 		"requiredTech": "Machinery"
 	},
 	{
-		"name": "Notre Dame",
+		"name": "The Spire of Dominion",
 		"culture": 3,
 		"happiness": 10,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
+		"uniques": ["[-75]% Production when constructing [World] wonders [in enemy cities] <during a Golden Age> <when not at war>", "Triggers a global alert upon completion"],
 		"requiredTech": "Physics",
-		"quote": "'Architecture has recorded the great ideas of the human race. Not only every religious symbol, but every human thought has its page in that vast book.'  - Victor Hugo"
+		"quote": "'It is said that in ages past, the dragons built a spire stretching from the ground all the way into the skyworld and the clouds above - a reminder to all that nothing stands above a dragon.'"
 	},
 	{
 		"name": "Armory",
@@ -1020,7 +1020,7 @@
 		"happiness": 1,
 		"culture": 1,
 		"requiredBuilding": "Monument",
-		"uniques": ["[+2 Happiness, +2 Culture] from every [Verdant Pylon]", "[+2 Faith] <when religion is enabled>", "[+1 Faith] from every [Verdant Pylon] <when religion is enabled>"],
+		"uniques": ["[+2 Happiness, +2 Culture] from every [Verdant Pylon]", "[+2 Faith] <when religion is enabled>", "[+1 Faith] from every [Verdant Pylon] <when religion is enabled>", "Cost increases by [50] when built"],
 		"requiredTech": "Philosophy"
 	},
 	{
@@ -1031,13 +1031,13 @@
 		"hurryCostModifier": 25,
 		"food": 1,
 		"production": 1,
-		"uniques": ["[+1 Food, +1 Production] from every [Verdant Temple]"]
+		"uniques": ["[+1 Food, +1 Production] from every [Verdant Temple]", "Cost increases by [50] when built"]
 	},
 	{
 		"name": "Waste Nexus",
 		"uniqueTo": "Pyria",
 		"maintenance": 0,
-		"cost": 15,
+		"cost": 100,
 		"hurryCostModifier": 25,
 		"production": 10,
 		"food": 10,
@@ -1049,11 +1049,9 @@
 		"replaces": "Granary",
 		"uniqueTo": "Ssu'vi",
 		"hurryCostModifier": 30,
-		"happiness": 2,
 		"food": 2,
-		"maintenance": 2,
-		"resourceBonusStats": {"food": 2},
-		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
+		"maintenance": 3,
+		"uniques": ["[-50]% Food consumption by [Population] [in this city]","[+1 Happiness] per [1] population [in this city]","[-50]% growth [in this city]","Cost increases by [100] when built"],
 		"requiredTech": "Pottery"
 	},
 	{
@@ -1061,36 +1059,34 @@
 		"replaces": "Granary",
 		"uniqueTo": "Terazi",
 		"hurryCostModifier": 30,
-		"happiness": 2,
 		"food": 2,
-		"maintenance": 2,
-		"resourceBonusStats": {"food": 2},
-		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
+		"maintenance": 3,
+		"uniques": ["[-50]% Food consumption by [Population] [in this city]","[+1 Food] per [1] population [in this city]","[-50]% growth [in this city]","Cost increases by [100] when built"],
 		"requiredTech": "Pottery"
 	},
 	{
 		"name": "Spawn Pools Of The Sun",
 		"uniqueTo": "Ssu'vi",
-		"cost": 360,
+		"cost": 600,
 		"happiness": 12,
 		"culture": 6,
 		"science": 6,
 		"food": 6,
 		"maintenance": 6,
-		"uniques": ["[40]% Food is carried over after population increases [in this city]","All newly-trained [Military] units [in this city] receive the [Blessing Of The Sun] promotion"],
+		"uniques": ["[40]% Food is carried over after population increases [in this city]","All newly-trained [Military] units [in this city] receive the [Blessing Of The Sun] promotion","Only available <if [Spawn Pools (Ssuvi)] is constructed in all [Non-occupied] cities>"],
 		"isNationalWonder": true,
 		"requiredTech": "Pottery"
 	},
 	{
 		"name": "Spawn Pools Of The Jungle",
 		"uniqueTo": "Terazi",
-		"cost": 360,
+		"cost": 600,
 		"happiness": 6,
 		"culture": 6,
 		"science": 6,
 		"food": 12,
 		"maintenance": 6,
-		"uniques": ["[40]% Food is carried over after population increases [in this city]","All newly-trained [Military] units [in this city] receive the [Blessing Of The Jungle] promotion"],
+		"uniques": ["[40]% Food is carried over after population increases [in this city]","All newly-trained [Military] units [in this city] receive the [Blessing Of The Jungle] promotion","Only available <if [Spawn Pools (Terazi)] is constructed in all [Non-occupied] cities>"],
 		"isNationalWonder": true,
 		"requiredTech": "Pottery"
 	},
@@ -1113,7 +1109,7 @@
 		"culture": 2,
 		"happiness": 1,
 		"specialistSlots": {"Artist": 1},
-		"uniques": ["Can only be built <in cities without a [Palace]>","[+5]% growth [in all cities]","[-25]% Culture cost of natural border growth [in this city]","[-10]% Culture cost of natural border growth [in capital]"],
+		"uniques": ["Can only be built <in cities without a [Palace]>","[+5]% growth [in all cities]","[-25]% Culture cost of natural border growth [in this city]","[-5]% Culture cost of natural border growth [in capital]"],
 		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy"
@@ -1158,11 +1154,11 @@
 		"replaces": "Workshop",
 		"uniqueTo": "Onuqi",
 		"cost": 140,
-		"maintenance": 2,
-		"production": 2,
+		"maintenance": 1,
+		"production": 1,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production, +1 Culture] from [Forest] tiles [in this city]","[-50]% Unhappiness from [Population] [in this city]"],
+		"uniques": ["[+1 Production] from [Forest] tiles [in this city] <when not at war>","[-50]% Unhappiness from [Population] [in this city]"],
 		"requiredTech": "Metal Casting"
 	},
 	{
@@ -1172,7 +1168,7 @@
 		"maintenance": 1,
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["New [Melee] units start with [15] XP [in this city]","Earn [20]% of killed [Military] unit's [Strength] as [Culture]"],
+		"uniques": ["New [Military] units start with [15] XP [in this city]","Earn [2]% of killed [Melee] unit's [Cost] as [Culture]"],
 		"requiredTech": "Construction"
 	},
 	{
@@ -1230,7 +1226,7 @@
 	},
 	{
 		"name": "Khan's Tent",
-		"uniqueTo": "Centuria",
+		"uniqueTo": "Kharn'dii",
 		"replaces": "Courthouse",
 		"maintenance": 0,
 		"science": 2,
@@ -1238,6 +1234,73 @@
 		"hurryCostModifier": 50,
 		"uniques": ["Removes extra unhappiness from annexed cities", "Can only be built <in [in annexed cities] cities>"],
 		"requiredTech": "Mathematics"
+	},
+	{
+		"name": "Beacon of Humanity",
+		"uniqueTo": "Neph",
+		"replaces": "Monument",
+		"culture": 2,
+		"uniques": ["[+1 Happiness] [in all cities]"],
+		"cost": 80,
+		"hurryCostModifier": 40,
+		"maintenance": 3
+	},
+	{
+		"name": "Walls of Züher",
+		"uniqueTo": "Züher",
+		"replaces": "Walls",
+		"maintenance": 1,
+		"cityStrength": 5,
+		"cityHealth": 100,
+		"happiness": 1,
+		"cost": 80,
+		"uniques": ["[+1 Production] per every [2] [Happiness]"]
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry"
+	},
+	{
+		"name": "Trader's Palace",
+		"uniqueTo": "Züher",
+		"replaces": "National Treasury",
+		"cost": 125,
+		"gold": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Market] is constructed in all [Non-occupied] cities>", "Cost increases by [30] per owned city", "[+1 Happiness] per every [100] [Gold]"],
+		"requiredTech": "Guilds"
+	},
+		{
+		"name": "Arches of Civilization",
+		"uniqueTo": "Zegrek",
+		"replaces": "Amphitheater",
+		"culture": 4,
+		"specialistSlots": {"Artist": 1, "Hero": 1, "Merchant": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 4,
+		"hurryCostModifier": 25,
+		"uniques": ["[+50]% Great Person generation [in this city] <when not at war>"],
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Provincial Center",
+		"uniqueTo": "Imperia",
+		"replaces": "Castle",
+		"cityStrength": 14,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Chivalry",
+		"uniques": ["Cost increases by [100] when built", "Cost increases by [-25] per owned city", "[+1 Production, +1 Gold] per every [5] [Happiness]"]
+		// 4 cityStrength in vanilla, no ExtraCityHitPoints in vanilla
+	},
+	{
+		"name": "Pyramid",
+		"uniqueTo": "Mesyptia",
+		"replaces": "Monument",
+		"culture": 10,
+		"cost": 200,
+		"hurryCostModifier": 40,
+		"maintenance": 2,
+		"uniques": ["Can be purchased with [Food] [in all cities]", "[+25]% [Production] [in all cities with a world wonder]"]
 	},
 	
 	//"Must have an owned [Farm] within [3] tiles"

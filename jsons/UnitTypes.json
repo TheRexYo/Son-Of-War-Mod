@@ -91,16 +91,17 @@
     {
         "name": "Helicopter",
         "movementType": "Land",
-        "uniques": ["Can pass through impassable tiles"]
+        "uniques": ["Can pass through impassable tiles","Ignores terrain cost","All tiles cost 1 movement"]
     },
     {
         "name": "Flier",
         "movementType": "Land",
-        "uniques": ["Can pass through impassable tiles","Ignores terrain cost"]
+        "uniques": ["Can pass through impassable tiles","Ignores terrain cost","All tiles cost 1 movement","May attack when embarked","Ignores Zone of Control", "No defensive terrain bonus <before discovering [Flight]>"]
     },
     {
         "name": "Hero",
-        "movementType": "Land"
+        "movementType": "Land",
+		"uniques": ["Unable to capture cities","Unable to pillage tiles","Ignores Zone of Control"]
     },
     
     // Deprecated unit types required for mods without a UnitTypes.json file to work
