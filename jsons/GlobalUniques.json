@@ -18,7 +18,7 @@
 		"[+1000]% Yield from pillaging tiles <after adopting [Ragnarak Worship]>",
 		
 		// Mod uniques
-		"[-25]% Production when constructing [World] wonders [in all cities] <if [World Wonder] is constructed>",
+		"[-25]% Production when constructing [World] wonders [in all cities] <if [World Wonder] is constructed in at least [1] of [Your] cities>",
 		"[-50]% Production when constructing [World] wonders [in all cities with a world wonder] <when not in a Golden Age>",
 		
 		// Vanilla Uniques

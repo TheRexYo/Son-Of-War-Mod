@@ -242,6 +242,7 @@ Major Changes
 - Nephii'sekur unit now gets +100% strength in foreign land rather than +20%. | Commit: "Early v0.5 Work"
 - Aluhe unit gets a unique promotion "Oceanic Warriors", but now requires 50 gold to found a city. It isn't consumed when founding a city, but can only do so once. | Commit: "Early v0.5 Work"
 - Stone Sentinel unit only gets its strength bonus when fighting in friendly land. No more sentinel rushing lmao. | Commit: "Early v0.5 Work"
+- Writing technology now grants the ability to form embassies, as per Vanilla Civ 5 (and maybe G&K, I haven't checked). | Commit: "Neph Nerf, Attempted World Wonder Production Fix"
 
 Minor Changes
 - Nerfs to God of Winter and God of the Sands Pantheon beliefs. | Commit: "Early v0.5 Work"
@@ -265,11 +266,13 @@ Minor Changes
 - Tatli unit (city-state unique) upgrades to Archer through ruins, like scouts. | Commit: "Early v0.5 Work"
 - Helicopter units (of which there is only one) now ignore terrain costs and cost 1 movement per tile. | Commit: "Early v0.5 Work"
 - Flier units cost 1 movement per tile, can attack when embarked, and ignore zone of control. However, they have defensive penalties before discovering Flight (the technology). | Commit: "Early v0.5 Work" 
+- Nephii'sekur unit now costs more to make Neph city spam less intense (Cost 25 -> 35). | Commit: "Neph Nerf, Attempted World Wonder Production Fix"
 
 Major Fixes
 - Circus Maximus wonder now requires Arenas rather than Colosseums, so that nations other than Rhone can build it. Oops. | Commit: "Early v0.5 Work"
 - Kharn's Tent building now is unique to Kharn'dii rather than Centuria, as intended. | Commit: "Early v0.5 Work"
 - Nephii'sekur unit is now consumed after building a city, as intended. Holy CRAP I'm surprised I didn't notice this sooner. | Commit: "Early v0.5 Work"
+- World Wonder production reduction should now properly function when one is built. | Commit: "Neph Nerf, Attempted World Wonder Production Fix"
 
 Minor Fixes
 - Some previously hidden effects of various beliefs (ones that are handled by GlobalUniques.json) now are shown in the uniques list for those beliefs. | Commit: "Early v0.5 Work"

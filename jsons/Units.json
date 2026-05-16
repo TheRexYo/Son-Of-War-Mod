@@ -1117,7 +1117,7 @@
 		"uniqueTo": "Neph",
 		"movement": 2,
 		"strength": 5,
-		"cost": 25,
+		"cost": 35,
 		"obsoleteTech": "Scientific Theory",
 		"uniques": ["Ignores terrain cost","[+1] Sight","Founds a new city <by consuming this unit>","[+100]% Strength <when fighting in [Foreign Land] tiles>", "May upgrade to [Archer] through ruins-like effects"],
 		"attackSound": "nonmetalhit"
