@@ -80,7 +80,7 @@
 		"favoredReligion": "The Divine Triad",
 		"uniqueName": "Fires Of Ragnarak",
 		// Keep in mind while balancing, Pyria also has access to the Hellfire Thrower which is by far the best unit in the era it can be produced, despite its high cost.
-		"uniques": ["No movement cost to pillage <for [Melee] units>", "New [Military] units start with [30] XP [in all cities]", "[+25]% Production when constructing [Military] units [in all cities]", "[+500]% Yield from pillaging tiles", "Gain [50]-[250] [Science] <upon declaring war on [Major] Civilizations> <(modified by game speed)>"],
+		"uniques": ["No movement cost to pillage <for [Melee] units>", "New [Military] units start with [30] XP [in all cities]", "[+25]% Production when constructing [Military] units [in all cities]", "[+500]% Yield from pillaging tiles", "Gain [250]-[500] [Science] <upon declaring war on [Major] Civilizations> <(modified by game speed)>"],
 		"cities": ["Ensdael", "Nightsend", "Abysin", "Pyris", "Altora", "Faenai", "Bator", "Theris", "Ferra","Magris", "Athr", "Theta", "Horahelm", "Tetrani", "Moondeep", "Lakaeia", "Duskshadow", "Elerea", "Unaia"]
 	},
 	{

@@ -241,6 +241,8 @@
 	{
 		"name": "Raider",
 		"unitType": "Sword",
+		"uniqueTo": "Barbarians",
+		"replaces": "Swordsman",
 		"movement": 2,
 		"strength": 14,
 		"cost": 75,

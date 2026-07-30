@@ -1039,11 +1039,10 @@
 		"uniqueTo": "Pyria",
 		"maintenance": 0,
 		"cost": 100,
-		"hurryCostModifier": 25,
-		"production": 10,
-		"food": 10,
-		"science": 10,
-		"uniques": ["[-50]% [Production] [in this city]","[-50]% [Food] [in this city]","[-50]% [Science] [in this city]","[+5 Science, +5 Culture, +5 Production] <after discovering [Physics]>","[+15 Science, +15 Culture, +15 Production] <after discovering [Chemistry]>"]
+		"production": 5,
+		"food": 5,
+		"science": 5,
+		"uniques": ["[-50]% [Production] [in this city] <when not at war>","[-50]% [Food] [in this city] <when not at war>","[-50]% [Science] [in this city] <when not at war>","[+5 Science, +5 Culture, +5 Production] <after discovering [Physics]>","[+5 Science, +5 Culture, +5 Production] <after discovering [Chemistry]>"]
 	},
 	{
 		"name": "Spawn Pools (Ssuvi)",
