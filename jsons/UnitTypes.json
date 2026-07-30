@@ -32,10 +32,6 @@
         "movementType": "Land"
     },
     {
-        "name": "Bestial Ranged",
-        "movementType": "Land"
-    },
-    {
         "name": "Armored",
         "movementType": "Land"
     },

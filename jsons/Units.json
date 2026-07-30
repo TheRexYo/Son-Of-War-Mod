@@ -127,20 +127,20 @@
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
 	},
-	/*
 	{
 		"name": "Galley",
-		"unitType": "Water Melee",
+		"unitType": "Melee Water",
+		"uniqueTo": "Barbarians",
+		"replaces": "Trireme",
 		"uniqueTo": "Barbarian",
-		"movement": 3,
+		"movement": 4,
 		"strength": 7,
 		"cost": 40,
-		"uniques": ["Cannot enter ocean tiles"]
-		"upgradesTo": "Trireme",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>","Withdraws before melee combat <with [20]% chance>"]
+		"upgradesTo": "Galleass",
 		"attackSound": "nonmetalhit"
 		//Barbarian unique naval unit, weaker and slower than Trireme.
 	},
-	*/
 	{
 		"name": "Chariot Archer",
 		"unitType": "Archery",
@@ -164,24 +164,24 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Bestial] units>", "[+50]% Strength <vs [Bestial Ranged] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Bestial] units>"],
 		"attackSound": "metalhit"
 	},
-	/*
 	{
-		"name": "Spearman",
+		"name": "Pillager",
+		"uniqueTo": "Barbarians",
+		"replaces": "Spearman",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 10,
-		"cost": 56,
+		"cost": 55,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs cities> <when attacking>", "[+50]% Strength <vs [Bestial] units>", "[+50]% Strength <vs cities> <when attacking>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Bestial] units>", "[+40]% Strength <vs cities> <when attacking>"],
 		"attackSound": "metalhit"
 		// Barbarian unique Spearman. Has same icon and name but slightly different 3d texture
 	},
-	*/
 
 	/* Classical Era */
 	{
@@ -238,9 +238,8 @@
 		"attackSound": "metalhit"
 	},
 	
-	/*
 	{
-		"name": "Swordsman",
+		"name": "Raider",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 14,
@@ -250,10 +249,10 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
+		"uniques": ["No movement cost to pillage"],
 		"attackSound": "metalhit"
 		// Barbarian unique Swordsman. Has same icon and name but slightly different 3d texture
 	},
-	*/
 
 	// Medieval Era
 	{
@@ -263,7 +262,7 @@
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Bestial] units>", "[+50]% Strength <vs [Bestial Ranged] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Bestial] units>", "[+50]% Strength <vs [Bestial Water] units>"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
@@ -347,6 +346,21 @@
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
 		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>"],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Pirate Caravel",
+		"unitType": "Melee Water",
+		"uniqueTo": "Barbarians",
+		"replaces": "Caravel",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": ["Withdraws before melee combat <with [50]% chance>", "[+200]% Strength <vs [Embarked] units>", "[This Unit] heals [100] HP <upon defeating a [Water] unit>"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
@@ -991,17 +1005,17 @@
 	{
 		"name": "Hellfire Thrower",
 		"unitType": "Siege",
-		"movement": 1,
-		"strength": 45,
+		"movement": 2,
+		"strength": 30,
 		"range": 1,
-		"rangedStrength": 45,
-		"cost": 185,
+		"rangedStrength": 60,
+		"cost": 300,
 		"uniqueTo": "Pyria",
 		"replaces": "Cannon",
 		"upgradesTo": "Artillery",
 		"requiredTech": "Chemistry",
 		"obsoleteTech": "Dynamite",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus","Must set up to ranged attack","[-1] Sight"],
+		"uniques": ["[+200]% Strength <vs cities>","[+100]% Strength <vs [Melee] units> <when defending>","No defensive terrain bonus","[-1] Sight"],
 		"hurryCostModifier": 20
 	},
 	{
@@ -1051,7 +1065,7 @@
 	*/
 	{
 		"name": "Terradox (Solar Cannon)",
-		"unitType": "Bestial Ranged",
+		"unitType": "Bestial",
 		"uniqueTo": "Ssu'vi",
 		"replaces": "Chariot Archer",
 		"movement": 3,
@@ -1068,7 +1082,7 @@
 	},
 	{
 		"name": "Terradox (Overgrowth Engine)",
-		"unitType": "Bestial Ranged",
+		"unitType": "Bestial",
 		"uniqueTo": "Terazi",
 		"replaces": "Chariot Archer",
 		"movement": 3,
@@ -1182,13 +1196,13 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+25]% Strength <vs [Mounted] units>","[+75]% Strength <vs [Bestial] units>","[+50]% Strength <vs [Bestial Ranged] units>","Can move after attacking","[+200]% Strength <in [Desert] tiles>"],
+		"uniques": ["[+25]% Strength <vs [Mounted] units>","[+75]% Strength <vs [Bestial] units>","[+75]% Strength <vs [Bestial Water] units>","Can move after attacking","[+200]% Strength <in [Desert] tiles>"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 	{
 		"name": "Clay Golem",
-		"unitType": "Bestial Ranged",
+		"unitType": "Bestial",
 		"uniqueTo": "Arai",
 		"replaces": "Composite Bowman",
 		"movement": 1,
@@ -1214,13 +1228,13 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"promotions": ["Formation I"],
-		"uniques": ["[+33]% Strength <vs [Mounted] units>","[+33]% Strength <vs [Bestial] units>","[+33]% Strength <vs [Bestial Ranged] units>","[+33]% Strength <vs [Sword] units>","[+150]% Strength <when defending>"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>","[+33]% Strength <vs [Bestial] units>","[+33]% Strength <vs [Sword] units>","[+150]% Strength <when defending>"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 	{
 		"name": "Zegrek War Elephant",
-		"unitType": "Bestial Ranged",
+		"unitType": "Bestial",
 		"uniqueTo": "Zegrek",
 		"replaces": "War Elephant",
 		"movement": 3,
@@ -1262,7 +1276,7 @@
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
 		"promotions": ["Barrage I"],
-		"uniques": ["[2] additional attacks per turn","[+50]% Strength <vs [Melee] units>", "[+50]% Strength <vs cities> <when attacking>"],
+		"uniques": ["[2] additional attacks per turn","[+50]% Strength <vs [Melee] units>","[+50]% Strength <vs cities> <when attacking>"],
 		"hurryCostModifier": 20,
 		"attackSound": "arrow"
 	},
@@ -1454,7 +1468,7 @@
 		"strength": 25,
 		"cost": 120,
 		"replacementTextForUniques": "+300% Strength vs Bestial and Armored units. Earn 25% of the damage done to Bestial and Armored units as Culture.",
-		"uniques": ["[+300]% Strength <vs [{Bestial} {Bestial Ranged} {Bestial Water} {Armored}] units>","Earn [25]% of the damage done to [Bestial] units as [Culture]", "Earn [25]% of the damage done to [Bestial Ranged] units as [Culture]", "Earn [25]% of the damage done to [Bestial Water] units as [Culture]", "Earn [25]% of the damage done to [Armored] units as [Culture]"],
+		"uniques": ["[+300]% Strength <vs [{Bestial} {Bestial} {Bestial Water} {Armored}] units>","Earn [25]% of the damage done to [Bestial] units as [Culture]", "Earn [25]% of the damage done to [Bestial Water] units as [Culture]", "Earn [25]% of the damage done to [Bestial Water] units as [Culture]", "Earn [25]% of the damage done to [Armored] units as [Culture]"],
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
@@ -1512,7 +1526,7 @@
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
-		"uniques": ["[+50]% Strength <vs [Bestial] units> <when attacking>","[+150]% Strength <vs [Flier] units> <when attacking>"],
+		"uniques": ["[+50]% Strength <vs [Bestial] units> <when attacking>","[+50]% Strength <vs [Bestial Water] units> <when attacking>","[+150]% Strength <vs [Flier] units> <when attacking>"],
 		"promotions": ["Extended Range"],
 		"attackSound": "arrow"
 	},
@@ -1529,7 +1543,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+300]% Strength <vs [{Bestial} {Bestial Ranged} {Bestial Water} {Flier}] units>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+300]% Strength <vs [{Bestial} {Bestial Water} {Flier}] units>"],
 		"attackSound": "horse"
 	},
 	{
@@ -1754,7 +1768,7 @@
 		"strength": 22,
 		"cost": 60,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+50]% Strength <vs [Bestial] units>","[+50]% Strength <vs [Bestial Ranged] units>","Can move immediately once bought","Earn [500]% of the damage done to [Civilian] units as [Gold]"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+50]% Strength <vs [Bestial] units>","[+50]% Strength <vs [Bestial Water] units>","Can move immediately once bought","Earn [500]% of the damage done to [Civilian] units as [Gold]"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"hurryCostModifier": 5,
@@ -1784,7 +1798,7 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"promotions": ["Formation I","Woodsman"],
-		"uniques": ["[+33]% Strength <vs [Mounted] units>","[+33]% Strength <vs [Bestial] units>","[+33]% Strength <vs [Bestial Ranged] units>","[+33]% Strength <vs [Sword] units>","[+100]% Strength <when defending>"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>","[+33]% Strength <vs [Bestial] units>","[+33]% Strength <vs [Bestial Water] units>","[+33]% Strength <vs [Sword] units>","[+100]% Strength <when defending>"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -1821,7 +1835,7 @@
 		"strength": 16,
 		"cost": 100,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Bestial] units>", "[+50]% Strength <vs [Bestial Ranged] units>","[+100]% Strength <when defending>","[-50]% Strength <when attacking>","[-80]% Strength for enemy [Ranged] units in adjacent [All] tiles"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Bestial] units>", "[+50]% Strength <vs [Bestial Water] units>","[+100]% Strength <when defending>","[-50]% Strength <when attacking>","[-80]% Strength for enemy [Ranged] units in adjacent [All] tiles"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"

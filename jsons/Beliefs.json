@@ -35,7 +35,7 @@
     {
         "name": "Natural Divinity",
         "type": "Pantheon",
-        "uniques": ["[+4 Faith] from every [Natural Wonder]", "+66% Strength Bonus for Bestial & Bestial Ranged units", "+33% Strength Bonus for Mounted units", "+66% Strength vs Bestial & Bestial Ranged units"]
+        "uniques": ["[+4 Faith] from every [Natural Wonder]", "+66% Strength Bonus for Bestial & Bestial Water units", "+33% Strength Bonus for Mounted units"]
     },
     {
         "name": "God of Winter",
@@ -104,7 +104,7 @@
     {
         "name": "Goddess of the Hunt",
         "type": "Pantheon",
-        "uniques": ["[+1 Food] from every [Camp]", "+1 Range for Ranged units"]
+        "uniques": ["[+1 Food] from every [Camp]", "+1 Range for Ranged units", "+66% Strength vs Bestial & Bestial Water units"]
     },
     {
         "name": "Messenger of the Gods",

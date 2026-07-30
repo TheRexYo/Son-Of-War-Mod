@@ -80,10 +80,8 @@
 		"favoredReligion": "The Divine Triad",
 		"uniqueName": "Fires Of Ragnarak",
 		// Keep in mind while balancing, Pyria also has access to the Hellfire Thrower which is by far the best unit in the era it can be produced, despite its high cost.
-		"uniques": ["No movement cost to pillage <for [Melee] units>", "New [Military] units start with [30] XP [in all cities]", "[+25]% Production when constructing [Military] units [in all cities]", "Gain [50]-[250] [Science] <upon declaring war on [Major] Civilizations> <(modified by game speed)>"],
-		"cities": ["Ensdael", "Nightsend", "Abysin", "Pyris", "Altora", "Faenai", "Bator", "Theris", "Ferra",
-			"Magris", "Athr", "Theta", "Horahelm", "Tetrani", "Moondeep", "Lakaeia", "Duskshadow", "Elerea", "Unaia"
-		]
+		"uniques": ["No movement cost to pillage <for [Melee] units>", "New [Military] units start with [30] XP [in all cities]", "[+25]% Production when constructing [Military] units [in all cities]", "[+500]% Yield from pillaging tiles", "Gain [50]-[250] [Science] <upon declaring war on [Major] Civilizations> <(modified by game speed)>"],
+		"cities": ["Ensdael", "Nightsend", "Abysin", "Pyris", "Altora", "Faenai", "Bator", "Theris", "Ferra","Magris", "Athr", "Theta", "Horahelm", "Tetrani", "Moondeep", "Lakaeia", "Duskshadow", "Elerea", "Unaia"]
 	},
 	{
 		"name": "Imperia",
@@ -526,12 +524,12 @@
 	{
 		"name": "Rhone",
 		"adjective": ["Rhonan"],
-		"leaderName": "Alaris Rhonor",
+		"leaderName": "Alarius Rhonius",
 		"personality": "Generalist Leader",
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Scientific",
 		
-		"startIntroPart1": "Glory calls, Alaris Rhonor, Grand Imperator of Rhone, defender of the meek and slayer of the mighty. There are many injustices in this world, but the stunning",
+		"startIntroPart1": "Glory calls, Alarius Rhonius, Grand Imperator of Rhone, defender of the meek and slayer of the mighty. There are many injustices in this world, but the stunning",
 		"startIntroPart2": "Will you build a civilization that stands the test of time?",
 
 		"declaringWar": "Until there is nothing left but ashes, we fill fight to end your tyranny.",
@@ -703,7 +701,7 @@
 
 		"favoredReligion": "Ultimism",
 		"uniqueName": "Draconic Crusades",
-		"uniques": ["Upon capturing a city, receive [5] times its [Production] production as [Faith] immediately","Earn [25]% of killed [Flier] unit's [Strength] as [Faith]","Earn [25]% of killed [Bestial] unit's [Strength] as [Faith]"],
+		"uniques": ["Upon capturing a city, receive [5] times its [Production] production as [Faith] immediately","Earn [25]% of killed [Flier] unit's [Strength] as [Faith]","Earn [25]% of killed [Bestial] unit's [Strength] as [Faith]","Earn [25]% of killed [Bestial Water] unit's [Strength] as [Faith]"],
 		"cities": ["Lyndor", "Kasia's Rest", "Borchester", "Yorc", "Snowland"]
 	},
 
@@ -739,7 +737,7 @@
 	{
 		"name": "Centuria", // A nation formed from the remains of Imperia and multiple Free Peoples Coalition factions, united under the leadership of Rhone.
 		"adjective": ["Centurian"],
-		"leaderName": "Palentine Rhonor",
+		"leaderName": "Palentine Rhonius",
 		"personality": "Generalist Leader",
 		"startBias": ["Avoid [Tundra]","Avoid [Jungle]"],
 		"preferredVictoryType": "Diplomatic",

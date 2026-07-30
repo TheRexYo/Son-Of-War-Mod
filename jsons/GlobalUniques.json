@@ -2,7 +2,7 @@
     "name": "Global uniques",
     "uniques": [
 		// Belief Workaround Uniques
-		"[+66]% Strength <for [{Bestial} {Bestial Ranged}] units> <after adopting [Natural Divinity]>",
+		"[+66]% Strength <for [{Bestial} {Bestial Water}] units> <after adopting [Natural Divinity]>",
 		"[+33]% Strength <for [Mounted] units> <after adopting [Natural Divinity]>",
 		"[+1 Production] <in cities with at least [3] [Population]> <after adopting [God of Craftsmanship]>",
 		"[+5] Range <for [Air] units> <after adopting [God of the Open Sky]>",
@@ -12,13 +12,12 @@
 		"[+3 Happiness] <in cities with at least [6] [Population]> <after adopting [Goddess of Love]>",
 		"[+100]% City Strength from defensive buildings <in cities with a [Faith]> <after adopting [Goddess of Protection]>",
 		"[+1] Range <for [Ranged] units> <after adopting [Goddess of the Hunt]>",
-		"[+66]% Strength <vs [{Bestial} {Bestial Ranged}] units> <after adopting [Goddess of the Hunt]>",
+		"[+66]% Strength <vs [{Bestial} {Bestial Water}] units> <after adopting [Goddess of the Hunt]>",
 		"[+2 Production] <in cities with at least [1] [Specialists]> <after adopting [Guruship]>",
 		"Enables Defensive Pacts <after adopting [Primordius Worship]>",
 		"[+1000]% Yield from pillaging tiles <after adopting [Ragnarak Worship]>",
 		
 		// Mod uniques
-		"[-25]% Production when constructing [World] wonders [in all cities] <if [World Wonder] is constructed in at least [1] of [Your] cities>",
 		"[-50]% Production when constructing [World] wonders [in all cities with a world wonder] <when not in a Golden Age>",
 		
 		// Vanilla Uniques

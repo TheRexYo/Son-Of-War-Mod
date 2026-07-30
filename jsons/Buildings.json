@@ -43,7 +43,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-		"uniques": ["[+25]% [Food] [in all cities]", "[+50]% Production when constructing [Ranged] units [in all cities]"],
+		"uniques": ["[+25]% [Food] [in all cities]", "[+50]% Production when constructing [Ranged] units [in all cities]", "[+100]% production cost <if [World Wonder] is constructed in at least [1] of [Your] cities>"],
 		"requiredTech": "Archery",
 		"quote": "'The spire reached high into the heavens, a remnant from the bygone era of Dragons - and a testament to mortal tenacity.' - Excerpt from Ancient Lands: A Guide to Arcane Archaeology"
 	},
@@ -66,7 +66,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1, "Great Hero": 10},
 		"requiredTech": "Calendar",
-		"uniques": ["[+250]% Strength <before the [Medieval era]>"],
+		"uniques": ["[+250]% Strength <before the [Medieval era]>", "[+100]% production cost <if [World Wonder] is constructed in at least [1] of [Your] cities>"],
 		"quote": "'Black spires stretched high into the sky, siphoning mana from the Skyworld above. Mana that gave their creators power beyond our wildest dreams.'"
 	},
 	{
@@ -83,7 +83,7 @@
 		"greatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
 		"requiredTech": "Writing",
-		"uniques": ["Free Technology", "Gain a free [Library] [in this city]", "[+25]% [Science] from Trade Routes"],
+		"uniques": ["Free Technology", "Gain a free [Library] [in this city]", "[+25]% [Science] from Trade Routes", "[+100]% production cost <if [World Wonder] is constructed in at least [1] of [Your] cities>"],
 		"quote": "'The world is ancient beyond belief, and many of its inhabitants have existed long before humanity took its first baby steps. If one would simply listen, the wisdom of aeons is ripe for the taking.' - Alexia the Eternal"
 	},
 	{
@@ -114,7 +114,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["[-25]% construction time for [All] improvements", "[+50]% [Production] <during a Golden Age>", "[2] free [Worker] units appear"],
+		"uniques": ["[-25]% construction time for [All] improvements", "[+50]% [Production] <during a Golden Age>", "[2] free [Worker] units appear", "[+100]% production cost <if [World Wonder] is constructed in at least [1] of [Your] cities>"],
 		"requiredTech": "Masonry",
 		"quote": "'When humanity had finally humbled its many foes, it sought to immortalize its victory with vast monuments. The greatest among these were the Nephaliths, great sandstone pyramids strewn across the sands of the continent Dagah.' - Excerpt from Ancient Lands: A Guide to Arcane Archaeology"
 	},
@@ -123,7 +123,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>", "Gain [10] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>", "Gain [10] [Science] <upon expending a [Great Person] unit> <(modified by game speed)>", "Gain [10] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)>", "[+2 Gold] from [Marble] tiles [in this city]", "[+2 Gold] from [Stone] tiles [in this city]"],
+		"uniques": ["Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>", "Gain [10] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>", "Gain [10] [Science] <upon expending a [Great Person] unit> <(modified by game speed)>", "Gain [10] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)>", "[+2 Gold] from [Marble] tiles [in this city]", "[+2 Gold] from [Stone] tiles [in this city]", "[+100]% production cost <if [World Wonder] is constructed in at least [1] of [Your] cities>"],
 		"requiredTech": "Masonry",
 		"quote": "'It is said that the vault once contained the personalities and memories of over a thousand historical figures, each entry containing valuable information that could change our world's future. As time passes, these memories fade, but the vault stands eternal.' - Excerpt from Ancient Lands: A Guide to Arcane Archaeology"
 	},
@@ -139,7 +139,7 @@
 		"name": "Statue of Ruination",
 		"culture": 1,
 		"isWonder": true,
-		"uniques": ["[+50]% Strength <for [All] units> <vs cities> <when attacking>"],
+		"uniques": ["[+50]% Strength <for [All] units> <vs cities> <when attacking>", "[+100]% production cost <if [World Wonder] is constructed in at least [1] of [Your] cities>"],
 		"greatPersonPoints": {"Great General": 1},
 		"requiredTech": "Bronze Working",
 		"quote": "'A statue that channels the cataclysmic wrath of Ragnarak, the primordial God of Destruction. Those who bask in its presence come out stronger, but with a rage that can only be quenched with violence. The world shall know fear.'"
@@ -164,7 +164,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>", "[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]", "Free [Starspawn] appears"],
+		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>", "[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]", "Free [Starspawn] appears", "[+100]% production cost <if [World Wonder] is constructed in at least [1] of [Your] cities>"],
 		"requiredTech": "Optics",
 		"quote": "'Built to reach out to gods among the stars, yet something different has answered its call...'"
 	},
@@ -202,7 +202,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"requiredTech": "Mathematics",
-		"uniques": ["[+25]% [Food] [in all cities]", "Gain a free [Garden] [in this city]", "[+25] HP when healing", "[+50] HP when healing <for [Bestial] units>", "[+50] HP when healing <for [Bestial Ranged] units>", "[+50] HP when healing <for [Bestial Water] units>"],
+		"uniques": ["[+25]% [Food] [in all cities]", "Gain a free [Garden] [in this city]", "[+25] HP when healing", "[+50] HP when healing <for [Bestial] units>", "[+50] HP when healing <for [Bestial Water] units>", "[+100]% production cost <if [World Wonder] is constructed in at least [1] of [Your] cities>"],
 		"quote": "'In ancient times, a lost god of nature granted a magical fruit to elvenkind, capable of healing all wounds. From that fruit came an orchard, and from that orchard a vast garden.' - Excerpt from 'The Legend of Biona'"
 	},
 	{
@@ -219,7 +219,7 @@
 		"culture": 6,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-		"uniques": ["[10] free [Stone Sentinel] units appear"],
+		"uniques": ["[10] free [Stone Sentinel] units appear", "[+100]% production cost <if [World Wonder] is constructed in at least [1] of [Your] cities>"],
 		"requiredTech": "Construction",
 		"quote": "'With forces wrought from coldest stone, our invaders shall break upon our blades.'"
 	},
@@ -248,7 +248,7 @@
 		"culture": 3,
 		"greatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
-		"uniques": ["Free Social Policy", "Reveals the entire map", "[+5] Sight"],
+		"uniques": ["Free Social Policy", "Reveals the entire map", "[+5] Sight", "[+100]% production cost <if [World Wonder] is constructed in at least [1] of [Your] cities>"],
 		"requiredTech": "Philosophy",
 		"quote": "'Scrying magic at a colossal scale, implanted in an orb of clearest crystal. No place shall be hidden from our sight.'"
 	},
@@ -290,7 +290,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-		"uniques": ["Must be next to [Desert]", "May buy [All] units with [Food] [in this city]", "[+5 Food, +5 Production, +5 Gold] from [Desert] tiles without [Farm] [in this city]", "Gain a free [Amphitheater] [in this city]", "[+6 Culture] <after discovering [Archaeology]>"],
+		"uniques": ["Must be next to [Desert]", "May buy [All] units with [Food] [in this city]", "[+5 Food, +5 Production, +5 Gold] from [Desert] tiles without [Farm] [in this city]", "Gain a free [Amphitheater] [in this city]", "[+6 Culture] <after discovering [Archaeology]>", "[+100]% production cost <if [World Wonder] is constructed in at least [1] of [Your] cities>"],
 		"requiredTech": "Currency",
 		"quote": "'Humanity is at its core, adaptable. In places we call barren and dead, they hang onto life with a vigor unlike anything else. Knowing this, it is clear we were doomed from the start.' - Avriel, Great Sage of the Tanar'sol 'Sun Elves'"
 	},
@@ -306,7 +306,7 @@
 		"culture": 3,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["[+250]% Strength for cities", "[+25]% growth [in this city]", "Gain a free [Walls] [in all cities]"],
+		"uniques": ["[+250]% Strength for cities", "[+25]% growth [in this city]", "Gain a free [Walls] [in all cities]", "[+100]% production cost <if [World Wonder] is constructed in at least [1] of [Your] cities>"],
 		"requiredTech": "Engineering",
 		"quote": "'It is a defense that digs into the core of the world itself, built from a material that expands with mana. It shall stretch onwards, through every land and every city, until our whole realm is safe.'"
 	},
@@ -328,7 +328,7 @@
 		"cityStrength": 50,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]", "May buy [Military] units with [Culture] for [3] times their normal Production cost"],
+		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]", "May buy [Military] units with [Culture] for [3] times their normal Production cost", "[+100]% production cost <if [World Wonder] is constructed in at least [1] of [Your] cities>"],
 		"requiredTech": "Iron Working",
 		"quote": "'A great colossus once stood over the city of Acroplia, guarding it from those who sought its end. It was a symbol of strength, one that inspired thousands to lay down their lives in defense of that land.'"
 	},
@@ -348,7 +348,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
-		"uniques": ["[+100]% Great Person generation [in all cities]", "Free Great Person", "When declaring friendship, both parties gain a [500]% boost to great person generation"],
+		"uniques": ["[+100]% Great Person generation [in all cities]", "Free Great Person", "When declaring friendship, both parties gain a [500]% boost to great person generation", "[+100]% production cost <if [World Wonder] is constructed in at least [1] of [Your] cities>"],
 		"requiredTech": "Theology",
 		"quote": "'There is a spark that exists in the souls of all sentient beings. A spark that - once lit - can turn even the most useless of fools into a champion of the people.' - On the nature of the Immortals"
 	},
@@ -358,7 +358,7 @@
 		"happiness": 4,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["[+50]% Golden Age length","Enables conversion of city production to [Science] <during a Golden Age>","[+1 Food] per every [1] [Happiness]","[+100]% [Production] [in this city] <during a Golden Age>","Must have an owned [Jungle] within [2] tiles"],
+		"uniques": ["[+50]% Golden Age length","Enables conversion of city production to [Science] <during a Golden Age>","[+1 Food] per every [1] [Happiness]","[+100]% [Production] [in this city] <during a Golden Age>","Must have an owned [Jungle] within [2] tiles", "[+100]% production cost <if [World Wonder] is constructed in at least [1] of [Your] cities>"],
 		"requiredTech": "Civil Service",
 		"quote": "'The pinnacle of the Tlakahrii Empire's magical engineering - a great floating pyramid built upon the equator, which absorbs the rays of the sun and converts them into Creation energy. This energy can then be harnessed as useable mana. Though left in great disrepair, a project has been proposed to restore it to its former glory.' - Excerpt from Ancient Lands: A Guide to Arcane Archaeology"
 	},
@@ -378,7 +378,7 @@
 		"culture": 1,
 		"cityHealth": 100,
 		"isWonder": true,
-		"uniques": ["[+25]% [Gold] from Trade Routes", "Population loss from nuclear attacks [-100]% [in this city]", "[-100]% Food consumption by [Population] [in this city]", "[+1 Gold] per [1] population [in this city]", "Must have an owned [Mountain] within [2] tiles"],
+		"uniques": ["[+25]% [Gold] from Trade Routes", "Population loss from nuclear attacks [-100]% [in this city]", "[-100]% Food consumption by [Population] [in this city]", "[+1 Gold] per [1] population [in this city]", "Must have an owned [Mountain] within [2] tiles", "[+100]% production cost <if [World Wonder] is constructed in at least [1] of [Your] cities>"],
 		"requiredTech": "Guilds",
 		"quote": "'Legends speak of an ancient sauroid city built atop a mountain in Jungara. It is said that this city houses millions, and has enough food to feed the entire world - should it wish to.' - Tales of Distant Lands"
 	},
@@ -437,7 +437,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["[+1 Science, +1 Faith, +1 Culture] from [All] tiles [in this city]", "[-25]% Culture cost of natural border growth [in all cities]","[-25]% Gold cost of acquiring tiles [in all cities]"],
+		"uniques": ["[+1 Science, +1 Faith, +1 Culture] from [All] tiles [in this city]", "[-25]% Culture cost of natural border growth [in all cities]","[-25]% Gold cost of acquiring tiles [in all cities]", "[+100]% production cost <if [World Wonder] is constructed in at least [1] of [Your] cities>"],
 		"requiredTech": "Education",
 		"quote": "'The devout of the faith travel the world, gathering the teachings and arts of every culture and religion they come across. They are catalogued here, preserved for eternity for all to see and learn.'"
 	},
@@ -455,8 +455,9 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
+		"cityHealth": 100,
 		"percentStatBonus": {"culture": 20},
-		"uniques": ["[-100]% enemy spy effectiveness [in this city]","[-50]% enemy spy effectiveness [in all cities]","All newly-trained [relevant] units [in this city] receive the [Drill I] promotion","Gain a free [Castle] [in this city]"],
+		"uniques": ["[-100]% enemy spy effectiveness [in this city]", "[-50]% enemy spy effectiveness [in all cities]", "All newly-trained [relevant] units [in this city] receive the [Drill I] promotion", "Gain a free [Castle] [in this city]", "[+100]% production cost <if [World Wonder] is constructed in at least [1] of [Your] cities>"],
 		"requiredTech": "Chivalry",
 		"quote": "'The castle is as black as the darkest nights. It is said to be built of underworld stone, and imbibed with the blood of dragons. None dare enter that place, for none could return from within.'"
 	},
@@ -476,7 +477,7 @@
 		"happiness": 10,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["[-75]% Production when constructing [World] wonders [in enemy cities] <during a Golden Age> <when not at war>", "Triggers a global alert upon completion"],
+		"uniques": ["[-50]% Production when constructing [World] wonders [in enemy cities]", "Triggers a global alert upon completion", "[+100]% production cost <if [World Wonder] is constructed in at least [1] of [Your] cities>"],
 		"requiredTech": "Physics",
 		"quote": "'It is said that in ages past, the dragons built a spire stretching from the ground all the way into the skyworld and the clouds above - a reminder to all that nothing stands above a dragon.'"
 	},
@@ -1042,7 +1043,7 @@
 		"production": 10,
 		"food": 10,
 		"science": 10,
-		"uniques": ["[-50]% [Production] [in this city]","[-50]% [Food] [in this city]","[-50]% [Science] [in this city]"]
+		"uniques": ["[-50]% [Production] [in this city]","[-50]% [Food] [in this city]","[-50]% [Science] [in this city]","[+5 Science, +5 Culture, +5 Production] <after discovering [Physics]>","[+15 Science, +15 Culture, +15 Production] <after discovering [Chemistry]>"]
 	},
 	{
 		"name": "Spawn Pools (Ssuvi)",

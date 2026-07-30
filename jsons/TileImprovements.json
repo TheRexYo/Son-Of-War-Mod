@@ -193,43 +193,36 @@
 		"name": "Academy",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 8,
-		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>", "[+2 Science] <after discovering [Atomic Theory]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>", "[+2 Science] <after discovering [Atomic Theory]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]", "Will not be replaced by automated units"]
 	},
 	{
 		"name": "Landmark",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 6,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]", "Will not be replaced by automated units"]
 	},
 	{
 		"name": "Manufactory",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 4,
-		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Chemistry]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Chemistry]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]", "Will not be replaced by automated units"]
 	},
 	{
 		"name": "Customs house",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 4,
-		"uniques": ["Great Improvement", "[+1 Gold] <after discovering [Economics]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement", "[+1 Gold] <after discovering [Economics]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]", "Will not be replaced by automated units"]
 	},
 	{
 		"name": "Holy site",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 6,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]", "Will not be replaced by automated units"]
 	},
 	{
 		"name": "Citadel",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": [
-			"Great Improvement",
-			"Gives a defensive bonus of [100]%",
-			"Adjacent enemy units ending their turn take [30] damage",
-			"Can be built just outside your borders",
-        	"Gain control over [all] tiles in a [1]-tile radius",
-			"Removes removable features when built",
-		]
+		"uniques": ["Great Improvement", "Gives a defensive bonus of [100]%", "Adjacent enemy units ending their turn take [30] damage", "Can be built just outside your borders", "Gain control over [all] tiles in a [1]-tile radius", "Removes removable features when built", "Will not be replaced by automated units"]
 	},
 
 	//Civilization unique improvements
@@ -237,10 +230,9 @@
 		"name": "Alignment District",
 		"uniqueTo": "Centuria",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"culture": 1,
 		"gold": 5,
 		"turnsToBuild": 10,
-		"uniques": ["[+1 Culture, +1 Happiness, -1 Gold] for each adjacent [Alignment District]","Pillaging this improvement yields [+100 Gold] <when at war>", "Pillaging this improvement yields approximately [+10 Gold]","Will not be replaced by automated units"],
+		"uniques": ["[+1 Culture, +1 Happiness, -1 Gold] for each adjacent [Alignment District]","Pillaging this improvement yields [+100 Gold]","Will not be replaced by automated units"],
 		"techRequired": "Civil Service",
 		"shortcutKey": "M"
 	},
@@ -259,7 +251,7 @@
 		"terrainsCanBeBuiltOn": ["Land","Water"],
 		"culture": 1,
 		"turnsToBuild": 4,
-		"uniques": ["Can be built outside your borders","[+1 Culture] for each adjacent [Aorai]","Turn this tile into a [Ocean] tile <upon being declared war on by [Major] Civilizations>","Turn this tile into a [Desert] tile <upon declaring war on [Major] Civilizations>"],
+		"uniques": ["Can be built outside your borders","[+1 Culture] for each adjacent [Aorai]","Turn this tile into a [Ocean] tile <upon being declared war on by [Major] Civilizations>","Turn this tile into a [Desert] tile <upon declaring war on [Major] Civilizations>","Will not be replaced by automated units"],
 		"techRequired": "Construction",
 		"shortcutKey": "M"
 	},
@@ -270,10 +262,7 @@
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"food": 1,
 		"turnsToBuild": 7,
-		"uniques": ["Cannot be built on [Bonus resource] tiles",
-			"[+1 Food] for each adjacent [Mountain]",
-			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
-			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>"],
+		"uniques": ["Cannot be built on [Bonus resource] tiles","[+1 Food] for each adjacent [Mountain]","[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>","[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>"],
 		"techRequired": "Construction",
 		"shortcutKey": "F"
 	},

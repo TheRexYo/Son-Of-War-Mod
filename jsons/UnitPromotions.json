@@ -3,7 +3,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Flier","Bestial","Bestial Ranged","Bestial Water"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Flier","Bestial","Bestial Water"]
 	},
 
 	// Ranged+Siege
@@ -160,67 +160,67 @@
 	{
 		"name": "Aggression I",
 		"uniques": ["[+15]% Strength <when attacking>"],
-		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+		"unitTypes": ["Bestial","Bestial Water"]
 	},
 	{
 		"name": "Aggression II",
 		"prerequisites": ["Aggression I"],
 		"uniques": ["[+15]% Strength <when attacking>"],
-		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+		"unitTypes": ["Bestial","Bestial Water"]
 	},
 	{
 		"name": "Aggression III",
 		"prerequisites": ["Aggression II"],
 		"uniques": ["[+15]% Strength <when attacking>"],
-		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+		"unitTypes": ["Bestial","Bestial Water"]
 	},
 	{
 		"name": "Toughness I",
 		"uniques": ["[+15]% Strength <when defending>"],
-		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+		"unitTypes": ["Bestial","Bestial Water"]
 	},
 	{
 		"name": "Toughness II",
 		"prerequisites": ["Toughness I"],
 		"uniques": ["[+15]% Strength <when defending>"],
-		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+		"unitTypes": ["Bestial","Bestial Water"]
 	},
 	{
 		"name": "Toughness III",
 		"prerequisites": ["Toughness II"],
 		"uniques": ["[+15]% Strength <when defending>"],
-		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+		"unitTypes": ["Bestial","Bestial Water"]
 	},
 	{
 		"name": "Terror",
 		"prerequisites": ["Aggression II","Toughness II"],
 		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
-		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+		"unitTypes": ["Bestial","Bestial Water"]
 	},
 	{
 		"name": "Destructive",
 		"prerequisites": ["Aggression II","Toughness II"],
 		"uniques": ["Ignores terrain cost","Destroys tile improvements when attacking"],
-		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+		"unitTypes": ["Bestial","Bestial Water"]
 	},
 	{
 		"name": "Ferocity I",
 		"prerequisites": ["Aggression II","Toughness II"],
 		"uniques": ["[+50]% Strength <when below [50] HP>"],
-		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+		"unitTypes": ["Bestial","Bestial Water"]
 	},
 	{
 		"name": "Ferocity II",
 		"prerequisites": ["Ferocity I"],
 		"uniques": ["[+50]% Strength <when below [25] HP>","No damage penalty for wounded units"],
-		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+		"unitTypes": ["Bestial","Bestial Water"]
 	},
 
 	{
 		"name": "Rampage",
 		"prerequisites": ["Aggression III","Toughness III"],
 		"uniques": ["[1] additional attacks per turn"],
-		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+		"unitTypes": ["Bestial","Bestial Water"]
 	},
 	{
 		"name": "Ambusher",
@@ -228,25 +228,25 @@
 		"uniques": ["Invisible to non-adjacent units"],
 		// This could be generalized: ["-[50]% movement costs through [Forest] tiles", "-[50]% movement costs through [Jungle] tiles"],
 		// but with how getMovementCostBetweenAdjacentTiles() is optimized, that's difficult to implement.
-		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+		"unitTypes": ["Bestial","Bestial Water"]
 	},
 	{
 		"name": "Overrun",
 		"prerequisites": ["Aggression I","Toughness I"],
 		"uniques": ["Ignores Zone of Control", "Can move after attacking"],
-		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+		"unitTypes": ["Bestial","Bestial Water"]
 	},
 	{
 		"name": "Tenacity I",
 		"prerequisites": ["Aggression I","Toughness I"],
 		"uniques": ["[+5] HP when healing", "Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+		"unitTypes": ["Bestial","Bestial Water"]
 	},
 	{
 		"name": "Tenacity II",
 		"prerequisites": ["Tenacity I"],
 		"uniques": ["[+5] HP when healing", "May heal outside of friendly territory"],
-		"unitTypes": ["Bestial","Bestial Ranged","Bestial Water"]
+		"unitTypes": ["Bestial","Bestial Water"]
 	},
 
 
@@ -653,7 +653,7 @@
 	},
 	{
 		"name": "Hunter's Training", // only for Flat Hunter and subsequent upgrades
-		"uniques": ["[+1] Movement <when [Mounted]>","[+33]% Strength <when attacking> <vs [Bestial] units>","[+33]% Strength <when attacking> <vs [Bestial Ranged] units>"]
+		"uniques": ["[+1] Movement <when [Mounted]>","[+33]% Strength <when attacking> <vs [Bestial] units>","[+33]% Strength <when attacking> <vs [Bestial Water] units>"]
 	},
 	{
 		"name": "Krush Mounts", // only for Krush Rider and subsequent upgrades
