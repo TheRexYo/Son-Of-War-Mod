@@ -19,6 +19,9 @@
 		"loyal": 5.0,
 		"expansion": 5.0,
 		"denounceWillingness": 5.0,
+		"uniques": [
+			"[+50]% weight to [Herald] for AI decisions"
+		],
 		"civilopediaText": [
 			{ "text": "A leader of no particular renown or personality - at least for now..." },
 			{
@@ -53,6 +56,9 @@
 		"loyal": 8.0,
 		"expansion": 7.5,
 		"denounceWillingness": 5.0,
+		"uniques": [
+			"[+50]% weight to [Herald] for AI decisions"
+		],
 		"civilopediaText": [
 			{ "text": "Championed the \"Son of War\" by his people and his god, Sun Alar is a leader who believes that war is inevitable, but despises fighting for the sake of fighting. He would rather endorse cultural and infrastructural development than expansion or rapid scientific advancement, but would not hesitate to fight if threatened - as befits a Champion of Genesis." },
 			{
@@ -119,6 +125,9 @@
 		"loyal": 2.0,
 		"expansion": 7.5,
 		"denounceWillingness": 5.0,
+		"uniques": [
+			"[+50]% weight to [Herald] for AI decisions"
+		],
 		"civilopediaText": [
 			{ "text": "Championed the \"Child of Death\" by her people and her god, Luna Nym believes that all the world belongs to her god, her people, and herself. Born into a culture built upon the ideal of gaining power over all else, she fields large armies and disregards almost everything in the name of conquest - as befits a Champion of Ragnarak." },
 			{
@@ -189,6 +198,9 @@
 		"loyal": 5.0,
 		"expansion": 10,
 		"denounceWillingness": 5.0,
+		"uniques": [
+			"[+50]% weight to [Herald] for AI decisions"
+		],
 		"civilopediaText": [
 			{ "text": "Idolized by his people as a God, Danu - the immortal Emperor of Imperia - is a legendary leader that seeks to bring humanity to ever-greater prosperity. Once motivated by a love for humanity instilled in him by his mentor Angir (who himself was the ruler of the Neph Empire before it fell), he has since been corrupted by power, and is now motivated mostly by the praise he gets from his people. His arrogance has grown great over the years, and so has his thirst for conquest and expansion." },
 			{
@@ -239,6 +251,9 @@
 		"loyal": 10.0,
 		"expansion": 3.0,
 		"denounceWillingness": 2.5,
+		"uniques": [
+			"[+50]% weight to [Herald] for AI decisions"
+		],
 		"civilopediaText": [
 			{ "text": "A level-headed leader and a kind soul, Tiawathi seeks to unite " },
 			{
@@ -301,6 +316,9 @@
 		"loyal": 10.0,
 		"expansion": 3.0,
 		"denounceWillingness": 10.0,
+		"uniques": [
+			"[+50]% weight to [Herald] for AI decisions"
+		],
 		"civilopediaText": [
 			{ "text": "Born soon after the Sauroids first awakened from their long slumber, Tak'ir'sar the Elder is perhaps the oldest living Sauroid and quite possibly the oldest ascendant (mortal that became immortal through cultivation of Soulpower) still breathing. He has seen many empires rise and fall, and witnessed the destruction of his people's empire at the hands of the Neph. He has grown beligerent and spiteful in his age, seeking to reclaim his people's homeland from the humans that stole it. In spite of this, he and his people declare war far less often than their ideals might suggest, preferring to play a long waiting game and let their enemies come to them." },
 			{
@@ -359,6 +377,9 @@
 		"loyal": 5.0,
 		"expansion": 2.0,
 		"denounceWillingness": 10.0,
+		"uniques": [
+			"[+50]% weight to [Herald] for AI decisions"
+		],
 		"civilopediaText": [
 			{ 
 				"text": "Andu'zi'tan is known by his people (translated from their language) as the \"Voice of Jungara\" due to his uncanny ability to seemingly communicate with the jungle itself. This trait provides him with great power and the ability to detect and identify trespassers the moment they tread upon his peoples land, a trait he uses to great extent in keeping perceived outsiders away from his cities."
@@ -418,6 +439,9 @@
 		"loyal": 8.0,
 		"expansion": 10.0,
 		"denounceWillingness": 3.0,
+		"uniques": [
+			"[+50]% weight to [Herald] for AI decisions"
+		],
 		"civilopediaText": [
 			{ "text": "The so-called \"Great Kharn \" of the Kharn'dii, Arilla Zi'la is filled with ambition to conquer the known world. By blood and steel, he seeks to either bring all of civilization under his heel, or destroy it for its defiance." },
 			{

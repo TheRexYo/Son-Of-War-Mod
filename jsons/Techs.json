@@ -22,6 +22,44 @@
 				"row": 2,
 				"quote": "The Dawr were an ancient race, strange and perhaps otherworldly in origin. With their highly advanced technology, the sculpted the Dwarves from ancient man, and put them to work in the mines. Eventually they were overthrown by their minions, who took their creator's technology and stowed it away in vaults of stone.",
 				"uniques": ["Only available <for [Soldür] Civilizations>", "Provides a [Dawr Forge] in your first [1] cities for free"]
+			},
+			{
+				"name": "Wonder Exhaustion",
+				"row": 3,
+				"quote": "Is it not enough, to build one of the world's great wonders? Why should we want for more, when we have achieved so much? (Future Wonders will cost more from this point on, outside of a golden age.)",
+				"uniqueText": "From this point on, Wonders will cost more to build outside of a Golden Age. Check the Civilopedia for more details.",
+				"uniques": ["Only available <if [World Wonder] is constructed>", "[-50]% Production when constructing [World] wonders [in all cities with a world wonder] <when not in a Golden Age>", "[-50]% Production when constructing [World] wonders [in all cities] <when not in a Golden Age>"],
+				"civilopediaText": [
+					{
+						"text": "Mechanics",
+						"header": 1,
+						"starred": true,
+						"color": "blue"
+					},
+					{
+						"text": "- After a World Wonder is constructed, it reduces the production speed of World Wonders, reducing by 50% in other cities and by 100% in the same city. This penalty is removed during a Golden Age.",
+						"color": "red"
+					},
+					{
+						"text": "- Anything that modifies a cities' Production stat by a percentage bonus/penalty should stack additively with the Wonder Exhaustion penalty, meaning you can actually produce Wonders again.",
+						"color": "yellow"
+					},
+					{
+						"text": "- If you're having trouble getting a Golden Age to last long enough to stack wonders, build multiple Heralds or obtain multiple Great Generals to create a long-lasting Golden Age, then take advantage of that age to build as many as possible.",
+						"color": "yellow"
+					},
+					{ "separator": true },
+					{
+						"text": "Modder's Note",
+						"header": 1,
+						"starred": true,
+						"color": "blue"
+					},
+					{
+						"text": "I added this feature because World Wonders in this mod (at least the ones that are completed) are extremely powerful compared to vanilla. In my testing, the AI would build one and then spiral into building all the others, effectively winning the moment the first one was built. With this mechanic, things become less polarized, and therefore more fun and balanced.",
+						"color": "green"
+					}
+				]
 			}
 		]
 	},

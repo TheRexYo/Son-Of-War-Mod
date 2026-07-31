@@ -21,7 +21,7 @@
 		"[+1000]% Yield from pillaging tiles <after adopting [Ragnarak Worship]>",
 		
 		// Mod uniques
-		"[-50]% Production when constructing [World] wonders [in all cities with a world wonder] <when not in a Golden Age>",
+		"Discover [Wonder Exhaustion] <upon constructing [World Wonder]>",
 		
 		// Vanilla Uniques
         "Requires establishing embassies to conduct advanced diplomacy",

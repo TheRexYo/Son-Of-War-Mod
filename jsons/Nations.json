@@ -481,7 +481,7 @@
 	
 		"favoredReligion": "Solarism",
 		"uniqueName": "The Great Architects",
-		"uniques": ["[+50]% Production when constructing [All] wonders [in all cities]","[+2 Science] [in all cities] <before discovering [Iron Working]>"],
+		"uniques": ["[+50]% Production when constructing [All] wonders [in all cities]","[+2 Science] [in all cities] <before discovering [Iron Working]>","Empire enters golden age <upon constructing [World Wonder]>"],
 		"cities": ["Mesyptia", "Tekhmen", "Zhendabis", "Phykhamet", "Rhas"]
 	},
 	{

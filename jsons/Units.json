@@ -32,10 +32,23 @@
 	{
 		"name": "Herald",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "Cannot be purchased"],
-		"cost": 240,
-		"hurryCostModifier": 20,
-		"movement": 1
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "Cost increases by [40] when built", "Cannot be purchased"],
+		"cost": 80,
+		"movement": 1,
+		"civilopediaText": [
+			{ "text": "Used to start Golden Ages. Use sparingly, as the production cost increases every time it's built." },
+			{ "separator": true },
+			{
+				"text": "Tips",
+				"header": 1,
+				"starred": true,
+				"color": "#ffeb7f"
+			},
+			{
+				"text": "- Try building these in bulk to create an extra-long Golden Age for maximum World Wonder potential!",
+				"color": "green"
+			},
+		]
 	},
 	{
 		"name": "Warrior",
