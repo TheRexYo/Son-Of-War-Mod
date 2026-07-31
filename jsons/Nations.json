@@ -120,7 +120,7 @@
 
 		"favoredReligion": "Ultimism",
 		"uniqueName": "Glory of the Empire",
-		"uniques": ["[+1 Happiness, +1 Faith] [in all cities] <before discovering [Theology]>", "[+100]% [Happiness] [in all cities connected to capital]", "[100]% of excess happiness converted to [Culture]","Each city founded increases culture cost of policies [100]% less than normal"],
+		"uniques": ["[+1 Happiness, +1 Faith] [in all cities] <before discovering [Theology]>", "[+1 Happiness] [in all cities connected to capital]", "[-100]% unhappiness from the number of cities", "[+100]% [Happiness] [in all cities connected to capital]", "[100]% of excess happiness converted to [Culture]","Each city founded increases culture cost of policies [100]% less than normal"],
 		"cities": ["Grandur", "Antor", "Enrade", "Gryffor", "Asdale", "Yelor", "Ethensia", "Manus Vul"]
 	},
 	{
