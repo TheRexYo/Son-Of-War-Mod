@@ -412,7 +412,7 @@
 		"name": "Kharn'dii",
 		"adjective": ["Kharn'diian"],
 		"leaderName": "Arilla Zi'la",
-		"personality": "Generalist Leader",
+		"personality": "Great Kharn",
 		"startBias": ["Avoid [Jungle]", "Avoid [Forest]"],
 		"preferredVictoryType": "Domination",
 
@@ -518,7 +518,7 @@
 		
 		"favoredReligion": "Tolarianism",
 		"uniqueName": "Coalition of Cities",
-		"uniques": ["May buy items in puppet cities","Militaristic City-States grant units [5] times as fast when you are at war with a common nation","Military Units gifted from City-States start with [+120] XP","City-State territory always counts as friendly territory","Resting point for Influence with City-States is increased by [30]"],
+		"uniques": ["May buy items in puppet cities","Militaristic City-States grant units [5] times as fast when you are at war with a common nation","Military Units gifted from City-States start with [+120] XP","City-State territory always counts as friendly territory","Resting point for Influence with City-States is increased by [30]","Enables Defensive Pacts","Enables establishment of embassies"],
 		"cities": ["Zegris", "Acroplia", "Sartga", "Altherius"]
 	},
 	{

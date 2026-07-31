@@ -14,6 +14,11 @@
 		"declareWar": 5.0,
 		"military": 5.0,
 		"warMongering": 5.0,
+		"commerce": 5.0,
+		"diplomacy": 5.0,
+		"loyal": 5.0,
+		"expansion": 5.0,
+		"denounceWillingness": 5.0,
 		"civilopediaText": [
 			{ "text": "A leader of no particular renown or personality - at least for now..." },
 			{
@@ -38,11 +43,16 @@
 		"science": 3.0,
 		"culture": 7.0,
 		"happiness": 8.0,
-		"faith": 5.0,
+		"faith": 10.0,
 		"military": 10.0,
-		"aggressive": 0.0,
+		"aggressive": 5.0,
 		"declareWar": 0.0,
 		"warMongering": 0.0,
+		"commerce": 10.0,
+		"diplomacy": 10.0,
+		"loyal": 8.0,
+		"expansion": 7.5,
+		"denounceWillingness": 5.0,
 		"civilopediaText": [
 			{ "text": "Championed the \"Son of War\" by his people and his god, Sun Alar is a leader who believes that war is inevitable, but despises fighting for the sake of fighting. He would rather endorse cultural and infrastructural development than expansion or rapid scientific advancement, but would not hesitate to fight if threatened - as befits a Champion of Genesis." },
 			{
@@ -50,6 +60,14 @@
 				"header": 1,
 				"starred": true,
 				"color": "#ffff00"
+			},
+			{
+				"text": "- Focuses on Faith above all else.",
+				"color": "#0000ff"
+			},
+			{
+				"text": "- Focuses on Production.",
+				"color": "#0000ff"
 			},
 			{
 				"text": "- Focuses on Culture.",
@@ -62,6 +80,22 @@
 			{
 				"text": "- Keeps a massive military.",
 				"color": "#ff0000"
+			},
+			{
+				"text": "- Massively values trade and city-state liberty.",
+				"color": "#00ff00"
+			},
+			{
+				"text": "- Massively values diplomacy (eg. Peace, Defensive Pacts, and Friendship).",
+				"color": "#00ff00"
+			},
+			{
+				"text": "- Highly values loyalty.",
+				"color": "#00ff00"
+			},
+			{
+				"text": "- Seeks to expand often (whether by conquest or by city-founding).",
+				"color": "#0000ff"
 			}
 		],
 	},
@@ -75,11 +109,16 @@
 		"science": 7.0,
 		"culture": 3.0,
 		"happiness": 2.0,
-		"faith": 5.0,
+		"faith": 10.0,
 		"aggressive": 10.0,
 		"declareWar": 10.0,
 		"military": 10.0,
 		"warMongering": 10.0,
+		"commerce": 0.0,
+		"diplomacy": 0.0,
+		"loyal": 2.0,
+		"expansion": 7.5,
+		"denounceWillingness": 5.0,
 		"civilopediaText": [
 			{ "text": "Championed the \"Child of Death\" by her people and her god, Luna Nym believes that all the world belongs to her god, her people, and herself. Born into a culture built upon the ideal of gaining power over all else, she fields large armies and disregards almost everything in the name of conquest - as befits a Champion of Ragnarak." },
 			{
@@ -89,7 +128,15 @@
 				"color": "#ffff00"
 			},
 			{
+				"text": "- Focuses on Faith above all else.",
+				"color": "#0000ff"
+			},
+			{
 				"text": "- Focuses on Science.",
+				"color": "#0000ff"
+			},
+			{
+				"text": "- Focuses on Culture.",
 				"color": "#0000ff"
 			},
 			{
@@ -99,6 +146,26 @@
 			{
 				"text": "- Keeps a massive military.",
 				"color": "#ff0000"
+			},
+			{
+				"text": "- Does not value commerce or city-state liberty.",
+				"color": "#00ff00"
+			},
+			{
+				"text": "- Hates diplomacy (eg. Peace, Defensive Pacts, and Friendship).",
+				"color": "#ff0000"
+			},
+			{
+				"text": "- Values loyalty very little.",
+				"color": "#ff0000"
+			},
+			{
+				"text": "- Seeks to expand often (whether by conquest or by city-founding).",
+				"color": "#0000ff"
+			},
+			{
+				"text": "- Entirely prefers offense to defense in war.",
+				"color": "#0000ff"
 			}
 		],
 	},
@@ -117,6 +184,11 @@
 		"declareWar": 7.5,
 		"military": 7.0,
 		"warMongering": 7.5,
+		"commerce": 5.0,
+		"diplomacy": 5.0,
+		"loyal": 5.0,
+		"expansion": 10,
+		"denounceWillingness": 5.0,
 		"civilopediaText": [
 			{ "text": "Idolized by his people as a God, Danu - the immortal Emperor of Imperia - is a legendary leader that seeks to bring humanity to ever-greater prosperity. Once motivated by a love for humanity instilled in him by his mentor Angir (who himself was the ruler of the Neph Empire before it fell), he has since been corrupted by power, and is now motivated mostly by the praise he gets from his people. His arrogance has grown great over the years, and so has his thirst for conquest and expansion." },
 			{
@@ -136,6 +208,14 @@
 			{
 				"text": "- Keeps a strong military.",
 				"color": "#ff0000"
+			},
+			{
+				"text": "- Values expansion above all else (whether by conquest or by city-founding).",
+				"color": "#0000ff"
+			},
+			{
+				"text": "- Mostly prefers offense to defense in war.",
+				"color": "#0000ff"
 			}
 		],
 	},
@@ -154,6 +234,11 @@
 		"aggressive": 2.5,
 		"declareWar": 2.5,
 		"warMongering": 2.5,
+		"commerce": 5.0,
+		"diplomacy": 8.0,
+		"loyal": 10.0,
+		"expansion": 3.0,
+		"denounceWillingness": 2.5,
 		"civilopediaText": [
 			{ "text": "A level-headed leader and a kind soul, Tiawathi seeks to unite " },
 			{
@@ -173,6 +258,26 @@
 			{
 				"text": "- Keeps a reasonably strong military.",
 				"color": "#ff0000"
+			},
+			{
+				"text": "- Highly values diplomacy (eg. Peace, Defensive Pacts, and Friendship).",
+				"color": "#00ff00"
+			},
+			{
+				"text": "- Values loyalty above all else.",
+				"color": "#00ff00"
+			},
+			{
+				"text": "- Avoids expansion to some extent.",
+				"color": "#0000ff"
+			},
+			{
+				"text": "- Mostly prefers defense to offense in war.",
+				"color": "#0000ff"
+			},
+			{
+				"text": "- Slow to denounce others.",
+				"color": "#ff0000"
 			}
 		],
 	},
@@ -188,9 +293,14 @@
 		"happiness": 7.0,
 		"faith": 5.0,
 		"military": 7.5,
-		"aggressive": 7.5,
+		"aggressive": 2.0,
 		"declareWar": 5.0,
 		"warMongering": 5.0,
+		"commerce": 2.0,
+		"diplomacy": 5.0,
+		"loyal": 10.0,
+		"expansion": 3.0,
+		"denounceWillingness": 10.0,
 		"civilopediaText": [
 			{ "text": "Born soon after the Sauroids first awakened from their long slumber, Tak'ir'sar the Elder is perhaps the oldest living Sauroid and quite possibly the oldest ascendant (mortal that became immortal through cultivation of Soulpower) still breathing. He has seen many empires rise and fall, and witnessed the destruction of his people's empire at the hands of the Neph. He has grown beligerent and spiteful in his age, seeking to reclaim his people's homeland from the humans that stole it. In spite of this, he and his people declare war far less often than their ideals might suggest, preferring to play a long waiting game and let their enemies come to them." },
 			{
@@ -206,6 +316,26 @@
 			{
 				"text": "- Keeps a strong military.",
 				"color": "#ff0000"
+			},
+			{
+				"text": "- Barely values commerce or city-state liberty.",
+				"color": "#00ff00"
+			},
+			{
+				"text": "- Values loyalty above all else.",
+				"color": "#00ff00"
+			},
+			{
+				"text": "- Doesn't value expansion as much as most.",
+				"color": "#0000ff"
+			},
+			{
+				"text": "- Mostly prefers defense to offense in war.",
+				"color": "#0000ff"
+			},
+			{
+				"text": "- Extremely quick to denounce others.",
+				"color": "#ff0000"
 			}
 		],
 	},
@@ -220,10 +350,15 @@
 		"culture": 7.0,
 		"happiness": 5.0,
 		"faith": 5.0,
-		"aggressive": 10.0,
+		"aggressive": 0.0,
 		"declareWar": 8.5,
 		"military": 8.0,
 		"warMongering": 8.5,
+		"commerce": 5.0,
+		"diplomacy": 5.0,
+		"loyal": 5.0,
+		"expansion": 2.0,
+		"denounceWillingness": 10.0,
 		"civilopediaText": [
 			{ 
 				"text": "Andu'zi'tan is known by his people (translated from their language) as the \"Voice of Jungara\" due to his uncanny ability to seemingly communicate with the jungle itself. This trait provides him with great power and the ability to detect and identify trespassers the moment they tread upon his peoples land, a trait he uses to great extent in keeping perceived outsiders away from his cities."
@@ -248,8 +383,93 @@
 			{
 				"text": "- Very frequently declares war.",
 				"color": "#ff0000"
+			},
+			{
+				"text": "- Entirely prefers defense to offense in war.",
+				"color": "#0000ff"
+			},
+			{
+				"text": "- Mostly avoids expansion.",
+				"color": "#0000ff"
+			},
+			{
+				"text": "- Extremely quick to denounce others.",
+				"color": "#ff0000"
 			}
 		],
+	},
+	{
+	// Used By: Kharn'dii
+		"name": "Great Kharn", 
+		"preferredVictoryType": "Domination",
+		"production": 2.5,
+		"food": 5.0,
+		"gold": 5.0,
+		"science": 6.0,
+		"culture": 5.0,
+		"happiness": 7.0,
+		"faith": 5.0,
+		"aggressive": 10.0,
+		"declareWar": 10.0,
+		"military": 10.0,
+		"warMongering": 10.0,
+		"commerce": 2.0,
+		"diplomacy": 0.0,
+		"loyal": 8.0,
+		"expansion": 10.0,
+		"denounceWillingness": 3.0,
+		"civilopediaText": [
+			{ "text": "The so-called \"Great Kharn \" of the Kharn'dii, Arilla Zi'la is filled with ambition to conquer the known world. By blood and steel, he seeks to either bring all of civilization under his heel, or destroy it for its defiance." },
+			{
+				"text": "Points of Interest",
+				"header": 1,
+				"starred": true,
+				"color": "#ffff00"
+			},
+			{
+				"text": "- Focuses on Happiness.",
+				"color": "#0000ff"
+			},
+			{
+				"text": "- Disinterested in Production.",
+				"color": "#0000ff"
+			},
+			{
+				"text": "- Focuses on Science slightly.",
+				"color": "#0000ff"
+			},
+			{
+				"text": "- Declares wars without exception.",
+				"color": "#ff0000"
+			},
+			{
+				"text": "- Keeps a massive military.",
+				"color": "#ff0000"
+			},
+			{
+				"text": "- Mostly ignores commerce and city-state liberty.",
+				"color": "#00ff00"
+			},
+			{
+				"text": "- Hates diplomacy (eg. Peace, Defensive Pacts, and Friendship).",
+				"color": "#ff0000"
+			},
+			{
+				"text": "- Highly values loyalty.",
+				"color": "#00ff00"
+			},
+			{
+				"text": "- Values expansion above all else (whether by conquest or by city-founding).",
+				"color": "#0000ff"
+			},
+			{
+				"text": "- Entirely prefers offense to defense in war.",
+				"color": "#0000ff"
+			},
+			{
+				"text": "- Slow to denounce others.",
+				"color": "#00ff00"
+			},
+		],
 	}
-
 ]

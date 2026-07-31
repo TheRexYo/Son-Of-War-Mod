@@ -3,17 +3,19 @@
     {
         "name": "Genesis Worship",
         "type": "Pantheon",
-        "uniques": ["[+20]% [Food]", "[+25]% growth [in cities following this religion]", "Gain [100] [Faith] <upon declaring friendship> <(modified by game speed)>", "[-50]% [Happiness] <when at war>"]
+		// Genesis Worship has an AI weight bonus despite being picked first in most cases even without it. This is because Primordius and Ragnarak worship both have a (admittedly much higher) bonus and it felt wrong to leave out Genesis.
+        "uniques": ["[+20]% [Food]", "[+25]% growth [in cities following this religion]", "Enables establishment of embassies when Adopted", "Gain [100] [Faith] <upon declaring friendship> <(modified by game speed)>", "[-50]% [Happiness] <when at war>", "[+25]% weight to this choice for AI decisions"]
     },
     {
         "name": "Primordius Worship",
         "type": "Pantheon",
-        "uniques": ["[+20]% [Production]", "Enables Defensive Pacts When Adopted", "Gain [100] [Faith] <upon being declared war on by [Major] Civilizations> <(modified by game speed)>", "[-33]% [Happiness]"]
+		// Primordius Worship has such a high AI priority bonus because the AI doesn't value the "workaround" uniques (as most of the faith uniques are handled through GlobalUniques.json, not here).
+        "uniques": ["[+20]% [Production]", "Enables Defensive Pacts when adopted", "Enables establishment of embassies when Adopted", "Gain [100] [Faith] <upon being declared war on by [Major] Civilizations> <(modified by game speed)>", "[-33]% [Happiness]", "[+100]% weight to this choice for AI decisions"]
     },
     {
         "name": "Ragnarak Worship",
         "type": "Pantheon",
-        "uniques": ["[+20]% [Science]", "+1000% Yield from pillaging tiles", "Gain [100] [Faith] <upon declaring war on [Major] Civilizations> <(modified by game speed)>", "[-50]% [Happiness] <when not at war>"]
+        "uniques": ["[+20]% [Science]", "+1000% Yield from pillaging tiles", "Enables establishment of embassies when Adopted", "Gain [100] [Faith] <upon declaring war on [Major] Civilizations> <(modified by game speed)>", "[-50]% [Happiness] <when not at war>", "[+50]% weight to this choice for AI decisions"]
     },
     {
         "name": "Monument to the Gods",
@@ -35,7 +37,7 @@
     {
         "name": "Natural Divinity",
         "type": "Pantheon",
-        "uniques": ["[+4 Faith] from every [Natural Wonder]", "+66% Strength Bonus for Bestial & Bestial Water units", "+33% Strength Bonus for Mounted units"]
+        "uniques": ["[+4 Faith] from every [Natural Wonder]", "+66% Strength Bonus for Bestial & Bestial Water units", "+33% Strength Bonus for Mounted units", "[+50]% weight to this choice for AI decisions"]
     },
     {
         "name": "God of Winter",
@@ -69,17 +71,17 @@
     {
         "name": "God of Craftsmanship",
         "type": "Pantheon",
-        "uniques": ["[Gold] cost of purchasing items in cities [-25]%", "+1 Production in cities with at least 3 Population"]
+        "uniques": ["[Gold] cost of purchasing items in cities [-50]%", "+1 Production in cities with at least 3 Population", "[+50]% weight to this choice for AI decisions"]
     },
     {
         "name": "God of the Open Sky",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Pasture]", "+5 Range for Air units", "+2 Movement for Flier & Helicopter units"]
+        "uniques": ["[+1 Culture] from every [Pasture]", "+5 Range for Air units", "+2 Movement for Flier & Helicopter units", "[+40]% weight to this choice for AI decisions"]
     },
     {
         "name": "God of the Sea",
         "type": "Pantheon",
-        "uniques": ["[+1 Production] from every [Fishing Boats]","+2 Movement for Water units"]
+        "uniques": ["[+1 Production] from every [Fishing Boats]","+2 Movement for Water units", "[+75]% weight to this choice for AI decisions"]
     },
     {
         "name": "God of War",
@@ -89,22 +91,22 @@
     {
         "name": "God of Festivals",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture, +1 Faith] from every [Wine]", "[+1 Culture, +1 Faith] from every [Incense]", "+5 Happiness when not at war"]
+        "uniques": ["[+1 Culture, +1 Faith] from every [Wine]", "[+1 Culture, +1 Faith] from every [Incense]", "+5 Happiness when not at war", "[+50]% weight to this choice for AI decisions"]
     },
     {
         "name": "Goddess of Love",
         "type": "Pantheon",
-        "uniques": ["[+1 Happiness] per [2] population [in cities following this religion]", "+3 Happiness in cities with at least 6 Population"]
+        "uniques": ["[+1 Happiness] per [2] population [in cities following this religion]", "+3 Happiness in cities with at least 6 Population", "[+50]% weight to this choice for AI decisions"]
     },
     {
         "name": "Goddess of Protection",
         "type": "Pantheon",
-        "uniques": ["[+30]% Strength for cities","All newly-trained [All] units [in cities following this religion] receive the [Divine Protection] promotion", "+100% City Strength from defensive buildings in cities with a Faith"]
+        "uniques": ["[+30]% Strength for cities","All newly-trained [All] units [in cities following this religion] receive the [Divine Protection] promotion", "+100% City Strength from defensive buildings in cities with a Faith", "[+25]% weight to this choice for AI decisions"]
     },
     {
         "name": "Goddess of the Hunt",
         "type": "Pantheon",
-        "uniques": ["[+1 Food] from every [Camp]", "+1 Range for Ranged units", "+66% Strength vs Bestial & Bestial Water units"]
+        "uniques": ["[+1 Food] from every [Camp]", "+1 Range for Ranged units", "+66% Strength vs Bestial & Bestial Water units", "[+100]% weight to this choice for AI decisions"]
     },
     {
         "name": "Messenger of the Gods",
@@ -177,7 +179,7 @@
     {
         "name": "Guruship",
         "type": "Follower",
-        "uniques": ["+2 Production in cities with at least 1 Specialist"]
+        "uniques": ["+2 Production in cities with at least 1 Specialist", "[+200]% weight to this choice for AI decisions"]
     },
     {
         "name": "Holy Warriors",
