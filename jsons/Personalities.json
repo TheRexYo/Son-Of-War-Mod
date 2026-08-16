@@ -38,7 +38,7 @@
 	},
 	{
 		// Used By: Aeronia
-		"name": "Warborn", 
+		"name": "Warborn Sun Alar", 
 		"preferredVictoryType": "Cultural",
 		"production": 7.5,
 		"food": 5.5,
@@ -107,7 +107,7 @@
 	},
 	{
 	// Used By: Pyria
-		"name": "Deathchild", 
+		"name": "Deathchild Luna Nym", 
 		"preferredVictoryType": "Domination",
 		"production": 7.5,
 		"food": 4.5,
@@ -129,7 +129,7 @@
 			"[+50]% weight to [Herald] for AI decisions"
 		],
 		"civilopediaText": [
-			{ "text": "Championed the \"Child of Death\" by her people and her god, Luna Nym believes that all the world belongs to her god, her people, and herself. Born into a culture built upon the ideal of gaining power over all else, she fields large armies and disregards almost everything in the name of conquest - as befits a Champion of Ragnarak." },
+			{ "text": "Championed \"Lady Death\" by her people and her god, Luna Nym believes that all the world belongs to her god, her people, and herself. Born into a culture built upon the ideal of gaining power over all else, she fields large armies and disregards almost everything in the name of conquest - as befits a Champion of Ragnarak." },
 			{
 				"text": "Points of Interest",
 				"header": 1,
@@ -180,7 +180,7 @@
 	},
 	{
 		// Used By: Imperia
-		"name": "God-Emperor", 
+		"name": "God-Emperor Danu Impyr", 
 		"preferredVictoryType": "Cultural",
 		"production": 5.0,
 		"food": 5.0,
@@ -233,7 +233,7 @@
 	},
 	{
 		// Used By: Onuqi
-		"name": "Harmonious Warchief", 
+		"name": "Harmonious Chief Tiawathi", 
 		"preferredVictoryType": "Cultural",
 		"production": 5.0,
 		"food": 5.0,
@@ -255,7 +255,7 @@
 			"[+50]% weight to [Herald] for AI decisions"
 		],
 		"civilopediaText": [
-			{ "text": "A level-headed leader and a kind soul, Tiawathi seeks to unite " },
+			{ "text": "A level-headed leader and a kind soul, Tiawathi seeks to unite the world under a common love for the world itself." },
 			{
 				"text": "Points of Interest",
 				"header": 1,
@@ -298,7 +298,7 @@
 	},
 	{
 		// Used By: Ssu'vi.
-		"name": "Ancient Prophet", 
+		"name": "Elder-Prophet Tak'ir'sar", 
 		"preferredVictoryType": "Cultural",
 		"production": 5.0,
 		"food": 5.0,
@@ -320,7 +320,7 @@
 			"[+50]% weight to [Herald] for AI decisions"
 		],
 		"civilopediaText": [
-			{ "text": "Born soon after the Sauroids first awakened from their long slumber, Tak'ir'sar the Elder is perhaps the oldest living Sauroid and quite possibly the oldest ascendant (mortal that became immortal through cultivation of Soulpower) still breathing. He has seen many empires rise and fall, and witnessed the destruction of his people's empire at the hands of the Neph. He has grown beligerent and spiteful in his age, seeking to reclaim his people's homeland from the humans that stole it. In spite of this, he and his people declare war far less often than their ideals might suggest, preferring to play a long waiting game and let their enemies come to them." },
+			{ "text": "Born soon after the Sauroids first awakened from their long slumber, Tak'ir'sar the Elder is perhaps the oldest living Sauroid and quite possibly the oldest ascendant (mortal that became immortal through cultivation of Soulpower) still breathing. He has seen many empires rise and fall, and witnessed the destruction of his people's empire at the hands of the Neph. He has grown beligerent and spiteful in his age, and in prophetic dreams he sees the return of the Sauroids to their rightful lands. In spite of this, his people aren't any more quick to declare wars than their peers; after all, when immortality is on your side, why fight now when a better time could come later?" },
 			{
 				"text": "Points of Interest",
 				"header": 1,
@@ -359,7 +359,7 @@
 	},
 	{
 		// Used By: Terazi.
-		"name": "Jungle Emperor", 
+		"name": "Jungle Emperor Andu'zi'tan", 
 		"preferredVictoryType": "Domination",
 		"production": 5.0,
 		"food": 5.0,
@@ -421,7 +421,7 @@
 	},
 	{
 	// Used By: Kharn'dii
-		"name": "Great Kharn", 
+		"name": "Great Kharn Arilla Zi'la", 
 		"preferredVictoryType": "Domination",
 		"production": 2.5,
 		"food": 5.0,
@@ -443,7 +443,7 @@
 			"[+50]% weight to [Herald] for AI decisions"
 		],
 		"civilopediaText": [
-			{ "text": "The so-called \"Great Kharn \" of the Kharn'dii, Arilla Zi'la is filled with ambition to conquer the known world. By blood and steel, he seeks to either bring all of civilization under his heel, or destroy it for its defiance." },
+			{ "text": "The so-called \"Great Kharn\" of the Kharn'dii, Arilla Zi'la is filled with ambition to conquer the known world. By blood and steel, he seeks to bring all of civilization under his heel, or else destroy it for its defiance." },
 			{
 				"text": "Points of Interest",
 				"header": 1,
@@ -493,7 +493,88 @@
 			{
 				"text": "- Slow to denounce others.",
 				"color": "#00ff00"
-			},
+			}
+		]
+	},
+	{
+	// Used By: Orrug Laz
+		"name": "Mighty Warchief Skulltaker", 
+		"preferredVictoryType": "Domination",
+		"production": 3.0,
+		"food": 7.5,
+		"gold": 5.0,
+		"science": 2.5,
+		"culture": 2.5,
+		"happiness": 7.5,
+		"faith": 6.0,
+		"aggressive": 10.0,
+		"declareWar": 10.0,
+		"military": 10.0,
+		"warMongering": 10.0,
+		"commerce": 0.0,
+		"diplomacy": 0.0,
+		"loyal": 0.0,
+		"expansion": 3.0,
+		"denounceWillingness": 10.0,
+		"uniques": [
+			"[+50]% weight to [Herald] for AI decisions"
 		],
+		"civilopediaText": [
+			{ "text": "The mighty Warchief of Orrug Laz and its vassal-tribes, Skulltaker is debated to be the greatest general ever to grace Orc-kind. Like most Orc warlords, Skulltaker seeks to carve his place in the world through bloodshed and glory. His people need blood to be spilt for new generations to grow. He will fight endlessly, war after bloody war, to ensure his people's survival." },
+			{
+				"text": "Points of Interest",
+				"header": 1,
+				"starred": true,
+				"color": "#ffff00"
+			},
+			{
+				"text": "- Focuses on Happiness.",
+				"color": "#0000ff"
+			},
+			{
+				"text": "- Disinterested in Production, Science, and Culture.",
+				"color": "#0000ff"
+			},
+			{
+				"text": "- Focuses on Food and Happiness.",
+				"color": "#0000ff"
+			},
+			{
+				"text": "- Focuses on Faith slightly.",
+				"color": "#0000ff"
+			},
+			{
+				"text": "- Declares wars without exception.",
+				"color": "#ff0000"
+			},
+			{
+				"text": "- Keeps a massive military.",
+				"color": "#ff0000"
+			},
+			{
+				"text": "- Does not value commerce or city-state liberty.",
+				"color": "#00ff00"
+			},
+			{
+				"text": "- Hates diplomacy (eg. Peace, Defensive Pacts, and Friendship).",
+				"color": "#ff0000"
+			},
+			{
+				"text": "- Doesn't care about loyalty whatsoever.",
+				"color": "#ff0000"
+			},
+			{
+				"text": "- Avoids expansion to some extent.",
+				"color": "#0000ff"
+			},
+			{
+				"text": "- Entirely prefers offense to defense in war.",
+				"color": "#0000ff"
+			},
+			{
+				"text": "- Extremely quick to denounce others.",
+				"color": "#ff0000"
+			}
+		]
 	}
 ]

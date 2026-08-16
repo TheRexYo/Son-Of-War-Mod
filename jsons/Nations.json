@@ -4,7 +4,7 @@
 		"name": "Aeronia",
 		"adjective": ["Aeronian"],
 		"leaderName": "Sun Alar",
-		"personality": "Warborn",
+		"personality": "Warborn Sun Alar",
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Cultural",
 
@@ -46,7 +46,7 @@
 		"name": "Pyria",
 		"adjective": ["Pyrian"],
 		"leaderName": "Luna Nym",
-		"personality": "Deathchild",
+		"personality": "Deathchild Luna Nym",
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Domination",
 
@@ -87,7 +87,7 @@
 		"name": "Imperia",
 		"adjective": ["Imperian"],
 		"leaderName": "Danu Impyr",
-		"personality": "God-Emperor",
+		"personality": "God-Emperor Danu Impyr",
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Cultural",
 
@@ -127,7 +127,7 @@
 		"name": "Onuqi",
 		"adjective": ["Onuqin"],
 		"leaderName": "Tiawathi",
-		"personality": "Harmonious Warchief",
+		"personality": "Harmonious Chief Tiawathi",
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Cultural",
 		
@@ -153,7 +153,7 @@
 		"name": "Ssu'vi",
 		"adjective": ["Ssu'vian"],
 		"leaderName": "Tak'ir'sar",
-		"personality": "Ancient Prophet",
+		"personality": "Elder-Prophet Tak'ir'sar",
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Cultural",
 
@@ -196,7 +196,7 @@
 		"name": "Terazi",
 		"adjective": ["Terazian"],
 		"leaderName": "Andu'zi'tan",
-		"personality": "Jungle Emperor",
+		"personality": "Jungle Emperor Andu'zi'tan",
 		"startBias": ["Jungle"],
 		//"preferredVictoryType": "Domination",
 
@@ -412,7 +412,7 @@
 		"name": "Kharn'dii",
 		"adjective": ["Kharn'diian"],
 		"leaderName": "Arilla Zi'la",
-		"personality": "Great Kharn",
+		"personality": "Great Kharn Arilla Zi'la",
 		"startBias": ["Avoid [Jungle]", "Avoid [Forest]"],
 		"preferredVictoryType": "Domination",
 
@@ -445,7 +445,7 @@
 
 		"favoredReligion": "The Divine Triad",
 		"uniqueName": "The Endless Horde",
-		"uniques": ["Can only heal by pillaging", "[-50]% Strength for cities", "[+100]% [Science] [in puppeted cities]", "[+100]% [Culture] [in puppeted cities]", "[+50]% Production when constructing [Military] units [in all non-occupied cities]", "Cities are razed [5] times as fast", "\"Borrows\" city names from other civilizations in the game", "[3] free [Kharn Horde] units appear <upon conquering a city>", "[+1] population [in annexed cities] <upon conquering a city>", "[+100 Gold, +100 Culture, +100 Science] [in cities being razed]", "[+1] Unit Supply per [1] population [in annexed cities]"],
+		"uniques": ["Can only heal by pillaging", "[+100]% Health from pillaging tiles", "[-50]% Strength for cities", "[+100]% [Science] [in puppeted cities]", "[+100]% [Culture] [in puppeted cities]", "[+50]% Production when constructing [Military] units [in all non-occupied cities]", "Cities are razed [5] times as fast", "\"Borrows\" city names from other civilizations in the game", "[3] free [Kharn Horde] units appear <upon conquering a city>", "[+1] population [in annexed cities] <upon conquering a city>", "[+100 Gold, +100 Culture, +100 Science] [in cities being razed]", "[+1] Unit Supply per [1] population [in annexed cities]"],
 		"cities": ["Kharn"]
 	},
 	{
@@ -657,8 +657,8 @@
 		"preferredVictoryType": "Cultural",
 		"startBias": ["Hill"],
 
-		"startIntroPart1": "",
-		"startIntroPart2": "Will you build a civilization that stands the test of time?",
+		"startIntroPart1": "Prosperity be upon you, Helfin Lightfoot, mighty clan-speaker of the Gnoki. In times where others seek to murder and war for power and prestige, your people have sought a humble existence as farmers and scientists, isolated from the rest of the world by sea and stone. Prosperity has always followed these days of peace and quiet, and it is upon you to ensure that prosperity continues.",
+		"startIntroPart2": "Can you continue your people's legacy of growth and learning? Will you build a civilization that stands the test of time?",
 		
 		"introduction": "I welcome ya to Gnoki, our quaint little empire. I hope we can be friends, but don't underestimate a gnome's grit should it come down to it!",
 		"declaringWar": "You've cost this land it's joy for far too long.",
@@ -679,18 +679,18 @@
 	{
 		"name": "Kasia",
 		"adjective": ["Kasian"],
-		"leaderName": "Durian the Brave",
+		"leaderName": "High-Queen Kasia XXV",
 		"personality": "Generalist Leader",
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Religious",
 
-        "startIntroPart1": "",
-        "startIntroPart2": "Will you build a civilization that stands the test of time?",
+        "startIntroPart1": "Hail, High-Queen Kasia XXV! For over five millenia, your people have stood in staunch opposition of the dragons and the stain they have placed upon your homeland. You are the latest in a long line of druid-queens and their priest-king descendants, originating from pious High-Queen Kasia the First. Dragonblood stains your peoples lands, a remnant from the Dragon Wars in ages past. Where some see it as a source of power, your people know the truth - dragonblood is corrupting, mutating the land itself. You shall see it all burned away, when the last dragon dies by your blades.",
+        "startIntroPart2": "Mighty High-Queen, will you see the dragon scourge eliminated from this world? Will you see to it that the light of redemption spreads across the world? Will you build a civilization that stands the test of time?",
 
         "declaringWar": "Prepare to die, heretic!",
 		"attacked": "Alright then. To war!",
-		"defeated": "I fear nothing. But in the end, I wonder if I should have feared after all.",
-		"introduction": "Well met, traveller! I am King Durian the Brave of Kasia. It is the will of my people that everything bearing the blood of dragons must die, and it is by my hand that it shall be done. Be you an enemy of the dragons or their monstrous gods? If so, we should get along just fine.",
+		"defeated": "Some take the moniker of 'the Brave' or 'the Mighty'. It seems, in the end, I could take neither.",
+		"introduction": "Who are you, stranger from a stranger land? I am High-Queen Kasia, of the people of... well, Kasia. My line is long, and by our hands the evils of this world will burn. Be you an enemy of the dragons, or their monstrous gods? If so, we should get along just fine. If not...",
 
 		"neutralHello": "To what do I owe the pleasure of speaking with you?",
 		"hateHello": "Are you certain what you have to say is worth it?",
@@ -703,6 +703,34 @@
 		"uniqueName": "Draconic Crusades",
 		"uniques": ["Upon capturing a city, receive [5] times its [Production] production as [Faith] immediately","Earn [25]% of killed [Flier] unit's [Strength] as [Faith]","Earn [25]% of killed [Bestial] unit's [Strength] as [Faith]","Earn [25]% of killed [Bestial Water] unit's [Strength] as [Faith]"],
 		"cities": ["Lyndor", "Kasia's Rest", "Borchester", "Yorc", "Snowland"]
+	},
+	{
+		"name": "Orrug-Laz",
+		"adjective": ["Orrug-Lazi"],
+		"leaderName": "Warchief Skulltaker",
+		"personality": "Mighty Warchief Skulltaker",
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "May your raids be bountiful, Warchief Skulltaker of Orrug-Laz! Like the rest of Orc-kind, your people must spill blood to grow the population - both orc and otherwise. The Orrug Laz are part of the Blood Orc subrace of Orcs, with a \"fertility\" religion based on the spilling of blood and the use of blood magic. Where other races grow in times of peace and prosperity, your people thrive on eternal war. You must go forth, and grasp the future with blood-stained hands!",
+        "startIntroPart2": "Mighty Warchief, can you break the lands of men and beast, and bring glory to the people of Orrug-Laz? Can you bring prosperity to your kin and country? Will you build a civilization that stands the test of time?",
+
+        "declaringWar": "BLOOD! BLOOD! BLOOD!",
+		"attacked": "TO WAAAAAAAAAAAAAAARR!",
+		"defeated": "Waz we too weak...?",
+		"introduction": "What have we 'ere...? Fresh blood for da altars? We waz just hoping for some new fightas to kill.",
+
+		"neutralHello": "Oh, it wants to talk, 'den? More blood for latuh, I suppoze.",
+		"hateHello": "Speak! Speak, 'den die!",
+		"tradeRequest": "Give, 'den get, eh?",
+
+        "outerColor": [115, 15, 15],
+        "innerColor": [255, 183, 0],
+
+		"favoredReligion": "Solarism",
+		"uniqueName": "Might of the Blood Orcs",
+		"uniques": ["[+50]% Strength <for [Melee] units>", "No damage penalty for wounded units", "Heals [50] damage if it kills a unit", "[-50]% growth [in all cities] <when not at war>", "[+200]% growth [in all cities] <when at war>", "[+500]% Yield from pillaging tiles", "[+500]% Health from pillaging tiles", "Can only heal by pillaging", "Rebel units may spawn <when not at war>", "Free [Redhide Raider] appears <upon turn end> <when at war>"],
+		"cities": ["Orrug-Laz", "Orrug-Rag", "Orrug-Bak", "Da Bloody Pit", "Da Bone-Sprawluz"]
 	},
 
 	// Renaissance-Era Nations
@@ -752,7 +780,7 @@
 
 		"neutralHello": "Your culture is fascinating. Perhaps you would be interested in joining Centuria?",
 		"hateHello": "You are a threat to civilization. Speak quickly, before I cut out your tongue.",
-		"tradeRequest": "The Alignment of our peoples could pave way to a better future. Think on it, perhaps?",
+		"tradeRequest": "The alignment of our peoples could pave way to a better future. Think on it, perhaps?",
 
         "outerColor": [255, 191, 0],
         "innerColor": [0, 0, 0],
@@ -883,17 +911,17 @@
 		"cities": ["Arcania", "Mantaria", "Tehgaia","Orchenos","Tethyn","Kapheae"]
 	},
 	{
-		"name": "Orruk-Tar",
-		"adjective": ["Orruk"],
+		"name": "Orrug-Tar",
+		"adjective": ["Orrug-Tari"],
 		"startBias": ["Plains"],
-		"cityStateType": "Orruk-Tar", // Militaristic
+		"cityStateType": "Orrug-Tar", // Militaristic
 		"declaringWar": "WAR!",
 		"attacked": "BLOOD! SKULLS! DEATH!",
 		"defeated": "SO... MUCH... BLOOD...",
 		"outerColor": [255, 170, 0],
 		"innerColor": [94, 30, 0],
-		"uniques": ["New [Melee] units start with [120] XP [in all cities]"],
-		"cities": ["Orruk-Tar"]
+		"uniques": ["New [Melee] units start with [120] XP [in all cities]", "[+50]% Strength <for [Melee] units>", "No damage penalty for wounded units", "Heals [50] damage if it kills a unit", "[-50]% growth [in all cities] <when not at war>", "[+200]% growth [in all cities] <when at war>", "[+500]% Health from pillaging tiles", "Can only heal by pillaging", "Rebel units may spawn <when not at war>"],
+		"cities": ["Orrug-Tar"]
 	},
 	{
 		"name": "Velis",

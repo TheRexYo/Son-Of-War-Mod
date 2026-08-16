@@ -143,9 +143,8 @@
 	{
 		"name": "Galley",
 		"unitType": "Melee Water",
-		"uniqueTo": "Barbarians",
 		"replaces": "Trireme",
-		"uniqueTo": "Barbarian",
+		"uniqueTo": "Barbarians",
 		"movement": 4,
 		"strength": 7,
 		"cost": 40,
@@ -1680,6 +1679,33 @@
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
 	},
+	{
+		"name": "Redhide Raider",
+		"unitType": "Sword",
+		"uniqueTo": "Orrug-Laz",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 14,
+		"cost": 30,
+		"promotions": ["Aggression I"],
+		"uniques": ["Can transform to [Bloodhemoth] <for all movement> <costs [+100 Faith] stats>"],
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Bloodhemoth",
+		"unitType": "Bestial",
+		"replaces": "Knight",
+		"uniqueTo": "Orrug-Laz",
+		"movement": 2,
+		"strength": 45,
+		"cost": 300,
+		"requiredTech": "Chivalry",
+		"upgradesTo": "Cavalry",
+		"uniques": ["No defensive terrain bonus","[+33]% Strength bonus for [Wounded] units within [3] tiles"],
+		"attackSound": "metalhit" // Jabberfangs attack by causing their victims to fight amongst each other via mind-breaking magic, before swooping in for the kill. The sound reflects this infighting.
+	},
 	
 	//City-State Uniques
 	{
@@ -1818,9 +1844,9 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Orruk Brute",
+		"name": "Orrug Brute",
 		"unitType": "Sword",
-		"uniqueTo": "Orruk-Tar",
+		"uniqueTo": "Orrug-Tar",
 		"replaces": "Warrior",
 		"movement": 2,
 		"strength": 15,

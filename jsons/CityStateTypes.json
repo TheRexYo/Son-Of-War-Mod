@@ -7,7 +7,7 @@
 		],
         "allyBonusUniques": [
 			"When defeating a [Water] unit, earn [100] Gold and recruit it",
-			"Free [Rhalerion] appears <upon turn end> <every [9] turns> <after discovering [Astronomy]>",
+			"Free [Rhalerion] appears <upon turn start> <every [9] turns> <after discovering [Astronomy]>",
 			"[+2 Food] [in capital]",
 			"[+1 Gold, +1 Food] [in all coastal cities]"
 		],
@@ -20,8 +20,8 @@
 			"[-25]% maintenance costs <for [Land] units>"
 		],
         "allyBonusUniques": [
-			"Free [Golden Knight] appears <upon turn end> <every [12] turns> <after discovering [Chivalry]>",
-			"Free [Phoenix Knight] appears <upon turn end> <every [24] turns> <after discovering [Chivalry]>",
+			"Free [Golden Knight] appears <upon turn start> <every [12] turns> <after discovering [Chivalry]>",
+			"Free [Phoenix Knight] appears <upon turn start> <every [24] turns> <after discovering [Chivalry]>",
 			"Provides military units every ≈[10] turns",
 			"[-50]% maintenance costs <for [Land] units>"
 		],
@@ -35,7 +35,7 @@
             "[+13 Culture] <starting from the [Industrial era]>"
         ],
         "allyBonusUniques": [
-			"Free [Warrior Monk] appears <upon turn end> <every [5] turns> <after discovering [Bronze Working]>",
+			"Free [Warrior Monk] appears <upon turn start> <every [5] turns> <after discovering [Bronze Working]>",
 			"No damage penalty for wounded units",
             "[+6 Culture] <before the [Medieval era]>",
             "[+12 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
@@ -50,7 +50,7 @@
 			"[+3 Happiness] [in all coastal cities] <starting from the [Medieval era]>"
         ],
         "allyBonusUniques": [
-			"Free [Shanin] appears <upon turn end> <every [12] turns> <after discovering [Machinery]>",
+			"Free [Shanin] appears <upon turn start> <every [12] turns> <after discovering [Machinery]>",
             "[+2 Happiness] <before the [Medieval era]>",
             "[+3 Happiness] <starting from the [Medieval era]>",
 			"[+100]% Strength <when defending> <when [Embarked]> <for [Military] units>",
@@ -65,7 +65,7 @@
 			"All newly-trained [Sword] units [in capital] receive the [Strength of Xagge] promotion"
 		],
         "allyBonusUniques": [
-			"Free [Siege Behemoth] appears <upon turn end> <every [14] turns> <after discovering [Animal Husbandry]>",
+			"Free [Siege Behemoth] appears <upon turn start> <every [14] turns> <after discovering [Animal Husbandry]>",
 			"All newly-trained [Melee] units [in all cities] receive the [Strength of Xagge] promotion",
 			"Provides military units every ≈[10] turns"
 		],
@@ -78,7 +78,7 @@
 			"[+3 Happiness] [in capital] <starting from the [Medieval era]>"
         ],
         "allyBonusUniques": [
-			"Free [Guild Guard] appears <upon turn end> <every [6] turns> <after discovering [Civil Service]>",
+			"Free [Guild Guard] appears <upon turn start> <every [6] turns> <after discovering [Civil Service]>",
 			"[+3 Happiness] [in capital] <before the [Medieval era]>",
 			"[+6 Happiness] [in capital] <starting from the [Medieval era]>"
 			"[+2 Gold] from each Trade Route",
@@ -93,7 +93,7 @@
 			"[+1 Food] [in all coastal cities]"
 		],
         "allyBonusUniques": [
-			"Free [Reaver] appears <upon turn end> <every [13] turns> <after discovering [Astronomy]>",
+			"Free [Reaver] appears <upon turn start> <every [13] turns> <after discovering [Astronomy]>",
 			"[0] Movement point cost to embark",
 			"[0] Movement point cost to disembark",
 			"[+2 Production] [in capital]",
@@ -110,7 +110,7 @@
             "[+13 Faith] <starting from the [Industrial era]>"
         ],
         "allyBonusUniques": [
-			"Free [Tatli] appears <upon turn end> <every [4] turns> <after discovering [Agriculture]>",
+			"Free [Tatli] appears <upon turn start> <every [4] turns> <after discovering [Agriculture]>",
 			"[+3] Sight",
             "[+6 Faith] <before the [Medieval era]>",
             "[+12 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
@@ -126,7 +126,7 @@
             "[+13 Culture] <starting from the [Industrial era]>"
         ],
         "allyBonusUniques": [
-			"Free [Arcanian Phalanx] appears <upon turn end> <every [5] turns> <after discovering [Bronze Working]>",
+			"Free [Arcanian Phalanx] appears <upon turn start> <every [5] turns> <after discovering [Bronze Working]>",
 			"[+50]% growth [in all cities]",
             "[+6 Culture] <before the [Medieval era]>",
             "[+12 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
@@ -135,13 +135,13 @@
         "color": [105, 245, 66]
     },
     {
-        "name": "Orruk-Tar",
+        "name": "Orrug-Tar",
         "friendBonusUniques": [
 			"Provides military units every ≈[20] turns",
 			"New [Melee] units start with [60] XP [in capital]"
 		],
         "allyBonusUniques": [
-			"Free [Orruk Brute] appears <upon turn end> <every [2] turns> <after discovering [Agriculture]>",
+			"Free [Orrug Brute] appears <upon turn start> <every [2] turns> <after discovering [Agriculture]>",
 			"Provides military units every ≈[10] turns",
 			"New [Melee] units start with [120] XP [in all cities]"
 		],
@@ -154,7 +154,7 @@
 			"[+25]% City Strength from defensive buildings"
 		],
         "allyBonusUniques": [
-			"Free [Velian War Dragon] appears <upon turn end> <every [20] turns> <after discovering [Animal Husbandry]>",
+			"Free [Velian War Dragon] appears <upon turn start> <every [20] turns> <after discovering [Animal Husbandry]>",
 			"Provides military units every ≈[10] turns",
 			"[+100]% City Strength from defensive buildings"
 		],
@@ -169,7 +169,7 @@
             "[+13 Culture] <starting from the [Industrial era]>"
         ],
         "allyBonusUniques": [
-			"Free [Brute] appears <upon turn end> <every [2] turns> <after discovering [Agriculture]>",
+			"Free [Brute] appears <upon turn start> <every [2] turns> <after discovering [Agriculture]>",
             "[+6 Culture] <before the [Medieval era]>",
             "[+12 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
             "[+26 Culture] <starting from the [Industrial era]>"
@@ -180,7 +180,7 @@
         "name": "Maritime",
         "friendBonusUniques": ["[+2 Food] [in capital]"],
         "allyBonusUniques": [
-			"Free [Brute] appears <upon turn end> <every [2] turns> <after discovering [Agriculture]>",
+			"Free [Brute] appears <upon turn start> <every [2] turns> <after discovering [Agriculture]>",
 			"[+2 Food] [in capital]", "[+1 Food] [in all cities]"
 		],
         "color": [56, 255, 112]
@@ -192,7 +192,7 @@
             "[+3 Happiness] <starting from the [Medieval era]>"
         ],
         "allyBonusUniques": [
-			"Free [Brute] appears <upon turn end> <every [2] turns> <after discovering [Agriculture]>",
+			"Free [Brute] appears <upon turn start> <every [2] turns> <after discovering [Agriculture]>",
             "[+2 Happiness] <before the [Medieval era]>",
             "[+3 Happiness] <starting from the [Medieval era]>",
             "Provides a unique luxury"
@@ -205,7 +205,7 @@
 			"Provides military units every ≈[20] turns"
 		],
         "allyBonusUniques": [
-			"Free [Brute] appears <upon turn end> <every [2] turns> <after discovering [Agriculture]>",
+			"Free [Brute] appears <upon turn start> <every [2] turns> <after discovering [Agriculture]>",
 			"Provides military units every ≈[10] turns"
 		],
         "color": [255, 0, 0]
@@ -218,7 +218,7 @@
             "[+13 Faith] <starting from the [Industrial era]>"
         ],
         "allyBonusUniques":  [
-			"Free [Brute] appears <upon turn end> <every [2] turns> <after discovering [Agriculture]>",
+			"Free [Brute] appears <upon turn start> <every [2] turns> <after discovering [Agriculture]>",
             "[+6 Faith] <before the [Medieval era]>",
             "[+12 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
             "[+26 Faith] <starting from the [Industrial era]>"

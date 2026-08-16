@@ -1302,8 +1302,16 @@
 		"maintenance": 2,
 		"uniques": ["Can be purchased with [Food] [in all cities]", "[+25]% [Production] [in all cities with a world wonder]"]
 	},
+	{
+		"name": "Blood-Sun Altar",
+		"uniqueTo": "Orrug-Laz",
+		"replaces": "Shrine",
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["[+1 Faith] <when religion is enabled>", "[-100]% Unhappiness from [Population] [in this city] <when at war>", "[+100]% Unhappiness from [Population] [in this city] <when not at war>"]
+	},
 	
-	//"Must have an owned [Farm] within [3] tiles"
 	//City-State Uniques
 	{
 		"name": "Glimmering District",
@@ -1401,7 +1409,7 @@
 	},
 	{
 		"name": "Head Spikes",
-		"uniqueTo": "Orruk-Tar",
+		"uniqueTo": "Orrug-Tar",
 		"replaces": "Walls",
 		"cityStrength": 50,
 		"uniques": ["Never destroyed when the city is captured","[-100]% Unhappiness from [Population] [in this city] <when at war>","[+10 Production] [in this city] <when at war>"],
