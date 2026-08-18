@@ -998,6 +998,13 @@
 		"happiness": 2,
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
+	{
+		"name": "God Idol",
+		"cost": 400,
+		"faith": 10,
+		"cityStrength": 100,
+		"uniques": ["Can only be built <after adopting [Divine Idols]>", "Only available <when religion is enabled>"]
+	},
 	
 	// Nation Unique
 	{
