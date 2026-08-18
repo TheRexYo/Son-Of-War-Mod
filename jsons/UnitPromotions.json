@@ -225,7 +225,7 @@
 	{
 		"name": "Ambusher",
 		"prerequisites": ["Aggression III","Toughness III"],
-		"uniques": ["Invisible to non-adjacent units"],
+		"uniques": ["Invisible to non-adjacent units","Can see invisible [Land] units"],
 		// This could be generalized: ["-[50]% movement costs through [Forest] tiles", "-[50]% movement costs through [Jungle] tiles"],
 		// but with how getMovementCostBetweenAdjacentTiles() is optimized, that's difficult to implement.
 		"unitTypes": ["Bestial","Bestial Water"]
@@ -541,7 +541,13 @@
 		"uniques": ["[+25]% Strength <vs [Armored] units>"],
 		"unitTypes:": ["Helicopter"]
 	},
-
+	{
+		"name": "Mobility III",
+		"prerequisites": ["Mobility II"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Helicopter"]
+	},
+	
 	// Mixed
 	{
 		"name": "Cover I",
@@ -571,7 +577,7 @@
 	{
 		"name": "Sentry",
 		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
-		"uniques": ["[+1] Sight"],
+		"uniques": ["[+1] Sight","Can see invisible [Land] units"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Ranged Water","Armored","Melee Water"]
 	},
 	{
@@ -593,7 +599,12 @@
 		"uniques": ["[+33]% Strength <vs [Armored] units>"],
 		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber"]
 	},
-
+	{
+		"name": "Ambush III",
+		"prerequisites": ["Ambush II"],
+		"uniques": ["[+10]% Strength <when defending>","Invisible to non-adjacent units"],
+		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber"]
+	},
 
 	// Water ranged and air units
 	{
@@ -674,6 +685,14 @@
 	{
 		"name": "Adaptive Strategy",
 		"uniques": ["[-100]% Gold cost of upgrading","[This Unit] gains [100] XP <upon conquering a city>"]
+	},
+	{
+		"name": "Green Hell",
+		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>","[+33]% Strength <when fighting in [Jungle] tiles>","Invisible to non-adjacent units <in [Jungle] tiles>"]
+	},
+	{
+		"name": "Sun-Chosen",
+		"uniques": ["[+25] HP when healing","All adjacent units heal [25] HP when healing"]
 	},
 	
 	// Unspecific Unit Uniques

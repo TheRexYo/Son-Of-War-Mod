@@ -25,6 +25,7 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
+		"upgradesTo": "Saboteur",
 		"obsoleteTech": "Scientific Theory",
 		"uniques": ["Ignores terrain cost", "May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
 		"attackSound": "nonmetalhit"
@@ -474,6 +475,16 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Saboteur",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 20,
+		"cost": 200,
+		"requiredTech": "Scientific Theory",
+		"uniques": ["[+400]% Strength <vs cities> <when attacking>","[-50]% Strength <vs [Melee] units> <when defending>","Invisible to non-adjacent units","Ignores terrain cost","Never appears as a Barbarian unit"],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Cavalry",
 		"unitType": "Mounted",
 		"movement": 4,
@@ -509,8 +520,7 @@
 		"cost": 320,
 		"requiredTech": "Dynamite",
 		"upgradesTo": "Rocket Artillery",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
-			"Must set up to ranged attack","[-1] Sight","Ranged attacks may be performed over obstacles"],
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Ranged attacks may be performed over obstacles"],
 		"attackSound": "artillery"
 	},
 
@@ -1037,13 +1047,14 @@
 		"unitType": "Sword",
 		"movement": 3,
 		"strength": 12,
-		"cost": 40,
-		"hurryCostModifier": 20,
+		"cost": 45,
+		"hurryCostModifier": 5,
 		"uniqueTo": "Terazi",
 		"obsoleteTech": "Metal Casting",
 		"replaces": "Warrior",
 		"upgradesTo": "Swordsman",
-		"uniques": ["Can move after attacking","[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>","Ignores terrain cost","Withdraws before melee combat <with [100]% chance> <when fighting in [{Forest} {Jungle}] tiles>","[+200]% Strength <vs [Archery] units>", "[+100]% Strength <when attacking>"],
+		"promotions": ["Green Hell"],
+		"uniques": ["Can move after attacking","Ignores terrain cost","Invisible to others <in [Jungle] tiles>","Withdraws before melee combat <with [100]% chance> <when fighting in [{Forest} {Jungle}] tiles>","[+200]% Strength <vs [Archery] units>","[+100]% Strength <when attacking>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1051,13 +1062,14 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 12,
-		"cost": 40,
-		"hurryCostModifier": 20,
+		"cost": 45,
+		"hurryCostModifier": 5,
 		"uniqueTo": "Ssu'vi",
 		"obsoleteTech": "Metal Casting",
 		"replaces": "Warrior",
 		"upgradesTo": "Swordsman",
-		"uniques": ["Unit will heal every turn, even if it performs an action","Heals [25] damage if it kills a unit","[+25] HP when healing","All adjacent units heal [25] HP when healing"],
+		"promotions": ["Sun-Chosen"],
+		"uniques": ["Unit will heal every turn, even if it performs an action","Heals [100] damage if it kills a unit"],
 		"attackSound": "nonmetalhit"
 	},
 	/*
@@ -1216,7 +1228,7 @@
 	},
 	{
 		"name": "Clay Golem",
-		"unitType": "Bestial",
+		"unitType": "Armored",
 		"uniqueTo": "Arai",
 		"replaces": "Composite Bowman",
 		"movement": 1,
@@ -1225,9 +1237,8 @@
 		"range": 1,
 		"cost": 175,
 		"requiredTech": "Construction",
-		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
-		"uniques": ["Can be purchased with [Science] [in all cities]", "[+50]% Strength <vs [Melee] units> <when defending>","[+100]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Can be purchased with [Science] [in all cities]","[+50]% Strength <vs [Melee] units> <when defending>","[+100]% Strength <vs cities> <when attacking>"],
 		"attackSound": "arrow"
 	},
 	{
@@ -1510,13 +1521,13 @@
 		"uniqueTo": "Gnoki",
 		"unitType": "Armored",
 		"movement": 4,
-		"strength": 30,
+		"strength": 40,
 		"cost": 185,
 		"requiredTech": "Chemistry",
 		"upgradesTo": "Landship",
 		"obsoleteTech": "Combustion",
-		"promotions": ["Blitz"],
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-1] Sight","Destroys tile improvements when attacking", "[+33]% Strength <when defending>"],
+		"promotions": ["Blitz","Destructive"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-1] Sight","[+25]% Strength <when defending>"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -1704,8 +1715,43 @@
 		"requiredTech": "Chivalry",
 		"upgradesTo": "Cavalry",
 		"uniques": ["No defensive terrain bonus","[+33]% Strength bonus for [Wounded] units within [3] tiles"],
-		"attackSound": "metalhit" // Jabberfangs attack by causing their victims to fight amongst each other via mind-breaking magic, before swooping in for the kill. The sound reflects this infighting.
+		"attackSound": "metalhit"
 	},
+	/* 
+	{
+		"name": "Reedstalker",
+		"unitType": "Archery",
+		"replaces": "Archer",
+		"uniqueTo": "Baphyla",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 12,
+		"cost": 45,
+		"promotions": ["Ambusher"],
+		"uniques": ["No defensive terrain bonus","Withdraws before melee combat <with [80]% chance>"],
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"upgradesTo": "Composite Bowman",
+		"attackSound": "arrow"
+	},
+	*/
+	/*
+	{
+		"name": "Arcanonaught",
+		"unitType": "Armored",
+		"replaces": "Chariot Archer",
+		"uniqueTo": "Baphyla",
+		"movement": 3,
+		"strength": 15,
+		"cost": 120,
+		"promotions": ["Destructive"],
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Landship",
+		"obsoleteTech": "Combustion",
+		"uniques": ["No defensive terrain bonus","Rough terrain penalty","[+33]% Strength <vs cities> <when attacking>","[+100]% Strength <after discovering [Bronze Working]>","[+100]% Strength <after discovering [Iron Working]>","Can carry [1] [Land] units"],
+		"attackSound": "arrow"
+	},
+	*/
 	
 	//City-State Uniques
 	{
@@ -1820,11 +1866,12 @@
 		"unitType": "Scout",
 		"replaces": "Scout",
 		"uniqueTo": "Tetku",
-		"movement": 2,
+		"movement": 3,
 		"strength": 5,
 		"cost": 35,
+		"upgradesTo": "Saboteur",
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["Ignores terrain cost","Invisible to others","Withdraws before melee combat <with [50]% chance>","[-80]% Strength <vs [Sword] units>","[-80]% Strength <vs [Mounted] units>","[+1000]% Strength <vs cities> <when attacking>", "May upgrade to [Archer] through ruins-like effects"],
+		"uniques": ["Ignores terrain cost","Invisible to others","Withdraws before melee combat <with [50]% chance>","[+1000]% Strength <vs cities> <when attacking>","May upgrade to [Archer] through ruins-like effects"],
 		"attackSound": "nonmetalhit"
 	},
 	{
