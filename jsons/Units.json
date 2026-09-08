@@ -1195,6 +1195,7 @@
 		"cost": 60,
 		"uniqueTo": "Imperia",
 		"replaces": "Swordsman",
+		"requiredTech": "Iron Working",
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Longswordsman",
 		"promotions": ["Keepers of the Empire","Defenders of the Empire"],
