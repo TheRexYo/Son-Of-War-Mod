@@ -251,7 +251,7 @@
 		"terrainsCanBeBuiltOn": ["Land","Water"],
 		"culture": 1,
 		"turnsToBuild": 4,
-		"uniques": ["Can be built outside your borders","[+1 Culture] for each adjacent [Aorai]","Turn this tile into a [Ocean] tile <upon being declared war on by [Major] Civilizations>","Turn this tile into a [Desert] tile <upon declaring war on [Major] Civilizations>","Will not be replaced by automated units"],
+		"uniques": ["Can be built outside your borders","[+1 Culture] for each adjacent [Aorai]","Will not be replaced by automated units"],
 		"techRequired": "Construction",
 		"shortcutKey": "M"
 	},

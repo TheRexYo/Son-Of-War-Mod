@@ -1289,8 +1289,9 @@
 		"replaces": "Warrior",
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
-		"promotions": ["Oceanic Warriors"],
-		"uniques": ["[+3] Sight","Founds a new city <once> <costs [+50 Gold] stats>","Personnel"],
+		"promotions": ["Oceanic Warriors"], // Todo: Turn the Faith cost into a Mana resource cost down the line.
+		"replacementTextForUniques": "+3 Sight. Founds a new city once for 50 gold. Can turn tiles with Aorai into Ocean tiles or Desert tiles for all movement.",
+		"uniques": ["[+3] Sight","Founds a new city <once> <costs [+50 Gold] stats>","Turn this tile into a [Ocean] tile <in [Aorai] tiles> <for all movement>","Turn this tile into a [Desert] tile <in [Aorai] tiles> <for all movement>","Personnel"],
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
 	},
