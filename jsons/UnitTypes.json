@@ -87,12 +87,12 @@
     {
         "name": "Helicopter",
         "movementType": "Land",
-        "uniques": ["Can pass through impassable tiles","Ignores terrain cost","All tiles cost 1 movement"]
+        "uniques": ["Can pass through impassable tiles","Ignores terrain cost","All tiles cost 1 movement","Eliminates combat penalty for attacking over a river"]
     },
     {
         "name": "Flier",
         "movementType": "Land",
-        "uniques": ["Can pass through impassable tiles","Ignores terrain cost","All tiles cost 1 movement","May attack when embarked","Ignores Zone of Control", "No defensive terrain bonus <before discovering [Flight]>"]
+        "uniques": ["Can pass through impassable tiles","Ignores terrain cost","All tiles cost 1 movement","[1] Movement point cost to disembark","May attack when embarked","Eliminates combat penalty for attacking over a river","Ignores Zone of Control","No defensive terrain bonus <before discovering [Flight]>"]
     },
     {
         "name": "Hero",

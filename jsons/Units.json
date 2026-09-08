@@ -15,8 +15,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 106,
-		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
-			"Requires at least [2] population"],
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction", "Requires at least [2] population"],
 		"hurryCostModifier": 20
 	},
 	{
@@ -27,7 +26,7 @@
 		"cost": 25,
 		"upgradesTo": "Saboteur",
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["Ignores terrain cost", "May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"uniques": ["Ignores terrain cost", "May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit", "Personnel"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -59,6 +58,7 @@
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
+		"uniques": ["Personnel"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "This is your basic, club-swinging fighter."}
@@ -74,6 +74,7 @@
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
 		"upgradesTo": "Composite Bowman",
+		"uniques": ["Personnel"],
 		"attackSound": "arrow"
 	},
 	{
@@ -89,6 +90,7 @@
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
 		"upgradesTo": "Composite Bowman",
+		"uniques": ["Personnel"],
 		"attackSound": "arrow"
 		// Barbarian unique archer.
 	},
@@ -177,7 +179,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Bestial] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Bestial] units>", "Personnel"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -191,7 +193,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Bestial] units>", "[+40]% Strength <vs cities> <when attacking>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Bestial] units>", "[+40]% Strength <vs cities> <when attacking>", "Personnel"],
 		"attackSound": "metalhit"
 		// Barbarian unique Spearman. Has same icon and name but slightly different 3d texture
 	},
@@ -235,6 +237,7 @@
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
+		"uniques": ["Personnel"],
 		"attackSound": "arrow"
 	},
 	{
@@ -248,6 +251,7 @@
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
+		"uniques": ["Personnel"],
 		"attackSound": "metalhit"
 	},
 	
@@ -264,7 +268,7 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
-		"uniques": ["No movement cost to pillage"],
+		"uniques": ["No movement cost to pillage", "Personnel"],
 		"attackSound": "metalhit"
 		// Barbarian unique Swordsman. Has same icon and name but slightly different 3d texture
 	},
@@ -277,7 +281,7 @@
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Bestial] units>", "[+50]% Strength <vs [Bestial Water] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Bestial] units>", "[+50]% Strength <vs [Bestial Water] units>", "Personnel"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
@@ -319,7 +323,7 @@
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit", "Personnel"],
 		"attackSound": "arrow"
 	},
 	{
@@ -344,7 +348,7 @@
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit", "Personnel"],
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
 	},
@@ -388,7 +392,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit", "Personnel"],
 		"attackSound": "shot"
 	},
 	{
@@ -471,7 +475,7 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit", "Personnel"],
 		"attackSound": "shot"
 	},
 	{
@@ -481,7 +485,7 @@
 		"strength": 20,
 		"cost": 200,
 		"requiredTech": "Scientific Theory",
-		"uniques": ["[+400]% Strength <vs cities> <when attacking>","[-50]% Strength <vs [Melee] units> <when defending>","Invisible to non-adjacent units","Ignores terrain cost","Never appears as a Barbarian unit"],
+		"uniques": ["[+400]% Strength <vs cities> <when attacking>","[-50]% Strength <vs [Melee] units> <when defending>","Invisible to non-adjacent units","Ignores terrain cost","Never appears as a Barbarian unit","Personnel"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -547,7 +551,7 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit", "Personnel"],
 		"attackSound": "shot"
 	},
 	{
@@ -590,7 +594,7 @@
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit", "Personnel"],
 		"attackSound": "shot"
 	},
 	{
@@ -678,7 +682,7 @@
 		"cost": 400,
 		"requiredTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
-		"uniques": ["[+1] Sight <for [Embarked] units>", "[+100]% Strength <when defending> <when [Embarked]>"],
+		"uniques": ["[+1] Sight <for [Embarked] units>", "[+100]% Strength <when defending> <when [Embarked]>", "Personnel"],
 		"attackSound": "shot"
 	},
 	{
@@ -717,7 +721,7 @@
 		"strength": 65,
 		"cost": 375,
 		"requiredTech": "Radar",
-		"uniques": ["May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>"],
+		"uniques": ["May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>", "Personnel"],
 		"attackSound": "shot"
 		// upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
 	},
@@ -846,7 +850,7 @@
 		"strength": 90,
 		"cost": 375,
 		"requiredTech": "Mobile Tactics",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit", "Personnel"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -957,8 +961,8 @@
 	{
 		"name": "Great Hero",
 		"unitType": "Hero",
-		"uniques": ["Great Person - [Combat]", "Unbuildable", "[+50]% Strength <starting from the [Classical era]>", "[+100]% Strength <starting from the [Medieval era]>", "Can be earned through combat", "[+100]% Strength <starting from the [Renaissance era]>", "[+100]% Strength <starting from the [Industrial era]>", "[+100]% Strength <starting from the [Modern era]>","[+100]% Strength <starting from the [Atomic era]>","[+100]% Strength <starting from the [Information era]>","[+100]% Strength <starting from the [Future era]>", "Cannot be purchased"],
-		"strength": 10,
+		"uniques": ["Great Person - [Combat]", "Unbuildable", "Cannot be purchased", "Can be earned through combat", "Personnel", "[+50]% Strength <starting from the [Classical era]>","[+50]% Strength <starting from the [Medieval era]>","[+50]% Strength <starting from the [Renaissance era]>","[+100]% Strength <starting from the [Industrial era]>","[+100]% Strength <starting from the [Modern era]>","[+100]% Strength <starting from the [Atomic era]>","[+100]% Strength <starting from the [Information era]>","[+100]% Strength <starting from the [Future era]>"],
+		"strength": 20,
 		"movement": 3
 	},
 
@@ -1054,7 +1058,7 @@
 		"replaces": "Warrior",
 		"upgradesTo": "Swordsman",
 		"promotions": ["Green Hell"],
-		"uniques": ["Can move after attacking","Ignores terrain cost","Invisible to others <in [Jungle] tiles>","Withdraws before melee combat <with [100]% chance> <when fighting in [{Forest} {Jungle}] tiles>","[+200]% Strength <vs [Archery] units>","[+100]% Strength <when attacking>"],
+		"uniques": ["Can move after attacking","Ignores terrain cost","Invisible to others <in [Jungle] tiles>","Withdraws before melee combat <with [100]% chance> <when fighting in [{Forest} {Jungle}] tiles>","[+200]% Strength <vs [Archery] units>","[+100]% Strength <when attacking>","Personnel"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1069,7 +1073,7 @@
 		"replaces": "Warrior",
 		"upgradesTo": "Swordsman",
 		"promotions": ["Sun-Chosen"],
-		"uniques": ["Unit will heal every turn, even if it performs an action","Heals [100] damage if it kills a unit"],
+		"uniques": ["Unit will heal every turn, even if it performs an action","Heals [100] damage if it kills a unit","Personnel"],
 		"attackSound": "nonmetalhit"
 	},
 	/*
@@ -1158,8 +1162,9 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 35,
+		"upgradesTo": "Saboteur",
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["Ignores terrain cost","[+1] Sight","Founds a new city <by consuming this unit>","[+100]% Strength <when fighting in [Foreign Land] tiles>", "May upgrade to [Archer] through ruins-like effects"],
+		"uniques": ["Ignores terrain cost","[+1] Sight","Founds a new city <by consuming this unit>","[+100]% Strength <when fighting in [Foreign Land] tiles>", "May upgrade to [Archer] through ruins-like effects", "Personnel"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1170,7 +1175,7 @@
 		"movement": 2,
 		"strength": 8,
 		"hurryCostModifier": 20,
-		"uniques": ["Can build [Land] improvements on tiles","[+100]% Strength <when fighting in [Friendly Land] tiles>"],
+		"uniques": ["Can build [Land] improvements on tiles","[+100]% Strength <when fighting in [Friendly Land] tiles>", "Personnel"],
 		"cost": 50
 	},
 	{
@@ -1178,8 +1183,8 @@
 		"unitType": "Hero",
 		"replaces": "Great Hero",
 		"uniqueTo": "Neph",
-		"uniques": ["Great Person - [Combat]", "Unbuildable", "Heals [50] damage if it kills a unit", "[+50]% Strength <starting from the [Classical era]>", "[+100]% Strength <starting from the [Medieval era]>", "Can be earned through combat", "[+100]% Strength <starting from the [Renaissance era]>", "[+100]% Strength <starting from the [Industrial era]>", "[+100]% Strength <starting from the [Modern era]>","[+100]% Strength <starting from the [Atomic era]>","[+100]% Strength <starting from the [Information era]>","[+100]% Strength <starting from the [Future era]>", "Cannot be purchased"],
-		"strength": 10,
+		"uniques": ["Great Person - [Combat]", "Unbuildable", "Heals [50] damage if it kills a unit", "Cannot be purchased", "Can be earned through combat", "Personnel", "[+50]% Strength <starting from the [Classical era]>","[+50]% Strength <starting from the [Medieval era]>","[+50]% Strength <starting from the [Renaissance era]>","[+100]% Strength <starting from the [Industrial era]>","[+100]% Strength <starting from the [Modern era]>","[+100]% Strength <starting from the [Atomic era]>","[+100]% Strength <starting from the [Information era]>","[+100]% Strength <starting from the [Future era]>"],
+		"strength": 20,
 		"movement": 4
 	},
 	{
@@ -1193,6 +1198,7 @@
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Longswordsman",
 		"promotions": ["Keepers of the Empire","Defenders of the Empire"],
+		"uniques": ["Personnel"],
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
 	},
@@ -1222,7 +1228,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+25]% Strength <vs [Mounted] units>","[+75]% Strength <vs [Bestial] units>","[+75]% Strength <vs [Bestial Water] units>","Can move after attacking","[+200]% Strength <in [Desert] tiles>"],
+		"uniques": ["[+25]% Strength <vs [Mounted] units>","[+75]% Strength <vs [Bestial] units>","[+75]% Strength <vs [Bestial Water] units>","Can move after attacking","[+200]% Strength <in [Desert] tiles>","Personnel"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -1234,7 +1240,7 @@
 		"movement": 1,
 		"strength": 14,
 		"rangedStrength": 40,
-		"range": 1,
+		"range": 2,
 		"cost": 175,
 		"requiredTech": "Construction",
 		"upgradesTo": "Crossbowman",
@@ -1253,7 +1259,7 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"promotions": ["Formation I"],
-		"uniques": ["[+33]% Strength <vs [Mounted] units>","[+33]% Strength <vs [Bestial] units>","[+33]% Strength <vs [Sword] units>","[+150]% Strength <when defending>"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>","[+33]% Strength <vs [Bestial] units>","[+33]% Strength <vs [Sword] units>","[+150]% Strength <vs [Melee] units> <when defending>","Personnel"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -1284,7 +1290,7 @@
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
 		"promotions": ["Oceanic Warriors"],
-		"uniques": ["[+3] Sight","Founds a new city <once> <costs [+50 Gold] stats>"],
+		"uniques": ["[+3] Sight","Founds a new city <once> <costs [+50 Gold] stats>","Personnel"],
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
 	},
@@ -1301,7 +1307,7 @@
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
 		"promotions": ["Barrage I"],
-		"uniques": ["[2] additional attacks per turn","[+50]% Strength <vs [Melee] units>","[+50]% Strength <vs cities> <when attacking>"],
+		"uniques": ["[2] additional attacks per turn","[+50]% Strength <vs [Melee] units>","[+50]% Strength <vs cities> <when attacking>","Personnel"],
 		"hurryCostModifier": 20,
 		"attackSound": "arrow"
 	},
@@ -1309,8 +1315,8 @@
 		"name": "Crimsonblooded Dragon",
 		"unitType": "Flier",
 		"uniqueTo": "Zharia",
-		"replaces": "Great General",
-		"uniques": ["Can be earned through combat", "[+25]% Strength bonus for [Military] units within [5] tiles", "Great Person - [War]", "Empire enters a [8]-turn Golden Age <by consuming this unit>", "Unbuildable", "Cannot be purchased", "[+100]% Strength <starting from the [Medieval era]>", "[+100]% Strength <starting from the [Renaissance era]>", "[+100]% Strength <starting from the [Industrial era]>", "[+100]% Strength <starting from the [Modern era]>","[+100]% Strength <starting from the [Atomic era]>","[+100]% Strength <starting from the [Information era]>","[+100]% Strength <starting from the [Future era]>"],
+		"replaces": "Great Hero",
+		"uniques": ["Can be earned through combat", "[+25]% Strength bonus for [Military] units within [5] tiles", "Great Person - [Combat]", "Unbuildable", "Cannot be purchased", "[+100]% Strength <starting from the [Medieval era]>", "[+100]% Strength <starting from the [Renaissance era]>", "[+100]% Strength <starting from the [Industrial era]>", "[+100]% Strength <starting from the [Modern era]>","[+100]% Strength <starting from the [Atomic era]>","[+100]% Strength <starting from the [Information era]>","[+100]% Strength <starting from the [Future era]>"],
 		"strength": 30,
 		"movement": 2,
 		"attackSound": "nonmetalhit"
@@ -1325,8 +1331,8 @@
 		"replaces": "Warrior",
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
-		"replacementTextForUniques": "This unit gains various special promotions by ending its turn in different types of terrain.",
-		"uniques": ["[This Unit] gains the [Blessing of Water] promotion <upon ending a turn in a [Water] tile>","[This Unit] gains the [Blessing of Grasslands] promotion <upon ending a turn in a [Grassland] tile>","[This Unit] gains the [Blessing of Plains] promotion <upon ending a turn in a [Plains] tile>","[This Unit] gains the [Blessing of Tundras] promotion <upon ending a turn in a [Tundra] tile>","[This Unit] gains the [Blessing of Deserts] promotion <upon ending a turn in a [Desert] tile>","[This Unit] gains the [Blessing of Lakes] promotion <upon ending a turn in a [Lakes] tile>","[This Unit] gains the [Blessing of Mountains] promotion <upon ending a turn in a [Mountain] tile>","[This Unit] gains the [Blessing of Snow] promotion <upon ending a turn in a [Snow] tile>","[This Unit] gains the [Blessing of Hills] promotion <upon ending a turn in a [Hill] tile>","[This Unit] gains the [Blessing of Forests] promotion <upon ending a turn in a [Forest] tile>","[This Unit] gains the [Blessing of Jungles] promotion <upon ending a turn in a [Jungle] tile>","[This Unit] gains the [Blessing of Marshes] promotion <upon ending a turn in a [Marsh] tile>","[This Unit] gains the [Blessing of Ruin] promotion <upon ending a turn in a [Fallout] tile>","[This Unit] gains the [Blessing of Oasis] promotion <upon ending a turn in a [Oasis] tile>","[This Unit] gains the [Blessing of Flood Plains] promotion <upon ending a turn in a [Flood Plains] tile>","[This Unit] gains the [Blessing of Ice] promotion <upon ending a turn in a [Ice] tile>","[This Unit] gains the [Blessing of Atolls] promotion <upon ending a turn in a [Atoll] tile>"],
+		"replacementTextForUniques": "This unit gains various special promotions by ending its turn in different types of terrain. This is a Personnel unit.",
+		"uniques": ["[This Unit] gains the [Blessing of Water] promotion <upon ending a turn in a [Water] tile>","[This Unit] gains the [Blessing of Grasslands] promotion <upon ending a turn in a [Grassland] tile>","[This Unit] gains the [Blessing of Plains] promotion <upon ending a turn in a [Plains] tile>","[This Unit] gains the [Blessing of Tundras] promotion <upon ending a turn in a [Tundra] tile>","[This Unit] gains the [Blessing of Deserts] promotion <upon ending a turn in a [Desert] tile>","[This Unit] gains the [Blessing of Lakes] promotion <upon ending a turn in a [Lakes] tile>","[This Unit] gains the [Blessing of Mountains] promotion <upon ending a turn in a [Mountain] tile>","[This Unit] gains the [Blessing of Snow] promotion <upon ending a turn in a [Snow] tile>","[This Unit] gains the [Blessing of Hills] promotion <upon ending a turn in a [Hill] tile>","[This Unit] gains the [Blessing of Forests] promotion <upon ending a turn in a [Forest] tile>","[This Unit] gains the [Blessing of Jungles] promotion <upon ending a turn in a [Jungle] tile>","[This Unit] gains the [Blessing of Marshes] promotion <upon ending a turn in a [Marsh] tile>","[This Unit] gains the [Blessing of Ruin] promotion <upon ending a turn in a [Fallout] tile>","[This Unit] gains the [Blessing of Oasis] promotion <upon ending a turn in a [Oasis] tile>","[This Unit] gains the [Blessing of Flood Plains] promotion <upon ending a turn in a [Flood Plains] tile>","[This Unit] gains the [Blessing of Ice] promotion <upon ending a turn in a [Ice] tile>","[This Unit] gains the [Blessing of Atolls] promotion <upon ending a turn in a [Atoll] tile>","Personnel"],
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
 	},
@@ -1375,7 +1381,7 @@
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
 		"promotions": ["Volley","Spread Ammo"],
-		"uniques": ["[2] additional attacks per turn"],
+		"uniques": ["[2] additional attacks per turn", "Personnel"],
 		"obsoleteTech": "Industrialization",
 		"attackSound": "arrow"
 	},
@@ -1425,7 +1431,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Metallurgy",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[+50]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Rough terrain penalty", "[+50]% Strength <vs cities>", "Withdraws before melee combat <with [50]% chance>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -1441,8 +1447,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"promotions": ["Adaptive Strategy","Leadership"],
-		"uniques": ["[+25]% Strength bonus for [Kharn Horde] units within [5] tiles"],
-		"requiredResource": "Iron",
+		"uniques": ["[+25]% Strength bonus for [Kharn Horde] units within [5] tiles", "Personnel"],
 		"hurryCostModifier": 10,
 		"attackSound": "metalhit"
 	},
@@ -1493,10 +1498,10 @@
 		"strength": 25,
 		"cost": 120,
 		"replacementTextForUniques": "+300% Strength vs Bestial and Armored units. Earn 25% of the damage done to Bestial and Armored units as Culture.",
-		"uniques": ["[+300]% Strength <vs [{Bestial} {Bestial} {Bestial Water} {Armored}] units>","Earn [25]% of the damage done to [Bestial] units as [Culture]", "Earn [25]% of the damage done to [Bestial Water] units as [Culture]", "Earn [25]% of the damage done to [Bestial Water] units as [Culture]", "Earn [25]% of the damage done to [Armored] units as [Culture]"],
+		"uniques": ["[+300]% Strength <vs [{Bestial} {Bestial} {Bestial Water} {Armored}] units>","Earn [25]% of the damage done to [Bestial] units as [Culture]", "Earn [25]% of the damage done to [Bestial Water] units as [Culture]", "Earn [25]% of the damage done to [Bestial Water] units as [Culture]", "Earn [25]% of the damage done to [Armored] units as [Culture]", "Personnel"],
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
+		//"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
 	},
@@ -1512,7 +1517,7 @@
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"promotions": ["Blitz"],
-		"uniques": ["[+50]% Strength <vs cities> <when attacking>","Consumes [1] [Iron]"],
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>","Consumes [1] [Iron]","Personnel"],
 		"attackSound": "missile"
 	},
 	{
@@ -1551,7 +1556,7 @@
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
-		"uniques": ["[+50]% Strength <vs [Bestial] units> <when attacking>","[+50]% Strength <vs [Bestial Water] units> <when attacking>","[+150]% Strength <vs [Flier] units> <when attacking>"],
+		"uniques": ["[+50]% Strength <vs [Bestial] units> <when attacking>","[+50]% Strength <vs [Bestial Water] units> <when attacking>","[+150]% Strength <vs [Flier] units> <when attacking>","Personnel"],
 		"promotions": ["Extended Range"],
 		"attackSound": "arrow"
 	},
@@ -1671,8 +1676,8 @@
 		"unitType": "Hero",
 		"replaces": "Great Hero",
 		"uniqueTo": "Züher",
-		"uniques": ["Great Person - [Combat]", "Unbuildable", "[This Unit] heals [100] HP <for all movement> <requires [1] movement>", "[+50]% Strength <starting from the [Classical era]>", "[+100]% Strength <starting from the [Medieval era]>", "Can be earned through combat", "[+100]% Strength <starting from the [Renaissance era]>", "[+100]% Strength <starting from the [Industrial era]>", "[+100]% Strength <starting from the [Modern era]>","[+100]% Strength <starting from the [Atomic era]>","[+100]% Strength <starting from the [Information era]>","[+100]% Strength <starting from the [Future era]>", "Cannot be purchased"],
-		"strength": 20,
+		"uniques": ["Great Person - [Combat]", "Unbuildable", "[This Unit] heals [100] HP <for all movement> <requires [1] movement>", "Cannot be purchased", "Can be earned through combat", "Personnel", "[+50]% Strength <starting from the [Classical era]>","[+50]% Strength <starting from the [Medieval era]>","[+50]% Strength <starting from the [Renaissance era]>","[+100]% Strength <starting from the [Industrial era]>","[+100]% Strength <starting from the [Modern era]>","[+100]% Strength <starting from the [Atomic era]>","[+100]% Strength <starting from the [Information era]>","[+100]% Strength <starting from the [Future era]>"],
+		"strength": 30,
 		"movement": 3
 	},
 	{
@@ -1683,10 +1688,10 @@
 		"cost": 40,
 		"uniqueTo": "Züher",
 		"replaces": "Warrior",
-		"obsoleteTech": "Metal Casting",
+		//"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
 		"promotions": ["Divine Blood"],
-		"uniques": ["May upgrade to [Immortal] through ruins-like effects", "Can transform to [Immortal] <for all movement> <costs [+200 Culture] stats>", "Can transform to [Immortal] <for all movement> <costs [+100 Faith] stats>"],
+		"uniques": ["May upgrade to [Immortal] through ruins-like effects", "Can transform to [Immortal] <when religion is disabled> <for all movement> <costs [+300 Culture] stats>", "Can transform to [Immortal] <when religion is enabled> <for all movement> <costs [+200 Faith] stats>", "Personnel"],
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
 	},
@@ -1699,7 +1704,7 @@
 		"strength": 14,
 		"cost": 30,
 		"promotions": ["Aggression I"],
-		"uniques": ["Can transform to [Bloodhemoth] <for all movement> <costs [+100 Faith] stats>"],
+		"uniques": ["Can transform to [Bloodhemoth] <for all movement> <costs [+100 Faith] stats>", "Personnel"],
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
@@ -1766,7 +1771,7 @@
 		"replaces": "Crossbowman",
 		"obsoleteTech": "Industrialization",
 		"promotions": ["Amphibious"],
-		"uniques": ["Can move after attacking","[+100]% Strength <vs [Water] units> <when attacking>"],
+		"uniques": ["Can move after attacking","[+100]% Strength <vs [Water] units> <when attacking>", "Personnel"],
 		"uniqueTo": "Sangali",
 		"hurryCostModifier": 20,
 		"attackSound": "arrow"
@@ -1852,10 +1857,10 @@
 		"uniqueTo": "Threfek",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 22,
+		"strength": 16,
 		"cost": 60,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+50]% Strength <vs [Bestial] units>","[+50]% Strength <vs [Bestial Water] units>","Can move immediately once bought","Earn [500]% of the damage done to [Civilian] units as [Gold]"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+50]% Strength <vs [Bestial] units>","[+50]% Strength <vs [Bestial Water] units>","Can move immediately once bought","Earn [100]% of the damage done to [All] units as [Gold]","Personnel"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"hurryCostModifier": 5,
@@ -1871,7 +1876,7 @@
 		"cost": 35,
 		"upgradesTo": "Saboteur",
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["Ignores terrain cost","Invisible to others","Withdraws before melee combat <with [50]% chance>","[+1000]% Strength <vs cities> <when attacking>","May upgrade to [Archer] through ruins-like effects"],
+		"uniques": ["Ignores terrain cost","Invisible to others","Withdraws before melee combat <with [50]% chance>","[+1000]% Strength <vs cities> <when attacking>","May upgrade to [Archer] through ruins-like effects","Personnel"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1886,7 +1891,7 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"promotions": ["Formation I","Woodsman"],
-		"uniques": ["[+33]% Strength <vs [Mounted] units>","[+33]% Strength <vs [Bestial] units>","[+33]% Strength <vs [Bestial Water] units>","[+33]% Strength <vs [Sword] units>","[+100]% Strength <when defending>"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>","[+33]% Strength <vs [Bestial] units>","[+33]% Strength <vs [Bestial Water] units>","[+33]% Strength <vs [Sword] units>","[+100]% Strength <when defending>","Personnel"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -1896,10 +1901,10 @@
 		"uniqueTo": "Orrug-Tar",
 		"replaces": "Warrior",
 		"movement": 2,
-		"strength": 15,
+		"strength": 18,
 		"cost": 20,
 		"obsoleteTech": "Metal Casting",
-		"uniques": ["[+25]% Strength <vs cities>"],
+		"uniques": ["Personnel"],
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
 	},
@@ -1923,7 +1928,7 @@
 		"strength": 16,
 		"cost": 100,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Bestial] units>", "[+50]% Strength <vs [Bestial Water] units>","[+100]% Strength <when defending>","[-50]% Strength <when attacking>","[-80]% Strength for enemy [Ranged] units in adjacent [All] tiles"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Bestial] units>", "[+50]% Strength <vs [Bestial Water] units>","[+100]% Strength <when defending>","[-50]% Strength <when attacking>","[-80]% Strength for enemy [Ranged] units in adjacent [All] tiles","Personnel"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
@@ -1941,6 +1946,7 @@
 		"cost": 20,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
+		"uniques": ["Personnel"],
 		"attackSound": "nonmetalhit"
 	},
 
@@ -1978,19 +1984,33 @@
 		"movement": 4,
 		"strength": 15,
 		"cost": 0,
-		"uniques": ["Unbuildable", "Cannot be purchased","No defensive terrain penalty","May heal outside of friendly territory","Unit will heal every turn, even if it performs an action"],
+		"uniques": ["Unbuildable", "Cannot be purchased","No defensive terrain penalty","May heal outside of friendly territory","Unit will heal every turn, even if it performs an action","Personnel"],
 		"attackSound": "horse"
 	},
 	{
 		"name": "Stone Sentinel",
-		"unitType": "Sword",
+		"unitType": "Armored",
 		"movement": 1,
 		"strength": 10,
 		"cost": 0,
-		"uniques": ["Unbuildable", "Cannot be purchased", "Can see invisible [All] units","Can only heal by pillaging","No damage penalty for wounded units","[+400]% Strength decreasing with distance from the capital <when fighting in [Friendly Land] tiles>"],
+		"uniques": ["Unbuildable", "Cannot be purchased","Can see invisible [All] units","Can only heal by pillaging","No damage penalty for wounded units","[+400]% Strength decreasing with distance from the capital <when fighting in [Friendly Land] tiles>"],
 		"attackSound": "nonmetalhit"
 	},
-
+	// Unlike most of these "Event Uniques", this unit can be purchased by nations - but only during a Golden Age. Otherwise, they're meant to be unlocked by Kharn'dii via the Omgol Pasture.
+	{
+		"name": "Ogre Cavalry",
+		"unitType": "Mounted",
+		"movement": 4, // 3 with Ogre Personnel.
+		"strength": 20, // 30 with Ogre Personnel, up to 40 (or 45, needs testing) against cities.
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"promotions": ["Bestial Charge","Ogre Riders"],
+		"uniques": ["Unbuildable", "Cannot be purchased <when not in a Golden Age>", "Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs cities> <when attacking>"],
+		"attackSound": "horse"
+	},
+	
 	/* Spaceship Parts */
 
 	// Must be transported to the Capital for launch.

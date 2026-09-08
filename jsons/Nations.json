@@ -593,7 +593,7 @@
 
 		"favoredReligion": "The Divine Triad",
 		"uniqueName": "Fury of the North",
-		"uniques": ["Can only heal by pillaging", "[+1] Movement <for [Melee] units>", "When defeating a [Water] unit, earn [25] Gold and recruit it", "All newly-trained [Sword] units [in all cities] receive the [Raiding Boats] promotion", "[+3] Sight <for [Embarked] units>", "[+100]% Strength <when defending> <when [Embarked]> <for [All] units>", "[+1] Movement <for [Embarked] units>", "[1] Movement point cost to embark", "[1] Movement point cost to disembark", "No movement cost to pillage <for [Melee] units>"],
+		"uniques": ["Can only heal by pillaging", "[+10] XP gained from combat", "Heals [40] damage if it kills a unit", "[+1] Movement <for [Melee] units>", "When defeating a [Water] unit, earn [25] Gold and recruit it", "All newly-trained [Sword] units [in all cities] receive the [Raiding Boats] promotion", "[+3] Sight <for [Embarked] units>", "[+100]% Strength <when defending> <when [Embarked]> <for [All] units>", "[+1] Movement <for [Embarked] units>", "[1] Movement point cost to embark", "[1] Movement point cost to disembark", "No movement cost to pillage <for [Melee] units>"],
 		"cities": ["Norkar", "Fygyr", "Ygglor", "Vungur", "Verdolir"]
 	},
 	{
@@ -642,7 +642,7 @@
 		"tradeRequest": "I bring a proposal. Think on it, eh?",
 		
 		"uniqueName": "Dawr Legacy",
-		"uniques": ["[+50]% Strength for cities", "[+33]% Strength <for [{Gunpowder} {Ranged Gunpowder} {Siege}] units>", "[-1] Movement <for [{Sword} {Gunpowder} {Ranged Gunpowder} {Archery}] units>", "[+1 Culture] from every [Mine]", "[+5 Gold, +5 Culture] from every [Mountain]", "Starts with [Dawr Legacy]"],
+		"uniques": ["[+50]% Strength for cities", "[+33]% Strength <for [Siege] units>", "[+33]% Strength <for [Personnel] units>", "[-1] Movement <for [Personnel] units>", "[+1 Culture] from every [Mine]", "[+5 Gold, +5 Culture] from every [Mountain]", "Starts with [Dawr Legacy]"],
 		
 		"favoredReligion": "Dawism",
 		"cities": ["Soldürm", "Durkin", "Karkas", "Sturmloch", "Armloch"],
@@ -669,7 +669,7 @@
 		"tradeRequest": "I've got a proposal for ya. Let me know if it sounds good, okay?",
 		
 		"uniqueName": "Highland's Bounty",
-		"uniques": ["[-1] Movement <for [{Sword} {Gunpowder} {Ranged Gunpowder} {Archery}] units>", "[+1] Range <for [{Ranged Gunpowder} {Archery} {Siege}] units>", "[+1 Food] from every [Farm]", "[+1 Science, +1 Culture] from every [Hill]", "[Great Artist] is earned [+100]% faster"],
+		"uniques": ["[-1] Movement <for [Personnel] units>", "[+1] Range <for [Siege] units>", "[+1] Range <for [Personnel] units>", "[+1 Food] from every [Farm]", "[+1 Science, +1 Culture] from every [Hill]", "[Great Artist] is earned [+100]% faster"],
 	
 		"favoredReligion": "Gnokism",
 		"cities": ["Gnokshire", "Highill", "Sandbark", "Dreichwallow"],

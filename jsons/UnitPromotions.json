@@ -694,11 +694,15 @@
 		"name": "Sun-Chosen",
 		"uniques": ["[+25] HP when healing","All adjacent units heal [25] HP when healing"]
 	},
+	{
+		"name": "Ogre Riders", // only for Ogre Cavalry and subsequent upgrades
+		"uniques": ["[+50]% Strength","[-1] Movement","[+50]% Gold cost of upgrading"]
+	},
 	
 	// Unspecific Unit Uniques
 	{
 		"name": "Bestial Charge", // For various bestial unique units.
-		"uniques": ["[+50]% to Flank Attack bonuses <vs [Melee] units>","[-50]% to Flank Attack bonuses <vs [Ranged] units>"]
+		"uniques": ["[+50]% to Flank Attack bonuses","[+50]% Gold cost of upgrading"]
 	},
 	{
 		"name": "Divine Blood",

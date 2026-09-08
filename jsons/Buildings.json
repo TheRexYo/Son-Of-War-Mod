@@ -1243,6 +1243,16 @@
 		"requiredTech": "Mathematics"
 	},
 	{
+		"name": "Omgol Pasture",
+		"uniqueTo": "Kharn'dii",
+		"replaces": "Stable",
+		"maintenance": 5, // Normally 1 for Stables. This is done for balancing reasons.
+		//"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"], // Omgols and their Kharn'dii successors bring the herds with them.
+		"hurryCostModifier": 25,
+		"uniques": ["Free [Ogre Cavalry] appears <upon entering a war with [Major] Civilizations>","Provides [3] [Cattle]","Provides [2] [Horses]","[+15]% Production when constructing [Mounted] units [in this city]","[+1 Production] from [Cattle] tiles [in this city]","[+1 Production] from [Horses] tiles [in this city]","[+1 Production] from [Sheep] tiles [in this city]"],
+		"requiredTech": "Horseback Riding"
+	},
+	{
 		"name": "Beacon of Humanity",
 		"uniqueTo": "Neph",
 		"replaces": "Monument",
