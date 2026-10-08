@@ -688,6 +688,7 @@
 		"hurryCostModifier": 0,
 		"maintenance": 1,
 		"requiredBuilding": "Armory",
+		"greatPersonPoints": {"Great General": 1},
 		"uniques": ["New [Military] units start with [15] XP [in this city]"],
 		"requiredTech": "Military Science"
 	},

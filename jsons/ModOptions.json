@@ -1,1 +1,49 @@
-{"isBaseRuleset":true,"modUrl":"https://github.com/TheRexYo/Son-Of-War-Mod","author":"TheRexYo","lastUpdated":"2026-04-22T01:33:23Z","modSize":1934,"topics":["unciv-mod"],"uniques":["Suppress warning [*may cause translation problems*]"]}
+{
+	"isBaseRuleset": true,
+	"modUrl": "https://github.com/TheRexYo/Son-Of-War-Mod",
+	"author": "TheRexYo",
+	"lastUpdated": "2026-04-22T01:33:23Z",
+	"modSize": 1934,
+	"topics": [
+		"unciv-mod"
+	],
+	"uniques": [
+		"Suppress warning [*may cause translation problems*]"
+	],
+	"constants": [
+		"maxXPfromBarbarians": 30,
+		"cityStrengthBase": 8,
+		"cityStrengthPerPop": 0.4,
+		"cityStrengthFromTechsMultiplier": 5.5,
+		"cityStrengthFromTechsExponent": 2.8,
+		"cityStrengthFromTechsFullMultiplier": 1.0,
+		"cityStrengthFromGarrison": 0.2,
+		"baseCityBombardRange": 2,
+		"cityWorkRange": 6, // Default 3
+		"cityExpandRange": 10, // Default 5
+		"cityAirUnitCapacity": 6,
+		"unitSupplyPerPopulation": 0.5,
+		"minimalCityDistance": 3,
+		"minimalCityDistanceOnDifferentContinents": 2,
+		"naturalWonderCountMultiplier": 0.124,
+		"naturalWonderCountAddedConstant": 0.1,
+		"ancientRuinCountMultiplier": 0.02,
+		"spawnIceBelowTemperature": -0.7, // Default -0.8
+		"maxLakeSize": 10,
+		"riverCountMultiplier": 0.02, // Default: 0.01
+		"minRiverLength": 5,
+		"maxRiverLength": 667, // Default: 666 (now un-cursing my mod lmao)
+		"religionLimitBase": 5, // Default: 1
+		"religionLimitMultiplier": 0.5, // Default 0.5
+		"workboatAutomationSearchMaxTiles": 20,
+		"maxSpyRank": 3,
+		"spyRankSkillPercentBonus": 30,
+		"minimumWarDuration": 10,
+		"baseTurnsUntilRevolt": 4,
+		"cityStateElectionTurns": 15,
+		//"maxImprovementTechErasForward": 0, // Not used in vanilla / G&K.
+		"goldGiftMultiplier": 1.0,
+		"goldGiftTradeMultiplier": 0.8,
+		"goldGiftDegradationMultiplier": 1.0
+	]
+}

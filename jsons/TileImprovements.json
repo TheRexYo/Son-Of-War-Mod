@@ -56,6 +56,7 @@
 	},
 	{
 		"name": "Offshore Platform",
+		"turnsToBuild": 1,
 		"techRequired": "Refrigeration",
 		"uniques": ["Can only be built to improve a resource", "Can only be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "P"
@@ -282,7 +283,7 @@
 	{ 
 		"name": "Ancient ruins",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable","Provides a random bonus when entered"],
+		"uniques": ["Unpillagable","Provides a random bonus when entered","Does not need removal of [Forest]","Does not need removal of [Jungle]"],
         "civilopediaText": [
 			{"text":"Ancient ruins provide a one-time random bonus when explored"},
 			{},
@@ -299,15 +300,16 @@
 	{
 		"name": "City ruins",
 		"terrainsCanBeBuiltOn": ["Land","Water"],
-		"uniques": ["Unpillagable"],
+		"uniques": ["Unpillagable","Unbuildable"],
         "civilopediaText": [
-			{"text":"A bleak reminder of the destruction wreaked by War"}
+			{"text":"A bleak reminder of the destruction wreaked by War."}
 		]
 	},
 	{
 		"name": "City center",
-		"terrainsCanBeBuiltOn": ["Land","Water"],
-		"uniques": ["Unpillagable", "Irremovable"],
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Ensures a minimum tile yield of [+2 Food, +1 Production]",
+            "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"],
         "civilopediaText": [
 			{"text":"Marks the center of a city"},
 			{"text":"Appearance changes with the technological era of the owning civilization"}
@@ -316,9 +318,19 @@
 	{ 
 		"name": "Barbarian encampment",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable"],
+		"uniques": ["Unpillagable","Unbuildable","Marks a barbarian camp"],
         "civilopediaText": [
-			{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}
+			{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time."}
+		] 
+	}/*,
+
+	{ 
+		"name": "Pirate Cove",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"uniques": ["Unpillagable","Unbuildable","Marks a barbarian camp","Adjacent enemy units ending their turn take [50] damage","Gives a defensive bonus of [100]%"],
+        "civilopediaText": [
+			{"text":"Home to greedy pirates, will spawn a hostile unit from time to time. Difficult to attack."}
 		] 
 	}
+	*/
 ]
